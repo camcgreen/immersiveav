@@ -1,42 +1,29 @@
-import * as React from "react"
-import PropTypes from "prop-types"
+import React from "react"
 import { Link } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+const Header = () => (
+  <header className="header">
+    <div className="header__container">
+      <div className="header__container__logo">
+        <Link to="/">
+          <StaticImage
+            src="../images/immersiveav-logo.png"
+            alt="ImmersiveAV logo"
+            placeholder="none"
+          />
         </Link>
-      </h1>
+      </div>
+      <nav className="header__container__navigation">
+        <Link to="/live">Live</Link>
+        <Link to="/virtual">Virtual</Link>
+        <Link to="/studio">Studio</Link>
+        <Link to="/hybrid">Hybrid</Link>
+        <button>MENU</button>
+      </nav>
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
