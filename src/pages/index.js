@@ -21,20 +21,30 @@ const IndexPage = () => (
     <Hero />
     <main>
       <SectionBreak
-        colour="lightblue"
+        backgroundColour="#3061E0"
+        textColour="white"
         h1={breakText[0].h1}
         p={breakText[0].p}
       />
       <Services />
-      <SectionBreak colour="white" h1={breakText[1].h1} />
+      <SectionBreak
+        backgroundColour="white"
+        textColour="black"
+        h1={breakText[1].h1}
+      />
       <Showcase />
       <SectionBreak
-        colour="lightblue"
+        backgroundColour="#3061E0"
+        textColour="white"
         h1={breakText[2].h1}
         p={breakText[2].p}
       />
       <Expo />
-      <SectionBreak colour="white" h1={breakText[3].h1} />
+      <SectionBreak
+        backgroundColour="white"
+        textColour="black"
+        h1={breakText[3].h1}
+      />
       <News />
     </main>
     <Footer />

@@ -1,7 +1,10 @@
-$font: "Helvetica Neue, font-family: -apple-system, BlinkMacSystemFont, " Segoe
-  UI ", Roboto, Oxygen,
-Ubuntu, Cantarell, " Open Sans ", " Helvetica Neue
-  ", sans-serif;";
+@import url("https://use.typekit.net/fyr5ixs.css");
+
+// $font: "graphie, Helvetica Neue, -apple-system, BlinkMacSystemFont,  Segoe
+//   UI, Roboto, Oxygen,
+// Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif";
+
+// $font: "graphie, sans-serif";
 
 //Colours
 $white: #fff;
@@ -13,6 +16,9 @@ $off-white: #f2f4f5;
 $margin: 20px;
 $padding: 40px;
 
+//Responsive
+$mobile-width: 768px;
+
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +26,10 @@ $padding: 40px;
 
 html,
 body {
-  font-family: $font;
+  // font-family: $font;
+  font-family: graphie, -apple-system, Open Sans, sans-serif;
   font-size: 16px;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 .wrapper {
@@ -35,7 +42,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: calc(100vw - #{$padding * 2});
+    width: calc(100% - #{$padding * 2});
     padding: $padding;
     display: flex;
     flex-direction: row;
@@ -48,7 +55,22 @@ body {
       width: 350px;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: $mobile-width) {
+        justify-content: flex-end;
+        &__service-links {
+          display: none;
+        }
+      }
+
+      &__btn {
+        width: 32px;
+        height: 32px;
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -61,6 +83,7 @@ body {
   justify-content: center;
   align-items: center;
   &__h1 {
+    font-size: 4rem;
   }
 }
 
@@ -74,6 +97,7 @@ body {
   align-items: center;
   text-align: center;
   &__h1 {
+    font-size: 2rem;
   }
   &__p {
     margin-top: $margin;
@@ -83,35 +107,35 @@ body {
 
 //Services section
 .services {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: lightpink;
 }
 
 //Showcase section
 .showcase {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: lightseagreen;
 }
 
 //AV & Expo section
 .expo {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: lightsteelblue;
 }
 
 //News section
 .news {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: lightskyblue;
 }
 
 //Footer
 .footer {
-  width: 100vw;
+  width: 100%;
   height: 30vh;
   background-color: white;
 }
