@@ -19,24 +19,28 @@ const Header = () => (
         <Link
           className="header__container__navigation__service-links"
           to="/live"
+          style={{ color: "white", textDecoration: "none" }}
         >
           Live
         </Link>
         <Link
           className="header__container__navigation__service-links"
           to="/virtual"
+          style={{ color: "white", textDecoration: "none" }}
         >
           Virtual
         </Link>
         <Link
           className="header__container__navigation__service-links"
           to="/studio"
+          style={{ color: "white", textDecoration: "none" }}
         >
           Studio
         </Link>
         <Link
           className="header__container__navigation__service-links"
           to="/hybrid"
+          style={{ color: "white", textDecoration: "none" }}
         >
           Hybrid
         </Link>
