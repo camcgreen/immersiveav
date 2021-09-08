@@ -32,7 +32,7 @@ const Expo = () => (
       <StaticImage
         className="expo__container__image"
         src="../images/expo.jpg"
-        alt="ImmersiveAV logo"
+        alt="ImmersiveAV Expo"
       />
       <div className="expo__container__overlay"></div>
       <div className="expo__container__text">
