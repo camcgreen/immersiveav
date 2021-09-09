@@ -87,15 +87,80 @@ body {
 }
 
 //Hero screen
+// .hero {
+//   height: 100vh;
+//   background-color: $black;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   &__title {
+//     font-size: 4rem;
+//     color: $white;
+//   }
+// }
+
 .hero {
+  width: 100%;
   height: 100vh;
-  background-color: $black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &__h1 {
-    font-size: 4rem;
-    color: $white;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  &__parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // width: 45%;
+    width: 1150px;
+    &__magnet {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.05s ease-in-out;
+    }
+  }
+  &__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // width: 60%;
+    width: 1400px;
+  }
+  &__title {
+    font-size: 6rem;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: normal;
+    // height: 100%;
+    // height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    mix-blend-mode: difference;
+  }
+  @media (max-width: 1024px) and (min-width: 768px) {
+    &__parent {
+      width: 800px;
+    }
+    &__image {
+      width: 900px;
+    }
+    &__title {
+      font-size: 5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    &__parent {
+      width: 600px;
+    }
+    &__image {
+      width: 700px;
+    }
+    &__title {
+      font-size: 4rem;
+    }
   }
 }
 
