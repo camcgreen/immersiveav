@@ -24,21 +24,39 @@ const Hero = () => (
 )
 
 setTimeout(() => {
-  const magnetParent = document.querySelector(".hero")
+  const magnetParents = [
+    document.querySelector(".hero"),
+    document.querySelector(".header"),
+  ]
   const magnet = document.querySelector(".hero__parent__magnet")
 
-  magnetParent.addEventListener("mousemove", e => {
-    const pos = magnet.getBoundingClientRect()
-    const x = e.pageX - pos.left - pos.width / 2
-    const y = e.pageY - pos.top - pos.height / 2
+  magnetParents.forEach(parent => {
+    parent.addEventListener("mousemove", e => {
+      const pos = magnet.getBoundingClientRect()
+      const x = e.pageX - pos.left - pos.width / 2
+      const y = e.pageY - pos.top - pos.height / 2
 
-    magnet.style.transform =
-      "translate(" + x * 0.045 + "px, " + y * 0.045 + "px)"
+      magnet.style.transform =
+        "translate(" + x * 0.045 + "px, " + y * 0.045 + "px)"
+    })
+
+    parent.addEventListener("mouseout", e => {
+      magnet.style.transform = "translate(0px, 0px)"
+    })
   })
 
-  magnetParent.addEventListener("mouseout", e => {
-    magnet.style.transform = "translate(0px, 0px)"
-  })
+  // magnetParent.addEventListener("mousemove", e => {
+  //   const pos = magnet.getBoundingClientRect()
+  //   const x = e.pageX - pos.left - pos.width / 2
+  //   const y = e.pageY - pos.top - pos.height / 2
+
+  //   magnet.style.transform =
+  //     "translate(" + x * 0.045 + "px, " + y * 0.045 + "px)"
+  // })
+
+  // magnetParent.addEventListener("mouseout", e => {
+  //   magnet.style.transform = "translate(0px, 0px)"
+  // })
 }, 1000)
 
 export default Hero
