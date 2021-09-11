@@ -9,6 +9,7 @@
 //Colours
 $white: #fff;
 $black: #000;
+$blue: #3061e0;
 $purple: #3a2742;
 $off-white: #f2f2f2;
 
@@ -85,6 +86,104 @@ body {
         background: none;
         border: none;
         cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+//Fullscreen menu
+$menu-transition-duration: 0.4s;
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  // background: black;
+  color: black;
+  pointer-events: none;
+  // opacity: 0;
+  transition: opacity $menu-transition-duration ease-in-out;
+  &--open {
+    pointer-events: all;
+    // opacity: 1;
+    .menu {
+      // &__columns__column {
+      //   &--left {
+      //     transform: translateY(0%);
+      //   }
+      //   &--right {
+      //     transform: translateY(0%);
+      //   }
+      // }
+      // &__items {
+      //   // opacity: 1;
+      //   &__btn {
+      //     opacity: 1;
+      //   }
+      // }
+    }
+  }
+  &__columns {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    &__column {
+      width: 50%;
+      height: 100%;
+      // background: black;
+      background-color: $white;
+      transition: transform $menu-transition-duration ease-in-out;
+      z-index: 1;
+      &--left {
+        transform: translateY(-100%);
+      }
+      &--right {
+        transform: translateY(100%);
+      }
+    }
+  }
+  &__items {
+    transform: skew(8deg, 0);
+    list-style: none;
+    font-size: 6rem;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity #{$menu-transition-duration * 0.25} ease-in-out;
+    // transition-delay: #{$menu-transition-duration * 0.25};
+    &__btn {
+      z-index: 2;
+      position: absolute;
+      top: $padding;
+      right: $padding;
+      opacity: 0;
+      // transition: opacity $menu-transition-duration ease-in-out;
+      width: 32px;
+      height: 32px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      // svg path {
+      //   fill: white;
+      //   stroke: white;
+      // }
+      img {
+        width: 100%;
+        height: 100%;
       }
     }
   }
