@@ -13,7 +13,7 @@ const Header = () => {
       <header className="header">
         <div className="header__container">
           <div className="header__container__logo">
-            <Link to="/">
+            <Link to="/" className="link">
               <StaticImage
                 src="../images/immersiveav-logo.png"
                 alt="ImmersiveAV logo"
@@ -23,35 +23,35 @@ const Header = () => {
           </div>
           <nav className="header__container__navigation">
             <Link
-              className="header__container__navigation__service-links"
+              className="header__container__navigation__service-links link"
               to="/live"
               style={{ color: "white", textDecoration: "none" }}
             >
               Live
             </Link>
             <Link
-              className="header__container__navigation__service-links"
+              className="header__container__navigation__service-links link"
               to="/virtual"
               style={{ color: "white", textDecoration: "none" }}
             >
               Virtual
             </Link>
             <Link
-              className="header__container__navigation__service-links"
+              className="header__container__navigation__service-links link"
               to="/studio"
               style={{ color: "white", textDecoration: "none" }}
             >
               Studio
             </Link>
             <Link
-              className="header__container__navigation__service-links"
+              className="header__container__navigation__service-links link"
               to="/hybrid"
               style={{ color: "white", textDecoration: "none" }}
             >
               Hybrid
             </Link>
             <button
-              className="header__container__navigation__btn"
+              className="header__container__navigation__btn link"
               onClick={() => {
                 const menu = document.querySelector(".menu")
                 const tl = gsap.timeline()

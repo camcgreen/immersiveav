@@ -1,5 +1,6 @@
-import * as React from "react"
+import React, { useEffect } from "react"
 import "../styles/styles.scss"
+import { customMouse } from "../utils/customMouse"
 
 //Import components
 import Header from "../components/header"
@@ -15,40 +16,46 @@ import Footer from "../components/footer"
 import "../utils/helper"
 import { breakText } from "../utils/helper"
 
-const IndexPage = () => (
-  <div className="wrapper">
-    <Header />
-    <Hero />
-    <main>
-      <SectionBreak
-        backgroundColour="#3061E0"
-        textColour="white"
-        h1={breakText[0].h1}
-        p={breakText[0].p}
-      />
-      <Services />
-      <SectionBreak
-        backgroundColour="#f2f2f2"
-        textColour="black"
-        h1={breakText[1].h1}
-      />
-      <Showcase />
-      <SectionBreak
-        backgroundColour="#3061E0"
-        textColour="#f2f2f2"
-        h1={breakText[2].h1}
-        p={breakText[2].p}
-      />
-      <Expo />
-      <SectionBreak
-        backgroundColour="white"
-        textColour="black"
-        h1={breakText[3].h1}
-      />
-      <News />
-    </main>
-    <Footer />
-  </div>
-)
+const IndexPage = () => {
+  useEffect(() => {
+    // customMouse()
+  })
+  return (
+    <div className="wrapper">
+      {/* <span className="circle"></span> */}
+      <Header />
+      <Hero />
+      <main>
+        <SectionBreak
+          backgroundColour="#3061E0"
+          textColour="white"
+          h1={breakText[0].h1}
+          p={breakText[0].p}
+        />
+        <Services />
+        <SectionBreak
+          backgroundColour="#f2f2f2"
+          textColour="black"
+          h1={breakText[1].h1}
+        />
+        <Showcase />
+        <SectionBreak
+          backgroundColour="#3061E0"
+          textColour="#f2f2f2"
+          h1={breakText[2].h1}
+          p={breakText[2].p}
+        />
+        <Expo />
+        <SectionBreak
+          backgroundColour="white"
+          textColour="black"
+          h1={breakText[3].h1}
+        />
+        <News />
+      </main>
+      <Footer />
+    </div>
+  )
+}
 
 export default IndexPage

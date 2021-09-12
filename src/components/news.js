@@ -23,7 +23,7 @@ const News = () => (
         alt="News item 2"
       />
       <div className="news__item__text">
-        <h1 className="news__item__text__title">Working From Home Update</h1>
+        <h1 className="news__item__text__title">AV Hire for EGX 2021</h1>
         <h2 className="news__item__text__date">21/08/21</h2>
         {/* <img src={ArrowRight} alt="" /> */}
       </div>

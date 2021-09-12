@@ -4,7 +4,6 @@ import HeroVideo from "../videos/immersiveav.mp4"
 
 const Hero = () => {
   useEffect(() => {
-    console.log("hero component mounted")
     setTimeout(() => {
       const magnetParents = [
         document.querySelector(".hero"),
@@ -43,9 +42,9 @@ const Hero = () => {
   })
   return (
     <div className="hero">
-      <div class="hero__parent">
+      <div className="hero__parent">
         <video
-          class="hero__parent__magnet"
+          className="hero__parent__magnet"
           autoPlay
           playsInline
           muted
@@ -57,8 +56,12 @@ const Hero = () => {
           Your browser does not support HTML5 video.
         </video>
       </div>
-      <img src="https://i.imgur.com/kZKTTDI.png" alt="" class="hero__image" />
-      <h1 class="hero__title">Lorem ipsum.</h1>
+      <img
+        src="https://i.imgur.com/kZKTTDI.png"
+        alt=""
+        className="hero__image"
+      />
+      <h1 className="hero__title link">Lorem ipsum.</h1>
     </div>
   )
 }

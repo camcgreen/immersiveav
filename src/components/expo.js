@@ -18,9 +18,7 @@ const Expo = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed
           mi malesuada, aliquet nibh ut, tempor erat. Donec in lacus a enim
           semper fringilla in a turpis. Praesent vel nibh eget sapien
-          ullamcorper condimentum. Aenean in consequat eros, et feugiat eros.
-          Vivamus sed neque ut lectus bibendum tempus. Quisque et posuere nisl,
-          ut pellentesque massa.{" "}
+          ullamcorper condimentum.
         </p>
         <button className="expo__container__text__btn">
           <img src={ButtonBg} alt="" />
@@ -41,9 +39,7 @@ const Expo = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed
           mi malesuada, aliquet nibh ut, tempor erat. Donec in lacus a enim
           semper fringilla in a turpis. Praesent vel nibh eget sapien
-          ullamcorper condimentum. Aenean in consequat eros, et feugiat eros.
-          Vivamus sed neque ut lectus bibendum tempus. Quisque et posuere nisl,
-          ut pellentesque massa.{" "}
+          ullamcorper condimentum.
         </p>
         <button className="expo__container__text__btn">
           <img src={ButtonBg} alt="" />

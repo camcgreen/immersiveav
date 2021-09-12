@@ -79,11 +79,11 @@ const Services = () => {
         />
         <div className="services__cover__black"></div>
       </div>
-      <div class="services__image"></div>
-      <div class="services__columns">
-        <div class="services__column services__column--one">Live</div>
-        <div class="services__column services__column--two">Hybrid</div>
-        <div class="services__column services__column--three">Virtual</div>
+      <div className="services__image"></div>
+      <div className="services__columns">
+        <div className="services__column services__column--one">Live</div>
+        <div className="services__column services__column--two">Hybrid</div>
+        <div className="services__column services__column--three">Virtual</div>
       </div>
     </div>
   )
