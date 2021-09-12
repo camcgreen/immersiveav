@@ -25,7 +25,7 @@ const IndexPage = () => {
     <div className="wrapper">
       {/* <span className="circle"></span> */}
       <Header />
-      {/* <Phone /> */}
+      <Phone />
       <Hero />
       <main>
         <SectionBreak
