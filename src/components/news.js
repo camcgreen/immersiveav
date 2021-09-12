@@ -13,7 +13,7 @@ const News = () => (
       <div className="news__item__text">
         <h1 className="news__item__text__title">Job Vacancies</h1>
         <h2 className="news__item__text__date">18/08/21</h2>
-        <img src={ArrowRight} alt="" />
+        {/* <img src={ArrowRight} alt="" /> */}
       </div>
     </div>
     <div className="news__item news__item--2">
@@ -25,7 +25,7 @@ const News = () => (
       <div className="news__item__text">
         <h1 className="news__item__text__title">Working From Home Update</h1>
         <h2 className="news__item__text__date">21/08/21</h2>
-        <img src={ArrowRight} alt="" />
+        {/* <img src={ArrowRight} alt="" /> */}
       </div>
     </div>
     <div className="news__item news__item--3">
@@ -37,7 +37,7 @@ const News = () => (
       <div className="news__item__text">
         <h1 className="news__item__text__title">StudioX Live Launch</h1>
         <h2 className="news__item__text__date">21/08/21</h2>
-        <img src={ArrowRight} alt="" />
+        {/* <img src={ArrowRight} alt="" /> */}
       </div>
     </div>
   </div>

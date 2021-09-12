@@ -262,7 +262,7 @@ $menu-transition-duration: 0.4s;
   // text-align: center;
   overflow: hidden;
   &__container {
-    transform: translate(-0%, -50%);
+    // transform: translate(-0%, -50%);
     padding: #{$padding * 3} 0 #{$padding * 3} 0;
     // overflow: hidden;
     // height: 12.5vh;
@@ -619,7 +619,7 @@ $menu-transition-duration: 0.4s;
       &__date {
         margin-top: #{$margin * 4};
         font-size: 1rem;
-        font-weight: 400;
+        font-weight: 300;
         opacity: 0.75;
       }
       img {
