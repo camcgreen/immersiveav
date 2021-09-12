@@ -21,9 +21,9 @@ const SectionBreak = props => {
 }
 
 // setTimeout(() => {
-//   if (typeof window !== "undefined") {
-//     gsap.registerPlugin(ScrollTrigger)
-//   }
+// if (typeof window !== "undefined") {
+//   gsap.registerPlugin(ScrollTrigger)
+// }
 
 //   ScrollTrigger.refresh()
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import HeroVideo from "../videos/immersiveav.mp4"
-// require("../videos/immersiveav.mp4")
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 const Hero = () => {
   useEffect(() => {
@@ -38,6 +39,18 @@ const Hero = () => {
       // magnetParent.addEventListener("mouseout", e => {
       //   magnet.style.transform = "translate(0px, 0px)"
       // })
+
+      // if (typeof window !== "undefined") {
+      //   gsap.registerPlugin(ScrollTrigger)
+      // }
+
+      // let bgCutout = gsap.timeline({
+      //   scrollTrigger: {
+      //     trigger: ".hero",
+      //     scrub: true,
+      //   },
+      // })
+      // bgCutout.fromTo(".hero__stroke", { opacity: 1 }, { opacity: 1 })
     }, 100)
   })
   return (
@@ -61,6 +74,16 @@ const Hero = () => {
         alt=""
         className="hero__image"
       />
+      {/* <img
+        src="https://i.imgur.com/U7zGlXr.png"
+        alt=""
+        className="hero__stroke"
+      /> */}
+      {/* <img
+        src="https://i.imgur.com/bXRDvcN.png"
+        alt=""
+        className="hero__wires"
+      /> */}
       <h1 className="hero__title link">Lorem ipsum.</h1>
     </div>
   )
