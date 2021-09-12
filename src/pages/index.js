@@ -28,14 +28,14 @@ const IndexPage = () => (
       />
       <Services />
       <SectionBreak
-        backgroundColour="white"
+        backgroundColour="#f2f2f2"
         textColour="black"
         h1={breakText[1].h1}
       />
       <Showcase />
       <SectionBreak
         backgroundColour="#3061E0"
-        textColour="white"
+        textColour="#f2f2f2"
         h1={breakText[2].h1}
         p={breakText[2].p}
       />

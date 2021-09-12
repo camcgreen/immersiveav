@@ -3,6 +3,14 @@ import { gsap } from "gsap"
 
 const Services = () => (
   <div className="services">
+    <div className="services__cover">
+      <img
+        className="services__cover__img"
+        src="https://i.imgur.com/8fPReyl.jpg"
+        alt=""
+      />
+      <div className="services__cover__black"></div>
+    </div>
     <div class="services__image"></div>
     <div class="services__columns">
       <div class="services__column services__column--one">Live</div>
@@ -17,9 +25,9 @@ setTimeout(() => {
   const image = document.querySelector(".services__image")
   const columns = document.querySelectorAll(".services__column")
   const images = [
-    "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b9a21791534383.5e341720a5140.jpg",
-    "https://c4.wallpaperflare.com/wallpaper/415/195/652/spots-reflections-soft-light-wallpaper-preview.jpg",
-    "https://img.lovepik.com/photo/40064/5566.jpg_wh860.jpg",
+    "https://i2.wp.com/immersiveav.com/wp-content/uploads/2021/04/Website-Tech-production-menu-2.jpg?w=1920&ssl=1",
+    "https://i.imgur.com/l2ol4RX.jpg",
+    "https://i.imgur.com/76cxmqD.jpg",
   ]
 
   const tlImage = gsap.timeline()
@@ -31,19 +39,26 @@ setTimeout(() => {
 
       tlImage.clear()
 
-      tlImage.fromTo(
-        ".services__image",
-        {
+      tlImage
+        .to(".services__cover__img", {
           opacity: 0,
-          scale: 1,
-        },
-        {
-          opacity: 1,
-          scale: 1.2,
-          ease: "power4.easeOut",
-          duration: 1,
-        }
-      )
+          // scale: 1.2,
+          // ease: "power4.easeOut",
+          duration: 0.001,
+        })
+        .fromTo(
+          ".services__image",
+          {
+            opacity: 0,
+            scale: 1,
+          },
+          {
+            opacity: 1,
+            scale: 1.2,
+            ease: "power4.easeOut",
+            duration: 1,
+          }
+        )
     })
   })
 
@@ -51,12 +66,22 @@ setTimeout(() => {
     column.addEventListener("mouseout", e => {
       column.style.background = "rgba(50, 50, 50, 0)"
       tlImage.clear()
-      tlImage.to(".services__image", {
-        scale: 1,
-        opacity: 0,
-        ease: "power4.easeOut",
-        duration: 1,
-      })
+      tlImage
+        .to(".services__image", {
+          scale: 1,
+          opacity: 0,
+          ease: "power4.easeOut",
+          duration: 1,
+        })
+        .to(
+          ".services__cover__img",
+          {
+            opacity: 1,
+            ease: "power4.easeOut",
+            duration: 1,
+          },
+          "-=0.95"
+        )
     })
   })
 }, 1000)
