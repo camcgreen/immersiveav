@@ -20,6 +20,12 @@ const Menu = props => (
         <li className="menu__items__item">News</li>
       </Link>
       <Link
+        to="/our-services"
+        // style={{ color: "black", textDecoration: "none" }}
+      >
+        <li className="menu__items__item">Services</li>
+      </Link>
+      <Link
         to="/about"
         // style={{ color: "black", textDecoration: "none" }}
       >
