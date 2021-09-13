@@ -31,6 +31,14 @@ $tablet-width: 1024px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  // cursor: url('data:image/svg+xml;utf8,<svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3441 8.15953L14.2686 43.541L21.624 39.8295L21.3707 22.0993L35.4818 32.8337L42.8362 29.1227L14.3441 8.15953ZM39.4062 29.3134L35.6277 31.22L23.0378 21.6402L39.4062 29.3134ZM38.3347 27.5194L20.5546 19.1853L16.7436 11.6327L38.3347 27.5194ZM16.4565 40.8912L20.0117 23.1568L20.2389 38.9827L16.4565 40.8912ZM15.7079 12.1756L19.5102 19.7109L15.6534 38.9463L15.7079 12.1756Z" fill="#F57B17"/><path d="M15.7079 12.1756L19.5102 19.7109L15.6534 38.9463L15.7079 12.1756Z" fill="#F57B17"/><path d="M39.4062 29.3134L35.6277 31.22L23.0378 21.6402L39.4062 29.3134Z" fill="#F57B17"/></svg>')
+  //     24 24,
+  //   auto;
+  // cursor: url("https://i.stack.imgur.com/inwsy.png"), auto;
+
+  // cursor: url('data:image/svg+xml;utf8,<svg width="24" height="24" fill="black" xmlns="http://www.w3.org/2000/svg"><path d="m14.344 8.16-.074 35.38 7.355-3.711-.253-17.73 14.11 10.734 7.355-3.711L14.344 8.16zm25.062 21.153-3.778 1.907-12.59-9.58 16.368 7.673zm-1.071-1.794-17.78-8.334-3.811-7.552 21.59 15.886zM16.456 40.891l3.556-17.734.227 15.826-3.783 1.908zm-.748-28.715 3.802 7.535-3.857 19.235.055-26.77z" fill="#F57B17"/><path d="m15.708 12.176 3.802 7.535-3.857 19.235.055-26.77zm23.698 17.137-3.778 1.907-12.59-9.58 16.368 7.673z" fill="#F57B17"/></svg>')
+  //     24 24,
+  //   auto;
   // cursor: none !important;
 }
 
@@ -44,6 +52,7 @@ body {
   // overflow-x: hidden;
   // line-height: 107.5%;
   letter-spacing: -0.075em;
+  cursor: url("https://svgshare.com/i/a7n.svg"), auto;
 }
 
 .circle {
@@ -90,6 +99,7 @@ body {
       justify-content: space-between;
       align-items: center;
       &__service-links {
+        cursor: url("https://svgshare.com/i/a9V.svg"), auto;
         color: $white;
         text-decoration: none;
         &:hover {
@@ -102,7 +112,9 @@ body {
         height: 32px;
         background: none;
         border: none;
-        cursor: pointer;
+        // cursor: pointer;
+        cursor: url("https://svgshare.com/i/a9V.svg"), auto !important;
+        // cursor: url("https://svgshare.com/i/a9V.svg"), auto;
         svg rect {
           transition: fill 0.2s ease-in-out;
         }
@@ -146,7 +158,8 @@ body {
     border: none;
     // border: solid $black 1px;
     border-radius: 50%;
-    cursor: pointer;
+    // cursor: pointer;
+    cursor: url("https://svgshare.com/i/a9V.svg"), auto;
     // width: 48px;
     // height: 48px;
     padding: #{$padding * 0.5};
@@ -177,7 +190,8 @@ body {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s ease-in-out;
-    cursor: pointer;
+    // cursor: pointer;
+    cursor: url("https://svgshare.com/i/a9V.svg"), auto;
     a {
       text-decoration: none;
       // width: 0%;
@@ -268,9 +282,15 @@ $menu-transition-duration: 0.4s;
     // transition-delay: #{$menu-transition-duration * 0.25};
     a {
       text-decoration: none !important;
+      // cursor: url("https://svgshare.com/i/a9V.svg") auto;
     }
+    // li {
+    //   cursor: url("https://svgshare.com/i/a9V.svg"), auto;
+    // }
     &__item {
       color: $black;
+      cursor: url("https://svgshare.com/i/a9V.svg"), auto;
+
       // text-decoration: none !important;
       &:hover {
         color: lighten($black, 20%);
@@ -287,7 +307,8 @@ $menu-transition-duration: 0.4s;
       height: 32px;
       background: none;
       border: none;
-      cursor: pointer;
+      // cursor: pointer;
+      cursor: url("https://svgshare.com/i/a9V.svg"), auto;
       // svg path {
       //   fill: white;
       //   stroke: white;
@@ -551,7 +572,8 @@ $menu-transition-duration: 0.4s;
     border-left: solid rgba(50, 50, 50, 0.9) 1px;
     box-sizing: border-box;
     transition: background-color 0.2s ease-in-out;
-    cursor: pointer;
+    // cursor: pointer;
+    cursor: url("https://svgshare.com/i/a9V.svg"), auto;
     z-index: 3;
     font-size: 3rem;
     font-weight: normal;
@@ -769,8 +791,10 @@ $menu-transition-duration: 0.4s;
         border: none;
         width: 237px;
         height: 43px;
-        cursor: pointer;
+        // cursor: pointer;
+        cursor: url("https://svgshare.com/i/a9V.svg"), auto;
         svg {
+          cursor: url("https://svgshare.com/i/a9V.svg"), auto;
           width: 100%;
           height: 100%;
           position: absolute;
@@ -784,10 +808,12 @@ $menu-transition-duration: 0.4s;
           svg path {
             // transform: scale(1.2) translate(-50%, -50%);
             fill: darken($expo-blue, 10%);
+            cursor: url("https://svgshare.com/i/a9V.svg"), auto;
           }
         }
         p {
           position: absolute;
+          cursor: url("https://svgshare.com/i/a9V.svg"), auto;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
@@ -831,7 +857,8 @@ $menu-transition-duration: 0.4s;
     z-index: 2;
     position: relative;
     &:hover {
-      cursor: pointer;
+      // cursor: pointer;
+      cursor: url("https://svgshare.com/i/a9V.svg"), auto;
       .news__item__image {
         opacity: 0.5;
       }
@@ -871,7 +898,8 @@ $menu-transition-duration: 0.4s;
       }
       img {
         margin-top: #{$margin * 4};
-        cursor: pointer;
+        // cursor: pointer;
+        cursor: url("https://svgshare.com/i/a9V.svg"), auto;
       }
     }
     @media (max-width: $tablet-width) and (min-width: $mobile-width) {
@@ -936,6 +964,7 @@ $menu-transition-duration: 0.4s;
         &__item {
           a {
             color: $blue;
+            cursor: url("https://svgshare.com/i/a9V.svg"), auto;
             &:hover {
               color: darken($blue, 20%);
             }
@@ -969,8 +998,10 @@ $menu-transition-duration: 0.4s;
   }
   &__legal {
     margin-top: #{$margin * 4};
+    // cursor: url("https://svgshare.com/i/a9V.svg"), auto !important;
     a {
       text-decoration: none;
+      cursor: url("https://svgshare.com/i/a9V.svg"), auto !important;
       color: $black;
       &:hover {
         color: lighten($black, 20%);
