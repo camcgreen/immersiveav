@@ -81,9 +81,24 @@ const Services = () => {
       </div>
       <div className="services__image"></div>
       <div className="services__columns">
-        <div className="services__column services__column--one">Live</div>
-        <div className="services__column services__column--two">Hybrid</div>
-        <div className="services__column services__column--three">Virtual</div>
+        <div className="services__column services__column--one">
+          <h1 className="services__column__h1">Live</h1>
+          <button className="services__column__btn services__column__btn--one">
+            Discover more
+          </button>
+        </div>
+        <div className="services__column services__column--two">
+          <h1 className="services__column__h1">Hybrid</h1>
+          <button className="services__column__btn services__column__btn--two">
+            Discover more
+          </button>
+        </div>
+        <div className="services__column services__column--three">
+          <h1 className="services__column__h1">Virtual</h1>
+          <button className="services__column__btn services__column__btn--three">
+            Discover more
+          </button>
+        </div>
       </div>
     </div>
   )

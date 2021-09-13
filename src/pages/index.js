@@ -1,7 +1,10 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import "../styles/styles.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { customMouse } from "../utils/customMouse"
+
+//Import SVG
+import AVLoader from "../svg/av-load.svg"
 
 //Import components
 import Header from "../components/header"
@@ -19,9 +22,29 @@ import "../utils/helper"
 import { breakText } from "../utils/helper"
 
 const IndexPage = () => {
-  useEffect(() => {
+  const [loaded, setLoaded] = useState(false)
+  // const setLoaded = () => {
+  //   loaded = true
+  // }
+  // let loaded = false
+  useEffect(async () => {
     // customMouse()
+    if (window.sessionStorage.getItem("firstLoadDone") === null) {
+      // await this.setState({ loaded: false });
+      //   await setLoaded();
+      // window.sessionStorage.setItem('firstLoadDone', 1);
+      //   // setTimeout(() => this.setState({ fade: true }), 1600);
+      //   setTimeout(() => this.setState({ loaded: true }), 2200);
+      // } else {
+      //   this.setState({ loaded: true });
+      window.sessionStorage.setItem("firstLoadDone", 1)
+      setTimeout(() => setLoaded(true), 2000)
+    } else {
+      setLoaded(true)
+    }
   })
+  console.log(loaded)
+  setTimeout(() => console.log(loaded), 2300)
   return (
     <div className="wrapper">
       {/* <span className="circle"></span> */}
@@ -57,6 +80,13 @@ const IndexPage = () => {
         <Expo />
       </main>
       <Footer />
+      {/* <div
+        // className={`loading ${loaded ? "" : "loading__shown"}`}
+        className="loading"
+        style={loaded ? { opacity: 0 } : { opacity: 1 }}
+      >
+        <img src={AVLoader} alt="" className="loading__svg" />
+      </div> */}
     </div>
   )
 }
