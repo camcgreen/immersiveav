@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
 import "../styles/styles.scss"
+import "bootstrap/dist/css/bootstrap.min.css"
 import { customMouse } from "../utils/customMouse"
 
 //Import components
