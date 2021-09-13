@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => (
@@ -14,10 +15,24 @@ const Footer = () => (
             Halesfield 7, Telford, TF7 4NA
           </li>
           <li className="footer__items__contact__list__item">
-            Phone: 01952 953500
+            Phone:{" "}
+            <a
+              href="tel:+441952 953500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              01952 953500
+            </a>
           </li>
           <li className="footer__items__contact__list__item">
-            Email: enquiries@immersiveav.com
+            Email:{" "}
+            <a
+              href="mailto:enquiries@immersiveav.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              enquiries@immersiveav.com
+            </a>
           </li>
         </ul>
       </div>
@@ -32,9 +47,17 @@ const Footer = () => (
       </div>
     </div>
     <div className="footer__legal">
-      © 2021 <span className="footer__legal__immersive">IMMERSIVE AV</span> |{" "}
-      <span className="footer__legal__terms">TERMS & PRIVACY </span> |{" "}
-      <span className="footer__legal__cookie">COOKIE POLICY</span>
+      <Link to="/" className="link">
+        © 2021 <span className="footer__legal__immersive">IMMERSIVE AV</span>
+      </Link>
+      <span> | </span>
+      <Link to="/terms-privacy" className="link">
+        <span className="footer__legal__terms">TERMS & PRIVACY </span>
+      </Link>
+      <span> | </span>
+      <Link to="/cookie-policy" className="link">
+        <span className="footer__legal__cookie">COOKIE POLICY</span>
+      </Link>
     </div>
   </footer>
 )

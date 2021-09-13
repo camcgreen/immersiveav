@@ -22,7 +22,9 @@ const Phone = props => {
         <img src={IconPhone} alt="" />
       </button>
       <div className="phone__number">
-        <a href="tel:+441952 953500">01952 953500</a>
+        <a href="tel:+441952 953500" target="_blank" rel="noopener noreferrer">
+          01952 953500
+        </a>
       </div>
     </div>
   )

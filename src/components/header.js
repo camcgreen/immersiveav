@@ -25,28 +25,28 @@ const Header = () => {
             <Link
               className="header__container__navigation__service-links link"
               to="/live"
-              style={{ color: "white", textDecoration: "none" }}
+              // style={{ color: "white", textDecoration: "none" }}
             >
               Live
             </Link>
             <Link
               className="header__container__navigation__service-links link"
               to="/virtual"
-              style={{ color: "white", textDecoration: "none" }}
+              // style={{ color: "white", textDecoration: "none" }}
             >
               Virtual
             </Link>
             <Link
               className="header__container__navigation__service-links link"
               to="/studio"
-              style={{ color: "white", textDecoration: "none" }}
+              // style={{ color: "white", textDecoration: "none" }}
             >
               Studio
             </Link>
             <Link
               className="header__container__navigation__service-links link"
               to="/hybrid"
-              style={{ color: "white", textDecoration: "none" }}
+              // style={{ color: "white", textDecoration: "none" }}
             >
               Hybrid
             </Link>
@@ -98,7 +98,48 @@ const Header = () => {
                   )
               }}
             >
-              <img src={IconMenuOpen} alt="" />
+              {/* <img src={IconMenuOpen} alt="" /> */}
+              {/* {IconMenuOpen} */}
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 341.333 341.333"
+                // style="enable-background:new 0 0 341.333 341.333;"
+              >
+                <g>
+                  <g>
+                    <rect
+                      y="277.333"
+                      width="341.333"
+                      height="42.667"
+                      fill="white"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect
+                      y="149.333"
+                      width="341.333"
+                      height="42.667"
+                      fill="white"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect
+                      y="21.333"
+                      width="341.333"
+                      height="42.667"
+                      fill="white"
+                    />
+                  </g>
+                </g>
+              </svg>
             </button>
           </nav>
         </div>
