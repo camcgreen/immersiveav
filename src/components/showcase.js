@@ -1,16 +1,16 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
-import "flickity/dist/flickity.min.css"
-
-const flickityOptions = {
-  initialIndex: 0,
-}
+// import "flickity/dist/flickity.min.css"
 
 const Showcase = () => (
   <>
     <Helmet>
-      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" />
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+      ></link>
     </Helmet>
     <div
       className="showcase js-flickity"
