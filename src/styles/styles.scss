@@ -21,6 +21,7 @@ $padding: 40px;
 //Width and height
 $maxWidth: 70%;
 $navHeight: 112px;
+$viewportHeight: 85vh;
 
 //Responsive
 $mobile-width: 768px;
@@ -62,7 +63,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: $viewportHeight;
   background: black;
   z-index: 100;
   color: white;
@@ -572,6 +573,7 @@ $menu-transition-duration: 0.4s;
       &__p {
         font-size: 2rem;
         max-width: 75%;
+        // display: none;
       }
     }
     @media (max-width: $mobile-width) {
@@ -583,6 +585,7 @@ $menu-transition-duration: 0.4s;
       &__p {
         font-size: 1.5rem;
         max-width: 75%;
+        display: none;
       }
     }
   }
@@ -591,7 +594,7 @@ $menu-transition-duration: 0.4s;
 //Services section
 .services {
   width: 100%;
-  height: calc(100vh - #{$navHeight});
+  height: calc(#{$viewportHeight} - #{$navHeight});
   background-color: black;
   // background-image: url("https://i.imgur.com/8fPReyl.jpg");
   background-size: cover;
@@ -880,7 +883,7 @@ $menu-transition-duration: 0.4s;
 //Showcase section
 .showcase {
   width: 100%;
-  height: calc(100vh - #{$navHeight});
+  height: calc(#{$viewportHeight} - #{$navHeight});
   background: black;
   &__img {
     width: 100%;
@@ -892,7 +895,7 @@ $menu-transition-duration: 0.4s;
     // display: none;
     width: 100%;
     // height: 100%;
-    height: calc(100vh - #{$navHeight});
+    height: calc(#{$viewportHeight} - #{$navHeight});
     background: linear-gradient(white, black);
     z-index: 10;
     opacity: 0.75;
@@ -901,7 +904,7 @@ $menu-transition-duration: 0.4s;
   &__content {
     color: white;
     margin: 100px;
-    margin-left: 200px;
+    margin-left: 300px;
     // opacity: 0;
     transition: opacity 0.2s ease-in-out;
     position: absolute;
@@ -936,10 +939,21 @@ $menu-transition-duration: 0.4s;
   //     }
   //   }
   // }
+  @media (max-width: 1500px) and (min-width: $tablet-width) {
+    &__content {
+      margin-left: 200px;
+    }
+  }
+  @media (max-width: $tablet-width) and (min-width: $mobile-width) {
+    &__content {
+      margin-left: 120px;
+    }
+  }
   @media (max-width: $mobile-width) {
     &__content {
-      padding: 60px;
-      padding-bottom: 80px;
+      margin: 90px;
+      // margin-bottom: 80px;
+      // margin-left: 100px;
       &__company {
         font-size: 2.5rem;
       }
@@ -1008,7 +1022,7 @@ $menu-transition-duration: 0.4s;
 //AV & Expo section
 .expo {
   width: 100%;
-  height: calc(100vh - #{$navHeight});
+  height: calc(#{$viewportHeight} - #{$navHeight});
   overflow: hidden;
   background-color: lightsteelblue;
   display: flex;
@@ -1124,7 +1138,7 @@ $menu-transition-duration: 0.4s;
 //News section
 .news {
   width: 100%;
-  height: calc(100vh - #{$navHeight});
+  height: calc(#{$viewportHeight} - #{$navHeight});
   background-color: black;
   display: flex;
   flex-direction: row;
