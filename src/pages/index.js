@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useRef } from "react"
 import "../styles/styles.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { customMouse } from "../utils/customMouse"
@@ -45,6 +45,7 @@ const IndexPage = () => {
   })
   console.log(loaded)
   setTimeout(() => console.log(loaded), 2300)
+  const ref = useRef(null)
   return (
     <div className="wrapper">
       {/* <span className="circle"></span> */}
@@ -53,26 +54,31 @@ const IndexPage = () => {
       <Hero />
       <main>
         <SectionBreak
-          backgroundColour="#3061E0"
+          ref={ref}
+          // backgroundColour="#3061E0"
+          backgroundColour="rgba(48, 97, 224, 0.9)"
           textColour="white"
           h1={breakText[0].h1}
           p={breakText[0].p}
         />
         <Services />
         <SectionBreak
-          backgroundColour="#f2f2f2"
+          // backgroundColour="#f2f2f2"
+          backgroundColour="rgba(255, 255, 255, 0.9)"
           textColour="black"
           h1={breakText[1].h1}
         />
         <Showcase />
         <SectionBreak
-          backgroundColour="#3061E0"
+          // backgroundColour="#3061E0"
+          backgroundColour="rgba(48, 97, 224, 0.9)"
           textColour="#f2f2f2"
           h1={breakText[2].h1}
         />
         <News />
         <SectionBreak
-          backgroundColour="white"
+          // backgroundColour="white"
+          backgroundColour="rgba(255, 255, 255, 0.9)"
           textColour="black"
           h1={breakText[3].h1}
           p={breakText[3].p}
@@ -80,6 +86,7 @@ const IndexPage = () => {
         <Expo />
       </main>
       <Footer />
+      <div className="empty"></div>
       {/* <div
         // className={`loading ${loaded ? "" : "loading__shown"}`}
         className="loading"

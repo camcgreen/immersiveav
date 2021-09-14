@@ -9,9 +9,11 @@ const SectionBreak = props => {
       className="break"
       style={{
         backgroundColor: props.backgroundColour,
+        // backgroundColor: "rgba(48, 97, 224, 0.9)",
         color: props.textColour,
       }}
     >
+      {/* <div className="break__bg"></div> */}
       <div className="break__container">
         <h1 className="break__container__h1">{props.h1}</h1>
         {props.p && <p className="break__container__p">{props.p}</p>}
@@ -25,17 +27,17 @@ const SectionBreak = props => {
 //   gsap.registerPlugin(ScrollTrigger)
 // }
 
-//   ScrollTrigger.refresh()
+// ScrollTrigger.refresh()
 
 //   const divs = gsap.utils.toArray(".break__container")
 //   divs.forEach(div => {
 //     gsap.to(div, {
 //       x: 0,
 //       yPercent: 0,
-//       scrollTrigger: {
-//         trigger: div,
-//         scrub: true,
-//       },
+// scrollTrigger: {
+//   trigger: div,
+//   scrub: true,
+// },
 //     })
 //   })
 

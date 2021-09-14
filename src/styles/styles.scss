@@ -56,6 +56,7 @@ body {
   letter-spacing: -0.075em;
   cursor: url("https://svgshare.com/i/a7n.svg"), auto;
   // animation: fadein 1s ease-in-out;
+  // background-color: black;
 }
 
 .loading {
@@ -165,6 +166,7 @@ body {
 
 .wrapper {
   // max-width: 50vw;
+  background: black;
 }
 
 //Navbar
@@ -444,7 +446,8 @@ $menu-transition-duration: 0.4s;
   position: relative;
   background-color: black;
   &__parent {
-    position: absolute;
+    // position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -457,7 +460,8 @@ $menu-transition-duration: 0.4s;
     }
   }
   &__image {
-    position: absolute;
+    // position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -486,15 +490,19 @@ $menu-transition-duration: 0.4s;
   }
   &__title {
     font-size: 6rem;
+    // letter-spacing: -0.3em;
+    letter-spacing: -0.06em;
     white-space: nowrap;
     overflow: hidden;
     line-height: normal;
     position: absolute;
+    width: 100%;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    mix-blend-mode: difference;
+    // mix-blend-mode: difference;
     &:hover {
       .hero__wires {
         opacity: 1;
@@ -533,7 +541,21 @@ $menu-transition-duration: 0.4s;
   // justify-content: center;
   // align-items: center;
   // text-align: center;
+  // opacity: 0.5;
+  z-index: 5;
   overflow: hidden;
+  position: relative;
+  &__bg {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    z-index: -1;
+    // z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   &__container {
     // transform: translate(-0%, -50%);
     padding: #{$padding * 3} 0 #{$padding * 3} 0;
@@ -1234,7 +1256,10 @@ $menu-transition-duration: 0.4s;
 .footer {
   padding: 7.5vw;
   width: calc(100%) - 15vw;
-  background-color: $off-white;
+  // background-color: $off-white;
+  background-color: rgba(255, 255, 255, 0.9);
+  // margin-bottom: calc(100vh - #{navHeight});
+  // height: calc(200vh - #{$navHeight});
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1304,4 +1329,10 @@ $menu-transition-duration: 0.4s;
       // color: $black;
     }
   }
+}
+
+.empty {
+  width: 100%;
+  height: calc(100vh - #{$navHeight});
+  background: black;
 }
