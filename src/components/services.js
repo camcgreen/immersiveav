@@ -16,7 +16,7 @@ const Services = () => {
       const tlImage = gsap.timeline()
 
       columns.forEach((column, i) => {
-        column.addEventListener("mouseover", e => {
+        column.addEventListener("mouseenter", e => {
           column.style.background = "rgba(0, 0, 0, 0.6)"
           image.style.backgroundImage = "url(" + images[i] + ")"
 
@@ -46,7 +46,7 @@ const Services = () => {
       })
 
       columns.forEach(column => {
-        column.addEventListener("mouseout", e => {
+        column.addEventListener("mouseleave", e => {
           column.style.background = "rgba(50, 50, 50, 0)"
           tlImage.clear()
           tlImage
@@ -65,6 +65,31 @@ const Services = () => {
               },
               "-=0.95"
             )
+        })
+      })
+      const discoverTl = gsap.timeline()
+      const discoverText = document.querySelectorAll(".services__column__btn")
+      console.log(discoverText)
+      discoverText.forEach(text => {
+        console.log(text)
+        text.addEventListener("mouseenter", e => {
+          discoverTl.clear()
+          discoverTl.to(text, {
+            color: "#3061e0",
+            duration: 0.5,
+            ease: "power4.easeOut",
+          })
+        })
+      })
+      discoverText.forEach(text => {
+        console.log(text)
+        text.addEventListener("mouseleave", e => {
+          discoverTl.clear()
+          discoverTl.to(text, {
+            color: "white",
+            duration: 0.5,
+            ease: "power4.easeOut",
+          })
         })
       })
     }, 100)

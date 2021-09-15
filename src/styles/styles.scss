@@ -20,7 +20,7 @@ $padding: 40px;
 
 //Width and height
 $maxWidth: 70%;
-$navHeight: 112px;
+$navHeight: 107px;
 $viewportHeight: 85vh;
 
 //Responsive
@@ -197,16 +197,20 @@ body {
         cursor: url("https://svgshare.com/i/a9V.svg"), auto;
         color: $white;
         text-decoration: none;
+        font-size: 1.1rem;
         &:hover {
           color: darken($white, 20%);
         }
       }
 
       &__btn {
-        width: 32px;
-        height: 32px;
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        padding: 0;
         background: none;
         border: none;
+        transform: translateY(-3px);
         // cursor: pointer;
         cursor: url("https://svgshare.com/i/a9V.svg"), auto !important;
         // cursor: url("https://svgshare.com/i/a9V.svg"), auto;
@@ -733,6 +737,7 @@ $menu-transition-duration: 0.4s;
       font-size: 1rem;
       width: 100%;
       // background-color: $black;
+      pointer-events: all;
       background: none;
       color: $white;
       border: none;
