@@ -1268,6 +1268,7 @@ $menu-transition-duration: 0.4s;
         left: 0;
         opacity: 0;
         transition: opacity 0.4s ease-in-out;
+        pointer-events: none;
         &--1 {
           transform: translate(-50%, 200%);
         }
