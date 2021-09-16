@@ -30,6 +30,7 @@ const Footer = () => (
               href="mailto:enquiries@immersiveav.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="footer__items__contact__list__item__email"
             >
               enquiries@immersiveav.com
             </a>

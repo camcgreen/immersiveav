@@ -14,6 +14,7 @@ import SectionBreak from "../components/sectionBreak"
 import Services from "../components/services"
 import Showcase from "../components/showcase"
 import Expo from "../components/expo"
+import HireExpo from "../components/hire-expo"
 import News from "../components/news"
 import Footer from "../components/footer"
 
@@ -83,7 +84,8 @@ const IndexPage = () => {
           h1={breakText[3].h1}
           p={breakText[3].p}
         />
-        <Expo />
+        {/* <Expo /> */}
+        <HireExpo />
       </main>
       <Footer />
       <div className="empty"></div>
