@@ -13,13 +13,13 @@ const Header = () => {
       <header className="header">
         <div className="header__container">
           <div className="header__container__logo">
-            <Link to="/" className="link">
-              <StaticImage
-                src="../images/immersiveav-logo.png"
-                alt="ImmersiveAV logo"
-                placeholder="none"
-              />
-            </Link>
+            {/* <Link to="/" className="link"> */}
+            <StaticImage
+              src="../images/immersiveav-logo.png"
+              alt="ImmersiveAV logo"
+              placeholder="none"
+            />
+            {/* </Link> */}
           </div>
           <nav className="header__container__navigation">
             <Link

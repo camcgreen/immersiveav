@@ -48,9 +48,9 @@ const Footer = () => (
       </div>
     </div>
     <div className="footer__legal">
-      <Link to="/" className="link">
-        © 2021 <span className="footer__legal__immersive">IMMERSIVE AV</span>
-      </Link>
+      {/* <Link to="/" className="link"> */}© 2021{" "}
+      <span className="footer__legal__immersive">IMMERSIVE AV</span>
+      {/* </Link> */}
       <span> | </span>
       <Link to="/terms-privacy" className="link">
         <span className="footer__legal__terms">TERMS & PRIVACY </span>

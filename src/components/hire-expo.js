@@ -8,8 +8,8 @@ const HireExpo = () => {
     const hireExpoImage = document.querySelector(".hire-expo__image")
     // const images = ["../images/hire.jpg", "../images/expo.jpg"]
     const images = [
-      "https://i2.wp.com/immersiveav.com/wp-content/uploads/2021/04/Website-Tech-production-menu-2.jpg?w=1920&ssl=1",
-      "https://i1.wp.com/immersiveav.com/wp-content/uploads/2021/04/Website-xR-1.jpg?w=1920&ssl=1",
+      "https://i.imgur.com/Rna2EKO.jpg",
+      "https://i.imgur.com/Lqk5eGN.jpg",
     ]
 
     const tlHireExpo = gsap.timeline()
@@ -275,6 +275,7 @@ const HireExpo = () => {
       </div>
       <div className="hire-expo__image"></div>
       <div className="hire-expo__cover"></div>
+      <div className="hire-expo__gradient"></div>
       <div className="hire-expo__boxes">
         <div
           className="hire-expo__boxes__box hire-expo__boxes__box--0"
