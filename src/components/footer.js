@@ -52,13 +52,17 @@ const Footer = () => (
       <span className="footer__legal__immersive">IMMERSIVE AV</span>
       {/* </Link> */}
       <span> | </span>
-      <Link to="/terms-privacy" className="link">
+      {/* <Link to="/terms-privacy" className="link"> */}
+      <a className="header__container__navigation__service-links link">
         <span className="footer__legal__terms">TERMS & PRIVACY </span>
-      </Link>
+      </a>
+      {/* </Link> */}
       <span> | </span>
-      <Link to="/cookie-policy" className="link">
+      {/* <Link to="/cookie-policy" className="link"> */}
+      <a className="header__container__navigation__service-links link">
         <span className="footer__legal__cookie">COOKIE POLICY</span>
-      </Link>
+      </a>
+      {/* </Link> */}
     </div>
   </footer>
 )

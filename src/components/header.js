@@ -22,34 +22,39 @@ const Header = () => {
             {/* </Link> */}
           </div>
           <nav className="header__container__navigation">
-            <Link
+            {/* <Link
               className="header__container__navigation__service-links link"
               to="/live"
-              // style={{ color: "white", textDecoration: "none" }}
-            >
+            > */}
+            <a className="header__container__navigation__service-links link">
               Live
-            </Link>
-            <Link
+            </a>
+            {/* Live */}
+            {/* </Link> */}
+            {/* <Link
               className="header__container__navigation__service-links link"
               to="/virtual"
-              // style={{ color: "white", textDecoration: "none" }}
-            >
+            > */}
+            <a className="header__container__navigation__service-links link">
               Virtual
-            </Link>
-            <Link
+            </a>
+            {/* </Link> */}
+            {/* <Link
               className="header__container__navigation__service-links link"
               to="/studio"
-              // style={{ color: "white", textDecoration: "none" }}
-            >
+            > */}
+            <a className="header__container__navigation__service-links link">
               Studio
-            </Link>
-            <Link
+            </a>
+            {/* </Link> */}
+            {/* <Link
               className="header__container__navigation__service-links link"
               to="/hybrid"
-              // style={{ color: "white", textDecoration: "none" }}
-            >
+            > */}
+            <a className="header__container__navigation__service-links link">
               Hybrid
-            </Link>
+            </a>
+            {/* </Link> */}
             <button
               className="header__container__navigation__btn link"
               onClick={() => {
@@ -98,8 +103,6 @@ const Header = () => {
                   )
               }}
             >
-              {/* <img src={IconMenuOpen} alt="" /> */}
-              {/* {IconMenuOpen} */}
               <svg
                 version="1.1"
                 id="Capa_1"
@@ -107,7 +110,6 @@ const Header = () => {
                 x="0px"
                 y="0px"
                 viewBox="0 0 341.333 341.333"
-                // style="enable-background:new 0 0 341.333 341.333;"
               >
                 <g>
                   <g>

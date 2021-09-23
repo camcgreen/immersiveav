@@ -13,42 +13,54 @@ const Menu = props => (
       <div className="menu__columns__column menu__columns__column--right"></div>
     </div>
     <ul className="menu__items">
-      <Link
+      {/* <Link
         to="/news"
         // style={{ color: "black", textDecoration: "none" }}
-      >
+      > */}
+      <a className="">
         <li className="menu__items__item">News</li>
-      </Link>
-      <Link
+      </a>
+      {/* </Link> */}
+      {/* <Link
         to="/our-services"
         // style={{ color: "black", textDecoration: "none" }}
-      >
+      > */}
+      <a className="">
         <li className="menu__items__item">Services</li>
-      </Link>
-      <Link
+      </a>
+      {/* </Link> */}
+      {/* <Link
         to="/about"
         // style={{ color: "black", textDecoration: "none" }}
-      >
+      > */}
+      <a className="">
         <li className="menu__items__item">About</li>
-      </Link>
-      <Link
+      </a>
+      {/* </Link> */}
+      {/* <Link
         to="/vacancies"
         // style={{ color: "black", textDecoration: "none" }}
-      >
+      > */}
+      <a className="">
         <li className="menu__items__item">Vacancies</li>
-      </Link>
-      <Link
+      </a>
+      {/* </Link> */}
+      {/* <Link
         to="/contact"
         // style={{ color: "black", textDecoration: "none" }}
-      >
+      > */}
+      <a className="">
         <li className="menu__items__item">Contact</li>
-      </Link>
-      <Link
+      </a>
+      {/* </Link> */}
+      {/* <Link
         to="/faqs"
         // style={{ color: "black", textDecoration: "none" }}
-      >
+      > */}
+      <a className="">
         <li className="menu__items__item">FAQs</li>
-      </Link>
+      </a>
+      {/* </Link> */}
     </ul>
     <button
       className="menu__items__btn"

@@ -88,7 +88,9 @@ const IndexPage = () => {
         <HireExpo />
       </main>
       <Footer />
-      <div className="empty"></div>
+      <div className="empty">
+        <h1 className="empty__title">Lorem ipsum.</h1>
+      </div>
       {/* <div
         // className={`loading ${loaded ? "" : "loading__shown"}`}
         className="loading"

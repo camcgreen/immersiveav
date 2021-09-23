@@ -1497,4 +1497,24 @@ $menu-transition-duration: 0.4s;
   width: 100%;
   height: calc(100vh - #{$navHeight});
   background: black;
+  // position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-size: 6rem;
+    // letter-spacing: -0.3em;
+    letter-spacing: -0.06em;
+    // white-space: nowrap;
+    overflow: hidden;
+    line-height: normal;
+    // position: absolute;
+    // width: 100%;
+    text-align: center;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    color: white;
+    z-index: 10 !important;
+  }
 }
