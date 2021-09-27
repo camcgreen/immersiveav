@@ -13,48 +13,48 @@ const Header = () => {
       <header className="header">
         <div className="header__container">
           <div className="header__container__logo">
-            {/* <Link to="/" className="link"> */}
-            <StaticImage
-              src="../images/immersiveav-logo.png"
-              alt="ImmersiveAV logo"
-              placeholder="none"
-            />
-            {/* </Link> */}
+            <Link to="/" className="link">
+              <StaticImage
+                src="../images/immersiveav-logo.png"
+                alt="ImmersiveAV logo"
+                placeholder="none"
+              />
+            </Link>
           </div>
           <nav className="header__container__navigation">
-            {/* <Link
+            <Link
               className="header__container__navigation__service-links link"
               to="/live"
-            > */}
-            <a className="header__container__navigation__service-links link">
+            >
+              {/* <a className="header__container__navigation__service-links link"> */}
+              {/* Live */}
+              {/* </a> */}
               Live
-            </a>
-            {/* Live */}
-            {/* </Link> */}
-            {/* <Link
+            </Link>
+            <Link
               className="header__container__navigation__service-links link"
               to="/virtual"
-            > */}
-            <a className="header__container__navigation__service-links link">
+            >
+              {/* <a className="header__container__navigation__service-links link"> */}
               Virtual
-            </a>
-            {/* </Link> */}
-            {/* <Link
+              {/* </a> */}
+            </Link>
+            <Link
               className="header__container__navigation__service-links link"
               to="/studio"
-            > */}
-            <a className="header__container__navigation__service-links link">
+            >
+              {/* <a className="header__container__navigation__service-links link"> */}
               Studio
-            </a>
-            {/* </Link> */}
-            {/* <Link
+              {/* </a> */}
+            </Link>
+            <Link
               className="header__container__navigation__service-links link"
               to="/hybrid"
-            > */}
-            <a className="header__container__navigation__service-links link">
+            >
+              {/* <a className="header__container__navigation__service-links link"> */}
               Hybrid
-            </a>
-            {/* </Link> */}
+              {/* </a> */}
+            </Link>
             <button
               className="header__container__navigation__btn link"
               onClick={() => {
