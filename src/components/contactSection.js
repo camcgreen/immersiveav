@@ -11,33 +11,57 @@ const ContactSection = () => {
         alt="Contact us"
       />
       <div className="contact__form">
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
           <p>
-            <label>
-              Name: <input type="text" name="name" required />
-            </label>
+            {/* <label htmlFor="name">Name</label> */}
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name*"
+              required
+            />
           </p>
           <p>
-            <label>
-              Company: <input type="text" name="company" required />
-            </label>
+            {/* <label htmlFor="email">Email</label> */}
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email*"
+              required
+            />
           </p>
           <p>
-            <label>
-              Email: <input type="email" name="email" required />
-            </label>
+            {/* <label htmlFor="email">Email</label> */}
+            <input
+              type="text"
+              id="company"
+              name="company"
+              placeholder="Company*"
+              required
+            />
           </p>
           <p>
-            <label>
-              Phone: <input type="tel" name="phone" />
-            </label>
+            {/* <label htmlFor="email">Email</label> */}
+            <input type="tel" id="phone" name="phone" placeholder="Phone" />
           </p>
           <p>
-            <label>
-              Message: <textarea name="message" required></textarea>
-            </label>
+            {/* <label htmlFor="message">Message</label> */}
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message"
+              required
+            ></textarea>
           </p>
-          <div data-netlify-recaptcha="true"></div>
           <p>
             <button type="submit">Send</button>
           </p>
