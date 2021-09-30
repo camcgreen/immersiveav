@@ -15,6 +15,7 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <img src={frontmatter.featuredImage} alt="" />
       </div>
     </div>
   )
@@ -28,6 +29,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        featuredImage
       }
     }
   }
