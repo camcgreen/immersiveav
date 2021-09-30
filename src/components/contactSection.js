@@ -58,7 +58,7 @@ const ContactSection = () => {
             <textarea
               id="message"
               name="message"
-              placeholder="Your message"
+              placeholder="Your message*"
               required
             ></textarea>
           </p>
