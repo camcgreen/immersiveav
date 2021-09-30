@@ -16,7 +16,13 @@ collections:
       - { name: date, label: Date, widget: datetime, required: true }
       - { name: title, label: Title, required: true }
       - { name: body, label: Body, widget: markdown, required: true }
-      - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - {
+          label: "Featured Image",
+          name: "featuredImage",
+          widget: "image",
+          required: false,
+          optional: true,
+        }
   - name: vacancies
     label: Vacancies
     folder: vacancies
