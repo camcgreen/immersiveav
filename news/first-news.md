@@ -1,7 +1,0 @@
----
-path: news/first-news
-date: 2021-09-30T07:43:36.447Z
-title: First news
-featuredImage: ""
----
-Hello I **am** *news*
