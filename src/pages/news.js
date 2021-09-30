@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
+import "../styles/styles.scss"
+
 const News = ({ data }) => {
   // useEffect(() => {
   //   setTimeout(() => {

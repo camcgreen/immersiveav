@@ -1424,15 +1424,151 @@ $menu-transition-duration: 0.4s;
     margin-top: #{$navHeight + 100px};
     margin-bottom: 100px;
     text-align: center;
+    font-size: 4rem;
   }
   &__list {
     width: 50%;
+    margin-bottom: 100px;
     &__item {
+      // padding-bottom: 40px;
       &__btn {
         width: 100%;
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+        // margin-top: 80px;
+        margin-bottom: 80px;
+        height: 75px;
+
+        font-size: 1.5rem;
+        border: none;
+        border-bottom: solid $black 1px;
+        background: none;
+        // padding-bottom: 20px;
+        // position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        &:hover {
+          border-color: $blue;
+          color: $blue;
+        }
+        &__icon {
+          // position: absolute;
+          // top: 50%;
+          // left: 0;
+          // transform: translateY(-50%);
+          // padding-bottom: 40px;
+        }
+        &__text {
+          // position: absolute;
+          // top: 50%;
+          // left: 50%;
+          // transform: translate(-50%, -50%);
+          // padding-bottom: 40px;
+        }
       }
       &__body {
-        display: none;
+        // display: none;
+        // margin-left: 60px;
+        h2 {
+          margin-top: 40px;
+        }
+        a {
+          // color: $orange;
+          // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
+          // margin-top: 40px;
+        }
+      }
+      &__apply {
+        // color: $orange;
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto;
+        display: inline-block;
+        margin-top: 40px;
+        margin-bottom: 120px;
+        background-color: $black;
+        color: $white;
+        padding: 20px 80px;
+        text-decoration: none;
+        transition: background-color 0.2s ease-in-out;
+        &:hover {
+          background-color: lighten($black, 20%);
+          color: $white !important;
+        }
+      }
+    }
+  }
+}
+
+//FAQs
+.faqs-page {
+  background-color: white;
+  // height: 40vh;
+  // margin-top: $navHeight;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__h1 {
+    font-size: 4rem;
+    margin-top: #{$navHeight + 100px};
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  &__list {
+    list-style: none;
+    width: 75%;
+    margin-bottom: 100px;
+    &__item {
+      // padding-bottom: 40px;
+      &__btn {
+        width: 100%;
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+        // margin-top: 80px;
+        margin-bottom: 80px;
+        font-size: 1.5rem;
+        border: none;
+        border-bottom: solid $black 1px;
+        background: none;
+        // padding-bottom: 20px;
+        // height: 200px;
+        // height: 200%;
+        height: 75px;
+        // position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        &:hover {
+          border-color: $blue;
+          color: $blue;
+        }
+        &__icon {
+          // position: absolute;
+          // top: 50%;
+          // right: 0;
+          // transform: translateY(-50%);
+          // padding-bottom: 40px;
+        }
+        &__text {
+          // position: absolute;
+          // top: 50%;
+          // left: 50%;
+          // transform: translate(-50%, -50%);
+          // padding-bottom: 40px;
+          // top: 50%;
+          // left: 0;
+          // transform: translate(0%, -50%);
+        }
+      }
+      &__body {
+        // display: none;
+        // margin-left: 60px;
+        p {
+          margin-bottom: 80px;
+        }
+        // h2 {
+        //   margin-top: 40px;
+        // }
       }
     }
   }

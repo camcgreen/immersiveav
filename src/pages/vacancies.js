@@ -1,17 +1,16 @@
-import * as React from "react"
+import React, { useState } from "react"
 import { Link, graphql } from "gatsby"
 
 import Header from "../components/header"
 import Footer from "../components/footer"
 
+import "../styles/styles.scss"
 import { contactEmail } from "../utils/helper"
 
 const Vacancies = ({ data }) => {
-  // const posts = data.allMarkdownRemark.nodes
   const posts = data.allMarkdownRemark.edges
 
   console.log(posts)
-  // console.log(posts[0].node.frontmatter.date)
 
   return (
     <div className="wrapper">
@@ -29,18 +28,27 @@ const Vacancies = ({ data }) => {
                       const body = document.querySelectorAll(
                         ".vacancies-page__list__item__body"
                       )[i]
+                      const icon = document.querySelectorAll(
+                        ".vacancies-page__list__item__btn__icon"
+                      )[i]
                       if (body.style.display == "none") {
                         body.style.display = "block"
-                        // body.style.pointerEvents = "all"
+                        icon.innerHTML = "-"
                       } else {
                         body.style.display = "none"
-                        // body.style.pointerEvents = "none"
+                        icon.innerHTML = "+"
                       }
                     }}
                   >
-                    {post.node.frontmatter.title}
+                    <p className="vacancies-page__list__item__btn__text">
+                      {post.node.frontmatter.title}
+                    </p>
+                    <p className="vacancies-page__list__item__btn__icon">+</p>
                   </button>
-                  <div className="vacancies-page__list__item__body">
+                  <div
+                    className="vacancies-page__list__item__body"
+                    style={{ display: "none" }}
+                  >
                     <div
                       className="vacancies-page__list__item__body__info"
                       dangerouslySetInnerHTML={{ __html: post.node.html }}
@@ -65,22 +73,6 @@ const Vacancies = ({ data }) => {
       <Footer />
     </div>
   )
-
-  // return posts.length > 0 ? (
-  //   <>
-  //     <p>There are vacancies.</p>
-  //   </>
-  // ) : (
-  //   <>
-  //     <p>There are no vacancies.</p>
-  //   </>
-  // )
-
-  // return (
-  //   <>
-  //     <p>Vacancies (in development)</p>
-  //   </>
-  // )
 }
 
 export default Vacancies
