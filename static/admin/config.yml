@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: cameron-green-1/immersiveav
+  branch: master
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: news
+    label: News
+    folder: news
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+  - name: vacancies
+    label: Vacancies
+    folder: vacancies
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }

@@ -1424,11 +1424,14 @@ $menu-transition-duration: 0.4s;
   // z-index: 100 !important;
   position: relative;
   &__h1 {
+    font-size: 3rem;
     text-align: center;
     // margin-top: #{$margin * 2};
     // transform: translateY(35%);
-    transform: translateY(#{$margin * 4});
-    margin-bottom: #{$margin * 8};
+    transform: translateY(#{$padding * 2});
+    margin-bottom: #{$padding * 4};
+
+    // padding: #{$padding * 3} 0 #{$padding * 3} 0;
   }
   &__banner {
     // z-index: 100 !important;

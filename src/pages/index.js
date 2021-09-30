@@ -58,7 +58,7 @@ const IndexPage = () => {
           ref={ref}
           // backgroundColour="#3061E0"
           backgroundColour="rgba(48, 97, 224, 0.9)"
-          textColour="white"
+          textColour="#f2f2f2"
           h1={breakText[0].h1}
           p={breakText[0].p}
         />
