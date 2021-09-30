@@ -12,16 +12,17 @@ collections:
     folder: news
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: path, label: Path, required: true }
+      - { name: date, label: Date, widget: datetime, required: true }
+      - { name: title, label: Title, required: true }
+      - { name: body, label: Body, widget: markdown, required: true }
+      - { label: "Featured Image", name: "featuredImage", widget: "image" }
   - name: vacancies
     label: Vacancies
     folder: vacancies
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: path, label: Path, required: true }
+      - { name: date, label: Date, widget: datetime, required: true }
+      - { name: title, label: Title, required: true }
+      - { name: body, label: Body, widget: markdown, required: true }
