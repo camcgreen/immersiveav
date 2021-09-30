@@ -10,3 +10,6 @@ export const breakText = [
     p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Aliquam vel neque et urna fermentum vestibulum condimentum a mi.",
   },
 ]
+
+//Change to immersive
+export const contactEmail = "cameron.green@voxelstudio.co.uk"
