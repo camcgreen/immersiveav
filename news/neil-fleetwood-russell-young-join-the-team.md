@@ -2,7 +2,7 @@
 path: news/neil-fleetwood-russell-young
 date: 2021-04-19T11:29:45.380Z
 title: " Neil Fleetwood & Russell Young Join the Team"
-featuredImage: /assets/neil-and-russell.jpeg
+featuredImage: /assets/neil-and-russell-2.jpg
 ---
 We’re delighted to welcome Neil Fleetwood and Russell Young as Account Directors with the Immersive AV team.
 
