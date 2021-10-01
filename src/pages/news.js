@@ -11,7 +11,7 @@ const News = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
 
   const [currentPage, setCurrentPage] = useState(1)
-  const [postsPerPage] = useState(2)
+  const [postsPerPage] = useState(5)
 
   useEffect(() => {
     const overlays = document.querySelectorAll(
