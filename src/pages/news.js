@@ -1,27 +1,19 @@
-import React, { useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import { Link, graphql } from "gatsby"
 
 import Header from "../components/header"
+import Pagination from "../components/pagination"
 import Footer from "../components/footer"
 
 import "../styles/styles.scss"
 
 const News = ({ data }) => {
-  // useEffect(() => {
-  //   setTimeout(() => {
-  // column.addEventListener("mouseenter", e => {
-  //   }, 100)
-  // }
-  // const posts = data.allMarkdownRemark.nodes
-  // const posts = data.allMarkdownRemark.edges
-
-  // console.log(posts)
-  // console.log(posts[0].node.frontmatter.date)
-
   const posts = data.allMarkdownRemark.edges
 
+  const [currentPage, setCurrentPage] = useState(1)
+  const [postsPerPage] = useState(2)
+
   useEffect(() => {
-    // const posts = data.allMarkdownRemark.edges
     const overlays = document.querySelectorAll(
       ".news-page__item__img-container__overlay"
     )
@@ -37,12 +29,21 @@ const News = ({ data }) => {
         buttons[i].style.opacity = 0
       })
     })
-  })
+  }, [])
+
+  // Get current posts
+  const indexOfLastPost = currentPage * postsPerPage
+  const indexOfFirstPost = indexOfLastPost - postsPerPage
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
+
+  // Change page
+  const paginate = pageNumber => setCurrentPage(pageNumber)
+
   return (
     <div className="wrapper">
       <Header />
       <div className="news-page">
-        {posts.map((post, i) => {
+        {currentPosts.map((post, i) => {
           return (
             <div className="news-page__item">
               <Link
@@ -74,6 +75,11 @@ const News = ({ data }) => {
             </div>
           )
         })}
+        <Pagination
+          postsPerPage={postsPerPage}
+          totalPosts={posts.length}
+          paginate={paginate}
+        />
       </div>
       <Footer />
     </div>
