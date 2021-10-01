@@ -2,7 +2,7 @@
 path: news/immersive-av-join-essa
 date: 2021-08-23T13:18:05.431Z
 title: Immersive AV Join ESSA
-featuredImage: /assets/essa-story-website.png
+featuredImage: /assets/essa-logo.jpg
 ---
 We’re delighted to announce that Immersive AV are now a fully-fledged member of the Event Supplier and Services Association: [ESSA](https://www.essa.uk.com/). Whilst we’ve had a close relationship with the event industry’s leading trade body through our sister company ITR, the time is right for Immersive AV to be a member in its own right.
 
