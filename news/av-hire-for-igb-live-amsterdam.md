@@ -1,6 +1,6 @@
 ---
 path: news/av-hire-igb-live-amsterdam
-date: 2021-10-01T11:18:27.946Z
+date: 2021-08-05T11:18:27.946Z
 title: AV Hire for iGB Live Amsterdam
 featuredImage: /assets/adobestock_106812593-scaled.jpeg
 ---
