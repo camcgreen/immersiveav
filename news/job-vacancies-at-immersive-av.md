@@ -4,9 +4,15 @@ date: 2021-07-09T11:19:57.820Z
 title: Job Vacancies at Immersive AV
 featuredImage: /assets/website-stream-management-services-header.jpeg
 ---
-# Job Vacancies at Immersive AV
+## Vacancies at Immersive AV
 
 Now the government has given the green light for events of all shapes and sizes to resume after 19th July, were excited to be recruiting for a number of permanent and freelance positions, both onsite and in our Telford warehouse
+
+
+
+[View our live list of vacancies.](../vacancies)
+
+
 
 ## AV Technicians
 
