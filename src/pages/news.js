@@ -14,21 +14,20 @@ const News = ({ data }) => {
   const [postsPerPage] = useState(5)
 
   useEffect(() => {
-    const overlays = document.querySelectorAll(
-      ".news-page__item__img-container__overlay"
-    )
-    const buttons = document.querySelectorAll(
-      ".news-page__item__img-container__btn"
-    )
-
-    overlays.forEach((overlay, i) => {
-      overlay.addEventListener("mouseenter", e => {
-        buttons[i].style.opacity = 1
-      })
-      overlay.addEventListener("mouseleave", e => {
-        buttons[i].style.opacity = 0
-      })
-    })
+    // const overlays = document.querySelectorAll(
+    //   ".news-page__item__img-container__overlay"
+    // )
+    // const buttons = document.querySelectorAll(
+    //   ".news-page__item__img-container__btn"
+    // )
+    // overlays.forEach((overlay, i) => {
+    //   overlay.addEventListener("mouseenter", e => {
+    //     buttons[i].style.opacity = 1
+    //   })
+    //   overlay.addEventListener("mouseleave", e => {
+    //     buttons[i].style.opacity = 0
+    //   })
+    // })
   }, [])
 
   // Get current posts
@@ -79,6 +78,7 @@ const News = ({ data }) => {
           postsPerPage={postsPerPage}
           totalPosts={posts.length}
           paginate={paginate}
+          currentPage={currentPage}
         />
       </div>
       <Footer />
@@ -88,25 +88,12 @@ const News = ({ data }) => {
 
 export default News
 
-// export const pageQuery = graphql`
-//   allMarkdownRemark(filter: {frontmatter: {path: {glob: "news/*"}}}) {
-//     edges {
-//       node {
-//         html
-//         frontmatter {
-//           date
-//           featuredImage
-//           path
-//           title
-//         }
-//       }
-//     }
-//   }
-// `
-
 export const pageQuery = graphql`
   query QueryNews {
-    allMarkdownRemark(filter: { frontmatter: { path: { glob: "news/*" } } }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { path: { glob: "news/*" } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       edges {
         node {
           html

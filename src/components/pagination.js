@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import "../styles/styles.scss"
 
-const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
+const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
   const pageNumbers = []
   let scrollDiv
 
@@ -30,7 +30,10 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
                 // paginate(number)
               }}
               href="!#"
-              className="page-link"
+              // className="page-link"
+              className={
+                currentPage === number ? "page-link page-selected" : "page-link"
+              }
             >
               {number}
             </a>

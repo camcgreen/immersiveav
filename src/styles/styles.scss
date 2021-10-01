@@ -1429,6 +1429,7 @@ $menu-transition-duration: 0.4s;
   &__list {
     width: 50%;
     margin-bottom: 100px;
+    list-style: none;
     &__item {
       // padding-bottom: 40px;
       &__btn {
@@ -1578,6 +1579,10 @@ $menu-transition-duration: 0.4s;
 .news-page {
   margin-top: $navHeight;
   background-color: white;
+  // position: relative;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
 
   &__item {
     display: flex;
@@ -1600,10 +1605,26 @@ $menu-transition-duration: 0.4s;
     }
     &__img-container {
       width: 100%;
-      height: 500px;
+      height: 750px;
       overflow: hidden;
       position: relative;
       cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+      a {
+        &:hover {
+          // &__overlay {
+          //   opacity: 0.5;
+          // }
+          .news-page__item__img-container__btn {
+            opacity: 1;
+          }
+          .news-page__item__img-container__overlay {
+            opacity: 0.5;
+          }
+          .news-page__item__img-container__img {
+            transform: scale(1.2);
+          }
+        }
+      }
       &__img {
         position: absolute;
         top: 0;
@@ -1611,7 +1632,17 @@ $menu-transition-duration: 0.4s;
         width: 100%;
         height: 100%;
         object-fit: cover;
+        object-position: center 25%;
         transition: transform 0.2s ease-in-out;
+        // transform: scale(2);
+        // &:hover {
+        //   // &__overlay {
+        //   //   opacity: 0.5;
+        //   // }
+        //   .news-page__item__img-container__btn {
+        //     opacity: 1;
+        //   }
+        // }
       }
       &__overlay {
         position: absolute;
@@ -1622,20 +1653,13 @@ $menu-transition-duration: 0.4s;
         background-color: $black;
         opacity: 0;
         transition: opacity 0.2s ease-in-out;
-        &:hover {
-          opacity: 0.5;
-          // .news-page__item__img-container__img {
-          //   transform: scale(1.2);
-          // }
-          // .news-page__item__img-container__btn {
-          //   opacity: 1;
-          //   background: lightblue !important;
-          // }
-        }
+        // &:hover {
+        //   opacity: 0.5;
+        // }
       }
       &__btn {
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
-        pointer-events: none;
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+        // pointer-events: none;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1654,6 +1678,41 @@ $menu-transition-duration: 0.4s;
   }
 }
 
+// Pagination
+.pagination {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  // display: flex;
+  // align-self: center;
+  // justify-self: center;
+  // width: 100%;
+  // margin-left: 50%;
+  // transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+  a {
+    cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+    padding: 40px;
+    color: $black;
+    &:hover {
+      color: lighten($black, 20%);
+    }
+  }
+}
+
+.page-selected {
+  color: $orange !important;
+}
+
 // CMS
 .cms-container {
   background-color: $white;
@@ -1669,21 +1728,30 @@ $menu-transition-duration: 0.4s;
       max-width: 50%;
     }
     &__date {
-      font-size: 1rem;
+      font-size: 1.25rem;
       margin-bottom: 100px;
       font-weight: 300;
     }
     &__img {
       width: 100%;
-      height: 400px;
+      height: 750px;
       object-fit: cover;
+      // object-position: center 25%;
       margin-bottom: 100px;
     }
     &__body {
       width: 50%;
       max-width: 1500px;
       margin-bottom: 100px;
-
+      // font-size: 20px;
+      font-size: 1.25rem;
+      img {
+        width: 100%;
+      }
+      h2:not(:first-child) {
+        margin-top: 60px;
+        margin-bottom: 30px;
+      }
       a {
         color: $orange;
         cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;

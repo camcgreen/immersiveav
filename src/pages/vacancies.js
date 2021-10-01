@@ -17,11 +17,11 @@ const Vacancies = ({ data }) => {
       <Header />
       <div className="vacancies-page">
         <h1 className="vacancies-page__h1">Vacancies</h1>
-        <div className="vacancies-page__list">
+        <li className="vacancies-page__list">
           {posts.length > 0 ? (
             posts.map((post, i) => {
               return (
-                <div className="vacancies-page__list__item">
+                <li className="vacancies-page__list__item">
                   <button
                     className="vacancies-page__list__item__btn"
                     onClick={() => {
@@ -62,13 +62,13 @@ const Vacancies = ({ data }) => {
                       Apply
                     </a>
                   </div>
-                </div>
+                </li>
               )
             })
           ) : (
             <p>There are no posts.</p>
           )}
-        </div>
+        </li>
       </div>
       <Footer />
     </div>
