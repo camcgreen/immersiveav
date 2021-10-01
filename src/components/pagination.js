@@ -1,13 +1,17 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "../styles/styles.scss"
 
 const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
   const pageNumbers = []
-  const scrollDiv = document.querySelector(".scroll")
+  let scrollDiv
 
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
     pageNumbers.push(i)
   }
+
+  useEffect(() => {
+    scrollDiv = document.querySelector(".scroll")
+  }, [])
 
   return (
     <nav>
