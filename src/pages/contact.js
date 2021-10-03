@@ -3,6 +3,7 @@ import "../styles/styles.scss"
 
 import Header from "../components/header"
 import SectionBreak from "../components/sectionBreak"
+import PhoneEmail from "../components/phoneEmail"
 import ContactSection from "../components/contactSection"
 import Footer from "../components/footer"
 
@@ -17,6 +18,7 @@ const Contact = () => {
         h1="Contact us"
       /> */}
       <ContactSection />
+      <PhoneEmail />
       <Footer />
     </div>
   )

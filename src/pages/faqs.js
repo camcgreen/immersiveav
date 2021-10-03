@@ -1,24 +1,27 @@
 import * as React from "react"
 
 import Header from "../components/header"
+import PhoneEmail from "../components/phoneEmail"
 import Footer from "../components/footer"
 
 import { faqsList } from "../utils/helper"
 import "../styles/styles.scss"
+import Phone from "../components/phone"
 
 const FAQs = () => {
   return (
     <div className="wrapper">
       <Header />
       <div className="faqs-page">
-        <h1 className="faqs-page__h1">Frequently Asked Questions</h1>
-        <ul className="faqs-page__list">
+        <h1 className="faqs-page__h1">FAQs</h1>
+        <ul className="faqs-page__list" style={{ paddingLeft: 0 }}>
           {faqsList.length > 0 ? (
             faqsList.map((faq, i) => {
               return (
                 <li className="faqs-page__list__item">
                   {/* {faqsList[i].q} */}
                   <button
+                    style={{ marginBottom: i === faqsList.length - 1 ? 0 : 80 }}
                     className="faqs-page__list__item__btn"
                     onClick={() => {
                       const body = document.querySelectorAll(
@@ -55,6 +58,7 @@ const FAQs = () => {
           )}
         </ul>
       </div>
+      <PhoneEmail />
       <Footer />
     </div>
   )

@@ -29,6 +29,10 @@ const IndexPage = () => {
   // }
   // let loaded = false
   useEffect(async () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    })
     // customMouse()
     if (window.sessionStorage.getItem("firstLoadDone") === null) {
       // await this.setState({ loaded: false });
@@ -43,9 +47,9 @@ const IndexPage = () => {
     } else {
       setLoaded(true)
     }
-  })
-  console.log(loaded)
-  setTimeout(() => console.log(loaded), 2300)
+  }, [])
+  // console.log(loaded)
+  // setTimeout(() => console.log(loaded), 2300)
   const ref = useRef(null)
   return (
     <div className="wrapper">

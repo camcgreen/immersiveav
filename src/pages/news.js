@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Header from "../components/header"
 import Pagination from "../components/pagination"
+import PhoneEmail from "../components/phoneEmail"
 import Footer from "../components/footer"
 
 import "../styles/styles.scss"
@@ -45,15 +46,15 @@ const News = ({ data }) => {
         {currentPosts.map((post, i) => {
           return (
             <div className="news-page__item">
-              <Link
+              {/* <Link
                 // className="header__container__navigation__service-links link"
                 className="news-page__item__link"
                 to={`../${post.node.frontmatter.path}`}
-              >
-                <h1 className="news-page__item__link__title" key={i}>
-                  {post.node.frontmatter.title}
-                </h1>
-              </Link>
+              > */}
+              <h1 className="news-page__item__link__title" key={i}>
+                {post.node.frontmatter.title}
+              </h1>
+              {/* </Link> */}
               <div className="news-page__item__img-container">
                 <Link
                   // className="header__container__navigation__service-links link"
@@ -80,6 +81,7 @@ const News = ({ data }) => {
           paginate={paginate}
           currentPage={currentPage}
         />
+        <PhoneEmail />
       </div>
       <Footer />
     </div>

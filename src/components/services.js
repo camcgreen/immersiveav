@@ -69,9 +69,9 @@ const Services = () => {
       })
       const discoverTl = gsap.timeline()
       const discoverText = document.querySelectorAll(".services__column__btn")
-      console.log(discoverText)
+      // console.log(discoverText)
       discoverText.forEach(text => {
-        console.log(text)
+        // console.log(text)
         text.addEventListener("mouseenter", e => {
           discoverTl.clear()
           discoverTl.to(text, {
@@ -82,7 +82,7 @@ const Services = () => {
         })
       })
       discoverText.forEach(text => {
-        console.log(text)
+        // console.log(text)
         text.addEventListener("mouseleave", e => {
           discoverTl.clear()
           discoverTl.to(text, {

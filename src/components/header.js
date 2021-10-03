@@ -13,7 +13,17 @@ const Header = () => {
       <header className="header">
         <div className="header__container">
           <div className="header__container__logo">
-            <Link to="/" className="link">
+            <Link
+              to="/"
+              className="link"
+              onClick={() => {
+                // window.location.reload()
+                // if (location.pathname === "/" && prevLocation === "/") {
+                //   console.log("already on this route")
+                //   return
+                // }
+              }}
+            >
               <StaticImage
                 src="../images/immersiveav-logo.png"
                 alt="ImmersiveAV logo"

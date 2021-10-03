@@ -1,7 +1,8 @@
-import React, { useState } from "react"
-import { Link, graphql } from "gatsby"
+import React from "react"
+import { graphql } from "gatsby"
 
 import Header from "../components/header"
+import PhoneEmail from "../components/phoneEmail"
 import Footer from "../components/footer"
 
 import "../styles/styles.scss"
@@ -10,20 +11,21 @@ import { contactEmail } from "../utils/helper"
 const Vacancies = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
 
-  console.log(posts)
+  // console.log(posts)
 
   return (
     <div className="wrapper">
       <Header />
       <div className="vacancies-page">
         <h1 className="vacancies-page__h1">Vacancies</h1>
-        <li className="vacancies-page__list">
+        <li className="vacancies-page__list" style={{ paddingLeft: 0 }}>
           {posts.length > 0 ? (
             posts.map((post, i) => {
               return (
                 <li className="vacancies-page__list__item">
                   <button
                     className="vacancies-page__list__item__btn"
+                    style={{ marginBottom: i === posts.length - 1 ? 0 : 80 }}
                     onClick={() => {
                       const body = document.querySelectorAll(
                         ".vacancies-page__list__item__body"
@@ -31,7 +33,7 @@ const Vacancies = ({ data }) => {
                       const icon = document.querySelectorAll(
                         ".vacancies-page__list__item__btn__icon"
                       )[i]
-                      if (body.style.display == "none") {
+                      if (body.style.display === "none") {
                         body.style.display = "block"
                         icon.innerHTML = "-"
                       } else {
@@ -70,6 +72,7 @@ const Vacancies = ({ data }) => {
           )}
         </li>
       </div>
+      <PhoneEmail />
       <Footer />
     </div>
   )

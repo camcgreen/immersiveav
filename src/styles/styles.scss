@@ -187,6 +187,9 @@ body {
     z-index: 40;
     &__logo {
       width: 200px;
+      img {
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+      }
     }
     &__navigation {
       width: 350px;
@@ -253,13 +256,14 @@ body {
   z-index: 18;
   margin-left: $margin;
   margin-bottom: $margin;
+  cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
   &__btn {
     // background: none;
     border: none;
     // border: solid $black 1px;
     border-radius: 50%;
     // cursor: pointer;
-    cursor: url("https://svgshare.com/i/aAs.svg"), auto;
+    cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
     // width: 48px;
     // height: 48px;
     padding: #{$padding * 0.5};
@@ -293,6 +297,7 @@ body {
     // cursor: pointer;
     cursor: url("https://svgshare.com/i/aAs.svg"), auto;
     a {
+      cursor: url("https://svgshare.com/i/aAs.svg"), auto;
       text-decoration: none;
       // width: 0%;
       // height: 0%;
@@ -372,6 +377,7 @@ $menu-transition-duration: 0.4s;
     }
   }
   &__items {
+    padding-left: 0 !important;
     transform: skew(8deg, 0);
     list-style: none;
     font-size: 5rem;
@@ -432,14 +438,14 @@ $menu-transition-duration: 0.4s;
       }
     }
   }
-  @media (max-width: $tablet-width) and (min-width: $mobile-width) {
-    &__items {
-      font-size: 4rem;
-    }
-  }
   @media (max-width: $mobile-width) {
     &__items {
-      font-size: 4rem;
+      font-size: 3rem;
+    }
+  }
+  @media (max-width: $tablet-width) and (min-width: $mobile-width) {
+    &__items {
+      font-size: 5rem;
     }
   }
 }
@@ -572,13 +578,18 @@ $menu-transition-duration: 0.4s;
     justify-content: center;
     align-items: center;
     text-align: center;
+    // opacity: 0;
+    // transform: translateY(200%);
     &__h1 {
       font-size: 3rem;
       font-weight: 500;
     }
     &__p {
       margin-top: #{$margin * 2};
-      max-width: 50%;
+      // max-width: 75%;
+      width: 75%;
+      max-width: 1000px;
+      min-width: 250px;
       font-size: 2rem;
       font-weight: 300;
       white-space: pre-wrap;
@@ -1425,11 +1436,19 @@ $menu-transition-duration: 0.4s;
     margin-bottom: 100px;
     text-align: center;
     font-size: 4rem;
+    @media (max-width: $mobile-width) {
+      font-size: 3rem;
+    }
   }
   &__list {
-    width: 50%;
+    width: 75%;
+    min-width: 500px;
+    max-width: 1000px;
     margin-bottom: 100px;
     list-style: none;
+    @media (max-width: $mobile-width) {
+      min-width: 250px;
+    }
     &__item {
       // padding-bottom: 40px;
       &__btn {
@@ -1438,8 +1457,9 @@ $menu-transition-duration: 0.4s;
         // margin-top: 80px;
         margin-bottom: 80px;
         height: 75px;
-
+        text-align: left;
         font-size: 1.5rem;
+        font-weight: 500;
         border: none;
         border-bottom: solid $black 1px;
         background: none;
@@ -1459,6 +1479,9 @@ $menu-transition-duration: 0.4s;
           // left: 0;
           // transform: translateY(-50%);
           // padding-bottom: 40px;
+          @media (max-width: $mobile-width) {
+            display: none;
+          }
         }
         &__text {
           // position: absolute;
@@ -1471,6 +1494,7 @@ $menu-transition-duration: 0.4s;
       &__body {
         // display: none;
         // margin-left: 60px;
+        font-size: 1.25rem;
         h2 {
           margin-top: 40px;
         }
@@ -1478,6 +1502,9 @@ $menu-transition-duration: 0.4s;
           // color: $orange;
           // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
           // margin-top: 40px;
+        }
+        p {
+          // font-size: 1.25rem;
         }
       }
       &__apply {
@@ -1513,19 +1540,31 @@ $menu-transition-duration: 0.4s;
     margin-top: #{$navHeight + 100px};
     margin-bottom: 100px;
     text-align: center;
+    max-width: 500px;
+    @media (max-width: $mobile-width) {
+      font-size: 3rem;
+    }
   }
   &__list {
     list-style: none;
     width: 75%;
+    min-width: 500px;
+    max-width: 1000px;
     margin-bottom: 100px;
+    padding-left: 0 important;
+    @media (max-width: $mobile-width) {
+      min-width: 250px;
+    }
     &__item {
       // padding-bottom: 40px;
       &__btn {
         width: 100%;
         cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         // margin-top: 80px;
-        margin-bottom: 80px;
+        // margin-bottom: 80px;
         font-size: 1.5rem;
+        font-weight: 500;
+        text-align: left;
         border: none;
         border-bottom: solid $black 1px;
         background: none;
@@ -1549,6 +1588,9 @@ $menu-transition-duration: 0.4s;
           // right: 0;
           // transform: translateY(-50%);
           // padding-bottom: 40px;
+          @media (max-width: $mobile-width) {
+            display: none;
+          }
         }
         &__text {
           // position: absolute;
@@ -1566,6 +1608,8 @@ $menu-transition-duration: 0.4s;
         // margin-left: 60px;
         p {
           margin-bottom: 80px;
+          font-size: 1.25rem;
+          // opacity: 0.75;
         }
         // h2 {
         //   margin-top: 40px;
@@ -1590,24 +1634,38 @@ $menu-transition-duration: 0.4s;
     &__link {
       cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       text-decoration: none;
-      color: $black;
-      align-self: center;
-      margin: 100px;
-      text-align: center;
-      transition: color 0.2s ease-in-out;
       &:hover {
         color: lighten($black, 20%);
       }
       &__title {
         font-size: 4rem;
+        align-self: center;
+        margin: 100px;
+        text-align: center;
+        transition: color 0.2s ease-in-out;
       }
       max-width: 50%;
+      @media (max-width: $mobile-width) {
+        // max-width: 80%;
+        &__title {
+          font-size: 2rem;
+          margin: 80px;
+        }
+      }
     }
     &__img-container {
       width: 100%;
       height: 750px;
       overflow: hidden;
       position: relative;
+      @media (max-width: $mobile-width) {
+        height: 350px;
+        &__img {
+          &__btn {
+            font-size: 1rem;
+          }
+        }
+      }
       cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       a {
         &:hover {
@@ -1697,20 +1755,171 @@ $menu-transition-duration: 0.4s;
   justify-content: center;
 }
 
-.page-item {
-  cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
-  a {
-    cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
-    padding: 40px;
-    color: $black;
-    &:hover {
-      color: lighten($black, 20%);
+// .phone-email {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-evenly;
+//   background-color: $white;
+//   // padding-left: 200px;
+//   // padding-right: 200px;
+//   padding-left: 200px;
+//   padding-right: 200px;
+//   padding-bottom: 100px;
+//   overflow: hidden;
+//   &__svg {
+//     margin-right: 20px;
+//     width: 48px;
+//     height: 48px;
+//   }
+//   &__text {
+//     font-size: 1.25rem;
+//     text-decoration: none;
+//     color: $black;
+//     cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+//     word-wrap: none !important;
+//     &:hover {
+//       color: $blue;
+//     }
+//   }
+//   &__container {
+//     display: flex;
+//     align-items: center;
+//     overflow: hidden;
+//     // width: 100vw;
+//   }
+//   @media (max-width: $tablet-width) and (min-width: $mobile-width) {
+//     padding-left: 80px;
+//     padding-right: 80px;
+//     &__svg {
+//       // margin-right: 20px;
+//       width: 36px;
+//       height: 36px;
+//     }
+//     &__text {
+//       font-size: 1rem;
+//     }
+//   }
+//   @media (max-width: $mobile-width) {
+//     flex-direction: column;
+//     // align-items: center;
+//     // justify-content: center;
+//     // padding-left: 40px;
+//     // padding-right: 40px;
+//     &__svg {
+//       // margin-right: 10px;
+//       width: 36px;
+//       height: 36px;
+//     }
+//     a {
+//       // margin: 0;
+//     }
+//     &__text {
+//       font-size: 1rem;
+//     }
+//     &__container {
+//       // align-self: center;
+//       // justify-self: center;
+//       // width: 200px;
+//       &:first-child {
+//         margin-bottom: 20px;
+//       }
+//     }
+//   }
+// }
+
+// .page-item {
+//   cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+//   a {
+//     cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+//     padding: 40px;
+//     border-radius: 0 !important;
+//     color: $black;
+//     &:hover {
+//       color: lighten($black, 20%);
+//     }
+//   }
+// }
+
+// Phone email
+.phone-email {
+  background-color: $white;
+  // width: 100%;
+  padding-bottom: 100px;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    &__block {
+      a {
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+      }
+      cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+      margin-right: 80px;
+      &:hover &__svg {
+        path {
+          fill: $blue;
+        }
+      }
+      &:hover &__text {
+        color: $blue !important;
+      }
+      &__svg {
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+        margin-right: 20px;
+        width: 36px;
+        height: 36px;
+        path {
+          transition: fill 0.2s ease-in-out;
+        }
+        // &:hover {
+        //   path {
+        //     fill: $blue;
+        //   }
+        //   .phone-email__container__block__text {
+        //     color: $blue;
+        //   }
+        // }
+      }
+      &__text {
+        text-decoration: none;
+        color: $black;
+        cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+        transition: color 0.2s ease-in-out;
+        font-size: 1.25rem;
+        // &:hover {
+        //   color: $blue;
+        // }
+      }
+    }
+  }
+  @media (max-width: $mobile-width) {
+    &__container {
+      // flex-direction: column;
+      // align-items: flex-start;
+      // align-items: center;
+
+      &__block {
+        margin-right: 0;
+        &:first-child {
+          // margin-top: 20px;
+          margin-right: 80px;
+        }
+        &__svg {
+          width: 48px;
+          height: 48px;
+          margin-right: 0 !important;
+        }
+        &__text {
+          display: none;
+        }
+      }
     }
   }
 }
 
 .page-selected {
-  color: $orange !important;
+  color: $blue !important;
 }
 
 // CMS
@@ -1725,7 +1934,11 @@ $menu-transition-duration: 0.4s;
       margin-bottom: 40px;
       text-align: center;
       font-size: 4rem;
-      max-width: 50%;
+      max-width: 75%;
+      min-width: 500px;
+      @media (max-width: $mobile-width) {
+        font-size: 3rem;
+      }
     }
     &__date {
       font-size: 1.25rem;
@@ -1740,9 +1953,12 @@ $menu-transition-duration: 0.4s;
       margin-bottom: 100px;
     }
     &__body {
-      width: 50%;
+      width: 75%;
+      min-width: 500px;
       max-width: 1500px;
       margin-bottom: 100px;
+      white-space: normal;
+      word-break: break-word;
       // font-size: 20px;
       font-size: 1.25rem;
       img {
@@ -1764,6 +1980,17 @@ $menu-transition-duration: 0.4s;
       margin-bottom: 100px;
       &:hover {
         background-color: lighten($black, 20%);
+      }
+    }
+    @media (max-width: $mobile-width) {
+      &__title {
+        min-width: 250px;
+      }
+      &__body {
+        min-width: 250px;
+      }
+      &__img {
+        height: 350px;
       }
     }
   }
@@ -1798,6 +2025,9 @@ $menu-transition-duration: 0.4s;
     overflow: none;
     object-fit: cover;
     object-position: center;
+    @media (max-width: $tablet-width) {
+      height: 350px;
+    }
   }
   &__form {
     display: flex;
@@ -1816,6 +2046,9 @@ $menu-transition-duration: 0.4s;
         &:focus {
           outline: solid $blue 1px;
         }
+        @media (max-width: $tablet-width) {
+          width: 90vw;
+        }
       }
       textarea {
         width: 60vw;
@@ -1824,6 +2057,9 @@ $menu-transition-duration: 0.4s;
         padding: 20px;
         &:focus {
           outline: solid $blue 1px;
+        }
+        @media (max-width: $tablet-width) {
+          width: 90vw;
         }
       }
       button {
@@ -1835,6 +2071,9 @@ $menu-transition-duration: 0.4s;
         transition: background-color 0.2s ease-in-out;
         &:hover {
           background-color: lighten($black, 20%);
+        }
+        @media (max-width: $tablet-width) {
+          width: 100%;
         }
       }
     }
