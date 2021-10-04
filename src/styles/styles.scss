@@ -587,7 +587,7 @@ $menu-transition-duration: 0.4s;
     &__p {
       // margin-top: #{$margin * 2};
       // max-width: 75%;
-      span {
+      &__title {
         font-size: 3rem;
         font-weight: 500;
       }
@@ -628,6 +628,12 @@ $menu-transition-duration: 0.4s;
       &__p {
         font-size: 1.5rem;
         max-width: 75%;
+        // display: none;
+        &__body {
+          display: none;
+        }
+      }
+      br {
         display: none;
       }
     }
@@ -1287,8 +1293,22 @@ $menu-transition-duration: 0.4s;
         &--1 {
           transform: translate(-50%, 200%);
         }
+        @media (max-width: $tablet-width) {
+          font-size: 1.25rem;
+          transform: translateY(400%);
+          &--1 {
+            transform: translate(-50%, 400%);
+          }
+        }
       }
     }
+    // @media (max-width: $tablet-width) and (min-width: $mobile-width) {
+    //   &__box {
+    //     &__description {
+    //       color: red !important;
+    //     }
+    //   }
+    // }
     @media (max-width: 625px) {
       flex-direction: column;
       &__box {
@@ -1767,6 +1787,22 @@ $menu-transition-duration: 0.4s;
   justify-content: center;
 }
 
+.page-item {
+  cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+  a {
+    cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
+    padding: 40px;
+    border-radius: 0 !important;
+    color: $black;
+    &:hover {
+      color: lighten($black, 20%);
+    }
+  }
+}
+.page-selected {
+  color: $blue !important;
+}
+
 // .phone-email {
 //   display: flex;
 //   flex-direction: row;
@@ -1835,19 +1871,6 @@ $menu-transition-duration: 0.4s;
 //       &:first-child {
 //         margin-bottom: 20px;
 //       }
-//     }
-//   }
-// }
-
-// .page-item {
-//   cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
-//   a {
-//     cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
-//     padding: 40px;
-//     border-radius: 0 !important;
-//     color: $black;
-//     &:hover {
-//       color: lighten($black, 20%);
 //     }
 //   }
 // }
@@ -1928,10 +1951,6 @@ $menu-transition-duration: 0.4s;
       }
     }
   }
-}
-
-.page-selected {
-  color: $blue !important;
 }
 
 // CMS

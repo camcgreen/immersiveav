@@ -200,7 +200,14 @@ const IndexPage = () => {
               {breakText[0].h1}
             </h1> */}
             <p className="break__container__p break__container__p--0">
-              <span>{breakText[0].h1}</span> <br /> <br /> {breakText[0].p}
+              {/* <span>{breakText[0].h1}</span> <br /> <br /> {breakText[0].p} */}
+              <span className="break__container__p__title">
+                {breakText[0].h1}
+              </span>{" "}
+              <br /> <br />{" "}
+              <span className="break__container__p__body">
+                {breakText[0].p}
+              </span>
             </p>
             {/* <p className="break__container__p break__container__p--0">
               {breakText[0].p}
@@ -226,7 +233,9 @@ const IndexPage = () => {
               {breakText[1].h1}
             </h1> */}
             <p className="break__container__p break__container__p--1">
-              <span>{breakText[1].h1}</span>
+              <span className="break__container__p__title">
+                {breakText[1].h1}
+              </span>
             </p>
           </div>
         </div>
@@ -250,7 +259,9 @@ const IndexPage = () => {
               {breakText[2].h1}
             </h1> */}
             <p className="break__container__p break__container__p--2">
-              <span>{breakText[2].h1}</span>
+              <span className="break__container__p__title">
+                {breakText[2].h1}
+              </span>
             </p>
           </div>
         </div>
@@ -277,7 +288,13 @@ const IndexPage = () => {
               {breakText[3].p}
             </p> */}
             <p className="break__container__p break__container__p--3">
-              <span>{breakText[3].h1}</span> <br /> <br /> {breakText[3].p}
+              <span className="break__container__p__title">
+                {breakText[3].h1}
+              </span>{" "}
+              <br /> <br />{" "}
+              <span className="break__container__p__body">
+                {breakText[3].p}
+              </span>
             </p>
           </div>
         </div>
