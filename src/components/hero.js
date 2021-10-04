@@ -32,12 +32,12 @@ const Hero = props => {
       }
 
       ScrollTrigger.getAll().forEach(instance => {
-        instance.kill()
+        // instance.kill()
       })
       // This in case a scroll animation is active while the route is updated
-      gsap.killTweensOf(window)
+      // gsap.killTweensOf(window)
 
-      ScrollTrigger.refresh()
+      // ScrollTrigger.refresh()
 
       const breaksArr = gsap.utils.toArray(".break")
       const firstBreak = breaksArr[0]

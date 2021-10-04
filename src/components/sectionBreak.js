@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { SplitText } from "gsap/SplitText"
 
 const SectionBreak = props => {
   useEffect(() => {
@@ -65,6 +66,37 @@ const SectionBreak = props => {
     //     },
     //   })
     // })
+
+    // if (typeof window !== "undefined") {
+    //   gsap.registerPlugin(ScrollTrigger)
+    //   gsap.registerPlugin(SplitText)
+    // }
+    // let sectionTl = gsap.timeline()
+    // const sectionHeaders = gsap.utils.toArray(".break__container__h1")
+    // // console.log(sectionHeaders)
+    // new SplitText(sectionHeaders[0], {
+    //   type: "lines",
+    //   linesClass: "line-child",
+    // })
+    // new SplitText(sectionHeaders[0], {
+    //   type: "lines",
+    //   linesClass: "line-parent",
+    // })
+    // sectionTl.from(
+    //   ".line-child",
+    //   {
+    //     duration: 1.8,
+    //     y: 140,
+    //     opacity: 0,
+    //     ease: "power4.out",
+    //     stagger: {
+    //       amount: 0.2,
+    //     },
+    //   },
+    //   "+=0"
+    // )
+
+    console.log("useEffect")
   }, [])
   return (
     <div

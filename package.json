@@ -19,7 +19,7 @@
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-transformer-remark": "^4.11.0",
     "gatsby-transformer-sharp": "^3.13.0",
-    "gsap": "^3.7.1",
+    "gsap": "file:gsap-bonus.tgz",
     "netlify-cms-app": "^2.15.45",
     "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",
