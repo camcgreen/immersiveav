@@ -1,0 +1,137 @@
+
+/*********************************************************BODY OF SECTIONS***********************************/
+
+//BODY OF SECTIONS
+.mainServices{
+    display: table-cell;
+    
+    //position:relative;
+    
+}
+
+.servicesSections{
+    background-image: url("../svg/logoOnlyBlue.svg");
+    background-color: rgba(255, 255, 255, 0.9);
+    background-repeat: no-repeat!important;
+    background-size: 110%;
+    background-position-y: top!important;
+    background-position: 850%;
+    //padding: 8vw;
+    height: 220vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+/*********************************************FIRST SECTION*********************************************/
+//FIRST SECTION
+
+.firstTitleBox{
+        
+
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.firstTitleBoxText{
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+
+
+/**************************************************SECOND SECTION******************************************/
+
+
+//SECOND SECTION
+.servicesSecondSection{
+    background-image: url("../svg/logoOnlyYellow.svg");
+    background-repeat: no-repeat!important;
+    background-size: 110%;
+    background-position-y: top!important;
+    background-position: -510%;
+    width: 100vw;
+    height: 110vh;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+   
+}
+
+.servicesSecondTitleBox{
+
+    width: 100%;
+  //height: ;
+  position: relative;
+}
+
+
+/**********************************************************THIRD SECTION**********************************/
+
+//THIRD SECTION
+
+
+.servicesThirdSection{
+    background-image: url("../svg/logoOnlyYellow.svg");
+    background-repeat: no-repeat!important;
+    background-size: 110%;
+    background-position-y: top!important;
+    background-position: -510%;
+    width: 100vw;
+    height: 110vh;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+   
+}
+
+.servicesThirdTitleBox{
+
+    width: 100%;
+  ///height: ;
+  position: relative;
+}
+
+/*********************************************************FOURTH SECTION***********************************/
+//FOURTH SECTION
+
+
+
+
+.servicesFourthSection{
+    background-image: url("../svg/logoOnlyYellow.svg");
+    background-repeat: no-repeat!important;
+    background-size: 110%;
+    background-position-y: top!important;
+    background-position: -510%;
+    width: 100vw;
+    height: 110vh;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+   
+}
+
+.servicesFourthTitleBox{
+
+    width: 100%;
+  //height: ;
+  position: relative;
+}
+
+   
+
+
+

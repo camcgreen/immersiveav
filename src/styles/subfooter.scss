@@ -1,0 +1,58 @@
+//Colours
+$white: #fff;
+$black: #000;
+$blue: #3061e0;
+$orange: #f57b17;
+$expo-blue: #00adef;
+$purple: #3a2742;
+$off-white: #f2f2f2;
+$transparent:rgba(255, 255, 255, 0);
+
+
+
+//Margin and padding
+$margin: 20px;
+$padding: 40px;
+
+//Width and height
+$maxWidth: 70%;
+$navHeight: 107px;
+$viewportHeight: 85vh;
+
+//Responsive
+$mobile-width: 768px;
+$tablet-width: 1024px;
+
+
+.subfooterCase{
+    width: 100%;
+    height: calc(100vh - #{$navHeight});
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     
+  
+   
+}
+
+
+.subfooterText{
+    font-size: 6rem;
+    // letter-spacing: -0.3em;
+    letter-spacing: -0.06em;
+    // white-space: nowrap;
+    overflow: hidden;
+    line-height: normal;
+    // position: absolute;
+    // width: 100%;
+    text-align: center;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    color: white;
+    transform: translateY(-50%);
+}
+
+
