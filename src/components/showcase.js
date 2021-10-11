@@ -26,6 +26,7 @@ const Showcase = () => {
             src="../images/project5.jpeg"
             alt="Huawei Rubik's Cube"
           />
+
           <div className="showcase__content">
             <h1 className="showcase__content__company">Huawei</h1>
             <h2 className="showcase__content__project">Rubik's Cube</h2>
