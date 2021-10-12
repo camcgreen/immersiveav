@@ -1,0 +1,281 @@
+
+/*********************************************************BODY OF SECTIONS***********************************/
+
+
+
+//Width and height
+$maxWidth: 70%;
+$navHeight: 107px;
+$viewportHeight: 85vh;
+$imgsize: calc(100vw / 10);
+
+
+
+
+.footerSection{
+    border-style: solid;
+    border-color: rgb(10, 7, 211);
+    border-width: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    top: -95vh;
+}
+
+.breakServices{
+    border-style: solid;
+    border-color: rgb(10, 7, 211);
+    border-width: 5px;
+    height: 20vh;
+}
+.wrapper4{
+    background-color: black!important;
+    overflow: hidden;
+    
+}
+//BODY OF SECTIONS
+.body{
+    //display: table-cell;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-style: solid;
+    border-color: rgb(219, 16, 16);
+    border-width: 5px;
+    position:relative;
+    top: -95vh;
+    right: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+
+/*********************************************FIRST SECTION*********************************************/
+//FIRST SECTION
+.firstServicesSection{
+    background-image: url("../svg/logoOnlyBlue.svg");
+    background-repeat: no-repeat!important;
+    background-size: 200%;
+    background-position-y: 45%!important;
+    background-position: 150%;
+    height: auto;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: table-cell;
+    width: 100vw;
+        .firstTitleBox{
+        position: relative;
+        text-align: center;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        }
+            .firstTitleBoxText{
+                font-size: 4rem;
+                font-weight: bold;
+            }
+        .firstSection1{
+            width: 100vw;
+            position: relative;
+            display: table-cell;
+            position: relative;
+        }
+            .flexBox1{
+                flex-direction: row;
+                display: flex;              
+            }  
+                .firstTextServices{
+                    color: black;
+                    font-weight: 500;
+                    padding-left:10vw;
+                    padding-right:5vw;
+                    text-align: left;
+                }
+                    .textFS{
+                        font-size: 5rem;
+                    }
+                .flexBox1_1{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding-right: 11vw;
+                    padding-bottom: 2vh;
+                }
+                .flexBox1_2{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }        
+}
+.firstSection1images{
+    width: 55vw;
+
+    
+
+    .img1_1{
+        width: $imgsize;
+        height: $imgsize;
+    }
+    .img1_2{
+        width: $imgsize;
+        height: $imgsize;
+    }.img1_3{
+        width: $imgsize;
+        height: $imgsize;
+    }.img1_4{
+        width: $imgsize;
+        height: $imgsize;
+    }.img1_5{
+
+        width: $imgsize;
+        height: $imgsize;
+    }
+
+    .emptySpace1_0{
+        width: $imgsize;
+        height: $imgsize;
+        opacity: 0;
+    }
+    .emptySpace1_1{
+        width: $imgsize;
+        height: $imgsize;
+        opacity: 0;
+    }
+    .emptySpace2_0{
+        width: $imgsize;
+        height: $imgsize;
+        opacity: 0;
+    }
+    .emptySpace2_1{
+        width: $imgsize;
+        height: $imgsize;
+        opacity: 0;
+    }
+}
+.flexBox2_0{
+    display: flex;
+    flex-direction: row;
+    border: 5px dotted red;
+    
+    
+    
+
+
+}
+
+.flexBox2_1{
+    position: relative;
+    left: 5vw;
+    padding-top: 20vh;
+    border: 6px dotted yellow;
+    width: 40vw;
+    
+
+}
+.flexBox2_1Title{
+    position: relative;
+    right: 3vw;
+    color: black;
+    border: 5px dotted green;
+    font-size: 6rem;
+    font-weight: bold;
+    position: relative;
+    width: 30vw;
+    text-align: center;
+}
+.flexBox2_1P{
+    position: relative;
+    left: 8vw;
+    font-size: 2rem;
+
+}
+.flexBox2_2{
+    display: flex;
+    flex-direction: row;
+    border: 5px dotted rgb(47, 0, 255); 
+    width: 57vw;
+    margin-left: 10%;    
+}
+.img2_2_0{
+    width: $imgsize;
+    height: $imgsize;
+}
+.img2_2_1{
+    width: calc(#{$imgsize}*4);
+    height: calc(#{$imgsize}*4);
+    
+
+}
+
+
+/**************************************************SECOND SECTION******************************************/
+
+
+//SECOND SECTION
+.servicesSecondSection{
+    
+    background-image: url("../svg/logoOnlyYellow.svg");
+    background-repeat: no-repeat!important;
+    background-size: 215%;
+    background-position-y: 40%!important;
+    background-position: -21%;
+    width: 100vw;
+    height: 110vh;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.servicesSecondTitleBox{
+    width: 100%;
+    position: relative;
+}
+
+
+/**********************************************************THIRD SECTION**********************************/
+
+//THIRD SECTION
+
+
+.servicesThirdSection{
+    background-image: url("../svg/logoOnlyYellow.svg");
+    background-repeat: no-repeat!important;
+    background-size: 215%;
+    background-position-y: bottom!important;
+    background-position: 60%;
+    width: 100vw;
+    height: 110vh;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+.servicesThirdTitleBox{
+    width: 100%;
+    position: relative;
+}
+
+/*********************************************************FOURTH SECTION***********************************/
+//FOURTH SECTION
+.servicesFourthSection{
+    background-image: url("../svg/rotatedLogoOnlyBlue.svg");
+    background-repeat: no-repeat!important;
+    background-size: 215%;
+    background-position-y: bottom!important;
+    background-position: -30%;
+    width: 100vw;
+    height: 110vh;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.servicesFourthTitleBox{
+    width: 100%;
+    position: relative;
+}
+
+   
+
+
+
