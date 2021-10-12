@@ -34,7 +34,7 @@ const Header = () => {
           <nav className="header__container__navigation">
             <Link
               className="header__container__navigation__service-links link"
-              to="/live"
+              to="/services/live"
             >
               {/* <a className="header__container__navigation__service-links link"> */}
               {/* Live */}
@@ -43,7 +43,7 @@ const Header = () => {
             </Link>
             <Link
               className="header__container__navigation__service-links link"
-              to="/virtual"
+              to="/services/virtual"
             >
               {/* <a className="header__container__navigation__service-links link"> */}
               Virtual
@@ -51,7 +51,7 @@ const Header = () => {
             </Link>
             <Link
               className="header__container__navigation__service-links link"
-              to="/studio"
+              to="/services/studio"
             >
               {/* <a className="header__container__navigation__service-links link"> */}
               Studio
@@ -59,7 +59,7 @@ const Header = () => {
             </Link>
             <Link
               className="header__container__navigation__service-links link"
-              to="/hybrid"
+              to="/services/hybrid"
             >
               {/* <a className="header__container__navigation__service-links link"> */}
               Hybrid

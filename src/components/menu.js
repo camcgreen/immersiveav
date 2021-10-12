@@ -22,6 +22,14 @@ const Menu = props => (
         {/* </a> */}
       </Link>
       <Link
+        to="/portfolio"
+        // style={{ color: "black", textDecoration: "none" }}
+      >
+        {/* <a className=""> */}
+        <li className="menu__items__item">Case Studies</li>
+        {/* </a> */}
+      </Link>
+      <Link
         to="/our-services"
         // style={{ color: "black", textDecoration: "none" }}
       >

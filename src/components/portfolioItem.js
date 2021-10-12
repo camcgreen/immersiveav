@@ -2,8 +2,10 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "./header"
+import SubHero from "../components/subHero"
 import News from "./news"
 import Footer from "./footer"
+import NewFooter from "../components/footerNew"
 
 import bgBlue from "../svg/bg-blue.svg"
 import bgOrange from "../svg/bg-orange.svg"
@@ -15,6 +17,7 @@ const PortfolioItem = props => {
   return (
     <div className="wrapper">
       <Header />
+      {/* <div className="bg-white"></div> */}
       <div className="bg-av">
         <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
         <img className="bg-av__img bg-av__img--orange" src={bgOrange} alt="" />
@@ -177,7 +180,12 @@ const PortfolioItem = props => {
         </div>
       </div>
       <News />
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
+      <div className="empty">
+        <SubHero />
+        <h1 className="empty__title">Create with us.</h1>
+      </div>
     </div>
   )
 }

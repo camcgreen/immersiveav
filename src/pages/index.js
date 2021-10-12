@@ -303,7 +303,7 @@ const IndexPage = () => {
       </main>
       <Footer />
       <div className="empty">
-        <h1 className="empty__title">Lorem ipsum.</h1>
+        <h1 className="empty__title">Create with us.</h1>
       </div>
       {/* <div
         // className={`loading ${loaded ? "" : "loading__shown"}`}

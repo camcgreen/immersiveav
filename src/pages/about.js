@@ -2,8 +2,10 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "../components/header"
+import SubHero from "../components/subHero"
 import News from "../components/news"
-import Footer from "../components/footer"
+// import Footer from "../components/footer"
+import NewFooter from "../components/footerNew"
 
 const About = () => {
   return (
@@ -51,7 +53,12 @@ const About = () => {
         </div>
       </div>
       <News />
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
+      <div className="empty">
+        <SubHero />
+        <h1 className="empty__title">Create with us.</h1>
+      </div>
     </div>
   )
 }
