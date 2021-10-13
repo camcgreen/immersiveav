@@ -52,7 +52,7 @@ $imgsize: calc(100vw / 10);
 .firstServicesSection{
     background-image: url("../svg/logoOnlyBlue.svg");
     background-repeat: no-repeat!important;
-    background-size: 200%;
+    background-size: 210%;
     background-position-y: 45%!important;
     background-position: 150%;
     height: auto;
@@ -85,7 +85,7 @@ $imgsize: calc(100vw / 10);
                 .firstTextServices{
                     color: black;
                     font-weight: 500;
-                    padding-left:10vw;
+                    padding-left:12vw;
                     padding-right:5vw;
                     text-align: left;
                 }
@@ -150,27 +150,24 @@ $imgsize: calc(100vw / 10);
         opacity: 0;
     }
 }
-.flexBox2_0{
+.flexBox_1_2_0{
     display: flex;
     flex-direction: row;
     border: 5px dotted red;
-    
-    
-    
-
 
 }
 
-.flexBox2_1{
+.flexBox_1_2_1{
     position: relative;
     left: 5vw;
+    top: -8vh;
     padding-top: 20vh;
     border: 6px dotted yellow;
     width: 40vw;
     
 
 }
-.flexBox2_1Title{
+.flexBox_1_2_1Title{
     position: relative;
     right: 3vw;
     color: black;
@@ -181,24 +178,26 @@ $imgsize: calc(100vw / 10);
     width: 30vw;
     text-align: center;
 }
-.flexBox2_1P{
+.flexBox_1_2_1P{
     position: relative;
     left: 8vw;
     font-size: 2rem;
 
 }
-.flexBox2_2{
+.flexBox_1_2_2{
     display: flex;
     flex-direction: row;
     border: 5px dotted rgb(47, 0, 255); 
     width: 57vw;
-    margin-left: 10%;    
+    margin-left: 10%;
+    position: relative;
+    top: -10vh;    
 }
-.img2_2_0{
+.img_1_2_2_0{
     width: $imgsize;
     height: $imgsize;
 }
-.img2_2_1{
+.img_1_2_2_1{
     width: calc(#{$imgsize}*4);
     height: calc(#{$imgsize}*4);
     
@@ -218,16 +217,61 @@ $imgsize: calc(100vw / 10);
     background-position-y: 40%!important;
     background-position: -21%;
     width: 100vw;
-    height: 110vh;
+    height: auto;
     position: relative;
     border-style: solid;
     border-color: black;
     border-width: 2px;
 }
 
-.servicesSecondTitleBox{
-    width: 100%;
+
+
+.flexBox_2{
+    padding-bottom: 30vh;
+    padding-top: 8vh;
+    border: 5px dashed green;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flexBox_2_1{
+    padding-left: 3vw;
+    width: 85vw;
+    border: 5px dashed rgb(202, 19, 235);
+    display: flex;
+    flex-direction: column;
+    .text_2_1_1{
+        font-size: 4rem;
+        font-weight: bold;
+
+    }
+    .text_2_1_2{
+        border: 5px dashed blue;
+        padding-top: 2vh;
+        //font-weight: 500;
+        padding-right:15vw;
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+.flexBox_2_2{
+    
+    
+    border:5px dotted yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    
+}
+.img_2_2_1{
+    flex-basis: 70%;
+
+}
+.img_2_2_2{
     position: relative;
+    border:5px dotted rgb(51, 255, 0);
+    width: $imgsize;
+    height: $imgsize;
 }
 
 
@@ -254,26 +298,149 @@ $imgsize: calc(100vw / 10);
     position: relative;
 }
 
+.flexBox_3{
+    padding-bottom: 30vh;
+    padding-top: 8vh;
+    border: 5px dashed green;
+    display: flex;
+    flex-direction: row;
+}
+.flexBox_3_1{
+    padding-left: 3vw;
+    width: 85vw;
+    border: 5px dashed rgb(202, 19, 235);
+    display: flex;
+    flex-direction: column;
+    .text_3_1_1{
+        font-size: 4rem;
+        font-weight: bold;
+
+    }
+    .text_3_1_2{
+        border: 5px dashed blue;
+        padding-top: 2vh;
+        //font-weight: 500;
+        padding-right:15vw;
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+.flexBox_3_2{
+    
+    
+    border:5px dotted yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    
+}
+.img_3_2_1{
+    position: relative;
+    border:5px dotted rgb(51, 255, 0);
+    width: $imgsize;
+    height: $imgsize;
+
+}
+.img_3_2_2{
+    flex-basis: 70%;
+    
+}
 /*********************************************************FOURTH SECTION***********************************/
 //FOURTH SECTION
 .servicesFourthSection{
     background-image: url("../svg/rotatedLogoOnlyBlue.svg");
     background-repeat: no-repeat!important;
-    background-size: 215%;
+    background-size: 225%;
     background-position-y: bottom!important;
-    background-position: -30%;
+    background-position: -20%;
     width: 100vw;
     height: 110vh;
     position: relative;
     border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 2px; 
 }
+
 
 .servicesFourthTitleBox{
     width: 100%;
     position: relative;
 }
+
+.flexBox_4{
+    padding-bottom: 30vh;
+    
+    border: 5px dashed green;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flexBox_4_1{
+    padding-top: 20vh;
+    padding-left: 3vw;
+    width: 85vw;
+    border: 5px dashed rgb(202, 19, 235);
+    display: flex;
+    flex-direction: column;
+    .text_4_1_1{
+        font-size: 4rem;
+        font-weight: bold;
+        color: black;
+        font-weight: 500;
+
+    }
+    .text_4_1_2{
+        border: 5px dashed blue;
+        padding-top: 5vh;
+        //font-weight: 500;
+        padding-right:15vw;
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+.flexBox_4_2{
+    top: -8vh;
+    position: relative;
+    width: 70vw;
+    height: 80vh;
+    border:5px dotted yellow;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    
+    
+}
+.img_4_2_1{
+    position: relative;
+    border:5px dotted rgb(51, 255, 0);
+    width: $imgsize;
+    height: $imgsize;
+    flex-basis: 60%;
+    width: 15vw;
+
+}
+.img_4_2_2{
+   
+    width: 50vw;
+    flex-basis: 150%;
+    &:hover{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+/************************************************************************************/
+.news:hover{
+    background: rgba(222, 184, 135, 0);
+}
+
+.news__item--1{
+    //opacity: 0.5;
+}
+
 
    
 
