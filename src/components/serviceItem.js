@@ -2,6 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "./header"
+import LowHero from "./lowHero"
 import SubHero from "../components/subHero"
 import News from "./news"
 import Footer from "./footer"
@@ -17,16 +18,25 @@ const ServiceItem = props => {
   return (
     <div className="wrapper">
       <Header />
+      <LowHero />
       {/* <div className="bg-white"></div> */}
-      <div className="bg-av">
+      {/* <div className="bg-av">
         <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
         <img
           className="bg-av__img bg-av__img--arrow-orange"
           src={bgArrowOrange}
           alt=""
         />
-      </div>
+      </div> */}
       <div className="service-item">
+        <div className="bg-av">
+          <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
+          <img
+            className="bg-av__img bg-av__img--arrow-orange"
+            src={bgArrowOrange}
+            alt=""
+          />
+        </div>
         <h1 className="service-item__h1">{props.serviceName}</h1>
         <div className="service-item__container">
           <div className="service-item__container__hero-array">
@@ -140,7 +150,7 @@ const ServiceItem = props => {
       {/* <Footer /> */}
       <NewFooter />
       <div className="empty">
-        <SubHero />
+        {/* <SubHero /> */}
         <h1 className="empty__title">Create with us.</h1>
       </div>
     </div>

@@ -2,7 +2,8 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "./header"
-import SubHero from "../components/subHero"
+import LowHero from "./lowHero"
+import SubHero from "./subHero"
 import News from "./news"
 import Footer from "./footer"
 import NewFooter from "../components/footerNew"
@@ -17,12 +18,21 @@ const PortfolioItem = props => {
   return (
     <div className="wrapper">
       <Header />
+      <LowHero />
       {/* <div className="bg-white"></div> */}
-      <div className="bg-av">
+      {/* <div className="bg-av">
         <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
         <img className="bg-av__img bg-av__img--orange" src={bgOrange} alt="" />
-      </div>
+      </div> */}
       <div className="portfolio-item">
+        <div className="bg-av">
+          <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
+          <img
+            className="bg-av__img bg-av__img--orange"
+            src={bgOrange}
+            alt=""
+          />
+        </div>
         <h1 className="portfolio-item__h1">{props.projectName}</h1>
         <div className="portfolio-item__container">
           {/* <StaticImage
@@ -38,32 +48,32 @@ const PortfolioItem = props => {
           />
           <div className="portfolio-item__container__hero-array">
             <img
-              src={props.heroImage}
+              src={props.images[0]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--1"
             />
             <img
-              src={props.heroImage}
+              src={props.images[1]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--2"
             />
             <img
-              src={props.heroImage}
+              src={props.images[2]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--3"
             />
             <img
-              src={props.heroImage}
+              src={props.images[3]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--4"
             />
             <img
-              src={props.heroImage}
+              src={props.images[5]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--5"
             />
             <img
-              src={props.heroImage}
+              src={props.images[4]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--6"
             />
@@ -132,17 +142,17 @@ const PortfolioItem = props => {
           </div>
           <div className="portfolio-item__container__supplementary-images">
             <img
-              src={props.heroImage}
+              src={props.images[1]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--1"
             />
             <img
-              src={props.heroImage}
+              src={props.images[7]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--2"
             />
             <img
-              src={props.heroImage}
+              src={props.images[8]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--3"
             />
@@ -183,7 +193,7 @@ const PortfolioItem = props => {
       {/* <Footer /> */}
       <NewFooter />
       <div className="empty">
-        <SubHero />
+        {/* <SubHero /> */}
         <h1 className="empty__title">Create with us.</h1>
       </div>
     </div>

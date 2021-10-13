@@ -13,7 +13,7 @@ import Adidas7 from "../../images/adidas7.jpg"
 import Adidas8 from "../../images/adidas8.jpg"
 import Adidas9 from "../../images/adidas9.jpg"
 
-const Adidas = () => {
+const Mini = () => {
   const images = [
     Adidas1,
     Adidas2,
@@ -27,11 +27,11 @@ const Adidas = () => {
   ]
   return (
     <PortfolioItem
-      projectName="Adidas Experiential Retail Installation"
+      projectName="Mini All Electric Launch"
       heroImage={HeroImage}
       images={images}
     />
   )
 }
 
-export default Adidas
+export default Mini

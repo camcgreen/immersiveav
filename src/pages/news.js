@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react"
 import { Link, graphql } from "gatsby"
 
 import Header from "../components/header"
+import LowHero from "../components/lowHero"
 import Pagination from "../components/pagination"
 import PhoneEmail from "../components/phoneEmail"
+import NewFooter from "../components/footerNew"
 import Footer from "../components/footer"
 
 import "../styles/styles.scss"
@@ -42,6 +44,7 @@ const News = ({ data }) => {
   return (
     <div className="wrapper">
       <Header />
+      <LowHero />
       <div className="news-page">
         {currentPosts.map((post, i) => {
           return (
@@ -83,7 +86,12 @@ const News = ({ data }) => {
         />
         <PhoneEmail />
       </div>
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
+      <div className="empty">
+        {/* <SubHero /> */}
+        <h1 className="empty__title">Create with us.</h1>
+      </div>
     </div>
   )
 }

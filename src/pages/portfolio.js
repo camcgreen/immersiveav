@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import gsap from "gsap"
 
 import Header from "../components/header"
+import LowHero from "../components/lowHero"
 import SubHero from "../components/subHero"
 import News from "../components/news"
 import Footer from "../components/footer"
@@ -77,6 +78,7 @@ const Portfolio = () => {
     <div className="wrapper">
       {/* <Hero /> */}
       <Header />
+      <LowHero />
       <div className="portfolio-page">
         <h1 className="portfolio-page__h1">Case Studies</h1>
         <div className="portfolio-page__container">
@@ -116,7 +118,9 @@ const Portfolio = () => {
                 className="portfolio-page__container__popup__text__link"
                 to={"/portfolio" + link}
               >
-                See project
+                <button className="portfolio-page__container__popup__text__btn">
+                  See project
+                </button>
               </Link>
               <p className="portfolio-page__container__popup__text__p">
                 {paragraph}
@@ -130,7 +134,7 @@ const Portfolio = () => {
               e.persist()
               togglePopup(
                 "Adidas Retail Experiential Installation",
-                "AV",
+                "Live",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in semper dolor. Aliquam gravida purus vel sem facilisis viverra. Vestibulum eu sapien vel nisl semper consectetur sed et lorem.",
                 "/adidas-experiential-retail-installation"
               )
@@ -148,8 +152,8 @@ const Portfolio = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                "Project 2",
-                "AV",
+                "Mini All Electric Launch",
+                "Hybrid",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in semper dolor. Aliquam gravida purus vel sem facilisis viverra. Vestibulum eu sapien vel nisl semper consectetur sed et lorem.",
                 "/adidas-experiential-retail-installation"
               )
@@ -157,7 +161,7 @@ const Portfolio = () => {
           >
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project2.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -165,7 +169,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project3.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -174,7 +178,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project4.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -182,7 +186,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project13.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -190,7 +194,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project6.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -198,7 +202,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project7.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -207,7 +211,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project8.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -216,7 +220,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project9.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -225,7 +229,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project10.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -235,7 +239,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project11.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -244,7 +248,7 @@ const Portfolio = () => {
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project12.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -254,8 +258,8 @@ const Portfolio = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                "Project 3",
-                "AV",
+                "Huawei Rubik's Cube",
+                "Hybrid",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in semper dolor. Aliquam gravida purus vel sem facilisis viverra. Vestibulum eu sapien vel nisl semper consectetur sed et lorem.",
                 "/adidas-experiential-retail-installation"
               )
@@ -263,7 +267,7 @@ const Portfolio = () => {
           >
             <StaticImage
               className="showcase__img"
-              src="../images/project1.jpeg"
+              src="../images/project5.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -274,7 +278,7 @@ const Portfolio = () => {
       {/* <Footer /> */}
       <NewFooter />
       <div className="empty">
-        <SubHero />
+        {/* <SubHero /> */}
         <h1 className="empty__title">Create with us.</h1>
       </div>
     </div>

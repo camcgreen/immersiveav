@@ -2,8 +2,10 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Header from "../components/header"
+import LowHero from "../components/lowHero"
 import PhoneEmail from "../components/phoneEmail"
 import Footer from "../components/footer"
+import NewFooter from "../components/footerNew"
 
 import "../styles/styles.scss"
 import { contactEmail } from "../utils/helper"
@@ -16,6 +18,7 @@ const Vacancies = ({ data }) => {
   return (
     <div className="wrapper">
       <Header />
+      <LowHero />
       <div className="vacancies-page">
         <h1 className="vacancies-page__h1">Vacancies</h1>
         <li className="vacancies-page__list" style={{ paddingLeft: 0 }}>
@@ -73,7 +76,12 @@ const Vacancies = ({ data }) => {
         </li>
       </div>
       <PhoneEmail />
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
+      <div className="empty">
+        {/* <SubHero /> */}
+        <h1 className="empty__title">Create with us.</h1>
+      </div>
     </div>
   )
 }

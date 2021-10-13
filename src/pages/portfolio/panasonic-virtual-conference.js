@@ -2,7 +2,7 @@ import React from "react"
 
 import PortfolioItem from "../../components/portfolioItem"
 
-import HeroImage from "../../images/project1.jpeg"
+import HeroImage from "../../images/news1.jpg"
 import Adidas1 from "../../images/adidas1.jpg"
 import Adidas2 from "../../images/adidas2.jpg"
 import Adidas3 from "../../images/adidas3.jpg"
@@ -13,7 +13,7 @@ import Adidas7 from "../../images/adidas7.jpg"
 import Adidas8 from "../../images/adidas8.jpg"
 import Adidas9 from "../../images/adidas9.jpg"
 
-const Adidas = () => {
+const Panasonic = () => {
   const images = [
     Adidas1,
     Adidas2,
@@ -27,11 +27,11 @@ const Adidas = () => {
   ]
   return (
     <PortfolioItem
-      projectName="Adidas Experiential Retail Installation"
+      projectName="Panasonic Virtual Conference"
       heroImage={HeroImage}
       images={images}
     />
   )
 }
 
-export default Adidas
+export default Panasonic

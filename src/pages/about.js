@@ -2,16 +2,35 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "../components/header"
+import LowHero from "../components/lowHero"
 import SubHero from "../components/subHero"
 import News from "../components/news"
 // import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
 
+import bgBlue from "../svg/bg-blue.svg"
+import bgOrange from "../svg/bg-orange.svg"
+import bgArrowOrange from "../svg/bg-arrow-orange.svg"
+
 const About = () => {
   return (
     <div className="wrapper">
       <Header />
+      <LowHero />
       <div className="about-page">
+        <div className="bg-av">
+          <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
+          <img
+            className="bg-av__img bg-av__img--orange bg-av__img--orange--about"
+            src={bgOrange}
+            alt=""
+          />
+          <img
+            className="bg-av__img bg-av__img--arrow-orange bg-av__img--arrow-orange--about"
+            src={bgArrowOrange}
+            alt=""
+          />
+        </div>
         <h1 className="about-page__h1">About</h1>
         <div className="about-page__container">
           <StaticImage
@@ -56,7 +75,7 @@ const About = () => {
       {/* <Footer /> */}
       <NewFooter />
       <div className="empty">
-        <SubHero />
+        {/* <SubHero /> */}
         <h1 className="empty__title">Create with us.</h1>
       </div>
     </div>

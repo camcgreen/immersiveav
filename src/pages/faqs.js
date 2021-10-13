@@ -1,8 +1,10 @@
 import * as React from "react"
 
 import Header from "../components/header"
+import LowHero from "../components/lowHero"
 import PhoneEmail from "../components/phoneEmail"
 import Footer from "../components/footer"
+import NewFooter from "../components/footerNew"
 
 import { faqsList } from "../utils/helper"
 import "../styles/styles.scss"
@@ -12,6 +14,7 @@ const FAQs = () => {
   return (
     <div className="wrapper">
       <Header />
+      <LowHero />
       <div className="faqs-page">
         <h1 className="faqs-page__h1">FAQs</h1>
         <ul className="faqs-page__list" style={{ paddingLeft: 0 }}>
@@ -59,7 +62,12 @@ const FAQs = () => {
         </ul>
       </div>
       <PhoneEmail />
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
+      <div className="empty">
+        {/* <SubHero /> */}
+        <h1 className="empty__title">Create with us.</h1>
+      </div>
     </div>
   )
 }

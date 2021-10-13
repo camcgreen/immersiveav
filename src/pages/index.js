@@ -21,6 +21,7 @@ import Expo from "../components/expo"
 import HireExpo from "../components/hire-expo"
 import News from "../components/news"
 import Footer from "../components/footer"
+import NewFooter from "../components/footerNew"
 
 //Import helpers
 import "../utils/helper"
@@ -301,7 +302,8 @@ const IndexPage = () => {
         {/* <Expo /> */}
         <HireExpo />
       </main>
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter />
       <div className="empty">
         <h1 className="empty__title">Create with us.</h1>
       </div>
