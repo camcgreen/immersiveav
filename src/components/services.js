@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import { Link } from "gatsby"
 import { gsap } from "gsap"
 
 const Services = () => {
@@ -106,23 +107,32 @@ const Services = () => {
       </div>
       <div className="services__image"></div>
       <div className="services__columns">
-        <div className="services__column services__column--one">
-          <h1 className="services__column__h1">Live</h1>
-          <button className="services__column__btn services__column__btn--one">
-            Discover more
-          </button>
+        <div
+          className="services__column services__column--one"
+          // onClick={() => (window.location = "/services/live")}
+        >
+          <Link to="/services/live">
+            <h1 className="services__column__h1">Live</h1>
+            <button className="services__column__btn services__column__btn--one">
+              Discover more
+            </button>
+          </Link>
         </div>
         <div className="services__column services__column--two">
-          <h1 className="services__column__h1">Hybrid</h1>
-          <button className="services__column__btn services__column__btn--two">
-            Discover more
-          </button>
+          <Link to="/services/hybrid">
+            <h1 className="services__column__h1">Hybrid</h1>
+            <button className="services__column__btn services__column__btn--two">
+              Discover more
+            </button>
+          </Link>
         </div>
         <div className="services__column services__column--three">
-          <h1 className="services__column__h1">Virtual</h1>
-          <button className="services__column__btn services__column__btn--three">
-            Discover more
-          </button>
+          <Link to="/services/virtual">
+            <h1 className="services__column__h1">Virtual</h1>
+            <button className="services__column__btn services__column__btn--three">
+              Discover more
+            </button>
+          </Link>
         </div>
       </div>
     </div>

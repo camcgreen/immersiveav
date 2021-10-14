@@ -92,7 +92,7 @@ const Menu = props => (
           ".menu__items",
           {
             opacity: 0,
-            skewX: 8,
+            // skewX: 8,
             duration: 0.2,
             ease: "power4.easeOut",
           },

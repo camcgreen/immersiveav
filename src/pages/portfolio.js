@@ -69,29 +69,26 @@ const Portfolio = () => {
     //   ScrollTrigger.refresh()
     // }
 
-    // if (popup.style.pointerEvents === "none") {
-    //   popup.style.pointerEvents = "all"
-    //   gsap.to(popup, {
-    //     opacity: 1,
-    //     duration: 0.2,
-    //     ease: "power4.in",
-    //   })
-    //   // ScrollTrigger.refresh()
-    // } else {
-    //   gsap.to(popup, {
-    //     opacity: 0,
-    //     duration: 0.2,
-    //     ease: "power4.out",
-    //   })
-    //   setTimeout(() => {
-    //     popup.style.pointerEvents = "none"
-    //     // ScrollTrigger.refresh()
-    //   }, 200)
-    // ScrollTrigger.getAll().forEach(instance => {
-    //   instance.kill()
-    // })
-    //   // ScrollTrigger.refresh()
-    // }
+    if (popup.style.pointerEvents === "none") {
+      popup.style.pointerEvents = "all"
+      gsap.to(popup, {
+        opacity: 1,
+        duration: 0.2,
+        ease: "power4.in",
+      })
+      // ScrollTrigger.refresh()
+    } else {
+      gsap.to(popup, {
+        opacity: 0,
+        duration: 0.2,
+        ease: "power4.out",
+      })
+      setTimeout(() => {
+        popup.style.pointerEvents = "none"
+        // ScrollTrigger.refresh()
+      }, 200)
+      // ScrollTrigger.refresh()
+    }
 
     // popup.style.opacity = popup.style.opacity === 0 ? 1 : 1
     // console.log(popup.style.opacity)
@@ -185,7 +182,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="portfolio-page__container__item"></div>
+          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
           <div
             className="portfolio-page__container__item"
             onClick={e => {
@@ -196,7 +193,6 @@ const Portfolio = () => {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
                 "/adidas-experiential-retail-installation"
               )
-              // ScrollTrigger.refresh()
             }}
           >
             <StaticImage
@@ -225,7 +221,18 @@ const Portfolio = () => {
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
-          <div className="portfolio-page__container__item">
+          <div
+            className="portfolio-page__container__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                "The UMA Music Video",
+                "Live",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "/the-uma-music-video"
+              )
+            }}
+          >
             <StaticImage
               className="showcase__img"
               src="../images/project3.jpeg"
@@ -233,8 +240,19 @@ const Portfolio = () => {
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
-          <div className="portfolio-page__container__item"></div>
-          <div className="portfolio-page__container__item">
+          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
+          <div
+            className="portfolio-page__container__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                "Panasonic Virtual Conference",
+                "Live",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "/panasonic-virtual-conference"
+              )
+            }}
+          >
             <StaticImage
               className="showcase__img"
               src="../images/project4.jpeg"
@@ -275,8 +293,8 @@ const Portfolio = () => {
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
-          <div className="portfolio-page__container__item"></div>
-          <div className="portfolio-page__container__item">
+          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
+          <div className="portfolio-page__container__item ">
             <StaticImage
               className="showcase__img"
               src="../images/project9.jpeg"
@@ -284,7 +302,7 @@ const Portfolio = () => {
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
-          <div className="portfolio-page__container__item"></div>
+          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
@@ -293,8 +311,8 @@ const Portfolio = () => {
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
-          <div className="portfolio-page__container__item"></div>
-          <div className="portfolio-page__container__item"></div>
+          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
+          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
@@ -303,7 +321,7 @@ const Portfolio = () => {
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
-          <div className="portfolio-page__container__item"></div>
+          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
           <div className="portfolio-page__container__item">
             <StaticImage
               className="showcase__img"
