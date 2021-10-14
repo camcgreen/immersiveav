@@ -37,7 +37,7 @@ const Hero = props => {
       // This in case a scroll animation is active while the route is updated
       // gsap.killTweensOf(window)
 
-      // ScrollTrigger.refresh()
+      ScrollTrigger.refresh()
 
       const breaksArr = gsap.utils.toArray(".break")
       const firstBreak = breaksArr[0]
@@ -63,7 +63,7 @@ const Hero = props => {
         .to(".hero__image", {
           immediateRender: false,
           scrollTrigger: {
-            trigger: ".footer",
+            trigger: ".new-footer",
             scrub: true,
           },
           scale: 1,
@@ -71,7 +71,7 @@ const Hero = props => {
         .to(".hero__parent__magnet", {
           immediateRender: false,
           scrollTrigger: {
-            trigger: ".footer",
+            trigger: ".new-footer",
             scrub: true,
           },
           scale: 1,

@@ -8,6 +8,8 @@ import News from "../components/news"
 // import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
 
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 import bgBlue from "../svg/bg-blue.svg"
 import bgOrange from "../svg/bg-orange.svg"
 import bgArrowOrange from "../svg/bg-arrow-orange.svg"

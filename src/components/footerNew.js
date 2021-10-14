@@ -9,7 +9,7 @@ const FooterNew = () => (
     <ul className="new-footer__items">
       <li className="new-footer__items__item" style={{ marginBottom: 0 }}>
         <a href="tel:+441952 953500" target="_blank" rel="noopener noreferrer">
-          P: 01952 953500
+          <span style={{ color: "#f57b17" }}>P:</span> 01952 953500
         </a>
       </li>
       <li className="new-footer__items__item">
@@ -19,7 +19,7 @@ const FooterNew = () => (
           rel="noopener noreferrer"
           // className="footer__items__contact__list__item__email"
         >
-          E: enquiries@immersiveav.com
+          <span style={{ color: "#f57b17" }}>E:</span> enquiries@immersiveav.com
         </a>
       </li>
       <li className="new-footer__items__item">

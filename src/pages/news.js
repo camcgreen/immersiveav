@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { Link, graphql } from "gatsby"
 
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
 import Pagination from "../components/pagination"
@@ -15,6 +17,8 @@ const News = ({ data }) => {
 
   const [currentPage, setCurrentPage] = useState(1)
   const [postsPerPage] = useState(5)
+
+  const [updateKey, setUpdateKey] = useState(0)
 
   useEffect(() => {
     // const overlays = document.querySelectorAll(
@@ -39,12 +43,19 @@ const News = ({ data }) => {
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
 
   // Change page
-  const paginate = pageNumber => setCurrentPage(pageNumber)
+  const paginate = pageNumber => {
+    setCurrentPage(pageNumber)
+    ScrollTrigger.refresh()
+    ScrollTrigger.getAll().forEach(instance => {
+      instance.kill()
+    })
+    setUpdateKey(updateKey + 1)
+  }
 
   return (
     <div className="wrapper">
       <Header />
-      <LowHero />
+      <LowHero key={updateKey} />
       <div className="news-page">
         {currentPosts.map((post, i) => {
           return (

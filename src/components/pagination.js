@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import "../styles/styles.scss"
 
+// import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
   const pageNumbers = []
   let scrollDiv
@@ -26,7 +28,10 @@ const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
                   top: 0,
                   behavior: "smooth",
                 })
-                setTimeout(() => paginate(number), 250)
+                setTimeout(() => {
+                  paginate(number)
+                  // ScrollTrigger.refresh()
+                }, 250)
                 // paginate(number)
               }}
               href="!#"

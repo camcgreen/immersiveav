@@ -7,6 +7,8 @@ import PhoneEmail from "../components/phoneEmail"
 import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
 
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 import "../styles/styles.scss"
 import { contactEmail } from "../utils/helper"
 
@@ -39,9 +41,11 @@ const Vacancies = ({ data }) => {
                       if (body.style.display === "none") {
                         body.style.display = "block"
                         icon.innerHTML = "-"
+                        ScrollTrigger.refresh()
                       } else {
                         body.style.display = "none"
                         icon.innerHTML = "+"
+                        ScrollTrigger.refresh()
                       }
                     }}
                   >
