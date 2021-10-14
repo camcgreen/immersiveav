@@ -51,7 +51,7 @@ return(
 <main className="body">
 {/* **************************************FIRST SECTION************************************************** */}
     <article className="firstServicesSection">
-            <div className="firstTitleBox"><h1 className="firstTitleBoxText">Services</h1></div>
+            <div className="firstTitleBox titleServicesPage"><h1 className="firstTitleBoxText">Services</h1></div>
             <div className="firstSection1">
                 <div className="flexBox1">
                     <div className="firstTextServices"><p className="textFS" >{firstSectionTexts[0]}</p></div>
@@ -75,8 +75,8 @@ return(
                     </div>
                     <div className="flexBox_1_2_0">
                         <div className="flexBox_1_2_1">
-                            <div className="flexBox_1_2_1Title">Live</div>
-                            <div className="flexBox_1_2_1P">{firstSectionTexts[1]}</div>
+                            <div className="flexBox_1_2_1Title titleServicesPage">Live</div>
+                            <div className="flexBox_1_2_1P textServicesPage">{firstSectionTexts[1]}</div>
                         </div>
                         <div className="flexBox_1_2_2">
                         <StaticImage className="littleImg img_1_2_2_0" src="..\images\u12.JPEG" alt=""></StaticImage>
@@ -96,8 +96,8 @@ return(
         <div className="flexBox_2">
        
             <div className="flexBox_2_1">
-                <div className="text_2_1_1">Virtual</div>
-                <div className="text_2_1_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris'<br /><br />' nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className="text_2_1_1 titleServicesPage" >Virtual</div>
+                <div className="text_2_1_2 textServicesPage">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris'<br /><br />' nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             </div>
             <div className="flexBox_2_2">
             <StaticImage className="img_2_2_1" src="..\images\u8.JPG" alt=""></StaticImage>
@@ -113,8 +113,8 @@ return(
     <div className="flexBox_3">
        
             <div className="flexBox_3_1">
-                <div className="text_3_1_1">Studio</div>
-                <div className="text_3_1_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris'<br /><br />' nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className="text_3_1_1 titleServicesPage">Studio</div>
+                <div className="text_3_1_2 textServicesPage">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris'<br /><br />' nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             </div>
             <div className="flexBox_3_2">
             <StaticImage className="img_3_2_1" src="..\images\u6.jpeg" alt=""></StaticImage>
@@ -129,8 +129,8 @@ return(
     <div className="flexBox_4">
        
             <div className="flexBox_4_1">
-                <div className="text_4_1_1">Hybrid</div>
-                <div className="text_4_1_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris'<br /><br />' nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className="text_4_1_1 titleServicesPage">Hybrid</div>
+                <div className="text_4_1_2 textServicesPage">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris'<br /><br />' nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
             </div>
             <div className="flexBox_4_2">
             <StaticImage className="littleImg img_4_2_1" src="..\images\u11.jpg"  alt=""></StaticImage>
