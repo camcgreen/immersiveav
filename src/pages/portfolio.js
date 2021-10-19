@@ -43,32 +43,6 @@ const Portfolio = () => {
       setUpdateKey(updateKey + 1)
     }
 
-    // popup.style.display = popup.style.display === "none" ? "block" : "none"
-
-    // if (popup.style.display === "none") {
-    //   popup.style.display = "block"
-    //   gsap.to(popup, {
-    //     opacity: 1,
-    //     duration: 0.2,
-    //     ease: "power4.in",
-    //   })
-    //   ScrollTrigger.refresh()
-    // } else {
-    //   gsap.to(popup, {
-    //     opacity: 0,
-    //     duration: 0.2,
-    //     ease: "power4.out",
-    //   })
-    //   setTimeout(() => {
-    //     popup.style.display = "none"
-    //     ScrollTrigger.refresh()
-    //   }, 200)
-    //   ScrollTrigger.getAll().forEach(instance => {
-    //     instance.kill()
-    //   })
-    //   ScrollTrigger.refresh()
-    // }
-
     if (popup.style.pointerEvents === "none") {
       popup.style.pointerEvents = "all"
       gsap.to(popup, {
@@ -76,7 +50,6 @@ const Portfolio = () => {
         duration: 0.2,
         ease: "power4.in",
       })
-      // ScrollTrigger.refresh()
     } else {
       gsap.to(popup, {
         opacity: 0,
@@ -85,41 +58,12 @@ const Portfolio = () => {
       })
       setTimeout(() => {
         popup.style.pointerEvents = "none"
-        // ScrollTrigger.refresh()
       }, 200)
-      // ScrollTrigger.refresh()
     }
-
-    // popup.style.opacity = popup.style.opacity === 0 ? 1 : 1
-    // console.log(popup.style.opacity)
-    // if (popup.style.opacity === 0) {
-    //   popup.style.opacity = 1
-    // } else {
-    //   popup.style.opacity = 0
-    // }
-    // let opacity = popup.style.opacity === 0 ? 1 : 0
-    // console.log(opacity)
-    // popup.style.opacity = 1
-
-    // if (popup.style.opacity === 0) {
-    //   console.log("ehh")
-    // }
-
-    // gsap.to(popup, {
-    //   opacity: 1,
-    //   duration: 0.2,
-    //   ease: "power4.out",
-    // })
   }
 
-  // let togglePopup
-
-  // useEffect(() => {
-
-  // }, [])
   return (
     <div className="wrapper">
-      {/* <Hero /> */}
       <Header />
       <LowHero key={updateKey} />
       <div className="portfolio-page">
