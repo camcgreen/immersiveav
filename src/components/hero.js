@@ -98,18 +98,9 @@ const Hero = props => {
         src="https://i.imgur.com/kZKTTDI.png"
         alt=""
         className="hero__image"
+        // style={{ transform: "translate(-50%, -50%) !important" }}
       />
-      {/* <img
-        src="https://i.imgur.com/U7zGlXr.png"
-        alt=""
-        className="hero__stroke"
-      /> */}
-      {/* <img
-        src="https://i.imgur.com/bXRDvcN.png"
-        alt=""
-        className="hero__wires"
-      /> */}
-      <h1 className="hero__title link">We create experiences.</h1>
+      <h1 className="hero__title link">We create experiences</h1>
     </div>
   )
 }

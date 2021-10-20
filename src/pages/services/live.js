@@ -27,8 +27,24 @@ const Live = () => {
     Live9,
     Live10,
   ]
+  const headerText = [
+    "We’re a full service technical production supplier for all your live event needs.",
+    "You dream, we do.",
+  ]
+  const paraText = [
+    "We use leading-edge software and hardware to create solution which attract attention, maximise engagement and collect usage data.",
+    "Examples of our experiential installations include: interactive touch walls, projection mapping, gesture-controlled content, large scale video walls, generative content and other scalable interactions between physical technology and digital content.",
+    "Want to attract attention at your live event? We’ll create a solution which makes you stand out from the crowd and have an unstemable flow of people. Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
+    "Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
+  ]
   return (
-    <ServiceItem serviceName="Live" heroImage={HeroImage} images={images} />
+    <ServiceItem
+      serviceName="Live"
+      heroImage={HeroImage}
+      images={images}
+      headerText={headerText}
+      paraText={paraText}
+    />
   )
 }
 

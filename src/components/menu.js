@@ -22,6 +22,38 @@ const Menu = props => (
         {/* </a> */}
       </Link>
       <Link
+        to="/about"
+        // style={{ color: "black", textDecoration: "none" }}
+      >
+        {/* <a className=""> */}
+        <li className="menu__items__item">About</li>
+        {/* </a> */}
+      </Link>
+      <Link
+        to="/contact"
+        // style={{ color: "black", textDecoration: "none" }}
+      >
+        {/* <a className=""> */}
+        <li className="menu__items__item">Contact</li>
+        {/* </a> */}
+      </Link>
+      <Link
+        to="/vacancies"
+        // style={{ color: "black", textDecoration: "none" }}
+      >
+        {/* <a className=""> */}
+        <li className="menu__items__item">Vacancies</li>
+        {/* </a> */}
+      </Link>
+      <Link
+        to="/faqs"
+        // style={{ color: "black", textDecoration: "none" }}
+      >
+        {/* <a className=""> */}
+        <li className="menu__items__item">FAQs</li>
+        {/* </a> */}
+      </Link>
+      <Link
         to="/portfolio"
         // style={{ color: "black", textDecoration: "none" }}
       >
@@ -37,38 +69,6 @@ const Menu = props => (
         <li className="menu__items__item">Services</li>
         {/* </a> */}
       </Link>
-      <Link
-        to="/about"
-        // style={{ color: "black", textDecoration: "none" }}
-      >
-        {/* <a className=""> */}
-        <li className="menu__items__item">About</li>
-        {/* </a> */}
-      </Link>
-      <Link
-        to="/vacancies"
-        // style={{ color: "black", textDecoration: "none" }}
-      >
-        {/* <a className=""> */}
-        <li className="menu__items__item">Vacancies</li>
-        {/* </a> */}
-      </Link>
-      <Link
-        to="/contact"
-        // style={{ color: "black", textDecoration: "none" }}
-      >
-        {/* <a className=""> */}
-        <li className="menu__items__item">Contact</li>
-        {/* </a> */}
-      </Link>
-      <Link
-        to="/faqs"
-        // style={{ color: "black", textDecoration: "none" }}
-      >
-        {/* <a className=""> */}
-        <li className="menu__items__item">FAQs</li>
-        {/* </a> */}
-      </Link>
     </ul>
     <button
       className="menu__items__btn"
@@ -77,17 +77,6 @@ const Menu = props => (
         menu.classList.remove("menu--open")
 
         const tl = gsap.timeline()
-        // tl.to(
-        //   ".menu__items",
-        //   {
-        //     opacity: 0,
-        //     skewX: 20,
-        //     duration: 0.2,
-        //     ease: "power4.easeOut",
-        //   },
-        //   "+=0"
-        // )
-
         tl.to(
           ".menu__items",
           {
@@ -102,7 +91,6 @@ const Menu = props => (
             ".menu__columns__column--left",
             {
               y: "-100%",
-              // yPercent: 10,
               duration: 0.2,
               ease: "power4.easeOut",
             },
@@ -112,7 +100,6 @@ const Menu = props => (
             ".menu__columns__column--right",
             {
               y: "100%",
-              // yPercent: 10,
               duration: 0.2,
               ease: "power4.easeOut",
             },
@@ -129,7 +116,6 @@ const Menu = props => (
           )
       }}
     >
-      {/* <img src={IconMenuClose} alt="" /> */}
       <svg
         height="512pt"
         viewBox="0 0 512 512"

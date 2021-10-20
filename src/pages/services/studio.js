@@ -27,8 +27,24 @@ const Studio = () => {
     Live9,
     Live10,
   ]
+  const headerText = [
+    "For live streaming or pre-recorded content, our studio services create broadcast-quality productions.",
+    "Our streaming solutions ease the stress and deliver high quality, secure and engaging live streamed experiences.",
+  ]
+  const paraText = [
+    "The demands of producing a live stream can be a minefield of challenges. Let us take the headache away and help you deliver your most successful live streamed event.",
+    "Our studio services are as broad as your imagination. From LED streaming studios and green screen recording studios to stream management services and event streaming microsites, we have all your live streaming needs covered.",
+    "What can we offer for your hybrid event? Our services are as diverse as the clients we serve. From streaming live content from your physical event, to creating a virtual 3D replica of your space online delegates can join.",
+    "We have permanent studios set up in London and Telford and a fully remote option. Our streaming specialists will direct your event, switching between remote presenters, enabling live audience interaction and integrating presentation content into the live streamed production. Our services can also be used for pre-recorded content to be used at a later date.",
+  ]
   return (
-    <ServiceItem serviceName="Studio" heroImage={HeroImage} images={images} />
+    <ServiceItem
+      serviceName="Studio"
+      heroImage={HeroImage}
+      images={images}
+      headerText={headerText}
+      paraText={paraText}
+    />
   )
 }
 

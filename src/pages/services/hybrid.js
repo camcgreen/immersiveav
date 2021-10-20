@@ -27,8 +27,24 @@ const Hybrid = () => {
     Live9,
     Live10,
   ]
+  const headerText = [
+    "Live integrated with virtual for unparalleled results.",
+    "Combine technologies from live and virtual events to create an award-winning hybrid event. ",
+  ]
+  const paraText = [
+    "The definition of a hybrid event is clear: the fusion of live and virtual events. But how do you integrate the two groups of delegates to create a unified experience?",
+    "Our hybrid event technology transcends expectations, offering innovation at every touchpoint. Why not combine the best of live and virtual to create a hybrid event which will yield your greatest ever results?",
+    "What can we offer for your hybrid event? Our services are as diverse as the clients we serve. From streaming live content from your physical event, to creating a virtual 3D replica of your space online delegates can join.",
+    "All our innovations are tailored to maximise user engagement and can be customised to suit your specific needs.",
+  ]
   return (
-    <ServiceItem serviceName="Hybrid" heroImage={HeroImage} images={images} />
+    <ServiceItem
+      serviceName="Hybrid"
+      heroImage={HeroImage}
+      images={images}
+      headerText={headerText}
+      paraText={paraText}
+    />
   )
 }
 

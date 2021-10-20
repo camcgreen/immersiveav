@@ -3,8 +3,8 @@ import { graphql } from "gatsby"
 
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
+import News from "../components/news"
 import PhoneEmail from "../components/phoneEmail"
-import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
 
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -14,6 +14,7 @@ import { contactEmail } from "../utils/helper"
 
 const Vacancies = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
+  // const posts = []
 
   // console.log(posts)
 
@@ -75,12 +76,15 @@ const Vacancies = ({ data }) => {
               )
             })
           ) : (
-            <p>There are no posts.</p>
+            <p className="vacancies-page__list__none">
+              There are no vacancies at the moment.
+            </p>
           )}
         </li>
       </div>
       <PhoneEmail />
       {/* <Footer /> */}
+      <News />
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}

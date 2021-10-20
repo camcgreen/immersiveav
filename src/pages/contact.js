@@ -3,6 +3,7 @@ import "../styles/styles.scss"
 
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
+import News from "../components/news"
 import PhoneEmail from "../components/phoneEmail"
 import ContactSection from "../components/contactSection"
 import Footer from "../components/footer"
@@ -22,6 +23,7 @@ const Contact = () => {
       <ContactSection />
       <PhoneEmail />
       {/* <Footer /> */}
+      <News />
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}

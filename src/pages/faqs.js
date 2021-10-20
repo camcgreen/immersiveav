@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
+import News from "../components/news"
 import PhoneEmail from "../components/phoneEmail"
 import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
@@ -66,7 +67,7 @@ const FAQs = () => {
         </ul>
       </div>
       <PhoneEmail />
-      {/* <Footer /> */}
+      <News />
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}

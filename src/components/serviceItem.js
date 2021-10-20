@@ -84,7 +84,7 @@ const ServiceItem = props => {
           <div className="service-item__container__empty"></div>
           <div className="service-item__container__quote">
             <h1 className="service-item__container__quote__h1">
-              {"Lorem ipsum dolor sit amet, consecteur adipiscing"}
+              {props.headerText[0]}
             </h1>
             {/* <h3 className="service-item__container__quote__h3">
               Name of client
@@ -95,19 +95,10 @@ const ServiceItem = props => {
               Challenge
             </h2> */}
             <p className="service-item__container__challenge__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
-              semper dolor. Aliquam gravida purus vel sem facilisis viverra.
-              Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
-              non metus vel mi rutrum pulvinar. Quisque purus odio, malesuada
-              eget lorem sit amet, blandit mollis massa. Suspendisse potenti.
+              {props.paraText[0]}
             </p>
             <p className="service-item__container__challenge__p">
-              Nunc accumsan elementum augue, id finibus arcu posuere eu.
-              Pellentesque ullamcorper turpis et nibh posuere vehicula. Etiam
-              malesuada urna orci, vitae fringilla purus dapibus eu. Cras
-              tincidunt justo sed ex pellentesque accumsan. Nam malesuada est ac
-              consequat tempor. Curabitur facilisis velit at viverra sagittis.
-              Morbi fringilla bibendum est, eu sagittis velit placerat et.
+              {props.paraText[1]}
             </p>
           </div>
           <div className="service-item__container__supplementary-images">
@@ -124,24 +115,15 @@ const ServiceItem = props => {
           </div>
           <div className="service-item__container__result">
             <p className="service-item__container__result__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
-              semper dolor. Aliquam gravida purus vel sem facilisis viverra.
-              Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
-              non metus vel mi rutrum pulvinar. Quisque purus odio, malesuada
-              eget lorem sit amet, blandit mollis massa.
+              {props.paraText[2]}
             </p>
             <p className="service-item__container__result__p">
-              Praesent accumsan nibh sed turpis bibendum euismod. Donec vel nibh
-              nec mauris aliquet euismod quis vitae libero. Nunc accumsan
-              elementum augue, id finibus arcu posuere eu. Pellentesque
-              ullamcorper turpis et nibh posuere vehicula. Etiam malesuada urna
-              orci, vitae fringilla purus dapibus eu. Cras tincidunt justo sed
-              ex pellentesque accumsan.
+              {props.paraText[3]}
             </p>
           </div>
           <div className="service-item__container__quote service-item__container__quote--end">
             <h1 className="service-item__container__quote__h1">
-              Lorem ipsum dolor sit amet
+              {props.headerText[1]}
             </h1>
           </div>
         </div>

@@ -177,7 +177,7 @@ const IndexPage = () => {
       {/* <span className="circle"></span> */}
       <Header />
       <Phone />
-      <Hero />
+      <Hero style={{ transform: "translate(-50%, -50%) !important" }} />
       <main>
         {/* <SectionBreak
           ref={ref}
