@@ -1896,7 +1896,8 @@ $menu-transition-duration: 0.4s;
 .bg-av {
   position: absolute;
   width: 100vw;
-  opacity: 0.75;
+  // opacity: 0.75;
+  opacity: 1;
   // top: 0;
   // left: 0;
   // overflow: hidden;
@@ -2687,6 +2688,9 @@ $menu-transition-duration: 0.4s;
         &--1 {
           grid-column: 2 / 5;
           grid-row: 1 / 2;
+          // aspect-ratio: 1;
+          // height: 400px;
+          // width: 400px;
         }
         &--2 {
           grid-column: 1 / 4;
@@ -3031,7 +3035,7 @@ $menu-transition-duration: 0.4s;
     // min-width: 500px;
     // max-width: 1250px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -3050,8 +3054,10 @@ $menu-transition-duration: 0.4s;
       pointer-events: none;
       opacity: 0;
       transition: opacity 0.2s ease-in-out;
-      z-index: 1;
+      z-index: 8 !important;
       &__text {
+        position: relative;
+        z-index: 8 !important;
         // background: rgba(48, 97, 224, 0.85);
         background: rgba(27, 27, 116, 0.85);
         color: $white;
