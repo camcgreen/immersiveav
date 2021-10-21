@@ -157,7 +157,7 @@ const PortfolioItem = props => {
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--3"
             />
           </div>
-          <div className="portfolio-item__container__quote">
+          <div className="portfolio-item__container__quote portfolio-item__container__quote--bottom">
             <h1 className="portfolio-item__container__quote__h1">
               Lorem ipsum dolor sit amet
             </h1>

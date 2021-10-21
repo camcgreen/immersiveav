@@ -47,7 +47,7 @@ const OurServices = () => {
           /> */}
           <div className="our-services__container__quote">
             <h1 className="our-services__container__quote__h1">
-              Lorem ipsum dolor sit amet
+              Lorem ipsum dolor sit amet, consecteur adipiscing elit
             </h1>
           </div>
           <div className="our-services__container__hero-array">
@@ -111,30 +111,30 @@ const OurServices = () => {
               className="our-services__container__supplementary-images__img our-services__container__supplementary-images__img--2"
             />
           </div>
-          <div className="our-services__container__solution">
-            <h2 className="our-services__container__solution__h2">Virtual</h2>
-            <p className="our-services__container__solution__p">
+          <div className="our-services__container__virtual">
+            <h2 className="our-services__container__virtual__h2">Virtual</h2>
+            <p className="our-services__container__virtual__p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
               semper dolor. Aliquam gravida purus vel sem facilisis viverra.
               Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
               non metus vel mi rutrum pulvinar.
             </p>
-            <p className="our-services__container__solution__p">
+            <p className="our-services__container__virtual__p">
               Quisque purus odio, malesuada eget lorem sit amet, blandit mollis
               massa. Suspendisse potenti. Aenean at odio eget mi luctus
               suscipit. Ut vel ipsum sit amet eros pulvinar aliquam condimentum
               vel erat. Etiam et urna auctor, rhoncus eros in, tristique augue.
             </p>
           </div>
-          <div className="our-services__container__solution">
-            <h2 className="our-services__container__solution__h2">Studio</h2>
-            <p className="our-services__container__solution__p">
+          <div className="our-services__container__studio">
+            <h2 className="our-services__container__studio__h2">Studio</h2>
+            <p className="our-services__container__studio__p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
               semper dolor. Aliquam gravida purus vel sem facilisis viverra.
               Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
               non metus vel mi rutrum pulvinar.
             </p>
-            <p className="our-services__container__solution__p">
+            <p className="our-services__container__studio__p">
               Quisque purus odio, malesuada eget lorem sit amet, blandit mollis
               massa. Suspendisse potenti. Aenean at odio eget mi luctus
               suscipit. Ut vel ipsum sit amet eros pulvinar aliquam condimentum
@@ -145,7 +145,7 @@ const OurServices = () => {
             <img
               src={ImageStudio1}
               alt=""
-              className="our-services__container__supplementary-images__img our-services__container__supplementary-images__img--1"
+              className="our-services__container__supplementary-images__img our-services__container__supplementary-images__img--1 our-services__container__supplementary-images__img--1--studio"
             />
             <img
               src={HeroStudio}
@@ -165,15 +165,15 @@ const OurServices = () => {
               className="our-services__container__supplementary-images__img our-services__container__supplementary-images__img--2"
             />
           </div>
-          <div className="our-services__container__solution">
-            <h2 className="our-services__container__solution__h2">Hybrid</h2>
-            <p className="our-services__container__solution__p">
+          <div className="our-services__container__hybrid">
+            <h2 className="our-services__container__hybrid__h2">Hybrid</h2>
+            <p className="our-services__container__hybrid__p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
               semper dolor. Aliquam gravida purus vel sem facilisis viverra.
               Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
               non metus vel mi rutrum pulvinar.
             </p>
-            <p className="our-services__container__solution__p">
+            <p className="our-services__container__hybrid__p">
               Quisque purus odio, malesuada eget lorem sit amet, blandit mollis
               massa. Suspendisse potenti. Aenean at odio eget mi luctus
               suscipit. Ut vel ipsum sit amet eros pulvinar aliquam condimentum
