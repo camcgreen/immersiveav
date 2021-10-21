@@ -4,7 +4,7 @@ date: 2021-10-20T15:23:01.575Z
 title: " Immersive AV at Event Tech Live 2021"
 featuredImage: /assets/adobestock_230022338-scaled.jpeg
 ---
-# Discover the latest developments in experiential technology
+## Discover the latest developments in experiential technology
 
 Immersive AV are excited to exhibit at this year’s [Event Tech Live 2021, taking place physically ](https://eventtechlive.com/london/) 3-4 November at the Old Truman Brewery in London, and virtually 1-5 November through our 3D virtual event experience.
 
