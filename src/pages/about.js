@@ -238,6 +238,7 @@ const About = () => {
               // src={Person1}
               alt="Huawei Rubik's Cube"
             />
+            {/* <img src={Person1} alt="" className="showcase__img" /> */}
             <div className="about-page__people__item__overlay" />
           </div>
           <div
@@ -259,6 +260,7 @@ const About = () => {
               src="../images/person2.jpg"
               alt="Huawei Rubik's Cube"
             />
+            {/* <img src={Person1} alt="" className="showcase__img" /> */}
             <div className="about-page__people__item__overlay" />
           </div>
           <div
@@ -537,7 +539,7 @@ const About = () => {
             through the technical conundrums and helping to deliver a memorable
             experience for your clients.
           </p>
-          <p className="about-page__container__p about-page__container__p--1 about-page__container--right">
+          <p className="about-page__container__p about-page__container__p--1 about-page__container__p about-page__container__p--1--margin about-page__container--right">
             Experience is at the heart of everything we do. Our solutions are
             tailored to create an unforgettable user experience. Our services
             revolve around our client’s experience, ensuring you receive
