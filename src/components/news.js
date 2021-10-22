@@ -10,43 +10,47 @@ const News = () => {
   return (
     <div className="news">
       <div className="news__item news__item--1">
-        <Link to="/news/job-vacancies-at-immersive-av">
+        <Link to="/news/immersive-av-at-event-tech-live-2021">
           <StaticImage
             className="news__item__image"
-            src="../images/news1.jpg"
+            src="../images/news6.jpeg"
             alt="News item 1"
           />
           <div className="news__item__text">
-            <h1 className="news__item__text__title">Job Vacancies</h1>
-            <h2 className="news__item__text__date">18/08/21</h2>
+            <h1 className="news__item__text__title">
+              Immersive AV at Event Tech Live 2021
+            </h1>
+            <h2 className="news__item__text__date">21/10/21</h2>
             {/* <img src={ArrowRight} alt="" /> */}
           </div>
         </Link>
       </div>
       <div className="news__item news__item--2">
-        <Link to="/news/av-hire-for-egx-2021">
+        <Link to="/news/christmas-event-av-hire">
           <StaticImage
             className="news__item__image"
-            src="../images/news2.jpg"
+            src="../images/news5.jpeg"
             alt="News item 2"
           />
           <div className="news__item__text">
-            <h1 className="news__item__text__title">AV Hire for EGX 2021</h1>
-            <h2 className="news__item__text__date">21/08/21</h2>
+            <h1 className="news__item__text__title">Christmas Event AV Hire</h1>
+            <h2 className="news__item__text__date">20/10/21</h2>
             {/* <img src={ArrowRight} alt="" /> */}
           </div>
         </Link>
       </div>
       <div className="news__item news__item--3">
-        <Link to="/news/thanks-for-joining-the-studiox-live-launch">
+        <Link to="/news/rob-adams-returns-to-immersive-av">
           <StaticImage
             className="news__item__image"
-            src="../images/news3.jpg"
+            src="../images/news4.jpeg"
             alt="News item 3"
           />
           <div className="news__item__text">
-            <h1 className="news__item__text__title">StudioX Live Launch</h1>
-            <h2 className="news__item__text__date">21/08/21</h2>
+            <h1 className="news__item__text__title">
+              Rob Adams Returns to Immersive AV
+            </h1>
+            <h2 className="news__item__text__date">13/10/21</h2>
             {/* <img src={ArrowRight} alt="" /> */}
           </div>
         </Link>
