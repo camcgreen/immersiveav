@@ -2646,6 +2646,17 @@ $menu-transition-duration: 0.4s;
     grid-auto-rows: auto;
     grid-column-gap: 5px;
     grid-row-gap: 100px;
+    p {
+      a {
+        cursor: url("../svg/cursor-med-blue.svg"), auto !important;
+        color: $blue;
+        transition: color 0.2s ease-in-out;
+        &:hover {
+          // color: lighten($black, 20%);
+          color: darken($blue, 20%);
+        }
+      }
+    }
     &__hero {
       &-image {
         width: 100%;

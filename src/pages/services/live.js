@@ -1,6 +1,18 @@
 import React from "react"
+import { Link } from "gatsby"
 
-import ServiceItem from "../../components/serviceItem"
+// import ServiceItem from "../../components/serviceItem"
+
+import Header from "../../components/header"
+import LowHero from "../../components/lowHero"
+import SubHero from "../../components/subHero"
+import News from "../../components/news"
+import NewFooter from "../../components/footerNew"
+
+import { footerText } from "../../utils/helper"
+
+import bgBlue from "../../svg/bg-blue.svg"
+import bgArrowOrange from "../../svg/bg-arrow-orange.svg"
 
 import HeroImage from "../../images/live-1.jpeg"
 import Live1 from "../../images/news1.jpg"
@@ -27,24 +39,166 @@ const Live = () => {
     Live9,
     Live10,
   ]
-  const headerText = [
-    "We’re a full service technical production supplier for all your live event needs.",
-    "You dream, we do.",
-  ]
-  const paraText = [
-    "We use leading-edge software and hardware to create solution which attract attention, maximise engagement and collect usage data.",
-    "Examples of our experiential installations include: interactive touch walls, projection mapping, gesture-controlled content, large scale video walls, generative content and other scalable interactions between physical technology and digital content.",
-    "Want to attract attention at your live event? We’ll create a solution which makes you stand out from the crowd and have an unstemable flow of people. Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
-    "Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
-  ]
+  // const headerText = [
+  //   "We’re a full service technical production supplier for live events.",
+  //   "You dream, we do.",
+  // ]
+  // const paraText = [
+  //   "Our innovations create experiences which attract attention, maximise engagement and collect data to help you accurately assess the ROI of your live event.",
+  //   {"Examples of our experiential installations include:" + <Link to={}>interactive touch walls</Link> + ", projection mapping, gesture-controlled content, large scale video walls, generative content and other scalable interactions between physical technology and digital content."},
+  //   "Want to attract attention at your live event? We’ll create a solution which makes you stand out from the crowd and have an unstemable flow of people. Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
+  //   "Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
+  // ]
+  // return (
+  //   <ServiceItem
+  //     serviceName="Live Events"
+  //     heroImage={HeroImage}
+  //     images={images}
+  //     headerText={headerText}
+  //     paraText={paraText}
+  //   />
+  // )
+
   return (
-    <ServiceItem
-      serviceName="Live"
-      heroImage={HeroImage}
-      images={images}
-      headerText={headerText}
-      paraText={paraText}
-    />
+    <div className="wrapper">
+      <Header />
+      <LowHero />
+      <div className="service-item">
+        <div className="bg-av">
+          <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
+          <img
+            className="bg-av__img bg-av__img--arrow-orange"
+            src={bgArrowOrange}
+            alt=""
+          />
+        </div>
+        <h1 className="service-item__h1">Live Events</h1>
+        <div className="service-item__container">
+          <div className="service-item__container__hero-array">
+            <img
+              src={images[0]}
+              alt=""
+              className="service-item__container__hero-array__img service-item__container__hero-array__img--1"
+            />
+            <img
+              src={images[1]}
+              alt=""
+              className="service-item__container__hero-array__img service-item__container__hero-array__img--2"
+            />
+            <img
+              src={images[2]}
+              alt=""
+              className="service-item__container__hero-array__img service-item__container__hero-array__img--3"
+            />
+            <img
+              src={images[3]}
+              alt=""
+              className="service-item__container__hero-array__img service-item__container__hero-array__img--4"
+            />
+            <img
+              src={images[4]}
+              alt=""
+              className="service-item__container__hero-array__img service-item__container__hero-array__img--5"
+            />
+            <img
+              src={images[5]}
+              alt=""
+              className="service-item__container__hero-array__img service-item__container__hero-array__img--6"
+            />
+            <img
+              src={images[6]}
+              alt=""
+              className="service-item__container__hero-array__img service-item__container__hero-array__img--7"
+            />
+          </div>
+          <img
+            src={HeroImage}
+            alt=""
+            className="service-item__container__hero-image"
+          />
+          <div className="service-item__container__empty"></div>
+          <div className="service-item__container__quote">
+            <h1 className="service-item__container__quote__h1">
+              We’re a full service technical production supplier for live
+              events.
+            </h1>
+          </div>
+          <div className="service-item__container__challenge">
+            <p className="service-item__container__challenge__p">
+              Our innovations create experiences which attract attention,
+              maximise engagement and collect data to help you accurately assess
+              the ROI of your live event.
+            </p>
+            <p className="service-item__container__challenge__p">
+              Examples of our experiential installations include:{" "}
+              <Link to="/services/live/interactive-walls">
+                interactive touch walls
+              </Link>
+              ,{" "}
+              <Link to="/services/live/projection-mapping">
+                projection mapping
+              </Link>
+              ,{" "}
+              <Link to="/services/live/gesture-controlled-content">
+                gesture-controlled content
+              </Link>
+              , large scale video walls,{" "}
+              <Link to="/services/live/generative-content">
+                generative content
+              </Link>{" "}
+              and other scalable interactions between physical technology and
+              digital content.
+            </p>
+          </div>
+          <div className="service-item__container__supplementary-images">
+            <img
+              src={images[4]}
+              alt=""
+              className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--1"
+            />
+            <img
+              src={images[5]}
+              alt=""
+              className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--2"
+            />
+          </div>
+          <div className="service-item__container__result">
+            <p className="service-item__container__result__p">
+              Want to attract attention at your live event? We’ll create a
+              solution which makes you stand out from the crowd and attract more
+              visitors than ever before.
+            </p>
+            <p className="service-item__container__result__p">
+              Engagement is king—what better way to enhance the time people
+              spend in your space than through interactivity?{" "}
+              <Link to="/services/live/custom-games">Custom games</Link>
+              {", "}
+              <Link to="/services/live/interactive-walls">
+                interactive walls
+              </Link>
+              , and{" "}
+              <Link to="/services/live/generative-content">
+                responsive content
+              </Link>{" "}
+              are all proven methods of capturing people’s attention. Whatever
+              your interactive dreams, we’ll make them a reality!
+            </p>
+          </div>
+          <div className="service-item__container__quote service-item__container__quote--end">
+            <h1 className="service-item__container__quote__h1">
+              You dream, we do.
+            </h1>
+          </div>
+        </div>
+      </div>
+      <News />
+      {/* <Footer /> */}
+      <NewFooter />
+      <div className="empty">
+        {/* <SubHero /> */}
+        <h1 className="empty__title">{footerText}</h1>
+      </div>
+    </div>
   )
 }
 

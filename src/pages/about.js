@@ -510,8 +510,8 @@ const About = () => {
             alt=""
           />
           <h2 className="about-page__container__h2 about-page__container__h2--0 about-page__container--right">
-            We’re a team of intrepid technologists, driven by the spirit of
-            innovation and the constant pursuit of excellence.
+            We’re driven by the spirit of innovation and the constant pursuit of
+            excellence.
           </h2>
           <StaticImage
             className="about-page__container__img about-page__container__img--1 about-page__container--left"
