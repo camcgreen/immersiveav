@@ -2497,6 +2497,7 @@ $menu-transition-duration: 0.4s;
     max-width: 1250px;
     @media (max-width: $mobile-width) {
       font-size: 3rem;
+      min-width: 250px;
     }
   }
   &__container {
@@ -2519,6 +2520,10 @@ $menu-transition-duration: 0.4s;
       font-weight: 300;
       margin-bottom: 20px;
     }
+    @media (max-width: $tablet-width) {
+      min-width: 250px;
+      width: 90%;
+    }
   }
 }
 
@@ -2540,6 +2545,7 @@ $menu-transition-duration: 0.4s;
     max-width: 1250px;
     @media (max-width: $mobile-width) {
       font-size: 3rem;
+      min-width: 250px;
     }
   }
   &__container {
@@ -2570,6 +2576,10 @@ $menu-transition-duration: 0.4s;
       &:hover {
         color: darken($orange, 20%);
       }
+    }
+    @media (max-width: $tablet-width) {
+      min-width: 250px;
+      width: 90%;
     }
   }
 }
@@ -3801,6 +3811,9 @@ $menu-transition-duration: 0.4s;
       font-size: 4rem;
       max-width: 75%;
       min-width: 500px;
+      &--service {
+        margin-bottom: 100px;
+      }
       @media (max-width: $mobile-width) {
         font-size: 3rem;
       }
@@ -3828,6 +3841,8 @@ $menu-transition-duration: 0.4s;
       font-size: 1.25rem;
       img {
         width: 100%;
+        // margin-top: 60px;
+        // margin-bottom: 60px;
       }
       h2 {
         margin-bottom: 60px;
@@ -3841,22 +3856,32 @@ $menu-transition-duration: 0.4s;
         // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       }
+      // @media (max-width: $tablet-width) {
+      //   font-size: 3rem;
+      // }
+      &__service-img {
+        margin-top: 60px;
+        margin-bottom: 60px;
+      }
     }
     &__back {
       background-color: black;
       color: white;
       padding: 20px 80px;
       margin-bottom: 100px;
+      cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       &:hover {
         background-color: lighten($black, 20%);
       }
     }
-    @media (max-width: $mobile-width) {
+    @media (max-width: $tablet-width) {
       &__title {
         min-width: 250px;
+        width: 90%;
       }
       &__body {
         min-width: 250px;
+        width: 90%;
       }
       &__img {
         height: 350px;
