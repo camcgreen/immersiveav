@@ -29,6 +29,7 @@ import Person10 from "../images/person10.jpg"
 import Person11 from "../images/person11.jpg"
 import Person12 from "../images/person12.jpg"
 import Person13 from "../images/person13.jpg"
+import { footerText } from "../utils/helper"
 
 const About = () => {
   const [image, setImage] = useState("")
@@ -553,7 +554,7 @@ const About = () => {
       <News />
       <NewFooter />
       <div className="empty">
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )

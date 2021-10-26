@@ -1,12 +1,12 @@
 export const breakText = [
   {
     h1: "We're ImmersiveAV",
-    p: "We enable our clients to unlock their growth potential using disruptive technology and engaging experiences.",
+    p: "We work with agencies to create memorable experiences at events and activations. Our technologies break the boundaries of what’s possible, setting the standard for innovation and user engagement.",
   },
   { h1: "Case Studies" },
   { h1: "News" },
   {
-    h1: "ImmersiveAV Expo & ITR",
+    h1: "Immersive AV Expo & Hire",
     p: "360° technical production and technology hire for every requirement.",
   },
 ]
@@ -41,3 +41,5 @@ export const faqsList = [
     a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n Aliquam vel neque et urna fermentum vestibulum condimentum a mi.",
   },
 ]
+
+export const footerText = "Experience matters"

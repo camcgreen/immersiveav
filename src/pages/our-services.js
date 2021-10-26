@@ -22,6 +22,7 @@ import ImageStudio1 from "../images/services-studio-1.jpg"
 import ImageHybrid1 from "../images/services-hybrid-1.jpg"
 
 import "../styles/styles.scss"
+import { footerText } from "../utils/helper"
 
 const OurServices = () => {
   return (
@@ -187,7 +188,7 @@ const OurServices = () => {
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )

@@ -29,6 +29,7 @@ import Project10 from "../images/project10.jpeg"
 import Project11 from "../images/project11.jpeg"
 import Project12 from "../images/project12.jpeg"
 import Project13 from "../images/project13.jpeg"
+import { footerText } from "../utils/helper"
 
 const Portfolio = () => {
   const [image, setImage] = useState("")
@@ -422,7 +423,7 @@ const Portfolio = () => {
       <News />
       <NewFooter />
       <div className="empty">
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )

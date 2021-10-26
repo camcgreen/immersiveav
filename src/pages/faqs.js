@@ -9,7 +9,7 @@ import NewFooter from "../components/footerNew"
 
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
-import { faqsList } from "../utils/helper"
+import { faqsList, footerText } from "../utils/helper"
 import "../styles/styles.scss"
 import Phone from "../components/phone"
 
@@ -71,7 +71,7 @@ const FAQs = () => {
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )

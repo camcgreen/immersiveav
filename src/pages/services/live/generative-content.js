@@ -6,6 +6,8 @@ import LowHero from "../../../components/lowHero"
 import News from "../../../components/news"
 import NewFooter from "../../../components/footerNew"
 
+import { footerText } from "../../../utils/helper"
+
 import HeroImage from "../../../images/green-screen.jpeg"
 // import SuppImage1 from "../../../images/green-1.jpeg"
 // import SuppImage2 from "../../../images/green-2.jpeg"
@@ -91,7 +93,7 @@ const GenerativeContent = () => {
       <News />
       <NewFooter />
       <div className="empty">
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )

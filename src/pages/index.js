@@ -24,8 +24,8 @@ import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
 
 //Import helpers
-import "../utils/helper"
-import { breakText } from "../utils/helper"
+// import "../utils/helper"
+import { breakText, footerText } from "../utils/helper"
 
 const IndexPage = () => {
   const [loaded, setLoaded] = useState(false)
@@ -305,7 +305,7 @@ const IndexPage = () => {
       {/* <Footer /> */}
       <NewFooter />
       <div className="empty">
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
       {/* <div
         // className={`loading ${loaded ? "" : "loading__shown"}`}

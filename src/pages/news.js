@@ -11,6 +11,7 @@ import NewFooter from "../components/footerNew"
 import Footer from "../components/footer"
 
 import "../styles/styles.scss"
+import { footerText } from "../utils/helper"
 
 const News = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
@@ -102,7 +103,7 @@ const News = ({ data }) => {
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )

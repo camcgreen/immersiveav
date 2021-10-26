@@ -8,6 +8,7 @@ import PhoneEmail from "../components/phoneEmail"
 import ContactSection from "../components/contactSection"
 import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
+import { footerText } from "../utils/helper"
 
 const Contact = () => {
   return (
@@ -27,7 +28,7 @@ const Contact = () => {
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )

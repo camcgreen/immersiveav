@@ -8,6 +8,8 @@ import News from "./news"
 import Footer from "./footer"
 import NewFooter from "../components/footerNew"
 
+import { footerText } from "../utils/helper"
+
 import bgBlue from "../svg/bg-blue.svg"
 import bgOrange from "../svg/bg-orange.svg"
 
@@ -194,7 +196,7 @@ const PortfolioItem = props => {
       <NewFooter />
       <div className="empty">
         {/* <SubHero /> */}
-        <h1 className="empty__title">Create with us.</h1>
+        <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
   )
