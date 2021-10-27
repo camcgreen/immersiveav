@@ -28,7 +28,8 @@ import NewFooter from "../components/footerNew"
 // import "../utils/helper"
 import { breakText, footerText } from "../utils/helper"
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
+  // console.log(data.allMarkdownRemark.edges)
   const [loaded, setLoaded] = useState(false)
   // const setLoaded = () => {
   //   loaded = true
@@ -273,6 +274,7 @@ const IndexPage = () => {
             </p>
           </div>
         </div>
+        {/* <News posts={data.allMarkdownRemark.edges} /> */}
         <News />
         {/* <SectionBreak
           // backgroundColour="white"

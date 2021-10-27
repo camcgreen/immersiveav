@@ -1658,6 +1658,8 @@ $menu-transition-duration: 0.4s;
       z-index: 1;
       opacity: 1;
       transition: opacity 0.2s ease-in-out;
+      object-fit: cover;
+      object-position: center;
     }
     &__text {
       position: absolute;
