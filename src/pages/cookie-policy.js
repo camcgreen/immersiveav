@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
@@ -9,6 +10,10 @@ import { footerText } from "../utils/helper"
 const Cookies = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cookie Policy | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="cookies">

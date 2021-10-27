@@ -71,6 +71,7 @@ const Menu = props => (
       </Link>
     </ul>
     <button
+      aria-label="Close Menu"
       className="menu__items__btn"
       onClick={() => {
         const menu = document.querySelector(".menu")

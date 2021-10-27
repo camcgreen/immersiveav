@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import "../styles/styles.scss"
 import { graphql } from "gatsby"
 
@@ -15,6 +16,10 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{frontmatter.title} | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="cms-container">

@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -15,6 +16,10 @@ import HeroImage from "../../../images/green-screen.jpeg"
 const InteractiveLive = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Interactive Walls | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="cms-container">
@@ -43,13 +48,6 @@ const InteractiveLive = () => {
                 className="cms-container__post__body__service-img"
               />
             </p> */}
-            <p>
-              What better way to attract and engage visitors than with an
-              interactive wall, where they get to control the content? Using
-              physical touchpoints, gesture control or touchscreen activation,
-              we create and build interactive walls to make your next event your
-              best event.
-            </p>
             <p>
               The content of an interactive wall wall is tailored to your brand
               and products or services. Many clients opt for a storytelling

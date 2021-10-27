@@ -56,6 +56,7 @@ const Header = () => {
               {/* </a> */}
             </Link>
             <button
+              aria-label="Open Menu"
               className="header__container__navigation__btn link"
               onClick={() => {
                 const menu = document.querySelector(".menu")

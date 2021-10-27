@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
 import Header from "../../components/header"
@@ -39,6 +40,10 @@ const Live = () => {
 
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Live Events | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="service-item">

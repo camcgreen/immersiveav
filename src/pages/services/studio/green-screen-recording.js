@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -15,6 +16,10 @@ import SuppImage2 from "../../../images/green-2.jpeg"
 const GreenScreen = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Green Screen Recording | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="cms-container">

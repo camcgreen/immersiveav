@@ -7,6 +7,7 @@ const Phone = props => {
   return (
     <div className="phone">
       <button
+        aria-label="Call Us"
         className="phone__btn"
         onClick={() => {
           const number = document.querySelector(".phone__number")

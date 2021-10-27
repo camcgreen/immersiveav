@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -15,6 +16,10 @@ import SuppImage2 from "../../../images/stream-2.jpeg"
 const StreamManagement = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Stream Management Services | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="cms-container">

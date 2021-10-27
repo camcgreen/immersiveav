@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react"
+import { Helmet } from "react-helmet"
 import "../styles/styles.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { customMouse } from "../utils/customMouse"
@@ -174,6 +175,12 @@ const IndexPage = () => {
   const ref = useRef(null)
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Technology for Live, Virtual & Hybrid Events | Immersive AV
+        </title>
+      </Helmet>
       {/* <span className="circle"></span> */}
       <Header />
       <Phone />

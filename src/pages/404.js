@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
@@ -9,6 +10,10 @@ import { footerText } from "../utils/helper"
 const NotFoundPage = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Page Not Found | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="not-found">

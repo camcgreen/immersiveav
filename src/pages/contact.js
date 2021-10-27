@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import "../styles/styles.scss"
 
 import Header from "../components/header"
@@ -13,6 +14,10 @@ import { footerText } from "../utils/helper"
 const Contact = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       {/* <SectionBreak

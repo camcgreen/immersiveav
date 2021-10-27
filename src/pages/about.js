@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -80,6 +81,10 @@ const About = () => {
   }
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Us | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero key={updateKey} />
       <div className="about-page">

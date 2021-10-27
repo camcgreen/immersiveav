@@ -1,21 +1,24 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
 import News from "../components/news"
 import PhoneEmail from "../components/phoneEmail"
-import Footer from "../components/footer"
 import NewFooter from "../components/footerNew"
 
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 import { faqsList, footerText } from "../utils/helper"
 import "../styles/styles.scss"
-import Phone from "../components/phone"
 
 const FAQs = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>FAQs | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="faqs-page">
@@ -70,7 +73,6 @@ const FAQs = () => {
       <News />
       <NewFooter />
       <div className="empty">
-        {/* <SubHero /> */}
         <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>

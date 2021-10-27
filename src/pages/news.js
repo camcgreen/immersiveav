@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -55,6 +56,10 @@ const News = ({ data }) => {
 
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>News | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero key={updateKey} />
       <div className="news-page">

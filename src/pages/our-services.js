@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import LowHero from "../components/lowHero"
@@ -27,6 +28,10 @@ import { footerText } from "../utils/helper"
 const OurServices = () => {
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Our Services | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="our-services">

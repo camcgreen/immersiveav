@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 
 import Header from "../components/header"
@@ -20,6 +21,10 @@ const Vacancies = ({ data }) => {
 
   return (
     <div className="wrapper">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Vacancies | ImmersiveAV</title>
+      </Helmet>
       <Header />
       <LowHero />
       <div className="vacancies-page">
@@ -83,11 +88,9 @@ const Vacancies = ({ data }) => {
         </li>
       </div>
       <PhoneEmail />
-      {/* <Footer /> */}
       <News />
       <NewFooter />
       <div className="empty">
-        {/* <SubHero /> */}
         <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>
