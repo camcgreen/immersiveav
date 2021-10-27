@@ -1,14 +1,8 @@
 import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-import ArrowRight from "../svg/arrow-right.svg"
 
-// const News = ({ posts }) => {
-// console.log(posts)
 const News = () => {
-  // const data = GetMostRecentNews()
-
   const data = useStaticQuery(graphql`
     query QueryMostRecentNewsGlobal {
       allMarkdownRemark(
@@ -39,11 +33,6 @@ const News = () => {
     <div className="news">
       <div className="news__item news__item--1">
         <Link to="/news/immersive-av-at-event-tech-live-2021">
-          {/* <StaticImage
-            className="news__item__image"
-            src="../images/news6.jpeg"
-            alt="News item 1"
-          /> */}
           <img
             className="news__item__image"
             src={posts[0].node.frontmatter.featuredImage}
@@ -51,24 +40,16 @@ const News = () => {
           />
           <div className="news__item__text">
             <h1 className="news__item__text__title">
-              {/* Immersive AV at Event Tech Live 2021 */}
               {posts[0].node.frontmatter.title}
             </h1>
             <h2 className="news__item__text__date">
               {formatDate(posts[0].node.frontmatter.date)}
-              {/* {posts[0].node.frontmatter.date} */}
             </h2>
-            {/* <img src={ArrowRight} alt="" /> */}
           </div>
         </Link>
       </div>
       <div className="news__item news__item--2">
         <Link to="/news/christmas-event-av-hire">
-          {/* <StaticImage
-            className="news__item__image"
-            src="../images/news5.jpeg"
-            alt="News item 2"
-          /> */}
           <img
             className="news__item__image"
             src={posts[1].node.frontmatter.featuredImage}
@@ -87,11 +68,6 @@ const News = () => {
       </div>
       <div className="news__item news__item--3">
         <Link to="/news/rob-adams-returns-to-immersive-av">
-          {/* <StaticImage
-            className="news__item__image"
-            src="../images/news4.jpeg"
-            alt="News item 3"
-          /> */}
           <img
             className="news__item__image"
             src={posts[2].node.frontmatter.featuredImage}
@@ -104,7 +80,6 @@ const News = () => {
             <h2 className="news__item__text__date">
               {formatDate(posts[2].node.frontmatter.date)}
             </h2>
-            {/* <img src={ArrowRight} alt="" /> */}
           </div>
         </Link>
       </div>
@@ -113,25 +88,3 @@ const News = () => {
 }
 
 export default News
-
-// export const pageQuery = graphql`
-//   query QueryMostRecentNews {
-//     allMarkdownRemark(
-//       filter: { frontmatter: { path: { glob: "news/*" } } }
-//       sort: { fields: frontmatter___date, order: DESC }
-//       limit: 3
-//     ) {
-//       edges {
-//         node {
-//           html
-//           frontmatter {
-//             date
-//             featuredImage
-//             path
-//             title
-//           }
-//         }
-//       }
-//     }
-//   }
-// `

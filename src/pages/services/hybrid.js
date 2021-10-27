@@ -158,7 +158,6 @@ const Hybrid = () => {
           </div>
         </div>
       </div>
-      {/* <News posts={data.allMarkdownRemark.edges} /> */}
       <News />
       <NewFooter />
       <div className="empty">
