@@ -1,11 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-// import ServiceItem from "../../components/serviceItem"
-
 import Header from "../../components/header"
 import LowHero from "../../components/lowHero"
-import SubHero from "../../components/subHero"
 import News from "../../components/news"
 import NewFooter from "../../components/footerNew"
 
@@ -39,25 +36,6 @@ const Live = () => {
     Live9,
     Live10,
   ]
-  // const headerText = [
-  //   "We’re a full service technical production supplier for live events.",
-  //   "You dream, we do.",
-  // ]
-  // const paraText = [
-  //   "Our innovations create experiences which attract attention, maximise engagement and collect data to help you accurately assess the ROI of your live event.",
-  //   {"Examples of our experiential installations include:" + <Link to={}>interactive touch walls</Link> + ", projection mapping, gesture-controlled content, large scale video walls, generative content and other scalable interactions between physical technology and digital content."},
-  //   "Want to attract attention at your live event? We’ll create a solution which makes you stand out from the crowd and have an unstemable flow of people. Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
-  //   "Engagement is king—what better way to enhance the time people spend in your space than through interactivity? Custom games, interactive walls, and responsive content are all proven methods of capturing people’s attention. Whatever your interactive dreams, we’ll make them a reality!",
-  // ]
-  // return (
-  //   <ServiceItem
-  //     serviceName="Live Events"
-  //     heroImage={HeroImage}
-  //     images={images}
-  //     headerText={headerText}
-  //     paraText={paraText}
-  //   />
-  // )
 
   return (
     <div className="wrapper">
@@ -192,10 +170,8 @@ const Live = () => {
         </div>
       </div>
       <News />
-      {/* <Footer /> */}
       <NewFooter />
       <div className="empty">
-        {/* <SubHero /> */}
         <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>

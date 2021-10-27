@@ -29,6 +29,12 @@ module.exports = {
         path: `${__dirname}/vacancies`,
       },
     },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `immersiveav.com`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

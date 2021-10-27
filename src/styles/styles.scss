@@ -488,6 +488,7 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1400px;
+    z-index: 2;
   }
   &__stroke {
     position: fixed;
@@ -590,6 +591,8 @@ $menu-transition-duration: 0.4s;
     transform: translate(-50%, -50%);
     // transform: translate(-50%, -50%) scale(2.5);
     width: 1400px;
+    // height: 40px;
+    z-index: 2;
   }
   &__stroke {
     position: fixed;
@@ -1646,7 +1649,7 @@ $menu-transition-duration: 0.4s;
       }
     }
     &__image {
-      filter: brightness(50%) grayscale(20%);
+      filter: brightness(65%) grayscale(10%);
       position: absolute;
       top: 0;
       left: 0;
@@ -3863,9 +3866,13 @@ $menu-transition-duration: 0.4s;
         margin-bottom: 60px;
       }
       a {
-        color: $orange;
+        color: $blue;
         // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
+        transition: color 0.2s ease-in-out;
+        &:hover {
+          color: darken($blue, 20%);
+        }
       }
       // @media (max-width: $tablet-width) {
       //   font-size: 3rem;

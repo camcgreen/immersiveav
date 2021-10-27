@@ -1,7 +1,10 @@
 import React, { useEffect } from "react"
-import HeroVideo from "../videos/immersiveav.mp4"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+
+import CoverImage from "../images/cover.png"
+import PosterImage from "../images/poster.jpg"
+import HeroVideo from "../videos/immersiveav.mp4"
 
 const LowHero = props => {
   useEffect(() => {
@@ -69,6 +72,7 @@ const LowHero = props => {
   return (
     <div className="low-hero">
       <div className="low-hero__parent">
+        <img src={CoverImage} alt="" className="low-hero__image" />
         <video
           className="low-hero__parent__magnet"
           autoPlay
@@ -76,18 +80,12 @@ const LowHero = props => {
           muted
           loop
           preload="auto"
-          poster="http://i.imgur.com/xHO6DbC.png"
+          poster={PosterImage}
         >
           <source src={HeroVideo} type="video/mp4" />
           Your browser does not support HTML5 video.
         </video>
       </div>
-      <img
-        src="https://i.imgur.com/kZKTTDI.png"
-        alt=""
-        className="low-hero__image"
-      />
-      {/* <h1 className="low-hero__title link">Create with us.</h1> */}
     </div>
   )
 }

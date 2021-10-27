@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -49,13 +50,21 @@ const LedStream = () => {
             </p>
             <p>
               A flexible and versatile solution is probably at the top of the
-              wishlist for your live-streamed event. Our team will customise the
-              LED studio package to suit your specific needs.
+              wishlist for your{" "}
+              <Link to="/services/studio/stream-management-services">
+                live-streamed
+              </Link>{" "}
+              event. Our team will customise the LED studio package to suit your
+              specific needs.
             </p>
             <p>
               Need more than just a studio? Why not utilise our stream
               management services, or present your streamed event production
-              using a bespoke streaming microsite?
+              using a bespoke{" "}
+              <Link to="/services/studio/event-streaming-microsites">
+                streaming microsite
+              </Link>
+              ?
             </p>
             {/* <p>
               <img src={SuppImage2} alt="" className="cms-container__post__img" />
