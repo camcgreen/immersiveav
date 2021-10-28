@@ -17,9 +17,9 @@ import bgBlue from "../svg/bg-blue.svg"
 import bgOrange from "../svg/bg-orange.svg"
 import bgArrowOrange from "../svg/bg-arrow-orange.svg"
 
-import Person1 from "../images/person1.jpg"
-import Person2 from "../images/person2.jpg"
-import Person3 from "../images/person3.jpg"
+import Person1 from "../images/bob.jpg"
+import Person2 from "../images/christine.jpg"
+import Person3 from "../images/russell.jpg"
 import Person4 from "../images/person4.jpg"
 import Person5 from "../images/person5.jpg"
 import Person6 from "../images/person6.jpg"
@@ -238,10 +238,10 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person1.jpg"
-              // src={Person1}
+              // src="../images/bob.jpg"
+              src={Person1}
               alt="Huawei Rubik's Cube"
             />
             {/* <img src={Person1} alt="" className="showcase__img" /> */}
@@ -261,9 +261,10 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person2.jpg"
+              // src="../images/christine.jpg"
+              src={Person2}
               alt="Huawei Rubik's Cube"
             />
             {/* <img src={Person1} alt="" className="showcase__img" /> */}
@@ -283,9 +284,10 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person3.jpg"
+              // src="../images/person3.jpg"
+              src={Person3}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />

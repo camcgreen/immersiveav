@@ -9,8 +9,8 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/green-screen.jpeg"
-// import SuppImage1 from "../../../images/green-1.jpeg"
+import HeroImage from "../../../images/walls-hero.jpg"
+import SuppImage1 from "../../../images/services-top-2.jpg"
 // import SuppImage2 from "../../../images/green-2.jpeg"
 
 const InteractiveLive = () => {
@@ -41,13 +41,13 @@ const InteractiveLive = () => {
               we create and build interactive walls to make your next event your
               best event.
             </p>
-            {/* <p>
+            <p>
               <img
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
               />
-            </p> */}
+            </p>
             <p>
               The content of an interactive wall wall is tailored to your brand
               and products or services. Many clients opt for a storytelling

@@ -9,8 +9,8 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/green-screen.jpeg"
-// import SuppImage1 from "../../../images/green-1.jpeg"
+import HeroImage from "../../../images/projection-hero.jpeg"
+import SuppImage1 from "../../../images/projection-supp-1.png"
 // import SuppImage2 from "../../../images/green-2.jpeg"
 
 const ProjectionMapping = () => {
@@ -41,13 +41,14 @@ const ProjectionMapping = () => {
               shaped object such as a building or car and brings it to life with
               colours and movement through animated content.
             </p>
-            {/* <p>
+            <p>
               <img
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               With projection mapping, the projection surface becomes one with
               the content. The surface is literally a blank canvas and can be

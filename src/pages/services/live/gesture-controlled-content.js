@@ -9,8 +9,8 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/green-screen.jpeg"
-// import SuppImage1 from "../../../images/green-1.jpeg"
+import HeroImage from "../../../images/gesture-supp-1.jpg"
+import SuppImage1 from "../../../images/gesture-hero.jpg"
 // import SuppImage2 from "../../../images/green-2.jpeg"
 
 const GestureControlled = () => {
@@ -39,13 +39,14 @@ const GestureControlled = () => {
               control, where the user’s hand and body content control the
               content they see.
             </p>
-            {/* <p>
+            <p>
               <img
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               Gesture control is the perfect input method for the post-Covid
               era. Removing the requirement for physical touch and maintaining a

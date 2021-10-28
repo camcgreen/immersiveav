@@ -9,9 +9,9 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/green-screen.jpeg"
-import SuppImage1 from "../../../images/green-1.jpeg"
-import SuppImage2 from "../../../images/green-2.jpeg"
+import HeroImage from "../../../images/green-hero.jpeg"
+import SuppImage1 from "../../../images/green-supp-1.jpg"
+import SuppImage2 from "../../../images/green-supp-2.jpg"
 
 const GreenScreen = () => {
   return (
@@ -45,6 +45,7 @@ const GreenScreen = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
             </p>
             <p>
@@ -64,6 +65,7 @@ const GreenScreen = () => {
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
             </p>
             <p>

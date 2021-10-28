@@ -44,6 +44,7 @@ const EventMicrosites = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
             </p>
             <p>

@@ -9,8 +9,8 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/green-screen.jpeg"
-// import SuppImage1 from "../../../images/green-1.jpeg"
+import HeroImage from "../../../images/generative-hero.jpg"
+import SuppImage1 from "../../../images/generative-supp-1.jpg"
 // import SuppImage2 from "../../../images/green-2.jpeg"
 
 const GenerativeContent = () => {
@@ -40,13 +40,14 @@ const GenerativeContent = () => {
               create unique digital content in real time, triggered by human
               interaction.
             </p>
-            {/* <p>
+            <p>
               <img
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               Imagine visualising live sales data through an abstract animation
               on an LED wall. What about an avatar being created in real time

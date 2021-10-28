@@ -10,9 +10,9 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/project13.jpeg"
-import SuppImage1 from "../../../images/project12.jpeg"
-import SuppImage2 from "../../../images/led-1.png"
+import HeroImage from "../../../images/led-hero.jpg"
+import SuppImage1 from "../../../images/led-supp-1.jpg"
+import SuppImage2 from "../../../images/led-supp-2.jpg"
 
 const LedStream = () => {
   return (
@@ -51,6 +51,7 @@ const LedStream = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
             </p>
             <p>
@@ -71,9 +72,14 @@ const LedStream = () => {
               </Link>
               ?
             </p>
-            {/* <p>
-              <img src={SuppImage2} alt="" className="cms-container__post__img" />
-            </p> */}
+            <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
+            </p>
             <h2>
               We’ll take care of all your live streaming production needs, from
               studio space and content creation, to camera operators and live
