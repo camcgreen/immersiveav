@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
@@ -53,7 +54,8 @@ const OurServices = () => {
           /> */}
           <div className="our-services__container__quote">
             <h1 className="our-services__container__quote__h1">
-              Lorem ipsum dolor sit amet, consecteur adipiscing elit
+              All our services are curated to deliver an exceptional user
+              experience.
             </h1>
           </div>
           <div className="our-services__container__hero-array">
@@ -91,17 +93,18 @@ const OurServices = () => {
           <div className="our-services__container__live">
             <h2 className="our-services__container__live__h2">Live</h2>
             <p className="our-services__container__live__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
-              semper dolor. Aliquam gravida purus vel sem facilisis viverra.
-              Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
-              non metus vel mi rutrum pulvinar. Quisque purus odio, malesuada
-              eget lorem sit amet, blandit mollis massa.
+              Nothing beats the experience of a{" "}
+              <Link to="/services/live">live event</Link>, when all our senses
+              are activated and engaged with the environment around us. Our
+              event technologists integrate leading-edge hardware with
+              innovative digital content to create unique experiences bespoke to
+              your objectives.
             </p>
             <p className="our-services__container__live__p">
-              Suspendisse potenti. Aenean at odio eget mi luctus suscipit. Ut
-              vel ipsum sit amet eros pulvinar aliquam condimentum vel erat.
-              Etiam et urna auctor, rhoncus eros in, tristique augue. Maecenas
-              et nunc et mi convallis efficitur.
+              Our pedigree is in live events. We understand what’s needed to
+              make things happen in a way which exceeds everyone’s expectations.
+              From conceptualisation through pre-production and onsite delivery,
+              your live event is in safe hands with Immersive AV.
             </p>
           </div>
           <div className="our-services__container__empty"></div>
@@ -120,31 +123,47 @@ const OurServices = () => {
           <div className="our-services__container__virtual">
             <h2 className="our-services__container__virtual__h2">Virtual</h2>
             <p className="our-services__container__virtual__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
-              semper dolor. Aliquam gravida purus vel sem facilisis viverra.
-              Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
-              non metus vel mi rutrum pulvinar.
+              More than just a substitute for live,{" "}
+              <Link to="/services/virtual">virtual events</Link> reach audiences
+              you only previously dreamed of. Freed from the shackles of
+              physical restrictions, a virtual event can be anything you want it
+              to be—created from the ground up with your objectives at the core
+              of every element.
             </p>
             <p className="our-services__container__virtual__p">
-              Quisque purus odio, malesuada eget lorem sit amet, blandit mollis
-              massa. Suspendisse potenti. Aenean at odio eget mi luctus
-              suscipit. Ut vel ipsum sit amet eros pulvinar aliquam condimentum
-              vel erat. Etiam et urna auctor, rhoncus eros in, tristique augue.
+              We don’t just do virtual events, we make them. Immersive AV’s
+              virtual event services can cover everything from designing the
+              platform to creating bespoke 3D virtual environments and
+              live-streamed integrations. Whatever your virtual event
+              requirements, we have a solution to help you make amazing things
+              happen.
             </p>
           </div>
           <div className="our-services__container__studio">
             <h2 className="our-services__container__studio__h2">Studio</h2>
             <p className="our-services__container__studio__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
-              semper dolor. Aliquam gravida purus vel sem facilisis viverra.
-              Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
-              non metus vel mi rutrum pulvinar.
+              A live-streamed production is an effective tool which helps you
+              connect with your audience, wherever they may be.
+              Broadcast-quality streamed events are more achievable than ever
+              before with studio services from Immersive AV.
             </p>
             <p className="our-services__container__studio__p">
-              Quisque purus odio, malesuada eget lorem sit amet, blandit mollis
-              massa. Suspendisse potenti. Aenean at odio eget mi luctus
-              suscipit. Ut vel ipsum sit amet eros pulvinar aliquam condimentum
-              vel erat. Etiam et urna auctor, rhoncus eros in, tristique augue.
+              Our studio solutions satisfy all budgets and requirements, from
+              fully-remote{" "}
+              <Link to="/services/studio/stream-management-services">
+                stream management services
+              </Link>{" "}
+              to{" "}
+              <Link to="/services/studio/led-streaming-studios">
+                LED streaming studios
+              </Link>{" "}
+              and{" "}
+              <Link to="/services/studio/green-screen-recording">
+                green screen filming
+              </Link>{" "}
+              with the creation of virtual sets. What’s more, we’ll take care of
+              all technical and creative demands, allowing you to focus on what
+              you do best.
             </p>
           </div>
           <div className="our-services__container__supplementary-images our-services__container__supplementary-images--studio">
@@ -174,16 +193,17 @@ const OurServices = () => {
           <div className="our-services__container__hybrid">
             <h2 className="our-services__container__hybrid__h2">Hybrid</h2>
             <p className="our-services__container__hybrid__p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in
-              semper dolor. Aliquam gravida purus vel sem facilisis viverra.
-              Vestibulum eu sapien vel nisl semper consectetur sed et lorem. Sed
-              non metus vel mi rutrum pulvinar.
+              Combining the best of live and virtual, a{" "}
+              <Link to="/services/hybrid">hybrid event</Link> enables event
+              organisers to reach their greatest potential. A hybrid event
+              satisfies both groups of delegates: those who wish to attend in
+              person, and those who participate online.
             </p>
             <p className="our-services__container__hybrid__p">
-              Quisque purus odio, malesuada eget lorem sit amet, blandit mollis
-              massa. Suspendisse potenti. Aenean at odio eget mi luctus
-              suscipit. Ut vel ipsum sit amet eros pulvinar aliquam condimentum
-              vel erat. Etiam et urna auctor, rhoncus eros in, tristique augue.
+              Our hybrid event services take the building blocks from our live
+              and virtual solutions to create a unified experience for live and
+              virtual delegates, ensuring there are equal benefits for everyone
+              who participates, no matter how they choose to attend.
             </p>
           </div>
         </div>

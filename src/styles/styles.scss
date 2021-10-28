@@ -2227,6 +2227,14 @@ $menu-transition-duration: 0.4s;
   flex-direction: column;
   align-items: center;
   // z-index: 5 !important;
+  a {
+    cursor: url("../svg/cursor-med-blue.svg"), auto !important;
+    color: $blue;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: darken($blue, 20%);
+    }
+  }
   p {
     z-index: 4 !important;
     font-size: 1.25rem;
