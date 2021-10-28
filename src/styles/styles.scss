@@ -3902,10 +3902,11 @@ $menu-transition-duration: 0.4s;
     }
     &__back {
       background-color: black;
-      color: white;
+      color: $white !important;
       padding: 20px 80px;
       margin-bottom: 100px;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
+      transition: background-color 0.2s ease-in-out;
       &:hover {
         background-color: lighten($black, 20%);
       }

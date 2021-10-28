@@ -161,6 +161,13 @@ const Studio = () => {
             </h1>
           </div>
         </div>
+        <Link
+          className="cms-container__post__back"
+          to="/"
+          style={{ textDecoration: "none", marginBottom: 100, zIndex: 7 }}
+        >
+          <btn>← Home</btn>
+        </Link>
       </div>
       <News />
       <NewFooter />
