@@ -230,10 +230,10 @@ const About = () => {
               togglePopup(
                 // "../images/person1.jpg",
                 Person1,
-                "John Doe",
-                "AV Technician",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Bob Walsh",
+                "Head of Projects & Technical",
+                "Bob’s our onsite general and guru of all things technical. With 25 years experience of delivering events of all shapes and sizes, not even the smallest problem can get past Bob. The events Bob manages run almost as smooth as his infectious Irish charm.| Your event’s in safe hands if it’s passed the fastidious eye of Bob Walsh.",
+                "bob.walsh@immersiveav.com",
                 "+441952953500"
               )
             }}
