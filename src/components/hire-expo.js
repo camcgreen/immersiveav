@@ -2,16 +2,21 @@ import React, { useEffect } from "react"
 import { gsap } from "gsap"
 import IconDot from "../svg/expo-hire-dot.svg"
 
+import HireImg from "../images/hire.jpg"
+import ExpoImg from "../images/expo.jpg"
+import bgImg from "../images/project10.jpeg"
+
 import { Link } from "gatsby"
 
 const HireExpo = () => {
   useEffect(() => {
     const boxes = document.querySelectorAll(".hire-expo__boxes__box")
     const hireExpoImage = document.querySelector(".hire-expo__image")
-    const images = [
-      "https://i.imgur.com/Rna2EKO.jpg",
-      "https://i.imgur.com/Lqk5eGN.jpg",
-    ]
+    // const images = [
+    //   "https://i.imgur.com/Rna2EKO.jpg",
+    //   "https://i.imgur.com/Lqk5eGN.jpg",
+    // ]
+    const images = [HireImg, ExpoImg]
 
     const tlHireExpo = gsap.timeline()
 
@@ -68,10 +73,7 @@ const HireExpo = () => {
   return (
     <div className="hire-expo">
       <div className="hire-expo__bg">
-        <img
-          src="https://i0.wp.com/immersiveav.com/wp-content/uploads/2020/01/DirectLine_PinPEP_003.jpg?w=1832&ssl=1"
-          alt=""
-        />
+        <img src={bgImg} alt="" />
       </div>
       <div className="hire-expo__image"></div>
       <div className="hire-expo__cover"></div>

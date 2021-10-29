@@ -2,17 +2,24 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import { gsap } from "gsap"
 
+import Services1 from "../images/services-1.jpeg"
+import Services2 from "../images/services-2.jpeg"
+import Services3 from "../images/services-3.jpeg"
+import ServicesPlaceholder from "../images/services-placeholder.jpeg"
+
 const Services = () => {
   useEffect(() => {
     setTimeout(() => {
       const background = document.querySelector(".services__columns")
       const image = document.querySelector(".services__image")
       const columns = document.querySelectorAll(".services__column")
-      const images = [
-        "https://i2.wp.com/immersiveav.com/wp-content/uploads/2021/04/Website-Tech-production-menu-2.jpg?w=1920&ssl=1",
-        "https://i1.wp.com/immersiveav.com/wp-content/uploads/2021/04/Website-xR-1.jpg?w=1920&ssl=1",
-        "https://i.imgur.com/76cxmqD.jpg",
-      ]
+      // const images = [
+      //   "https://i2.wp.com/immersiveav.com/wp-content/uploads/2021/04/Website-Tech-production-menu-2.jpg?w=1920&ssl=1",
+      //   "https://i1.wp.com/immersiveav.com/wp-content/uploads/2021/04/Website-xR-1.jpg?w=1920&ssl=1",
+      //   "https://i.imgur.com/76cxmqD.jpg",
+      // ]
+
+      const images = [Services1, Services2, Services3]
 
       const tlImage = gsap.timeline()
 
@@ -100,7 +107,8 @@ const Services = () => {
       <div className="services__cover">
         <img
           className="services__cover__img"
-          src="https://i.imgur.com/8fPReyl.jpg"
+          // src="https://i.imgur.com/8fPReyl.jpg"
+          src={ServicesPlaceholder}
           alt=""
         />
         <div className="services__cover__black"></div>
