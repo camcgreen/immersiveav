@@ -21,7 +21,7 @@ import Project1 from "../images/project1.jpeg"
 import Project2 from "../images/project2.jpeg"
 import Project3 from "../images/project3.jpeg"
 import Project4 from "../images/project4.jpeg"
-import Project5 from "../images/project5.jpeg"
+import Project5 from "../images/project10.jpeg"
 import Project6 from "../images/project6.jpeg"
 import Project7 from "../images/project7.jpeg"
 import Project8 from "../images/project8.jpeg"
@@ -164,7 +164,7 @@ const Portfolio = () => {
                 Project1,
                 "Adidas Retail Installation",
                 "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "How do you generate a buzz in store, when footfall is at an all time low because of a global pandemic? Adidas wanted to set the standard for what an experiential retail installation could achieve.| Working with The Marketing Store, Immersive AV helped Adidas attract more customers through the doors and keep them inside for longer with some clever tech experiences.",
                 "/adidas-experiential-retail-installation"
               )
             }}
@@ -184,7 +184,7 @@ const Portfolio = () => {
                 Project2,
                 "Mini Electric Launch",
                 "Hybrid",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "Mini wanted to celebrate the global launch of the Mini Cooper SE, the first all-electric Mini on the market. So we partnered with Unit 9 to build the ElectriCity, an interactive mural powered by touch and the technology itself.",
                 "/global-all-electric-mini-launch"
               )
             }}
@@ -242,7 +242,7 @@ const Portfolio = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                Project13,
+                Project5,
                 "Project Name",
                 "Live",
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
@@ -252,7 +252,7 @@ const Portfolio = () => {
           >
             <StaticImage
               className="showcase__img"
-              src="../images/project13.jpeg"
+              src="../images/project10.jpeg"
               alt="Huawei Rubik's Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
@@ -340,69 +340,6 @@ const Portfolio = () => {
             <div className="portfolio-page__container__item__overlay" />
           </div>
           <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
-          <div
-            className="portfolio-page__container__item"
-            onClick={e => {
-              e.persist()
-              togglePopup(
-                Project10,
-                "Project Name",
-                "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
-              )
-            }}
-          >
-            <StaticImage
-              className="showcase__img"
-              src="../images/project10.jpeg"
-              alt="Huawei Rubik's Cube"
-            />
-            <div className="portfolio-page__container__item__overlay" />
-          </div>
-          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
-          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
-          <div
-            className="portfolio-page__container__item"
-            onClick={e => {
-              e.persist()
-              togglePopup(
-                Project11,
-                "Project Name",
-                "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
-              )
-            }}
-          >
-            <StaticImage
-              className="showcase__img"
-              src="../images/project11.jpeg"
-              alt="Huawei Rubik's Cube"
-            />
-            <div className="portfolio-page__container__item__overlay" />
-          </div>
-          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
-          <div
-            className="portfolio-page__container__item"
-            onClick={e => {
-              e.persist()
-              togglePopup(
-                Project12,
-                "Project Name",
-                "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
-              )
-            }}
-          >
-            <StaticImage
-              className="showcase__img"
-              src="../images/project12.jpeg"
-              alt="Huawei Rubik's Cube"
-            />
-            <div className="portfolio-page__container__item__overlay" />
-          </div>
           <div
             className="portfolio-page__container__item"
             onClick={e => {

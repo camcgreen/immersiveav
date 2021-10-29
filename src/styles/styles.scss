@@ -2010,6 +2010,14 @@ $menu-transition-duration: 0.4s;
     // * {
     //   z-index: 1 !important;
     // }
+    a {
+      cursor: url("../svg/cursor-med-blue.svg"), auto !important;
+      color: $blue;
+      transition: color 0.2s ease-in-out;
+      &:hover {
+        color: darken($blue, 20%);
+      }
+    }
   }
   h1,
   h2 {
