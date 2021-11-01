@@ -6,7 +6,7 @@ featuredImage: /assets/adobestock_304827849-scaled.jpeg
 ---
 ## Planning a Christmas Event or Activation?
 
-Christmas is getting closer and we’ve got a sack full of services and solutions for all your Christmas and New Year event technology requirements. We supply [audiovisual technology](https://immersiveav.com/services/live) and create custom content or digital interactive experiences. We have a broad portfolio of solutions, which can be tailored to your specific needs. Let’s make the most of being back together this festive season and create memorable experiences.
+Christmas is getting closer and we’ve got a sack full of services and solutions for all your Christmas and New Year event technology requirements. We supply [audiovisual technology](../../services/live) and create custom content or digital interactive experiences. We have a broad portfolio of solutions, which can be tailored to your specific needs. Let’s make the most of being back together this festive season and create memorable experiences.
 
 ## Christmas Party Technical Production
 
@@ -18,7 +18,7 @@ This year’s Christmas party season presents the perfect opportunity to unite o
 
 ![Christmas retail AV from Immersive AV](https://immersiveav.com/wp-content/uploads/2021/10/Christmas-retail-web-300x200.jpg)
 
-As the high street faces its biggest battle ever to entice shoppers through the doors, we have a portfolio of products, solutions and experiences to help your customers get ahead of their competition. We’re experts in [experiential retail](https://immersiveav.com/portfolio/adidas-experiential-retail-installation/) and take pride in stepping it up over Christmas. Forget what’s been done before and think big with technology and interactivity from Immersive AV.
+As the high street faces its biggest battle ever to entice shoppers through the doors, we have a portfolio of products, solutions and experiences to help your customers get ahead of their competition. We’re experts in [experiential retail](../../portfolio/adidas-experiential-retail-installation) and take pride in stepping it up over Christmas. Forget what’s been done before and think big with technology and interactivity from Immersive AV.
 
 ## Christmas Concerts & Events
 
@@ -30,7 +30,7 @@ Whether you’re planning a pantomime, carol concert, nativity show or other fes
 
 ![Santas grotto AV hire](https://immersiveav.com/wp-content/uploads/2021/10/Santas-grotto-web-300x200.jpg)
 
-In the new age of tech-savvy kids, children have become more demanding of what they expect from a Santa’s grotto experience. Why not tap into our event technology resources for some ideas and inspiration? We can handle all your audiovisual requirements for the grotto and create interactive experiences too. What about gesture-controlled games for the children to play? Or real-time festive avatars created through generative content? A [green screen studio](https://immersiveav.com/services/studio/green-screen-recording) to record selfie videos in a variety of festive locations, all sharable to [TikTok](https://www.tiktok.com/@immersiveav) or [Instagram](https://www.instagram.com/immersiveav/)? Whatever your Santa’s grotto technology needs, contact us to discuss!
+In the new age of tech-savvy kids, children have become more demanding of what they expect from a Santa’s grotto experience. Why not tap into our event technology resources for some ideas and inspiration? We can handle all your audiovisual requirements for the grotto and create interactive experiences too. What about gesture-controlled games for the children to play? Or real-time festive avatars created through generative content? A [green screen studio](../../services/studio/green-screen-recording) to record selfie videos in a variety of festive locations, all sharable to [TikTok](https://www.tiktok.com/@immersiveav) or [Instagram](https://www.instagram.com/immersiveav/)? Whatever your Santa’s grotto technology needs, contact us to discuss!
 
 ## New Year’s Eve Parties
 
