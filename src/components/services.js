@@ -2,9 +2,9 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import { gsap } from "gsap"
 
-import Services1 from "../images/services-1.jpeg"
-import Services2 from "../images/services-2.jpeg"
-import Services3 from "../images/services-3.jpeg"
+import Services1 from "../images/services-1-min.jpeg"
+import Services2 from "../images/services-2-min.jpeg"
+import Services3 from "../images/services-3-min.jpeg"
 import ServicesPlaceholder from "../images/services-placeholder.jpeg"
 
 const Services = () => {

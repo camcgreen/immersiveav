@@ -879,6 +879,9 @@ $menu-transition-duration: 0.4s;
       // z-index: 10;
     }
     &__img {
+      position: abolute;
+      top: 0;
+      left: 0;
       object-fit: cover;
       // opacity: 0;
       // height: 10000%;
@@ -891,6 +894,13 @@ $menu-transition-duration: 0.4s;
     width: 100%;
     height: 100%;
     z-index: 1;
+    object-fit: cover;
+    &--live,
+    &--hybrid,
+    &--virtual {
+      object-fit: cover;
+    }
+
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
