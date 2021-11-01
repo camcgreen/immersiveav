@@ -26,7 +26,7 @@ import Project6 from "../images/project6.jpeg"
 import Project7 from "../images/project7.jpeg"
 import Project8 from "../images/project8.jpeg"
 import Project9 from "../images/project9.jpeg"
-import Project10 from "../images/project10.jpeg"
+import Project10 from "../images/project5.jpeg"
 import Project11 from "../images/project11.jpeg"
 import Project12 from "../images/project12.jpeg"
 import Project13 from "../images/project13.jpeg"
@@ -172,7 +172,7 @@ const Portfolio = () => {
             <StaticImage
               className="showcase__img"
               src="../images/project1.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="Adidas Retail Installation"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -192,7 +192,7 @@ const Portfolio = () => {
             <StaticImage
               className="showcase__img"
               src="../images/project2.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="Mini All Electric Launch"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -203,8 +203,8 @@ const Portfolio = () => {
               togglePopup(
                 Project3,
                 "The UMA Music Video",
-                "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "Studio",
+                "Bands releasing a new single in the middle of a global lockdown needed to find a creative way to reach their fans. |Which is exactly what The UMA did when they used the LED studio at StudioX Telford to launch their single ‘Fire’ in summer 2020.",
                 "/the-uma-music-video"
               )
             }}
@@ -212,7 +212,7 @@ const Portfolio = () => {
             <StaticImage
               className="showcase__img"
               src="../images/project3.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="The UMA Music Video"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -224,8 +224,8 @@ const Portfolio = () => {
               togglePopup(
                 Project4,
                 "Panasonic Virtual Conference",
-                "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "Virtual",
+                "StudioX provided stream management services and remote studio facilities for a Panasonic virtual conference.| Connecting over 500 industry experts, product users and partners, experiential agency Identity Group chose Immersive AV and the StudioX solution to take the 9th annualToughbook Innovation Forum virtual.",
                 "/panasonic-virtual-conference"
               )
             }}
@@ -233,7 +233,7 @@ const Portfolio = () => {
             <StaticImage
               className="showcase__img"
               src="../images/project4.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="Direct Line Smart Crossing"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -243,17 +243,17 @@ const Portfolio = () => {
               e.persist()
               togglePopup(
                 Project5,
-                "Project Name",
+                "The Smart Crossing",
                 "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
+                "To create the world’s first responsive road. Led by the team at Umbrellium in association with Saatchi & Saatchi on behalf of Direct Line. ",
+                "/the-smart-crossing-by-direct-line-umbrellium"
               )
             }}
           >
             <StaticImage
               className="showcase__img"
               src="../images/project10.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="Candy Crush Live Stream"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -263,17 +263,17 @@ const Portfolio = () => {
               e.persist()
               togglePopup(
                 Project6,
-                "Project Name",
-                "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
+                "Candy Crush Live Stream",
+                "Studio",
+                "Immersive AV provided stream management services for the Candy Crush live stream. |Passionate about connecting with their loyal fans, Candy Crush had ambitious plans for the grand finale of their All Stars contest.",
+                "/candy-crush-live-stream"
               )
             }}
           >
             <StaticImage
               className="showcase__img"
               src="../images/project6.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="Pepsi Lays Experiential Installation"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -283,17 +283,17 @@ const Portfolio = () => {
               e.persist()
               togglePopup(
                 Project7,
-                "Project Name",
+                "Pepsi Lays Experiential Installation",
                 "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
+                "Immersive AV partnered with brand experience specialists Giant Cookie and marketing agency Fuse, to produce an interactive experience for Pepsi Lays at the Champions League final 2019 in Madrid. |Our Pepsi Lays experiential installation was a centre-piece of the official UEFA fan zone, registering 11,371 interactions during the four day event.",
+                "/pepsi-lays-experiential-installation"
               )
             }}
           >
             <StaticImage
               className="showcase__img"
               src="../images/project7.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="Thales Virtual Conference"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -304,17 +304,17 @@ const Portfolio = () => {
               e.persist()
               togglePopup(
                 Project8,
-                "Project Name",
-                "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
+                "Thales Virtual Conference",
+                "Virtual",
+                "Immersive AV provided green screen studio facilities, virtual set integration and stream management services for the Thales virtual conference.| Aerospace manufacturer Thales and their experiential agency First Event enlisted Immersive AV and the StudioX team to produce the technical and creative elements of their senior leadership conference 2021.",
+                "/thales-virtual-conference"
               )
             }}
           >
             <StaticImage
               className="showcase__img"
               src="../images/project8.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="World Skills Opening Ceremonye"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>
@@ -325,10 +325,10 @@ const Portfolio = () => {
               e.persist()
               togglePopup(
                 Project9,
-                "Project Name",
+                "World Skills Opening Ceremony",
                 "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "/panasonic-virtual-conference"
+                "To consult on the opening and closing Ceremonies for Abu Dhabi and to oversee systems design and delivery with the chosen AV contractor for the live experience agency People.| The venue being custom built within the Du Arena, Abu Dhabi and the opening Ceremony to consist of a central screen 21mx 12m, two side screens of 14m x 8m, a 4.5m globe for projection and floor projection to a section of the performance space.",
+                "/world-skills-opening-ceremony"
               )
             }}
           >
@@ -345,10 +345,10 @@ const Portfolio = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                Project5,
-                "Rubik's Cube",
+                Project10,
+                "Huawei Rubik’s Cube",
                 "Live",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "When Huawei launched their latest smartphone, they wanted to create a spectacle and get people talking. |Working with Kerve Creative, Immersive AV designed and built a 4.5M high interactive Rubik’s cube which used the device’s groundbreaking AI to help users complete the famously difficult puzzle.",
                 "/interactive-rubiks-cube"
               )
             }}
@@ -356,7 +356,7 @@ const Portfolio = () => {
             <StaticImage
               className="showcase__img"
               src="../images/project5.jpeg"
-              alt="Huawei Rubik's Cube"
+              alt="Huawei Rubik’s Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
           </div>

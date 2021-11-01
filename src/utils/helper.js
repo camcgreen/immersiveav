@@ -12,7 +12,7 @@ export const breakText = [
 ]
 
 //Change to immersive
-export const contactEmail = "cameron.green@voxelstudio.co.uk"
+export const contactEmail = "enquiries@immersiveav.com"
 
 //FAQs
 export const faqsList = [
