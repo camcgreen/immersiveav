@@ -42,6 +42,4 @@ Want to make a noise on your stand? We’re here to help. Whether you simply wan
 
 In addition to supplying attention-grabbing technology, we pride ourselves on achieving unparalleled levels of customer service. As the official supplier of AV & IT hire equipment, we provide around the clock technical support at no extra cost. We’ll have an on-site service centre with an array of project managers and product specialists for the duration of the event.
 
-Click [here](https://immersiveav.com/wp-content/uploads/2021/08/IAV-VMLMRS-Live-Brochure-21.pdf) to download our AV hire brochure for The Running Show.
-
 Please [contact us](mailto:paul.flaherty@immersiveav.com) to discuss your requirements for the show.
