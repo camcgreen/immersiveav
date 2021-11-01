@@ -6,7 +6,7 @@ featuredImage: /assets/adobestock_304827849-scaled.jpeg
 ---
 ## Planning a Christmas Event or Activation?
 
-Christmas is getting closer and we’ve got a sack full of services and solutions for all your Christmas and New Year event technology requirements. We supply [audiovisual technology](https://immersiveav.com/event-technical-production/live-event-technical-production-services/) and create custom content or digital interactive experiences. We have a broad portfolio of solutions, which can be tailored to your specific needs. Let’s make the most of being back together this festive season and create memorable experiences.
+Christmas is getting closer and we’ve got a sack full of services and solutions for all your Christmas and New Year event technology requirements. We supply [audiovisual technology](https://immersiveav.com/services/live) and create custom content or digital interactive experiences. We have a broad portfolio of solutions, which can be tailored to your specific needs. Let’s make the most of being back together this festive season and create memorable experiences.
 
 ## Christmas Party Technical Production
 
@@ -30,7 +30,7 @@ Whether you’re planning a pantomime, carol concert, nativity show or other fes
 
 ![Santas grotto AV hire](https://immersiveav.com/wp-content/uploads/2021/10/Santas-grotto-web-300x200.jpg)
 
-In the new age of tech-savvy kids, children have become more demanding of what they expect from a Santa’s grotto experience. Why not tap into our event technology resources for some ideas and inspiration? We can handle all your audiovisual requirements for the grotto and create interactive experiences too. What about gesture-controlled games for the children to play? Or real-time festive avatars created through generative content? A [green screen studio](https://immersiveav.com/event-live-streaming/green-screen-filming-studios/) to record selfie videos in a variety of festive locations, all sharable to [Tik Tok](https://www.tiktok.com/@immersiveav) or [Instagram](https://www.instagram.com/immersiveav/)? Whatever your Santa’s grotto technology needs, contact us to discuss!
+In the new age of tech-savvy kids, children have become more demanding of what they expect from a Santa’s grotto experience. Why not tap into our event technology resources for some ideas and inspiration? We can handle all your audiovisual requirements for the grotto and create interactive experiences too. What about gesture-controlled games for the children to play? Or real-time festive avatars created through generative content? A [green screen studio](https://immersiveav.com/services/studio/green-screen-recording) to record selfie videos in a variety of festive locations, all sharable to [TikTok](https://www.tiktok.com/@immersiveav) or [Instagram](https://www.instagram.com/immersiveav/)? Whatever your Santa’s grotto technology needs, contact us to discuss!
 
 ## New Year’s Eve Parties
 
