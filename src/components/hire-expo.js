@@ -2,8 +2,8 @@ import React, { useEffect } from "react"
 import { gsap } from "gsap"
 import IconDot from "../svg/expo-hire-dot.svg"
 
-import HireImg from "../images/hire.jpg"
-import ExpoImg from "../images/expo.jpg"
+import HireImg from "../images/hire-min.jpg"
+import ExpoImg from "../images/expo-min.jpg"
 import bgImg from "../images/project10.jpeg"
 
 import { Link } from "gatsby"
