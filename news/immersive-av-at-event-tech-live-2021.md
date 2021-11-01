@@ -8,7 +8,7 @@ featuredImage: /assets/adobestock_230022338-scaled.jpeg
 
 Immersive AV are excited to exhibit at this year’s [Event Tech Live 2021, taking place physically ](https://eventtechlive.com/london/) 3-4 November at the Old Truman Brewery in London, and virtually 1-5 November through our 3D virtual event experience.
 
-Whatever your requirements for creative technology at live, [virtual](https://immersiveav.com/services/virtual) or [hybrid events](https://immersiveav.com/services/hybrid), we have a portfolio of solutions to help you attract attention, maximise engagement and achieve a greater event marketing success than ever before.
+Whatever your requirements for creative technology at live, [virtual](../../services/virtual) or [hybrid events](../../services/hybrid), we have a portfolio of solutions to help you attract attention, maximise engagement and achieve a greater event marketing success than ever before.
 
 Who could forget the generative rain and umbrella experience from Event Tech Live 2019? Our installation was the talk of the show, generating a lot of interest and shares on social media. You’ll be pleased to hear the umbrella returns in 2021, with new levels of interactivity and a host of other engaging attractions, including an oversized gamification experience (sshhh, don’t tell anyone).
 
