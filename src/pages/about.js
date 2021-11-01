@@ -20,16 +20,17 @@ import bgArrowOrange from "../svg/bg-arrow-orange.svg"
 import Person1 from "../images/bob.jpg"
 import Person2 from "../images/christine.jpg"
 import Person3 from "../images/russell.jpg"
-import Person4 from "../images/person4.jpg"
-import Person5 from "../images/person5.jpg"
-import Person6 from "../images/person6.jpg"
-import Person7 from "../images/person7.jpg"
-import Person8 from "../images/person8.jpg"
-import Person9 from "../images/person9.jpg"
-import Person10 from "../images/person10.jpg"
-import Person11 from "../images/person11.jpg"
-import Person12 from "../images/person12.jpg"
-import Person13 from "../images/person13.jpg"
+import Person4 from "../images/andy.jpg"
+import Person5 from "../images/Becca.jpg"
+import Person6 from "../images/Ben.jpg"
+import Person7 from "../images/emily.jpg"
+import Person8 from "../images/Hayley.jpg"
+import Person9 from "../images/Leroy.jpg"
+import Person10 from "../images/Matt.jpg"
+import Person11 from "../images/Paul.jpg"
+import Person12 from "../images/Rob.jpg"
+import Person13 from "../images/Steve.jpg"
+import Person14 from "../images/Stewart.jpg"
 import { footerText } from "../utils/helper"
 
 const About = () => {
@@ -307,9 +308,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person4.jpg"
+              src={Person4}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -328,9 +329,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person5.jpg"
+              src={Person5}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -349,9 +350,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person6.jpg"
+              src={Person6}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -370,9 +371,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person7.jpg"
+              src={Person7}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -392,9 +393,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person8.jpg"
+              src={Person8}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -414,9 +415,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person9.jpg"
+              src={Person9}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -436,9 +437,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person10.jpg"
+              src={Person10}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -459,9 +460,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person11.jpg"
+              src={Person11}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -481,9 +482,9 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person12.jpg"
+              src={Person12}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -502,9 +503,30 @@ const About = () => {
               )
             }}
           >
-            <StaticImage
+            <img
               className="showcase__img"
-              src="../images/person13.jpg"
+              src={Person13}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Name",
+                "Job Title",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
+                "enquiries@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />

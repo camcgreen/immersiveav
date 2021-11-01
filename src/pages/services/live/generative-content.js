@@ -11,7 +11,7 @@ import { footerText } from "../../../utils/helper"
 
 import HeroImage from "../../../images/generative-hero.jpg"
 import SuppImage1 from "../../../images/generative-supp-1.jpg"
-// import SuppImage2 from "../../../images/green-2.jpeg"
+import SuppImage2 from "../../../images/generative-supp-2.jpg"
 
 const GenerativeContent = () => {
   return (
@@ -64,13 +64,14 @@ const GenerativeContent = () => {
               experience as creative as generative content, the reach is far
               greater than those attending the physical event.
             </p>
-            {/* <p>
+            <p>
               <img
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               We’d love to tell you how we do it, but the process is magic and
               varied depending on the project. If you’re enthusiastic about
