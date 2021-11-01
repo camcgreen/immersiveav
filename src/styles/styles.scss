@@ -193,6 +193,10 @@ body {
         // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       }
+      transition: transform 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-3px);
+      }
     }
     &__navigation {
       width: 350px;
