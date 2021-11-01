@@ -36,6 +36,16 @@ const IndexPage = ({ data }) => {
   // }
   // let loaded = false
   useEffect(() => {
+    const preload1 = new Image()
+    preload1.src = "../images/services-1.jpeg"
+    const preload2 = new Image()
+    preload2.src = "../images/services-2.jpeg"
+    const preload3 = new Image()
+    preload3.src = "../images/services-3.jpeg"
+    const preload4 = new Image()
+    preload4.src = "../images/hire.jpg"
+    const preload5 = new Image()
+    preload5.src = "../images/expo.jpg"
     window.scrollTo({
       top: 0,
       behavior: "instant",

@@ -10,6 +10,16 @@ import ServicesPlaceholder from "../images/services-placeholder.jpeg"
 const Services = () => {
   useEffect(() => {
     setTimeout(() => {
+      const preload1 = new Image()
+      preload1.src = "../images/services-1.jpeg"
+      const preload2 = new Image()
+      preload2.src = "../images/services-2.jpeg"
+      const preload3 = new Image()
+      preload3.src = "../images/services-3.jpeg"
+      const preload4 = new Image()
+      preload4.src = "../images/hire.jpg"
+      const preload5 = new Image()
+      preload5.src = "../images/expo.jpg"
       const background = document.querySelector(".services__columns")
       const image = document.querySelector(".services__image")
       const columns = document.querySelectorAll(".services__column")
