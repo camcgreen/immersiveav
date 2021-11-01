@@ -8,11 +8,7 @@ featuredImage: /assets/website-stream-management-services-header.jpeg
 
 Now the government has given the green light for events of all shapes and sizes to resume after 19th July, were excited to be recruiting for a number of permanent and freelance positions, both onsite and in our Telford warehouse
 
-
-
-[View our live list of vacancies.](../vacancies)
-
-
+View our live list o[](../../vacancies)f vacancies.
 
 ## AV Technicians
 
