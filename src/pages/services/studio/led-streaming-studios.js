@@ -80,11 +80,7 @@ const LedStream = () => {
                 style={{ width: "50%" }}
               />
             </p>
-            <h2>
-              We’ll take care of all your live streaming production needs, from
-              studio space and content creation, to camera operators and live
-              streaming engineers.
-            </h2>
+            <h2>So much more than just a studio.</h2>
           </div>
           <btn
             onClick={() => window.history.back()}

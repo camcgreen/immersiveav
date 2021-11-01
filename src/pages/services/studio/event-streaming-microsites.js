@@ -37,7 +37,7 @@ const EventMicrosites = () => {
               There’s no better way of producing a professional live streamed
               event than hosting it on a custom streaming microsite. Our
               platforms are secure and stable, allowing complete control over
-              site aesthetics and user experience.
+              aesthetics and user experience.
             </p>
             <p>
               <img

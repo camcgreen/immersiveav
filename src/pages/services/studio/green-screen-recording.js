@@ -73,6 +73,9 @@ const GreenScreen = () => {
               augment the green areas with virtual content created in generative
               content engines such as Notch or Unreal Engine.
             </p>
+            <h2>
+              Create extraordinary with the magic of green screen recording.
+            </h2>
           </div>
           <btn
             onClick={() => window.history.back()}

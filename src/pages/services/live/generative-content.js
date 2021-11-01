@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -58,11 +59,15 @@ const GenerativeContent = () => {
             <p>
               The scope of possibilities with generative media is vast. We’ve
               created mind blowing generative content installations for London’s
-              flagship Adidas store and our own exhibition space at Event Tech
-              Live. Both experiences generated lots of interest, with people
-              taking pictures and videos to share on social media. With an
-              experience as creative as generative content, the reach is far
-              greater than those attending the physical event.
+              flagship{" "}
+              <Link to="/portfolio/adidas-experiential-retail-installation">
+                Adidas
+              </Link>{" "}
+              store and our own exhibition space at Event Tech Live. Both
+              experiences generated lots of interest, with people taking
+              pictures and videos to share on social media. With an experience
+              as creative as generative content, the reach is far greater than
+              those attending the physical event.
             </p>
             <p>
               <img
@@ -85,7 +90,7 @@ const GenerativeContent = () => {
               safe hands with Immersive AV.
             </p>
             <h2>
-              Blow people’s minds with the visual specuacular of generative
+              Blow people’s minds with the visual spectacular of generative
               content.
             </h2>
           </div>

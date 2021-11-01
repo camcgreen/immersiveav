@@ -34,10 +34,10 @@ const CustomGames = () => {
               Gamification is a guaranteed tool to enhance visitor engagement.
             </h2>
             <p>
-              Everyone loves to have fun and be challenged. Custom games feature
-              both these attractions and can be customised to your brand and
-              services. The scope of gamification presents us with a completely
-              blank canvas. We can create whatever you need.
+              Everyone loves to have fun and be challenged. Custom games are as
+              thrilling as they are appealing and can be customised to your
+              brand and services. The scope of gamification presents us with a
+              completely blank canvas. We can create whatever you need.
             </p>
             {/* <p>
               <img
@@ -55,7 +55,7 @@ const CustomGames = () => {
             </p>
             <p>
               One of the key features of all gamification experiences is the
-              leaderboard. You invite people to play your game, they exchange
+              leaderboard. You invite people to play your game and they exchange
               their details for a position on the leaderboard, often with the
               incentive of prizes for the top performers. This allows you to
               keep people in your space for longer, and collect their details

@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -10,7 +11,7 @@ import NewFooter from "../../../components/footerNew"
 import { footerText } from "../../../utils/helper"
 
 import HeroImage from "../../../images/walls-hero.jpg"
-import SuppImage1 from "../../../images/services-top-2.jpg"
+import SuppImage1 from "../../../images/project7.jpeg"
 // import SuppImage2 from "../../../images/green-2.jpeg"
 
 const InteractiveLive = () => {
@@ -37,24 +38,46 @@ const InteractiveLive = () => {
             <p>
               What better way to attract and engage visitors than with an
               interactive wall, where they get to control the content? Using
-              physical touchpoints, gesture control or touchscreen activation,
-              we create and build interactive walls to make your next event your
-              best event.
+              physical touchpoints,{" "}
+              <Link to="/services/live/gesture-controlled-content">
+                gesture control
+              </Link>{" "}
+              or touchscreen activation, we create and build interactive walls
+              to make your next event your best event.
             </p>
             <p>
               <img
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
             </p>
             <p>
+              Using high definition LED walls,{" "}
+              <Link to="/services/live/projection-mapping">
+                projection mapping
+              </Link>{" "}
+              or integrating different technologies, our interactive walls have
+              created memorable experiences for brands such as{" "}
+              <Link to="/portfolio/global-all-electric-mini-launch">Mini</Link>,
+              Dairy Gold and{" "}
+              <Link to="/portfolio/pepsi-lays-experiential-installation">
+                Pepsi Lays
+              </Link>
+              .
+            </p>
+            <p>
               The content of an interactive wall wall is tailored to your brand
-              and products or services. Many clients opt for a storytelling
-              approach—explaining how their solutions benefit their customers.
-              Interactive features can include gamification, selfie cameras,
-              activating digital content and triggering gesture controlled
-              content.
+              and products or services. The storytelling approach is popular,
+              using a narrative journey to explain your products and services to
+              prospective customers. Interactive features can include{" "}
+              <Link to="/services/live/custom-games">gamification</Link>, selfie
+              cameras, activating digital content and triggering{" "}
+              <Link to="/services/live/gesture-controlled-content">
+                gesture controlled content
+              </Link>
+              .
             </p>
             {/* <p>
               <img

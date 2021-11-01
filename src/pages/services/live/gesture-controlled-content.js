@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -58,12 +59,19 @@ const GestureControlled = () => {
             <p>
               How to use gesture control technology to enhance the visitor
               experience? Popular applications of gesture controlled content
-              include gamification and generative content, where the person’s
-              movement is reflected on a big screen through the real time
-              creation of an avatar or other animated sequence. Gesture control
-              can also be used to trigger information on an interactive wall,
-              where users can explore digital content related to your brand and
-              services.
+              include <Link to="/services/live/custom-games">gamification</Link>{" "}
+              and{" "}
+              <Link to="/services/live/generative-content">
+                generative content
+              </Link>
+              , where the person’s movement is reflected on a big screen through
+              the real time creation of an avatar or other animated sequence.
+              Gesture control can also be used to trigger information on an{" "}
+              <Link to="/services/live/interactive-walls">
+                interactive wall
+              </Link>
+              , where users can explore digital content related to your brand
+              and services.
             </p>
             {/* <p>
               <img

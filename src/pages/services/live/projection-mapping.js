@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import "../../../styles/styles.scss"
 
 import Header from "../../../components/header"
@@ -82,18 +83,28 @@ const ProjectionMapping = () => {
               range of surfaces and environments. Why not use projection mapping
               to highlight a product on an exhibition stand, or even projection
               map the whole stand itself? Planning a brand activation? Why not
-              combine projection mapping with gesture control, generative
-              content or touchpoints to create an interactive wall?
+              combine projection mapping with{" "}
+              <Link to="/services/live/gesture-controlled-content">
+                gesture control
+              </Link>
+              ,{" "}
+              <Link to="/services/live/generative-content">
+                generative content
+              </Link>{" "}
+              or touchpoints to create an{" "}
+              <Link to="/services/live/interactive-walls">
+                interactive wall
+              </Link>
+              ?
             </p>
             <p>
               Whatever your projection mapping requirements, chat to our team
               and discover how we can help you create an extraordinary and
               shareable experience.
             </p>
-            {/* <h2>
-              Not limited to verticals, our interactive surfaces could also be
-              used as floors or tabletops.
-            </h2> */}
+            <h2>
+              Make the impossible possible, with the art of projection mapping.
+            </h2>
           </div>
           <btn
             onClick={() => window.history.back()}
