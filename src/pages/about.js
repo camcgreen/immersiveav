@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "../components/header"
+import BgAv from "../components/bgAv"
 import LowHero from "../components/lowHero"
 import SubHero from "../components/subHero"
 import News from "../components/news"
@@ -34,6 +35,25 @@ import Person14 from "../images/Stewart.jpg"
 import { footerText } from "../utils/helper"
 
 const About = () => {
+  // const paras = gsap.utils.toArray(".about-page__container p")
+  // paras.forEach(para => {
+  //   gsap.to(para, {
+  // x: 300,
+  // scrollTrigger: {
+  //   trigger: para,
+  //   scrub: true,
+  //     },
+  //   })
+  // })
+
+  gsap.to("about-page__container__p--1", {
+    x: 300,
+    scrollTrigger: {
+      trigger: "about-page__container__p--1",
+      scrub: true,
+    },
+  })
+
   const [image, setImage] = useState("")
   const [name, setName] = useState("")
   const [job, setJob] = useState("")
@@ -57,6 +77,7 @@ const About = () => {
       setPhone(phone)
       ScrollTrigger.refresh()
       ScrollTrigger.getAll().forEach(instance => {
+        console.log(instance)
         instance.kill()
       })
       setUpdateKey(updateKey + 1)
@@ -89,7 +110,7 @@ const About = () => {
       <Header />
       <LowHero key={updateKey} />
       <div className="about-page">
-        <div className="bg-av">
+        {/* <div className="bg-av">
           <img className="bg-av__img bg-av__img--blue" src={bgBlue} alt="" />
           <img
             className="bg-av__img bg-av__img--orange bg-av__img--orange--about"
@@ -101,7 +122,8 @@ const About = () => {
             src={bgArrowOrange}
             alt=""
           />
-        </div>
+        </div> */}
+        <BgAv page="about" key={updateKey} />
         <h1 className="about-page__h1">About</h1>
         <div className="about-page__people">
           <div

@@ -1962,6 +1962,7 @@ $menu-transition-duration: 0.4s;
 
 .bg-av {
   position: absolute;
+  // position: fixed;
   width: 100vw;
   // opacity: 0.75;
   opacity: 1;
@@ -1975,6 +1976,10 @@ $menu-transition-duration: 0.4s;
       position: absolute;
       top: 200vh;
       // left: -15vw;
+      &--about {
+        top: 0;
+        left: -10vw;
+      }
     }
     &--orange {
       width: 800px;
@@ -4129,6 +4134,7 @@ $menu-transition-duration: 0.4s;
 // New Footer
 .new-footer {
   position: relative;
+  z-index: 4;
   width: 100%;
   // background: $blue;
   background-color: rgba(48, 97, 224, 0.9);
