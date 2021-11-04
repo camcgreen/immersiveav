@@ -46,13 +46,13 @@ const About = () => {
   //   })
   // })
 
-  gsap.to("about-page__container__p--1", {
-    x: 300,
-    scrollTrigger: {
-      trigger: "about-page__container__p--1",
-      scrub: true,
-    },
-  })
+  // gsap.to("about-page__container__p--1", {
+  //   x: 300,
+  //   scrollTrigger: {
+  //     trigger: "about-page__container__p--1",
+  //     scrub: true,
+  //   },
+  // })
 
   const [image, setImage] = useState("")
   const [name, setName] = useState("")
