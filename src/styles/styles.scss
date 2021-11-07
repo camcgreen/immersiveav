@@ -2833,6 +2833,9 @@ $menu-transition-duration: 0.4s;
   a {
     cursor: url("../svg/cursor-med-blue.svg"), auto !important;
     padding: 40px;
+    @media (max-width: $mobile-width) {
+      padding: 30px;
+    }
     border-radius: 0 !important;
     color: $black;
     &:hover {

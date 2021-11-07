@@ -51,7 +51,9 @@ const News = ({ data }) => {
     ScrollTrigger.getAll().forEach(instance => {
       instance.kill()
     })
-    setUpdateKey(updateKey + 1)
+    setTimeout(() => {
+      setUpdateKey(updateKey + 1)
+    }, 500)
   }
 
   return (
