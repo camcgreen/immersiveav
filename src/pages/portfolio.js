@@ -44,9 +44,7 @@ const Portfolio = () => {
   // let updateKey = 0
 
   const togglePopup = (image, title, type, paragraph, link) => {
-    console.log("toggle")
     const popup = document.querySelector(".portfolio-page__container__popup")
-    console.log(popup)
 
     if (image && title && type && paragraph && link) {
       setImage(image)

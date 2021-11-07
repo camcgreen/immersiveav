@@ -27,8 +27,7 @@ const FAQs = () => {
           {faqsList.length > 0 ? (
             faqsList.map((faq, i) => {
               return (
-                <li className="faqs-page__list__item">
-                  {/* {faqsList[i].q} */}
+                <li className="faqs-page__list__item" key={i}>
                   <button
                     style={{ marginBottom: i === faqsList.length - 1 ? 0 : 80 }}
                     className="faqs-page__list__item__btn"

@@ -66,7 +66,7 @@ const News = ({ data }) => {
         <h1 className="news-page__h1">News</h1>
         {currentPosts.map((post, i) => {
           return (
-            <div className="news-page__item">
+            <div className="news-page__item" key={i}>
               {/* <Link
                 // className="header__container__navigation__service-links link"
                 className="news-page__item__link"

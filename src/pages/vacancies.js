@@ -29,11 +29,11 @@ const Vacancies = ({ data }) => {
       <LowHero />
       <div className="vacancies-page">
         <h1 className="vacancies-page__h1">Vacancies</h1>
-        <li className="vacancies-page__list" style={{ paddingLeft: 0 }}>
+        <ul className="vacancies-page__list" style={{ paddingLeft: 0 }}>
           {posts.length > 0 ? (
             posts.map((post, i) => {
               return (
-                <li className="vacancies-page__list__item">
+                <li className="vacancies-page__list__item" key={i}>
                   <button
                     className="vacancies-page__list__item__btn"
                     style={{ marginBottom: i === posts.length - 1 ? 0 : 80 }}
@@ -85,7 +85,7 @@ const Vacancies = ({ data }) => {
               There are no vacancies at the moment.
             </p>
           )}
-        </li>
+        </ul>
       </div>
       <PhoneEmail />
       <News />

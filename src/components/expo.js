@@ -18,7 +18,6 @@ const Expo = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <button className="expo__container__text__btn">
-          {/* <img src={ButtonBg} alt="" /> */}
           <svg
             width="237"
             height="43"
@@ -48,7 +47,6 @@ const Expo = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <button className="expo__container__text__btn">
-          {/* <img src={ButtonBg} alt="" /> */}
           <svg
             width="237"
             height="43"

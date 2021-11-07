@@ -21,31 +21,16 @@ const BgAv = () => {
       .to(".bg-av__img--arrow-orange--about", {
         scrollTrigger: {
           trigger: ".about-page",
-          // start: "top center",
-          // end: "bottom top",
           scrub: 0.5,
         },
         scale: 0.5,
-        // scale: 2.5,
-        // skewX: 2,
-        // skewY: 10,
-        // xPercent: 25,
-        // yPercent: -100,
         ease: "none",
       })
       .to(".bg-av__img--blue--about", {
         scrollTrigger: {
           trigger: ".about-page",
-          // start: "top center",
-          // end: "bottom top",
           scrub: 0.5,
         },
-        // scale: 0.5,
-        // scale: 2.5,
-        // skewX: 2,
-        // skewY: 10,
-        // xPercent: 25,
-        // yPercent: -100,
         ease: "none",
       })
   }, [])

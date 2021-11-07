@@ -29,12 +29,6 @@ import NewFooter from "../components/footerNew"
 import { breakText, footerText } from "../utils/helper"
 
 const IndexPage = ({ data }) => {
-  // console.log(data.allMarkdownRemark.edges)
-  const [loaded, setLoaded] = useState(false)
-  // const setLoaded = () => {
-  //   loaded = true
-  // }
-  // let loaded = false
   useEffect(() => {
     const preload1 = new Image()
     preload1.src = "../images/services-1.jpeg"
@@ -57,7 +51,6 @@ const IndexPage = ({ data }) => {
 
     const sections = gsap.utils.toArray(".break__container__p ")
     sections.forEach(section => {
-      console.log(section)
       gsap.from(section, {
         duration: 1.8,
         y: 140,

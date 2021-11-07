@@ -33,7 +33,7 @@ const Cookies = () => {
             To find out more about cookies, including how to manage or disable
             them, please visit{" "}
             <a
-              class="c-link"
+              className="c-link"
               href="http://www.allaboutcookies.org/"
               target="_blank"
               rel="noopener noreferrer"

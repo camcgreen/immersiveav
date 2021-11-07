@@ -22,7 +22,6 @@ const NotFoundPage = () => {
       <News />
       <NewFooter />
       <div className="empty">
-        {/* <SubHero /> */}
         <h1 className="empty__title">{footerText}</h1>
       </div>
     </div>

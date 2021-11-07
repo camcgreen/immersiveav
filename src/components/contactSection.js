@@ -20,7 +20,6 @@ const ContactSection = () => {
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
           <p>
-            {/* <label htmlFor="name">Name</label> */}
             <input
               type="text"
               id="name"
@@ -30,7 +29,6 @@ const ContactSection = () => {
             />
           </p>
           <p>
-            {/* <label htmlFor="email">Email</label> */}
             <input
               type="email"
               id="email"
@@ -40,7 +38,6 @@ const ContactSection = () => {
             />
           </p>
           <p>
-            {/* <label htmlFor="email">Email</label> */}
             <input
               type="text"
               id="company"
@@ -50,11 +47,9 @@ const ContactSection = () => {
             />
           </p>
           <p>
-            {/* <label htmlFor="email">Email</label> */}
             <input type="tel" id="phone" name="phone" placeholder="Phone" />
           </p>
           <p>
-            {/* <label htmlFor="message">Message</label> */}
             <textarea
               id="message"
               name="message"

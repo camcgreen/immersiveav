@@ -1,11 +1,5 @@
 @import url("https://use.typekit.net/fyr5ixs.css");
 
-// $font: "graphie, Helvetica Neue, -apple-system, BlinkMacSystemFont,  Segoe
-//   UI, Roboto, Oxygen,
-// Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif";
-
-// $font: "graphie, sans-serif";
-
 //Colours
 $white: #fff;
 $black: #000;
@@ -33,32 +27,15 @@ $tablet-width: 1024px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  // font-family: graphie, -apple-system, Open Sans, sans-serif;
-  // cursor: url('data:image/svg+xml;utf8,<svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3441 8.15953L14.2686 43.541L21.624 39.8295L21.3707 22.0993L35.4818 32.8337L42.8362 29.1227L14.3441 8.15953ZM39.4062 29.3134L35.6277 31.22L23.0378 21.6402L39.4062 29.3134ZM38.3347 27.5194L20.5546 19.1853L16.7436 11.6327L38.3347 27.5194ZM16.4565 40.8912L20.0117 23.1568L20.2389 38.9827L16.4565 40.8912ZM15.7079 12.1756L19.5102 19.7109L15.6534 38.9463L15.7079 12.1756Z" fill="#F57B17"/><path d="M15.7079 12.1756L19.5102 19.7109L15.6534 38.9463L15.7079 12.1756Z" fill="#F57B17"/><path d="M39.4062 29.3134L35.6277 31.22L23.0378 21.6402L39.4062 29.3134Z" fill="#F57B17"/></svg>')
-  //     24 24,
-  //   auto;
-  // cursor: url("https://i.stack.imgur.com/inwsy.png"), auto;
-
-  // cursor: url('data:image/svg+xml;utf8,<svg width="24" height="24" fill="black" xmlns="http://www.w3.org/2000/svg"><path d="m14.344 8.16-.074 35.38 7.355-3.711-.253-17.73 14.11 10.734 7.355-3.711L14.344 8.16zm25.062 21.153-3.778 1.907-12.59-9.58 16.368 7.673zm-1.071-1.794-17.78-8.334-3.811-7.552 21.59 15.886zM16.456 40.891l3.556-17.734.227 15.826-3.783 1.908zm-.748-28.715 3.802 7.535-3.857 19.235.055-26.77z" fill="#F57B17"/><path d="m15.708 12.176 3.802 7.535-3.857 19.235.055-26.77zm23.698 17.137-3.778 1.907-12.59-9.58 16.368 7.673z" fill="#F57B17"/></svg>')
-  //     24 24,
-  //   auto;
-  // cursor: none !important;
 }
 
 html,
 body {
-  // cursor: none !important;
-  // font-family: $font;
   font-family: graphie, -apple-system, Open Sans, sans-serif !important;
   font-size: 16px;
   overscroll-behavior-y: none;
-  // overflow-x: hidden;
-  // line-height: 107.5%;
   letter-spacing: -0.075em;
-  // cursor: url("https://svgshare.com/i/a7n.svg"), auto;
   cursor: url("../svg/cursor-med-1.svg"), auto;
-  // animation: fadein 1s ease-in-out;
-  // background-color: black;
   overflow-x: hidden;
 }
 
@@ -76,17 +53,11 @@ body {
   align-items: center;
   pointer-events: none;
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
-  // transform: translateX(-100%);
-  // opacity: 0;
   &__svg {
     width: 200px;
     height: 200px;
     animation: pulse 2s infinite ease-in-out;
   }
-  // &__shown {
-  //   transform: translateX(0%);
-  //   opacity: 1;
-  // }
 }
 
 @keyframes pulse {
@@ -168,7 +139,6 @@ body {
 }
 
 .wrapper {
-  // max-width: 50vw;
   background: black;
 }
 
@@ -178,7 +148,6 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    // width: calc(100% - #{$padding * 2});
     width: 100%;
     padding: $padding;
     display: flex;
@@ -190,7 +159,6 @@ body {
     &__logo {
       width: 200px;
       img {
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       }
       transition: transform 0.2s ease-in-out;
@@ -205,7 +173,6 @@ body {
       justify-content: space-between;
       align-items: center;
       &__service-links {
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
         cursor: url("../svg/cursor-med-blue.svg"), auto;
         color: $white;
         text-decoration: none;
@@ -223,16 +190,12 @@ body {
         background: none;
         border: none;
         transform: translateY(-3px);
-        // cursor: pointer;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
         svg rect {
           transition: fill 0.2s ease-in-out;
         }
         &:hover {
           svg rect {
-            // transition: fill 2s ease-in-out;
             fill: lighten($blue, 20%);
           }
         }
@@ -243,11 +206,9 @@ body {
       }
       @media (max-width: $mobile-width) {
         justify-content: flex-end;
-        // width: 200px;
         width: 100%;
         &__service-links {
           display: none;
-          // font-size: 0.75rem;
         }
       }
     }
@@ -265,18 +226,11 @@ body {
   z-index: 18;
   margin-left: $margin;
   margin-bottom: $margin;
-  // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;\
   cursor: url("../svg/cursor-med-blue.svg"), auto !important;
   &__btn {
-    // background: none;
     border: none;
-    // border: solid $black 1px;
     border-radius: 50%;
-    // cursor: pointer;
-    // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
     cursor: url("../svg/cursor-med-blue.svg"), auto !important;
-    // width: 48px;
-    // height: 48px;
     padding: #{$padding * 0.5};
     background: $black;
     display: flex;
@@ -288,8 +242,6 @@ body {
       transform: scale(1.25);
     }
     img {
-      // width: 100%;
-      // height: 100%;
       width: 24px;
       height: 24px;
     }
@@ -300,20 +252,13 @@ body {
     mix-blend-mode: difference;
     padding: #{$padding * 0.5} $padding #{$padding * 0.5} $padding;
     overflow: hidden;
-    // width: 0%;
-    // height: 0%;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s ease-in-out;
-    // cursor: pointer;
-    // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
     cursor: url("../svg/cursor-med-blue.svg"), auto;
     a {
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
       cursor: url("../svg/cursor-med-blue.svg"), auto;
       text-decoration: none;
-      // width: 0%;
-      // height: 0%;
       color: white;
     }
   }
@@ -340,30 +285,11 @@ $menu-transition-duration: 0.4s;
   justify-content: center;
   align-items: center;
   z-index: 50;
-  // background: black;
   color: black;
   pointer-events: none;
-  // opacity: 0;
   transition: opacity $menu-transition-duration ease-in-out;
   &--open {
     pointer-events: all;
-    // opacity: 1;
-    .menu {
-      // &__columns__column {
-      //   &--left {
-      //     transform: translateY(0%);
-      //   }
-      //   &--right {
-      //     transform: translateY(0%);
-      //   }
-      // }
-      // &__items {
-      //   // opacity: 1;
-      //   &__btn {
-      //     opacity: 1;
-      //   }
-      // }
-    }
   }
   &__columns {
     width: 100%;
@@ -377,7 +303,6 @@ $menu-transition-duration: 0.4s;
     &__column {
       width: 50%;
       height: 100%;
-      // background: black;
       background-color: $white;
       transition: transform $menu-transition-duration ease-in-out;
       z-index: 1;
@@ -397,22 +322,13 @@ $menu-transition-duration: 0.4s;
     z-index: 2;
     opacity: 0;
     transition: opacity #{$menu-transition-duration * 0.25} ease-in-out;
-    // transition-delay: #{$menu-transition-duration * 0.25};
     a {
       text-decoration: none !important;
-      // cursor: url("https://svgshare.com/i/aAs.svg") auto;
     }
-    // li {
-    //   cursor: url("https://svgshare.com/i/aAs.svg"), auto;
-    // }
     &__item {
       color: $black;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
       cursor: url("../svg/cursor-med-blue.svg"), auto;
-
-      // text-decoration: none !important;
       &:hover {
-        // color: lighten($black, 20%);
         color: lighten($blue, 20%);
       }
     }
@@ -422,22 +338,11 @@ $menu-transition-duration: 0.4s;
       top: $padding;
       right: $padding;
       opacity: 0;
-      // transition: opacity $menu-transition-duration ease-in-out;
       width: 32px;
       height: 32px;
       background: none;
       border: none;
-      // cursor: pointer;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
-      // svg path {
-      //   fill: white;
-      //   stroke: white;
-      // }
-      // img {
-      //   width: 100%;
-      //   height: 100%;
-      // }
       svg {
         width: 100%;
         height: 100%;
@@ -472,12 +377,10 @@ $menu-transition-duration: 0.4s;
   position: relative;
   background-color: black;
   &__parent {
-    // position: absolute;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // width: 45%;
     width: 1150px;
     &__magnet {
       width: 100%;
@@ -486,7 +389,6 @@ $menu-transition-duration: 0.4s;
     }
   }
   &__image {
-    // position: absolute;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -500,7 +402,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1300px;
-    // opacity: 0.2;
   }
   &__wires {
     position: absolute;
@@ -508,7 +409,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    // opacity: 0.2;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     &:hover {
@@ -517,9 +417,7 @@ $menu-transition-duration: 0.4s;
   }
   &__title {
     font-size: 6rem;
-    // letter-spacing: -0.3em;
     letter-spacing: -0.06em;
-    // white-space: nowrap;
     overflow: hidden;
     line-height: normal;
     position: absolute;
@@ -529,7 +427,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    // mix-blend-mode: difference;
     &:hover {
       .hero__wires {
         opacity: 1;
@@ -565,37 +462,29 @@ $menu-transition-duration: 0.4s;
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  // position: relative;
   background-color: black;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   &__parent {
-    // position: absolute;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // width: 45%;
     width: 1150px;
     &__magnet {
       width: 100%;
       height: 100%;
-      // transform: scale(2.5);
       transition: transform 0.05s ease-in-out;
     }
   }
   &__image {
-    // position: absolute;
-    // transform: scale(2.5);
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // transform: translate(-50%, -50%) scale(2.5);
     width: 1400px;
-    // height: 40px;
     z-index: 2;
   }
   &__stroke {
@@ -604,7 +493,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1300px;
-    // opacity: 0.2;
   }
   &__wires {
     position: absolute;
@@ -612,7 +500,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    // opacity: 0.2;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     &:hover {
@@ -621,9 +508,7 @@ $menu-transition-duration: 0.4s;
   }
   &__title {
     font-size: 6rem;
-    // letter-spacing: -0.3em;
     letter-spacing: -0.06em;
-    // white-space: nowrap;
     overflow: hidden;
     line-height: normal;
     position: absolute;
@@ -633,7 +518,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    // mix-blend-mode: difference;
     &:hover {
       .hero__wires {
         opacity: 1;
@@ -673,12 +557,10 @@ $menu-transition-duration: 0.4s;
   background-color: black;
   position: absolute;
   &__parent {
-    // position: absolute;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // width: 45%;
     width: 1150px;
     &__magnet {
       width: 100%;
@@ -687,13 +569,11 @@ $menu-transition-duration: 0.4s;
     }
   }
   &__image {
-    // position: absolute;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1400px;
-    // width: 1150px;
   }
   &__stroke {
     position: fixed;
@@ -701,7 +581,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1300px;
-    // opacity: 0.2;
   }
   &__wires {
     position: absolute;
@@ -709,7 +588,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    // opacity: 0.2;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     &:hover {
@@ -718,9 +596,7 @@ $menu-transition-duration: 0.4s;
   }
   &__title {
     font-size: 6rem;
-    // letter-spacing: -0.3em;
     letter-spacing: -0.06em;
-    // white-space: nowrap;
     overflow: hidden;
     line-height: normal;
     position: absolute;
@@ -730,7 +606,6 @@ $menu-transition-duration: 0.4s;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    // mix-blend-mode: difference;
     &:hover {
       .hero__wires {
         opacity: 1;
@@ -763,13 +638,6 @@ $menu-transition-duration: 0.4s;
 
 //Break sections
 .break {
-  // padding: #{$padding * 4} 0 #{$padding * 4} 0;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  // text-align: center;
-  // opacity: 0.5;
   z-index: 5;
   overflow: hidden;
   position: relative;
@@ -779,30 +647,22 @@ $menu-transition-duration: 0.4s;
     background: black;
     opacity: 0;
     z-index: -1;
-    // z-index: 10;
     position: absolute;
     top: 0;
     left: 0;
   }
   &__container {
-    // transform: translate(-0%, -50%);
     padding: #{$padding * 3} 0 #{$padding * 3} 0;
-    // overflow: hidden;
-    // height: 12.5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    // opacity: 0;
-    // transform: translateY(200%);
     &__h1 {
       font-size: 3rem;
       font-weight: 500;
     }
     &__p {
-      // margin-top: #{$margin * 2};
-      // max-width: 75%;
       &__title {
         font-size: 3rem;
         font-weight: 500;
@@ -813,18 +673,7 @@ $menu-transition-duration: 0.4s;
       font-size: 2rem;
       font-weight: 300;
       white-space: pre-wrap;
-      // font-style: book;
-      // font-weight: normal;
     }
-    // @media (max-width: $tablet-width) and () {
-    // &__h1 {
-    //   font-size: 3rem;
-    // }
-    // &__p {
-    //   font-size: 2rem;
-    //   max-width: 75%;
-    // }
-    // }
     @media (max-width: $tablet-width) and (min-width: $mobile-width) {
       &__h1 {
         font-size: 3rem;
@@ -832,19 +681,15 @@ $menu-transition-duration: 0.4s;
       &__p {
         font-size: 2rem;
         max-width: 75%;
-        // display: none;
       }
     }
     @media (max-width: $mobile-width) {
-      // text-align: left;
       &__h1 {
-        // text-align: left;
         font-size: 2rem;
       }
       &__p {
         font-size: 1.5rem;
         max-width: 75%;
-        // display: none;
         &__body {
           display: none;
         }
@@ -861,7 +706,6 @@ $menu-transition-duration: 0.4s;
   width: 100%;
   height: calc(#{$viewportHeight} - #{$navHeight});
   background-color: black;
-  // background-image: url("https://i.imgur.com/8fPReyl.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -880,15 +724,12 @@ $menu-transition-duration: 0.4s;
       left: 0;
       background-color: black;
       opacity: 0.75;
-      // z-index: 10;
     }
     &__img {
       position: abolute;
       top: 0;
       left: 0;
       object-fit: cover;
-      // opacity: 0;
-      // height: 10000%;
     }
   }
   &__image {
@@ -909,7 +750,6 @@ $menu-transition-duration: 0.4s;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    // background-image: url("https://i.imgur.com/8fPReyl.jpg");
   }
   &__columns {
     z-index: 2;
@@ -939,12 +779,10 @@ $menu-transition-duration: 0.4s;
       display: block;
       width: 100%;
       height: 100%;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       color: $white;
       text-decoration: none;
       text-align: center;
-      // vertical-align: center;
       &:hover {
         h1 {
           color: $white;
@@ -959,9 +797,6 @@ $menu-transition-duration: 0.4s;
     }
     width: calc(100% / 3);
     height: 100%;
-    // background: rgb(50, 50, 50);
-    // opacity: 0;
-    // transition: opacity 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -970,8 +805,6 @@ $menu-transition-duration: 0.4s;
     border-left: solid rgba(50, 50, 50, 0.9) 1px;
     box-sizing: border-box;
     transition: background-color 0.2s ease-in-out;
-    // cursor: pointer;
-    // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
     z-index: 3;
     font-size: 3rem;
     font-weight: normal;
@@ -985,7 +818,6 @@ $menu-transition-duration: 0.4s;
         .services__column__btn--one {
           opacity: 1;
           transform: translate(-50%, 0%);
-          // pointer-events: all;
         }
       }
     }
@@ -994,7 +826,6 @@ $menu-transition-duration: 0.4s;
         .services__column__btn--two {
           opacity: 1;
           transform: translate(-50%, 0%);
-          // pointer-events: all;
         }
       }
     }
@@ -1003,14 +834,12 @@ $menu-transition-duration: 0.4s;
         .services__column__btn--three {
           opacity: 1;
           transform: translate(-50%, 0%);
-          // pointer-events: all;
         }
       }
     }
     &__btn {
       font-size: 1rem;
       width: 100%;
-      // background-color: $black;
       pointer-events: all;
       background: none;
       color: $white;
@@ -1020,167 +849,13 @@ $menu-transition-duration: 0.4s;
       bottom: 120px;
       left: 50%;
       opacity: 0;
-      // pointer-events: none;
       transform: translateX(-50%, 100%);
       transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
       font-weight: 300;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
-      // &:hover {
-      //   background-color: lighten($black, 20%);
-      // }
     }
   }
 }
-
-//Showcase section
-// .showcase {
-//   width: 100%;
-//   height: calc(100vh - #{$navHeight});
-//   background: black;
-// }
-
-// .flickity {
-//   &-viewport {
-//     height: 100%;
-//     // height: 100%;
-//   }
-//   &-page-dots {
-//     bottom: 25px !important;
-//     .dot {
-//       background: white;
-//       // opacity: 1;
-//       mix-blend-mode: difference;
-//     }
-//   }
-//   &-prev-next-button {
-//     &.next {
-//       right: 16.5% !important;
-//     }
-//     &.previous {
-//       left: 16.5% !important;
-//     }
-//     @media (max-width: $tablet-width) and (min-width: $mobile-width) {
-//       width: 40px !important;
-//       height: 40px !important;
-//     }
-//     @media (max-width: $mobile-width) {
-//       width: 30px !important;
-//       height: 30px !important;
-//     }
-//   }
-// }
-// .is-selected {
-
-//   .showcase-cell {
-//     &__image {
-//       opacity: 1;
-//     }
-//     &__content {
-//       opacity: 1;
-//     }
-//   }
-// }
-
-// .showcase-cell {
-//   width: 70%;
-//   // height: 100%;
-//   height: calc(100vh - #{$navHeight});
-//   margin-right: 0;
-//   background-color: lightgrey;
-//   background-position: center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   position: relative;
-//   &__bg {
-//     position: absolute;
-//     width: 100%;
-//     // height: 100%;
-//     height: calc(100vh - #{$navHeight});
-//     background: black;
-//   }
-// &__gradient {
-//   position: absolute;
-//   width: 100%;
-//   // height: 100%;
-//   height: calc(100vh - #{$navHeight});
-//   background: linear-gradient(white, black);
-//   z-index: 10;
-//   opacity: 0.75;
-//   mix-blend-mode: multiply;
-// }
-//   &__image {
-//     position: absolute;
-//     width: 100%;
-//     // height: 100%;
-//     height: calc(100vh - #{$navHeight});
-//     object-fit: cover;
-//     opacity: 0.25;
-//     transition: opacity 0.2s ease-in-out;
-//   }
-// &__content {
-//   color: white;
-//   padding: 100px;
-//   opacity: 0;
-//   transition: opacity 0.2s ease-in-out;
-//   position: absolute;
-//   bottom: 0;
-//   z-index: 20;
-//   &__company {
-//     font-size: 4rem;
-//   }
-//   &__project {
-//     margin-top: #{$padding * 0.5};
-//     font-weight: normal;
-//   }
-// }
-// @media (max-width: $tablet-width) and (min-width: $mobile-width) {
-//   &__content {
-//     &__company {
-//       font-size: 2.5rem;
-//     }
-//     &__project {
-//       font-size: 1.5rem;
-//     }
-//   }
-// }
-// @media (max-width: $mobile-width) {
-//   &__content {
-//     padding: 60px;
-//     padding-bottom: 80px;
-//     &__company {
-//       font-size: 1.5rem;
-//     }
-//     &__project {
-//       font-size: 1rem;
-//     }
-//   }
-// }
-// &--1 {
-//   background-image: url("https://i1.wp.com/immersiveav.com/wp-content/uploads/2021/05/Adidas-website-header.jpg?w=1920&ssl=1");
-// }
-// &--2 {
-//   background-image: url("  https://i0.wp.com/immersiveav.com/wp-content/uploads/2020/03/mini008-950x633-1.jpg?w=950&ssl=1");
-// }
-// &--3 {
-//   background-image: url("https://i2.wp.com/immersiveav.com/wp-content/uploads/2021/03/UMA-Fire-lightroom-2-scaled.jpg?w=2560&ssl=1");
-// }
-// &--4 {
-//   background-image: url("https://i0.wp.com/immersiveav.com/wp-content/uploads/2021/05/Panasonic-cover.jpg?w=1920&ssl=1");
-// }
-// &--5 {
-//   background-image: url("https://i1.wp.com/immersiveav.com/wp-content/uploads/2020/03/Huawei-website-header.jpg?w=1920&ssl=1");
-// }
-// }
-
-// /* cell number */
-// .showcase-cell:before {
-//   display: block;
-//   text-align: center;
-//   line-height: 200px;
-//   font-size: 80px;
-//   color: white;
-// }
 
 //Showcase section
 .showcase {
@@ -1194,9 +869,7 @@ $menu-transition-duration: 0.4s;
   }
   &__gradient {
     position: absolute;
-    // display: none;
     width: 100%;
-    // height: 100%;
     height: calc(#{$viewportHeight} - #{$navHeight});
     background: linear-gradient(white, black);
     z-index: 10;
@@ -1207,7 +880,6 @@ $menu-transition-duration: 0.4s;
     color: white;
     margin: 100px;
     margin-left: 300px;
-    // opacity: 0;
     transition: opacity 0.2s ease-in-out;
     position: absolute;
     bottom: 0;
@@ -1224,7 +896,6 @@ $menu-transition-duration: 0.4s;
       margin-top: #{$padding * 0.5};
       padding: 10px 60px;
       border: none;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       transition: background-color 0.2s ease-in-out;
       &:hover {
@@ -1232,16 +903,6 @@ $menu-transition-duration: 0.4s;
       }
     }
   }
-  // @media (max-width: $tablet-width) and (min-width: $mobile-width) {
-  //   &__content {
-  //     &__company {
-  //       font-size: 2.5rem;
-  //     }
-  //     &__project {
-  //       font-size: 1.5rem;
-  //     }
-  //   }
-  // }
   @media (max-width: 1500px) and (min-width: $tablet-width) {
     &__content {
       margin-left: 200px;
@@ -1255,8 +916,6 @@ $menu-transition-duration: 0.4s;
   @media (max-width: $mobile-width) {
     &__content {
       margin: 90px;
-      // margin-bottom: 80px;
-      // margin-left: 100px;
       &__company {
         font-size: 2.5rem;
       }
@@ -1267,10 +926,6 @@ $menu-transition-duration: 0.4s;
   }
 }
 
-.slide {
-  // width: 80%;
-}
-
 .carousel {
   overflow: hidden;
   height: 100%;
@@ -1279,173 +934,29 @@ $menu-transition-duration: 0.4s;
   }
   &-item {
     height: 100%;
-    // transform: translateX(50%);
   }
   &-indicators {
     z-index: 20 !important;
     button {
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
     }
   }
   &-control {
     &-prev {
       z-index: 20 !important;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
     }
     &-next {
       z-index: 20 !important;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
     }
   }
 }
 
-// .carousel-inner:before {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   right: 82%;
-//   left: 0;
-//   content: "";
-//   display: block;
-//   background-color: #fff;
-//   z-index: 2;
-// }
-// .carousel-inner:after {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   right: 0;
-//   left: 82%;
-//   content: "";
-//   display: block;
-//   background-color: #fff;
-//   z-index: 2;
-// }
-
-//AV & Expo section
-// .expo {
-//   width: 100%;
-//   height: calc(#{$viewportHeight} - #{$navHeight});
-//   overflow: hidden;
-//   background-color: lightsteelblue;
-//   display: flex;
-//   flex-direction: row;
-//   &__container {
-//     position: relative;
-//     object-fit: cover;
-//     width: 50%;
-//     height: 100%;
-//     &__image {
-//       position: absolute;
-//       top: 0;
-//       left: 0;
-//       width: 100%;
-//       height: 100%;
-//       z-index: 1;
-//     }
-//     &__overlay {
-//       position: absolute;
-//       top: 0;
-//       left: 0;
-//       width: 100%;
-//       height: 100%;
-//       background: $purple;
-//       opacity: 0.75;
-//       z-index: 2;
-//     }
-//     &__text {
-//       position: absolute;
-//       top: 0;
-//       left: 50%;
-//       transform: translateX(-50%);
-//       width: $maxWidth;
-//       height: 100%;
-//       z-index: 3;
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: space-evenly;
-//       align-items: center;
-//       font-size: 2rem;
-//       text-align: center;
-//       img {
-//         width: 50%;
-//       }
-//       &__logo {
-//         width: 450px;
-//       }
-//       &__p {
-//         color: $off-white;
-//         // opacity: 0.75;
-//       }
-//       &__btn {
-//         position: relative;
-//         background: none;
-//         border: none;
-//         width: 237px;
-//         height: 43px;
-//         // cursor: pointer;
-//         cursor: url("https://svgshare.com/i/aAs.svg"), auto;
-//         svg {
-//           cursor: url("https://svgshare.com/i/aAs.svg"), auto;
-//           width: 100%;
-//           height: 100%;
-//           position: absolute;
-//           top: 50%;
-//           left: 50%;
-//           transform: translate(-50%, -50%);
-//           path {
-//             transition: fill 0.2s ease-in-out;
-//           }
-//           // transform-origin: center;
-//           // transform: scale(1) translate(-50%, -50%);
-//         }
-//         &:hover {
-//           svg path {
-//             // transform: scale(1.2) translate(-50%, -50%);
-//             fill: darken($expo-blue, 10%);
-//             cursor: url("https://svgshare.com/i/aAs.svg"), auto;
-//           }
-//         }
-//         p {
-//           position: absolute;
-//           cursor: url("https://svgshare.com/i/aAs.svg"), auto;
-//           top: 50%;
-//           left: 50%;
-//           transform: translate(-50%, -50%);
-//           color: $white;
-//           z-index: 4;
-//           width: 100%;
-//           vertical-align: center;
-//           text-align: center;
-//           font-size: 0.85rem;
-//         }
-//       }
-//     }
-//     @media (max-width: $tablet-width) {
-//       width: 100%;
-//       height: 50%;
-//       &__text {
-//         // maxWidth:
-//         // font-size: 1.5rem;
-//         font-size: 2rem;
-//         text-align: center;
-//       }
-//     }
-//   }
-//   @media (max-width: $tablet-width) {
-//     flex-direction: column;
-//     height: calc(200vh - #{$navHeight});
-//   }
-// }
-
 //Hire & Expo section
 .hire-expo {
   width: 100%;
   height: calc(#{$viewportHeight} - #{$navHeight});
-  // @media (max-width: $tablet-width) and (min-width: $mobile-width) {
   @media (max-height: 750px) and (min-height: 650px) {
     height: calc(#{$viewportHeight} - #{$navHeight} + 20vh);
     &__boxes__box__description {
@@ -1457,12 +968,6 @@ $menu-transition-duration: 0.4s;
       display: none;
     }
   }
-  // @media (max-height: 750px) {
-  // height: calc(#{$viewportHeight} - #{$navHeight} + 10vh);
-  // }
-  // @media (max-height: 650px) {
-  //   height: calc(#{$viewportHeight} - #{$navHeight} + 20vh);
-  // }
   position: relative;
   overflow: hidden;
   background: black;
@@ -1472,7 +977,6 @@ $menu-transition-duration: 0.4s;
     position: absolute;
     top: 0;
     left: 0;
-    // z-index: 1;
     img {
       object-fit: cover;
       width: 100%;
@@ -1487,8 +991,6 @@ $menu-transition-duration: 0.4s;
     background-size: cover;
     background-position: center;
     opacity: 0;
-    // transform: scale(1);
-    // transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
   }
   &__cover {
     width: 100%;
@@ -1497,7 +999,6 @@ $menu-transition-duration: 0.4s;
     position: absolute;
     top: 0;
     left: 0;
-    // z-index: 20;
   }
   &__boxes {
     display: flex;
@@ -1510,12 +1011,6 @@ $menu-transition-duration: 0.4s;
       position: relative;
       width: 300px;
       height: 300px;
-      // @media (max-height: 750px) {
-      //   width: 200px;
-      //   height: 200px;
-      // }
-      // width: 50%;
-      // height: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1523,7 +1018,6 @@ $menu-transition-duration: 0.4s;
       &:hover {
         .hire-expo__boxes__box__h1 {
           transform: translateY(-75%);
-          // color: orange;
         }
         .hire-expo__boxes__box__btn {
           opacity: 1;
@@ -1548,7 +1042,6 @@ $menu-transition-duration: 0.4s;
         border: none;
         background: $black;
         color: $white;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
         transform: translate(0%, -50%);
         transition: background-color 0.2s ease-in-out, opacity 0.5s ease-in-out,
@@ -1583,13 +1076,6 @@ $menu-transition-duration: 0.4s;
         }
       }
     }
-    // @media (max-width: $tablet-width) and (min-width: $mobile-width) {
-    //   &__box {
-    //     &__description {
-    //       color: red !important;
-    //     }
-    //   }
-    // }
     @media (max-width: 625px) {
       flex-direction: column;
       &__box {
@@ -1640,7 +1126,6 @@ $menu-transition-duration: 0.4s;
   display: flex;
   flex-direction: row;
   a {
-    // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
     cursor: url("../svg/cursor-med-blue.svg"), auto !important;
   }
   &__item {
@@ -1649,8 +1134,6 @@ $menu-transition-duration: 0.4s;
     z-index: 2;
     position: relative;
     &:hover {
-      // cursor: pointer;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       .news__item__image {
         opacity: 0.5;
@@ -1702,8 +1185,6 @@ $menu-transition-duration: 0.4s;
       }
       img {
         margin-top: #{$margin * 4};
-        // cursor: pointer;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       }
     }
@@ -1746,9 +1227,6 @@ $menu-transition-duration: 0.4s;
 .vacancies-page {
   position: relative;
   background-color: white;
-  // height: 50vh;
-  // min-height: calc(100vh - 525px + 200px);
-  // min-height: calc(#{$viewportHeight} + #{$navHeight});
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1765,19 +1243,15 @@ $menu-transition-duration: 0.4s;
     width: 75%;
     min-width: 500px;
     max-width: 1000px;
-    // max-width: 1250px;
     margin-bottom: 100px;
     list-style: none;
     @media (max-width: $mobile-width) {
       min-width: 250px;
     }
     &__item {
-      // padding-bottom: 40px;
       &__btn {
         width: 100%;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
-        // margin-top: 80px;
         margin-bottom: 80px;
         height: 75px;
         text-align: left;
@@ -1786,8 +1260,6 @@ $menu-transition-duration: 0.4s;
         border: none;
         border-bottom: solid $black 1px;
         background: none;
-        // padding-bottom: 20px;
-        // position: relative;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1797,42 +1269,18 @@ $menu-transition-duration: 0.4s;
           color: $blue;
         }
         &__icon {
-          // position: absolute;
-          // top: 50%;
-          // left: 0;
-          // transform: translateY(-50%);
-          // padding-bottom: 40px;
           @media (max-width: $mobile-width) {
             display: none;
           }
         }
-        &__text {
-          // position: absolute;
-          // top: 50%;
-          // left: 50%;
-          // transform: translate(-50%, -50%);
-          // padding-bottom: 40px;
-        }
       }
       &__body {
-        // display: none;
-        // margin-left: 60px;
         font-size: 1.25rem;
         h2 {
           margin-top: 40px;
         }
-        a {
-          // color: $orange;
-          // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
-          // margin-top: 40px;
-        }
-        p {
-          // font-size: 1.25rem;
-        }
       }
       &__apply {
-        // color: $orange;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
         cursor: url("../svg/cursor-med-blue.svg"), auto;
         display: inline-block;
         margin-top: 40px;
@@ -1851,7 +1299,6 @@ $menu-transition-duration: 0.4s;
     &__none {
       font-size: 2rem;
       text-align: center;
-      // margin-bottom: -100px;
     }
   }
 }
@@ -1860,8 +1307,6 @@ $menu-transition-duration: 0.4s;
 .faqs-page {
   position: relative;
   background-color: white;
-  // height: 40vh;
-  // margin-top: $navHeight;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1886,24 +1331,16 @@ $menu-transition-duration: 0.4s;
       min-width: 250px;
     }
     &__item {
-      // padding-bottom: 40px;
       &__btn {
         width: 100%;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
-        // margin-top: 80px;
-        // margin-bottom: 80px;
         font-size: 1.5rem;
         font-weight: 500;
         text-align: left;
         border: none;
         border-bottom: solid $black 1px;
         background: none;
-        // padding-bottom: 20px;
-        // height: 200px;
-        // height: 200%;
         height: 75px;
-        // position: relative;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1914,37 +1351,16 @@ $menu-transition-duration: 0.4s;
           color: $blue;
         }
         &__icon {
-          // position: absolute;
-          // top: 50%;
-          // right: 0;
-          // transform: translateY(-50%);
-          // padding-bottom: 40px;
           @media (max-width: $mobile-width) {
             display: none;
           }
         }
-        &__text {
-          // position: absolute;
-          // top: 50%;
-          // left: 50%;
-          // transform: translate(-50%, -50%);
-          // padding-bottom: 40px;
-          // top: 50%;
-          // left: 0;
-          // transform: translate(0%, -50%);
-        }
       }
       &__body {
-        // display: none;
-        // margin-left: 60px;
         p {
           margin-bottom: 80px;
           font-size: 1.25rem;
-          // opacity: 0.75;
         }
-        // h2 {
-        //   margin-top: 40px;
-        // }
       }
     }
   }
@@ -1962,20 +1378,14 @@ $menu-transition-duration: 0.4s;
 
 .bg-av {
   position: absolute;
-  // position: fixed;
   width: 100vw;
-  // opacity: 0.75;
   opacity: 1;
-  // top: 0;
-  // left: 0;
-  // overflow: hidden;
   z-index: 2;
   &__img {
     &--blue {
       width: 800px;
       position: absolute;
       top: 200vh;
-      // left: -15vw;
       &--about {
         top: 0;
         left: -10vw;
@@ -2016,19 +1426,14 @@ $menu-transition-duration: 0.4s;
   position: relative;
   background-color: $white;
   overflow: hidden;
-  // height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // z-index: 5 !important;
   p {
     z-index: 4 !important;
     font-size: 1.25rem;
     margin-top: 25px;
     position: relative;
-    // * {
-    //   z-index: 1 !important;
-    // }
     a {
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       color: $blue;
@@ -2058,51 +1463,37 @@ $menu-transition-duration: 0.4s;
     margin-top: #{$navHeight + 100px};
     text-align: center;
     width: 75%;
-    // min-width: 500px;
     max-width: 1250px;
-    // z-index: 100;
     @media (max-width: $mobile-width) {
       font-size: 3rem;
     }
   }
   &__container {
-    // z-index: 5 !important;
     background: $white;
-    // width: 75%;
     width: 100%;
     min-width: 500px;
-    // max-width: 1250px;
     margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // grid-template-columns: 500px 1fr;
-    // grid-template-rows: 400px 400px 500px 300px;
     grid-auto-rows: auto;
-    // grid-column-gap: 100px;
     grid-column-gap: 5px;
     grid-row-gap: 100px;
     &__hero {
       &-image {
         width: 100%;
-        // width: 750px;
-        // height: 500px;
-        // object-fit: cover;
       }
       &-array {
         width: 85%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        // grid-template-rows: repeat(1fr, 4);
         grid-auto-rows: auto;
         grid-column: 2 / 3;
         grid-gap: 5px;
         &__img {
           width: 100%;
-          // height: 50%;
           object-fit: cover;
           aspect-ratio: 1;
-          // display: none;
           &--1 {
             grid-column: 1 / 2;
           }
@@ -2130,8 +1521,6 @@ $menu-transition-duration: 0.4s;
       }
     }
     &__quote {
-      // z-index: 1;
-      // background-color: $white;
       width: 75%;
       justify-self: end;
       &__h1 {
@@ -2140,9 +1529,6 @@ $menu-transition-duration: 0.4s;
       &__h2 {
         margin-top: 40px;
       }
-      // &__p {
-      //   z-index: 1 !important;
-      // }
       &--bottom {
         width: 50%;
         justify-self: start;
@@ -2150,8 +1536,6 @@ $menu-transition-duration: 0.4s;
       }
     }
     &__challenge {
-      // z-index: 1;
-      // background-color: $white;
       width: 75%;
       justify-self: start;
       margin-left: 100px;
@@ -2193,9 +1577,6 @@ $menu-transition-duration: 0.4s;
     @media (max-width: $tablet-width) {
       min-width: 250px;
       grid-template-columns: 1fr !important;
-      // &__h1 {
-      //   font-size: 3rem;
-      // }
       &__quote {
         width: 90%;
         justify-self: start;
@@ -2230,7 +1611,6 @@ $menu-transition-duration: 0.4s;
         }
       }
       &__supplementary-images {
-        // display: none;
         &__img {
           &--1 {
             display: none;
@@ -2249,11 +1629,9 @@ $menu-transition-duration: 0.4s;
   position: relative;
   background-color: $white;
   overflow: hidden;
-  // height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // z-index: 5 !important;
   a {
     cursor: url("../svg/cursor-med-blue.svg"), auto !important;
     color: $blue;
@@ -2267,9 +1645,6 @@ $menu-transition-duration: 0.4s;
     font-size: 1.25rem;
     margin-top: 50px;
     position: relative;
-    // * {
-    //   z-index: 1 !important;
-    // }
   }
   h1,
   h2 {
@@ -2291,24 +1666,19 @@ $menu-transition-duration: 0.4s;
     margin-top: #{$navHeight + 100px};
     text-align: center;
     width: 75%;
-    // min-width: 500px;
     max-width: 1250px;
     @media (max-width: $mobile-width) {
       font-size: 3rem;
     }
   }
   &__container {
-    // z-index: 5 !important;
     background: $white;
-    // width: 75%;
     width: 100%;
     min-width: 500px;
-    // max-width: 1250px;
     margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // grid-template-rows: 400px 400px 500px 300px;
     grid-auto-rows: auto;
     grid-column-gap: 5px;
     grid-row-gap: 100px;
@@ -2319,7 +1689,6 @@ $menu-transition-duration: 0.4s;
       &-array {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        // grid-template-rows: repeat(4, minmax(1fr, 100px));
         grid-auto-rows: auto;
         grid-column: 2 / 3;
         grid-gap: 5px;
@@ -2327,9 +1696,7 @@ $menu-transition-duration: 0.4s;
           aspect-ratio: 1;
           width: 100%;
           height: 100%;
-          // height: 50%;
           object-fit: cover;
-          // display: none;
           &--1 {
             grid-column: 1 / 2;
           }
@@ -2357,8 +1724,6 @@ $menu-transition-duration: 0.4s;
       }
     }
     &__quote {
-      // z-index: 1;
-      // background-color: $white;
       width: 50%;
       justify-self: end;
       margin-right: 25%;
@@ -2369,9 +1734,6 @@ $menu-transition-duration: 0.4s;
       &__h2 {
         margin-top: 40px;
       }
-      // &__p {
-      //   z-index: 1 !important;
-      // }
     }
     &__live {
       margin-top: -300px;
@@ -2436,7 +1798,6 @@ $menu-transition-duration: 0.4s;
           grid-template-columns: 1fr;
           grid-template-rows: 1fr;
           grid-column: 1 / 2;
-          // display: none;
           &__img {
             &--1 {
               display: none;
@@ -2477,9 +1838,6 @@ $menu-transition-duration: 0.4s;
     @media (max-width: $tablet-width) {
       min-width: 250px;
       grid-template-columns: 1fr !important;
-      // &__h1 {
-      //   font-size: 3rem;
-      // }
       &__quote {
         width: 90%;
         justify-self: start;
@@ -2498,22 +1856,6 @@ $menu-transition-duration: 0.4s;
         margin-left: 5%;
         justify-self: start;
         font-size: 1.25rem;
-      }
-      &__hero {
-        &-array {
-          // display: none;
-        }
-      }
-      &__supplementary-images {
-        // display: none;
-        &__img {
-          &--1 {
-            // display: none;
-          }
-          &--2 {
-            // display: none;
-          }
-        }
       }
     }
   }
@@ -2547,12 +1889,8 @@ $menu-transition-duration: 0.4s;
     width: 75%;
     min-width: 250px;
     max-width: 1250px;
-    // @media (max-width: $mobile-width) {
-    //   min-width: 250px;
-    // }
     header {
       font-size: 2rem;
-      // font-weight: 500;
       margin-bottom: 50px;
     }
     h6 {
@@ -2595,12 +1933,8 @@ $menu-transition-duration: 0.4s;
     width: 75%;
     min-width: 250px;
     max-width: 1250px;
-    // @media (max-width: $mobile-width) {
-    //   min-width: 250px;
-    // }
     header {
       font-size: 2rem;
-      // font-weight: 500;
       margin-bottom: 50px;
     }
     h6 {
@@ -2609,7 +1943,6 @@ $menu-transition-duration: 0.4s;
       margin-bottom: 20px;
     }
     a {
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       color: $orange;
       transition: color 0.2s ease-in-out;
@@ -2628,9 +1961,7 @@ $menu-transition-duration: 0.4s;
 .service-item {
   position: relative;
   overflow: hidden;
-  // z-index: 5 !important;
   background: $white;
-  // height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2640,9 +1971,6 @@ $menu-transition-duration: 0.4s;
     font-size: 1.25rem;
     margin-top: 50px;
     position: relative;
-    // * {
-    //   z-index: 1 !important;
-    // }
   }
   h1,
   h2 {
@@ -2664,25 +1992,18 @@ $menu-transition-duration: 0.4s;
     margin-top: #{$navHeight + 100px};
     text-align: center;
     width: 75%;
-    // min-width: 500px;
     max-width: 1250px;
     @media (max-width: $mobile-width) {
       font-size: 3rem;
     }
-    // z-index: 100;
   }
   &__container {
-    // z-index: 5 !important;
-    // background: $white;
-    // width: 75%;
     width: 100%;
     min-width: 500px;
-    // max-width: 1250px;
     margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // grid-template-rows: 400px 400px 500px 300px;
     grid-auto-rows: auto;
     grid-column-gap: 5px;
     grid-row-gap: 100px;
@@ -2692,7 +2013,6 @@ $menu-transition-duration: 0.4s;
         color: $blue;
         transition: color 0.2s ease-in-out;
         &:hover {
-          // color: lighten($black, 20%);
           color: darken($blue, 20%);
         }
       }
@@ -2710,16 +2030,13 @@ $menu-transition-duration: 0.4s;
         justify-self: end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        // grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-auto-rows: auto;
         grid-column: 1 / 2;
         grid-gap: 5px;
         &__img {
           width: 100%;
-          // height: 100%;
           object-fit: cover;
           aspect-ratio: 1;
-          // display: none;
           &--1 {
             grid-column: 1 / 2;
             grid-row: 1 / 2;
@@ -2756,23 +2073,12 @@ $menu-transition-duration: 0.4s;
       width: 75%;
       justify-self: end;
       margin-right: 5%;
-      // z-index: 1;
-      // background-color: $white;
       &__h1 {
         font-size: 4rem;
       }
       &__h2 {
         margin-top: 40px;
       }
-      // &--end {
-      //   align-self: end;
-      //   @media (max-width: $tablet-width) {
-      //     grid-row: 5 / 6;
-      //   }
-      // }
-      // &__p {
-      //   z-index: 1 !important;
-      // }
     }
     &__challenge {
       width: 70%;
@@ -2783,8 +2089,6 @@ $menu-transition-duration: 0.4s;
       width: 70%;
       justify-self: end;
       margin-right: 5%;
-      // margin-top: -100px;
-      // grid-row: 1 / 2;
       margin-top: -200px;
     }
     &__supplementary-images {
@@ -2799,9 +2103,6 @@ $menu-transition-duration: 0.4s;
         &--1 {
           grid-column: 2 / 5;
           grid-row: 1 / 2;
-          // aspect-ratio: 1;
-          // height: 400px;
-          // width: 400px;
         }
         &--2 {
           grid-column: 1 / 4;
@@ -2826,9 +2127,6 @@ $menu-transition-duration: 0.4s;
           display: none;
         }
       }
-      &__supplementary-images {
-        // display: none;
-      }
       &__empty {
         display: none;
       }
@@ -2839,9 +2137,6 @@ $menu-transition-duration: 0.4s;
     @media (max-width: $tablet-width) {
       min-width: 250px;
       grid-template-columns: 1fr !important;
-      // &__h1 {
-      //   font-size: 3rem;
-      // }
       &__quote {
         width: 90%;
         justify-self: start;
@@ -2877,12 +2172,10 @@ $menu-transition-duration: 0.4s;
         }
       }
       &__supplementary-images {
-        // display: none;
         grid-template-columns: 1fr;
         &__img {
           &--1 {
             grid-column: 1 / 2;
-            // display: none;
           }
           &--2 {
             display: none;
@@ -2907,7 +2200,6 @@ $menu-transition-duration: 0.4s;
     margin-top: #{$navHeight + 100px};
     text-align: center;
     width: 75%;
-    // min-width: 500px;
     max-width: 1250px;
     @media (max-width: $mobile-width) {
       font-size: 3rem;
@@ -2917,17 +2209,11 @@ $menu-transition-duration: 0.4s;
     z-index: 4 !important;
     position: relative;
     width: 90%;
-    // min-width: 500px;
     max-width: 1250px;
     margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
     grid-gap: 5px;
-    // grid-auto-columns: minmax(auto, 200px);
-    // grid-auto-rows: minmax(auto, 200px);
-    // grid-auto-flow: column;
-    // grid-auto-columns: auto;
-    // grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-auto-rows: 150px;
     @media (max-width: $tablet-width) and (min-width: $mobile-width) {
@@ -2938,7 +2224,6 @@ $menu-transition-duration: 0.4s;
     }
     @media (max-width: $mobile-width) {
       width: 100%;
-      // min-width: 250px;
       grid-gap: 0;
       grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
       grid-auto-rows: 100px;
@@ -2949,41 +2234,23 @@ $menu-transition-duration: 0.4s;
       left: 0;
       width: 100%;
       max-height: 650px;
-
-      // position: fixed;
-      // top: 50%;
-      // left: 50%;
-      // transform: translate(-50%, -50%);
-      // width: 100%;
-      // height: 100%;
-      // max-height: 650px;
-      // display: none;
       pointer-events: none;
       opacity: 0;
       transition: opacity 0.2s ease-in-out;
-      // background: rgba(48, 97, 224, 0.85);
       color: $white;
       z-index: 1;
       &__text {
-        // display: flex;
-        // flex-direction: column;
-        // align-items: center;
-        // background: rgba(48, 97, 224, 0.85);
         background: rgba(27, 27, 116, 0.85);
         width: 100%;
         padding: 64px;
         position: absolute;
-        // top: 50px;
         left: 50%;
         transform: translateX(-50%);
         display: grid;
-        // grid-template-columns: repeat(2, 1fr);
         grid-template-columns: 250px minmax(300px, 1fr) auto;
         grid-column-gap: 40px;
         &__img {
-          // aspect-ratio: 1;
           width: 250px;
-          // height: 350px;
           height: 100%;
           object-fit: cover;
           object-position: center center;
@@ -3004,7 +2271,6 @@ $menu-transition-duration: 0.4s;
           }
           &__link {
             color: $orange;
-            // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
             cursor: url("../svg/cursor-med-blue.svg"), auto !important;
             transition: color 0.2s ease-in-out;
             margin-top: 50px;
@@ -3012,20 +2278,16 @@ $menu-transition-duration: 0.4s;
               color: lighten($orange, 20%);
             }
             grid-column: 1 / 2;
-            // justify-self: center;
           }
           &__btn {
             grid-column: 1 / 2;
             background-color: $black;
             color: $white;
-            // padding: 20px 80px;
-            // padding: 20px 40px;
             padding-top: 20px;
             padding-bottom: 20px;
             width: 100%;
             max-width: 300px;
             border: none;
-            // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
             cursor: url("../svg/cursor-med-blue.svg"), auto !important;
             transition: background-color 0.2s ease-in-out;
             &:hover {
@@ -3042,7 +2304,6 @@ $menu-transition-duration: 0.4s;
           }
         }
         @media (max-width: 1450px) and (min-width: $tablet-width) {
-          // grid-auto-columns: auto;
           grid-template-columns: 0.5fr 2fr;
           &__img {
             width: 180px;
@@ -3075,8 +2336,6 @@ $menu-transition-duration: 0.4s;
         }
       }
       &__close {
-        // background-color: $black;
-        // padding: 8px;
         position: absolute;
         z-index: 10;
         top: 18px;
@@ -3084,13 +2343,11 @@ $menu-transition-duration: 0.4s;
         width: 36px;
         height: 36px;
         fill: $white;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
         path {
           transition: fill 0.2s ease-in-out;
         }
         &:hover {
-          // background-color: lighten($black, 20%);
           path {
             fill: darken($white, 20%);
           }
@@ -3099,9 +2356,6 @@ $menu-transition-duration: 0.4s;
     }
     &__item {
       position: relative;
-      // width: 200px;
-      // height: 200px;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       &:hover {
         .portfolio-page__container__item__overlay {
@@ -3112,9 +2366,6 @@ $menu-transition-duration: 0.4s;
         position: absolute;
         top: 0;
         left: 0;
-        // width: 100px;
-        // height: 100px;
-        // object-fit: cover;
       }
       &__overlay {
         position: absolute;
@@ -3156,11 +2407,8 @@ $menu-transition-duration: 0.4s;
   &__people {
     z-index: 4 !important;
     position: relative;
-    // width: 75%;
     width: 90%;
     max-width: 1250px;
-    // min-width: 500px;
-    // max-width: 1250px;
     margin-top: 100px;
     margin-bottom: 200px;
     display: grid;
@@ -3185,7 +2433,6 @@ $menu-transition-duration: 0.4s;
       &__text {
         position: relative;
         z-index: 8 !important;
-        // background: rgba(48, 97, 224, 0.85);
         background: rgba(27, 27, 116, 0.85);
         color: $white;
         width: 100%;
@@ -3194,24 +2441,18 @@ $menu-transition-duration: 0.4s;
         left: 50%;
         transform: translateX(-50%);
         display: grid;
-        // grid-template-columns: minmax(auto, 250px) auto;
-        // grid-template-columns: auto;
         grid-auto-columns: 300px auto auto;
         grid-auto-rows: auto;
         grid-column-gap: 40px;
         &__img {
           width: 100%;
-          // width: 250px;
-          // height: 350px;
           height: 100%;
-          // max-height: 350px;
           object-fit: cover;
           object-position: center center;
           grid-column: 1 / 2;
         }
         &__bio {
           grid-column: 2 / 3;
-          // justify-content: center;
           align-self: center;
           &__h2 {
             font-size: 2.5rem;
@@ -3227,7 +2468,6 @@ $menu-transition-duration: 0.4s;
             display: flex;
             width: 150px;
             height: 64px;
-            // justify-content: space-between;
             grid-column: 2 / 3;
             a {
               display: inline-block;
@@ -3236,7 +2476,6 @@ $menu-transition-duration: 0.4s;
               &:first-of-type {
                 margin-right: 20px;
               }
-              // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
               cursor: url("../svg/cursor-med-blue.svg"), auto !important;
               border: none;
               background: $black;
@@ -3272,7 +2511,6 @@ $menu-transition-duration: 0.4s;
           }
         }
         @media (max-width: 1250px) and (min-width: $tablet-width) {
-          // grid-auto-columns: auto;
           grid-template-columns: minmax(auto, 250px) auto;
           &__description {
             display: none;
@@ -3302,8 +2540,6 @@ $menu-transition-duration: 0.4s;
         }
       }
       &__close {
-        // background-color: $black;
-        // padding: 8px;
         position: absolute;
         z-index: 10;
         top: 18px;
@@ -3311,13 +2547,11 @@ $menu-transition-duration: 0.4s;
         width: 36px;
         height: 36px;
         fill: $white;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
         path {
           transition: fill 0.2s ease-in-out;
         }
         &:hover {
-          // background-color: lighten($black, 20%);
           path {
             fill: darken($white, 20%);
           }
@@ -3326,9 +2560,6 @@ $menu-transition-duration: 0.4s;
     }
     &__item {
       position: relative;
-      // width: 200px;
-      // height: 200px;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       &:hover {
         .about-page__people__item__overlay {
@@ -3339,8 +2570,6 @@ $menu-transition-duration: 0.4s;
         position: absolute;
         top: 0;
         left: 0;
-        // width: 100px;
-        // height: 100px;
         width: 100%;
         object-fit: cover;
         object-position: center 20%;
@@ -3364,26 +2593,13 @@ $menu-transition-duration: 0.4s;
   }
   &__container {
     overflow: hidden;
-    // position: absolute;
-    // left: 50%;
-    // transform: translateX(-50%);
     margin-bottom: 100px;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // align-self: center;
     display: grid;
-    // grid-template-columns: 1.5fr 1fr;
     grid-template-columns: 1fr 1fr;
-    // grid-template-rows: 1fr 1fr 0.2fr 1fr 1fr;
-    // grid-template-rows: 500px 200px 500px 400px;
     grid-auto-rows: auto;
-    // grid-auto-rows: auto;
     column-gap: 5px;
-    // width: 75vw;
     width: 100%;
     min-width: 500px;
-    // max-width: 1250px;
     &__h2 {
       width: 80%;
       justify-self: end;
@@ -3404,18 +2620,12 @@ $menu-transition-duration: 0.4s;
       margin-left: 10%;
       justify-self: start;
       margin-top: 100px;
-      // max-width: 100px;
       font-size: 1.25rem;
-      // margin-left: 50px;
       z-index: 4 !important;
       &--0 {
-        // float: right;
-        // margin-top: 50px;
         grid-column: 2 / 3;
       }
       &--1 {
-        // float: right;
-        // margin-top: 400px;
         grid-column: 2 / 3;
         &--margin {
           margin-top: 50px;
@@ -3424,24 +2634,18 @@ $menu-transition-duration: 0.4s;
     }
     &__img {
       z-index: 4 !important;
-      // width: 45%;
       &--0 {
-        // height: 300px;
         margin-top: 40px;
       }
       &--1 {
-        // height: 300px;
         grid-column: 2 / 3;
-        // margin-top: -100px;
         margin-top: -5%;
         @media (max-width: 1150px) {
           margin-top: 50px;
         }
-        // width: 400px;
         width: 80%;
       }
       &--2 {
-        // margin-top: 400px;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         width: 75%;
@@ -3449,17 +2653,7 @@ $menu-transition-duration: 0.4s;
         justify-self: end;
         aspect-ratio: auto;
         margin-top: 150px;
-        // margin-right: 50px;
-        // max-width: 75%;
       }
-    }
-    &--left {
-      // align-self: flex-start;
-    }
-    &--right {
-      // align-self: flex-end;
-      // float: right;
-      // margin-left: 40px;
     }
     @media (max-width: $tablet-width) {
       grid-template-columns: 1fr;
@@ -3470,9 +2664,6 @@ $menu-transition-duration: 0.4s;
         text-align: left;
         justify-self: start;
         margin-left: 5%;
-        // &--1 {
-        //   justify-self: start;
-        // }
       }
       &__p {
         width: 90%;
@@ -3494,13 +2685,10 @@ $menu-transition-duration: 0.4s;
         &--1 {
           grid-column: 1 / 2;
           grid-row: 4 / 5;
-          // margin-top: 100px;
-          // margin: 0;
         }
         &--2 {
           justify-self: start;
           margin: 0;
-          // grid-row: 5 / 6;
           display: none;
         }
       }
@@ -3514,7 +2702,6 @@ $menu-transition-duration: 0.4s;
         margin-right: 0;
         width: 90%;
         margin-left: 5%;
-        // justify-self: center;
       }
       &__p {
         justify-self: center;
@@ -3534,25 +2721,16 @@ $menu-transition-duration: 0.4s;
   position: relative;
   margin-top: $navHeight;
   background-color: $white;
-  // position: relative;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
   &__h1 {
     font-size: 4rem;
     text-align: center;
-    // margin-top: #{$margin * 2};
-    // transform: translateY(35%);
     transform: translateY(#{$padding * 2});
     margin-bottom: #{$padding * 4};
-
-    // padding: #{$padding * 3} 0 #{$padding * 3} 0;
   }
   &__item {
     display: flex;
     flex-direction: column;
     &__link {
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       text-decoration: none;
       &:hover {
@@ -3561,7 +2739,6 @@ $menu-transition-duration: 0.4s;
       &__title {
         font-size: 3rem;
         font-weight: 300;
-        // color: rgb(77, 76, 76);
         align-self: center;
         margin: 100px;
         text-align: center;
@@ -3569,7 +2746,6 @@ $menu-transition-duration: 0.4s;
       }
       max-width: 50%;
       @media (max-width: $mobile-width) {
-        // max-width: 80%;
         &__title {
           font-size: 2rem;
           margin: 80px;
@@ -3589,13 +2765,9 @@ $menu-transition-duration: 0.4s;
           }
         }
       }
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       a {
         &:hover {
-          // &__overlay {
-          //   opacity: 0.5;
-          // }
           .news-page__item__img-container__btn {
             opacity: 1;
           }
@@ -3616,15 +2788,6 @@ $menu-transition-duration: 0.4s;
         object-fit: cover;
         object-position: center 25%;
         transition: transform 0.2s ease-in-out;
-        // transform: scale(2);
-        // &:hover {
-        //   // &__overlay {
-        //   //   opacity: 0.5;
-        //   // }
-        //   .news-page__item__img-container__btn {
-        //     opacity: 1;
-        //   }
-        // }
       }
       &__overlay {
         position: absolute;
@@ -3635,14 +2798,9 @@ $menu-transition-duration: 0.4s;
         background-color: $black;
         opacity: 0;
         transition: opacity 0.2s ease-in-out;
-        // &:hover {
-        //   opacity: 0.5;
-        // }
       }
       &__btn {
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
-        // pointer-events: none;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -3666,25 +2824,13 @@ $menu-transition-duration: 0.4s;
   margin: 0;
   padding-top: 100px;
   padding-bottom: 100px;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
-  // display: flex;
-  // align-self: center;
-  // justify-self: center;
-  // width: 100%;
-  // margin-left: 50%;
-  // transform: translateX(-50%);
   display: flex;
   justify-content: center;
 }
 
 .page-item {
-  // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
   cursor: url("../svg/cursor-med-blue.svg"), auto !important;
   a {
-    // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
     cursor: url("../svg/cursor-med-blue.svg"), auto !important;
     padding: 40px;
     border-radius: 0 !important;
@@ -3698,83 +2844,10 @@ $menu-transition-duration: 0.4s;
   color: $blue !important;
 }
 
-// .phone-email {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-evenly;
-//   background-color: $white;
-//   // padding-left: 200px;
-//   // padding-right: 200px;
-//   padding-left: 200px;
-//   padding-right: 200px;
-//   padding-bottom: 100px;
-//   overflow: hidden;
-//   &__svg {
-//     margin-right: 20px;
-//     width: 48px;
-//     height: 48px;
-//   }
-//   &__text {
-//     font-size: 1.25rem;
-//     text-decoration: none;
-//     color: $black;
-//     cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
-//     word-wrap: none !important;
-//     &:hover {
-//       color: $blue;
-//     }
-//   }
-//   &__container {
-//     display: flex;
-//     align-items: center;
-//     overflow: hidden;
-//     // width: 100vw;
-//   }
-//   @media (max-width: $tablet-width) and (min-width: $mobile-width) {
-//     padding-left: 80px;
-//     padding-right: 80px;
-//     &__svg {
-//       // margin-right: 20px;
-//       width: 36px;
-//       height: 36px;
-//     }
-//     &__text {
-//       font-size: 1rem;
-//     }
-//   }
-//   @media (max-width: $mobile-width) {
-//     flex-direction: column;
-//     // align-items: center;
-//     // justify-content: center;
-//     // padding-left: 40px;
-//     // padding-right: 40px;
-//     &__svg {
-//       // margin-right: 10px;
-//       width: 36px;
-//       height: 36px;
-//     }
-//     a {
-//       // margin: 0;
-//     }
-//     &__text {
-//       font-size: 1rem;
-//     }
-//     &__container {
-//       // align-self: center;
-//       // justify-self: center;
-//       // width: 200px;
-//       &:first-child {
-//         margin-bottom: 20px;
-//       }
-//     }
-//   }
-// }
-
 // Phone email
 .phone-email {
   position: relative;
   background-color: $white;
-  // width: 100%;
   padding-bottom: 100px;
   &__container {
     display: flex;
@@ -3783,10 +2856,8 @@ $menu-transition-duration: 0.4s;
     align-items: center;
     &__block {
       a {
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       }
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       margin-right: 80px;
       &:hover &__svg {
@@ -3798,7 +2869,6 @@ $menu-transition-duration: 0.4s;
         color: $blue !important;
       }
       &__svg {
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
         margin-right: 20px;
         width: 36px;
@@ -3806,38 +2876,21 @@ $menu-transition-duration: 0.4s;
         path {
           transition: fill 0.2s ease-in-out;
         }
-        // &:hover {
-        //   path {
-        //     fill: $blue;
-        //   }
-        //   .phone-email__container__block__text {
-        //     color: $blue;
-        //   }
-        // }
       }
       &__text {
         text-decoration: none;
         color: $black;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
         transition: color 0.2s ease-in-out;
         font-size: 1.25rem;
-        // &:hover {
-        //   color: $blue;
-        // }
       }
     }
   }
   @media (max-width: $mobile-width) {
     &__container {
-      // flex-direction: column;
-      // align-items: flex-start;
-      // align-items: center;
-
       &__block {
         margin-right: 0;
         &:first-child {
-          // margin-top: 20px;
           margin-right: 80px;
         }
         &__svg {
@@ -3885,7 +2938,6 @@ $menu-transition-duration: 0.4s;
       width: 100%;
       height: 750px;
       object-fit: cover;
-      // object-position: center 25%;
       margin-bottom: 100px;
     }
     &__body {
@@ -3895,17 +2947,11 @@ $menu-transition-duration: 0.4s;
       margin-bottom: 100px;
       white-space: normal;
       word-break: break-word;
-      // font-size: 20px;
       font-size: 1.25rem;
       img {
-        // width: 400px !important;
-        // height: 400px;
         width: 25%;
         min-width: 300px;
         object-fit: cover;
-        // width: 100%;
-        // margin-top: 60px;
-        // margin-bottom: 60px;
       }
       h2 {
         margin-bottom: 60px;
@@ -3916,19 +2962,13 @@ $menu-transition-duration: 0.4s;
       }
       a {
         color: $blue;
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
         transition: color 0.2s ease-in-out;
         &:hover {
           color: darken($blue, 20%);
         }
       }
-      // @media (max-width: $tablet-width) {
-      //   font-size: 3rem;
-      // }
       &__service-img {
-        // width: 400px !important;
-        // height: 400px;
         margin-top: 60px;
         margin-bottom: 60px;
         object-fit: cover;
@@ -3965,27 +3005,16 @@ $menu-transition-duration: 0.4s;
 .contact {
   position: relative;
   width: 100%;
-  // height: 50vh;
-  // min-height: 400px;
   background-color: $white;
-  // position: absolute;
-  // top: $navHeight;
-  // left: 0;
   margin-top: #{$navHeight + 0};
-  // z-index: 100 !important;
   position: relative;
   &__h1 {
     font-size: 4rem;
     text-align: center;
-    // margin-top: #{$margin * 2};
-    // transform: translateY(35%);
     transform: translateY(#{$padding * 2});
     margin-bottom: #{$padding * 4};
-
-    // padding: #{$padding * 3} 0 #{$padding * 3} 0;
   }
   &__banner {
-    // z-index: 100 !important;
     width: 100%;
     height: 500px;
     overflow: none;
@@ -3999,7 +3028,6 @@ $menu-transition-duration: 0.4s;
     display: flex;
     justify-content: center;
     align-items: center;
-    // width: 70vw;
     padding: 80px;
     form {
       input {
@@ -4008,7 +3036,6 @@ $menu-transition-duration: 0.4s;
         outline: solid $black 1px;
         padding: 20px;
         margin-bottom: 20px;
-        // transition: outline 0.2s ease-in-out;
         &:focus {
           outline: solid $blue 1px;
         }
@@ -4029,7 +3056,6 @@ $menu-transition-duration: 0.4s;
         }
       }
       button {
-        // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
         border: none;
         background-color: $black;
@@ -4051,10 +3077,7 @@ $menu-transition-duration: 0.4s;
 .footer {
   padding: 7.5vw;
   width: calc(100%) - 15vw;
-  // background-color: $off-white;
   background-color: rgba(255, 255, 255, 0.9);
-  // margin-bottom: calc(100vh - #{navHeight});
-  // height: calc(200vh - #{$navHeight});
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4077,7 +3100,6 @@ $menu-transition-duration: 0.4s;
         &__item {
           a {
             color: $orange;
-            // cursor: url("https://svgshare.com/i/aAs.svg"), auto;
             cursor: url("../svg/cursor-med-blue.svg"), auto !important;
             &:hover {
               color: darken($orange, 20%);
@@ -4115,18 +3137,13 @@ $menu-transition-duration: 0.4s;
   }
   &__legal {
     margin-top: #{$margin * 4};
-    // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
     a {
       text-decoration: none;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       color: $black;
       &:hover {
         color: lighten($black, 20%);
       }
-    }
-    &__immersive {
-      // color: $black;
     }
   }
 }
@@ -4136,11 +3153,9 @@ $menu-transition-duration: 0.4s;
   position: relative;
   z-index: 4;
   width: 100%;
-  // background: $blue;
   background-color: rgba(48, 97, 224, 0.9);
   &__items {
     width: 100%;
-    // height: 400px;
     list-style: none;
     color: $white;
     display: flex;
@@ -4163,11 +3178,9 @@ $menu-transition-duration: 0.4s;
       }
     }
     a {
-      // color: $orange;
       color: $white;
       text-decoration: none;
       transition: color 0.2s ease-in-out;
-      // cursor: url("https://svgshare.com/i/aAs.svg"), auto !important;
       cursor: url("../svg/cursor-med-blue.svg"), auto !important;
       &:hover {
         color: darken($white, 20%);
@@ -4182,13 +3195,6 @@ $menu-transition-duration: 0.4s;
         font-size: 1.25rem;
         align-self: center;
         text-align: center;
-        &__terms {
-          // color: $white;
-          // text-decoration-color: $white;
-        }
-        &__cookie {
-          // color: $white;
-        }
       }
     }
   }
@@ -4198,23 +3204,14 @@ $menu-transition-duration: 0.4s;
   width: 100%;
   height: calc(100vh - #{$navHeight});
   background: black;
-  // position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   &__title {
     font-size: 6rem;
-    // letter-spacing: -0.3em;
     letter-spacing: -0.06em;
-    // white-space: nowrap;
-    // overflow: hidden;
-    // position: absolute;
-    // width: 100%;
     text-align: center;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     color: white;
     line-height: normal;
     transform: translateY(-50%);
@@ -4222,7 +3219,6 @@ $menu-transition-duration: 0.4s;
   @media (max-width: 1024px) and (min-width: 768px) {
     &__title {
       font-size: 5rem;
-      // transform: translateY(-75%);
     }
   }
   @media (max-width: 768px) {
@@ -4236,9 +3232,7 @@ $menu-transition-duration: 0.4s;
 .not-found {
   position: relative;
   background-color: white;
-  // height: 50vh;
   min-height: calc(100vh - 525px + 200px);
-  // min-height: calc(#{$viewportHeight} + #{$navHeight});
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -4256,13 +3250,3 @@ $menu-transition-duration: 0.4s;
 .line-parent {
   overflow: hidden;
 }
-
-.line-child {
-  // z-index: 200 !important;
-}
-
-// .scroll {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-// }
