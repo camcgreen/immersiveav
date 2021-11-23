@@ -273,10 +273,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person2,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Christine Jones",
+                "Finance Manager",
+                "The life and soul of the accounts department, she is our queen of all things admin and finance. With her experience she helps make the best financial decisions for the company.| Christine is very approachable, if you ever have a problem at work or whether it be something personal she is always there to help you.  ",
+                "christine.jones@immersiveav.com ",
                 "+441952953500"
               )
             }}
@@ -296,10 +296,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person3,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Russell Young",
+                "Account Director",
+                "Probably the geekiest member of the Account management team, Russ is a wealth of knowledge on all things technical.| He will go above and beyond for his clients to make sure they have the best experience.",
+                "russell.young@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -319,10 +319,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person4,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Andy Rowley",
+                "Warehouse Manager",
+                "Andy manages our warehouse keeping everything in check by accelerating the receiving and shipping process of stock.| He is organized and sufficient in his role here. ",
+                "andy.rowley@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -340,10 +340,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person5,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Rebecca Wilson",
+                "Marketing Assistant",
+                "Rebecca always with a smile on her face brings her background of social media excellence and creative ideas to our team. Supporting the marketing department to deliver strategies and campaigns to fit the company's needs.| She knows how to achieve success through social platforms and how to target our audience.  ",
+                "rebecca.wilson@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -361,10 +361,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person6,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Ben Degg",
+                "Senior Project Manager",
+                "Ben is a man of many talents of which he brings to the Immersive AV brand. He oversees the planning on projects and he will always go that extra mile for clients making them feel supported and validated.| He has an infectious personality and always leaves a lasting impression on everyone he encounters.",
+                "ben.degg@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -382,10 +382,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person7,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Emily Ball",
+                "Account Director",
+                "Emily is conscientious and takes pride in her work.| She is very hard working and will go above and beyond for her clients to create the best solutions for them and leave them with the best experience. ",
+                "emily.ball@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -404,10 +404,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person8,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Hayley Woodall",
+                "Account Director",
+                "Hayley is one of our many account directors. With XX years of experience and building her career here at Immersive AV.| She is full of charisma and always a pleasure to speak to. Hayley will go to great lengths to help her clients with any of their needs, always going that extra mile. ",
+                "hayley.woodall@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -426,10 +426,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person9,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Leroy Murray",
+                "Projects Director",
+                "Leroy oversees our projects department with his strategic abilities and years of experience, ensuring that we are within timescales and budget at a high standard.| Leroy has an infectious spirit and when you talk to him you consume his energy and leave with great enthusiasm. ",
+                "leroy.murray@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -448,10 +448,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person10,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Matt Rakowski",
+                "Marketing Manager",
+                "Matt has XX years in the events/marketing industry on his back and brings his audacious and innovative thinking to Immersive AV.| He is open to new ideas and the desire to get his creative juices flowing with any given opportunity coming his way.",
+                "matt.rakowski@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -471,10 +471,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person11,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Paul Flaherty",
+                "Account Director",
+                "Paul is the life and soul of the party. He takes responsibility for delivering top quality innovative work that meets his clients needs and creates the perfect solutions for them.| He is very meticulous with the ability to make clients feel appreciated and validated.",
+                "paul.flaherty@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -493,10 +493,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person12,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Rob Levy",
+                "Project Manager",
+                "Rob has an infectious personality and a positive attitude that he brings to his role here.| Taking responsibility for projects from start to finish, he oversees and executes them to make sure they are at the highest standard whilst being on hand for any assistance that may be required.",
+                "rob.levy@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -514,10 +514,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person13,
-                "Name",
-                "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Steve Hallsworth",
+                "FD",
+                "Steve, having been with the company from the very beginning providing the strategic and financial guidance we need to make sure that Immersive AVs commitments are met.| He is one of the most approachable and genuine people we have the pleasure of working with.",
+                "steve.hallsworth@immersiveav.com",
                 "+441952953500"
               )
             }}
@@ -535,10 +535,10 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person14,
-                "Name",
+                "Stewart Morgan",
                 "Job Title",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies dolor massa, non scelerisque lorem finibus vitae. Donec sit amet nulla lacus. Phasellus pharetra vehicula fringilla. Vivamus sit amet neque auctor, commodo quam sed, lobortis felis. Proin luctus metus quis tincidunt posuere. Maecenas faucibus orci nec semper consectetur.| Quisque auctor enim vitae vulputate porttitor. Donec fermentum ornare odio, quis commodo ex mattis quis.",
-                "enquiries@immersiveav.com",
+                "Supporting in the warehouse is Stewart.| Stewart is always around to make you laugh; he will brighten up your day. ",
+                "stewart.morgan@immersiveav.com",
                 "+441952953500"
               )
             }}

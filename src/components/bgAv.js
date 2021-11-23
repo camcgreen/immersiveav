@@ -8,32 +8,32 @@ import bgOrange from "../svg/bg-orange.svg"
 import bgArrowOrange from "../svg/bg-arrow-orange.svg"
 
 const BgAv = () => {
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      gsap.registerPlugin(ScrollTrigger)
-    }
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     gsap.registerPlugin(ScrollTrigger)
+  //   }
 
-    ScrollTrigger.refresh()
+  //   ScrollTrigger.refresh()
 
-    const bg = document.querySelector(".bg-av")
-    let tlBg = gsap.timeline()
-    tlBg
-      .to(".bg-av__img--arrow-orange--about", {
-        scrollTrigger: {
-          trigger: ".about-page",
-          scrub: 0.5,
-        },
-        scale: 0.5,
-        ease: "none",
-      })
-      .to(".bg-av__img--blue--about", {
-        scrollTrigger: {
-          trigger: ".about-page",
-          scrub: 0.5,
-        },
-        ease: "none",
-      })
-  }, [])
+  //   const bg = document.querySelector(".bg-av")
+  //   let tlBg = gsap.timeline()
+  //   tlBg
+  //     .to(".bg-av__img--arrow-orange--about", {
+  //       scrollTrigger: {
+  //         trigger: ".about-page",
+  //         scrub: 0.5,
+  //       },
+  //       scale: 0.5,
+  //       ease: "none",
+  //     })
+  //     .to(".bg-av__img--blue--about", {
+  //       scrollTrigger: {
+  //         trigger: ".about-page",
+  //         scrub: 0.5,
+  //       },
+  //       ease: "none",
+  //     })
+  // }, [])
   return (
     <div className="bg-av">
       <img
