@@ -111,6 +111,9 @@ const HireExpo = () => {
       <div className="hire-expo__dot">
         <img src={IconDot} alt="" />
       </div>
+      <div className="hire-expo__coming-soon">
+        <h1 className="hire-expo__coming-soon__text">Coming soon!</h1>
+      </div>
     </div>
   )
 }

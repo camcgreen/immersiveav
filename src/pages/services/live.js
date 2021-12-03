@@ -12,17 +12,19 @@ import { footerText } from "../../utils/helper"
 import bgBlue from "../../svg/bg-blue.svg"
 import bgArrowOrange from "../../svg/bg-arrow-orange.svg"
 
-import HeroImage from "../../images/live-1.jpeg"
+import HeroImage from "../../images/live-new-1.jpg"
 import Live1 from "../../images/news1.jpg"
-import Live2 from "../../images/adidas3.jpg"
+import Live2 from "../../images/live-new-4.jpg"
 import Live3 from "../../images/services-top-2.jpg"
-import Live4 from "../../images/project1.jpeg"
+import Live4 from "../../images/live-new-6.jpg"
 import Live5 from "../../images/contact.jpg"
-import Live6 from "../../images/adidas7.jpg"
+import Live6 from "../../images/live-new-8.jpg"
 import Live7 from "../../images/services-top-5.jpeg"
 import Live8 from "../../images/project5.jpeg"
 import Live9 from "../../images/hire.jpg"
 import Live10 from "../../images/expo.jpg"
+import Live11 from "../../images/live-new-9.jpg"
+import Live12 from "../../images/live-new-10.jpg"
 
 const Live = () => {
   const images = [
@@ -36,6 +38,8 @@ const Live = () => {
     Live8,
     Live9,
     Live10,
+    Live11,
+    Live12,
   ]
 
   return (
@@ -135,12 +139,12 @@ const Live = () => {
           </div>
           <div className="service-item__container__supplementary-images">
             <img
-              src={images[4]}
+              src={images[10]}
               alt=""
               className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--1"
             />
             <img
-              src={images[5]}
+              src={images[11]}
               alt=""
               className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--2"
             />

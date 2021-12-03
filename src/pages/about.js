@@ -275,7 +275,7 @@ const About = () => {
                 Person2,
                 "Christine Jones",
                 "Finance Manager",
-                "The life and soul of the accounts department, she is our queen of all things admin and finance. With her experience she helps make the best financial decisions for the company.| Christine is very approachable, if you ever have a problem at work or whether it be something personal she is always there to help you.  ",
+                "The life and soul of the accounts department, she is our queen of all things admin and finance. With her experience, she helps make the best financial decisions for the company.| Christine is very approachable, if you ever have a problem at work or whether it be something personal she is always there to help you.  ",
                 "christine.jones@immersiveav.com ",
                 "+441952953500"
               )
@@ -342,7 +342,7 @@ const About = () => {
                 Person5,
                 "Rebecca Wilson",
                 "Marketing Assistant",
-                "Rebecca always with a smile on her face brings her background of social media excellence and creative ideas to our team. Supporting the marketing department to deliver strategies and campaigns to fit the company's needs.| She knows how to achieve success through social platforms and how to target our audience.  ",
+                "Rebecca works with a smile on her face and brings a background of social media excellence and creative ideas to our team. Supporting the marketing department to deliver strategies and campaigns to fit the company's needs.| She knows how to achieve success through social platforms creating engaging and memorable content.  ",
                 "rebecca.wilson@immersiveav.com",
                 "+441952953500"
               )
@@ -406,7 +406,7 @@ const About = () => {
                 Person8,
                 "Hayley Woodall",
                 "Account Director",
-                "Hayley is one of our many account directors. With XX years of experience and building her career here at Immersive AV.| She is full of charisma and always a pleasure to speak to. Hayley will go to great lengths to help her clients with any of their needs, always going that extra mile. ",
+                "To meet Hayley is to love Hayley! Without question one of the most memorable people in our team, Hayley is full of life and passionate about achieving results.| She knows the industry inside out and is motivated by delivering outstanding customer service and ensuring our client’s expectations are always exceeded. ",
                 "hayley.woodall@immersiveav.com",
                 "+441952953500"
               )
@@ -450,7 +450,7 @@ const About = () => {
                 Person10,
                 "Matt Rakowski",
                 "Marketing Manager",
-                "Matt has XX years in the events/marketing industry on his back and brings his audacious and innovative thinking to Immersive AV.| He is open to new ideas and the desire to get his creative juices flowing with any given opportunity coming his way.",
+                "As an ambitious marketer with 20 years experience in the events industry, Matt brings pragmatism and creativity to his role as Marketing Manager. Matt combines an artistic flair with his extensive technical understanding to communicate the benefits of Immersive AV solutions, which our customers will reap when utilising our services.| An established photographer and copywriter, Matt is one of the leading Marketing Managers in the events industry.",
                 "matt.rakowski@immersiveav.com",
                 "+441952953500"
               )
