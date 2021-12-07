@@ -10,9 +10,10 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/gesture-supp-1.jpg"
-import SuppImage1 from "../../../images/gesture-hero.jpg"
-// import SuppImage2 from "../../../images/green-2.jpeg"
+import HeroImage from "../../../images/gesture-new-1.jpg"
+import SuppImage1 from "../../../images/gesture-new-2.jpg"
+import SuppImage2 from "../../../images/gesture-new-3.jpg"
+import SuppImage3 from "../../../images/gesture-new-4.jpg"
 
 const GestureControlled = () => {
   return (
@@ -57,6 +58,14 @@ const GestureControlled = () => {
               by the software and influences the content displayed on screen.
             </p>
             <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
+            </p>
+            <p>
               How to use gesture control technology to enhance the visitor
               experience? Popular applications of gesture controlled content
               include <Link to="/services/live/custom-games">gamification</Link>{" "}
@@ -73,13 +82,14 @@ const GestureControlled = () => {
               , where users can explore digital content related to your brand
               and services.
             </p>
-            {/* <p>
+            <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <h2>
               A fun and functional way of interacting with engaging digital
               content.

@@ -13,16 +13,18 @@ import bgBlue from "../../svg/bg-blue.svg"
 import bgArrowOrange from "../../svg/bg-arrow-orange.svg"
 
 import HeroImage from "../../images/services-studio-1.jpg"
-import Live1 from "../../images/news1.jpg"
+import Live1 from "../../images/studio-new-2.jpg"
 import Live2 from "../../images/live-3.jpeg"
-import Live3 from "../../images/live-2.jpeg"
-import Live4 from "../../images/project1.jpeg"
+import Live3 from "../../images/studio-new-4.jpg"
+import Live4 from "../../images/studio-new-5.jpg"
 import Live5 from "../../images/microsites-1.jpeg"
 import Live6 from "../../images/green-2.jpeg"
-import Live7 from "../../images/project9.jpeg"
+import Live7 from "../../images/studio-new-8.jpg"
 import Live8 from "../../images/project5.jpeg"
 import Live9 from "../../images/hire.jpg"
 import Live10 from "../../images/expo.jpg"
+import Live11 from "../../images/hire.jpg"
+import Live12 from "../../images/studio-new-10.jpg"
 
 const Studio = () => {
   const images = [
@@ -36,6 +38,8 @@ const Studio = () => {
     Live8,
     Live9,
     Live10,
+    Live11,
+    Live12,
   ]
 
   return (
@@ -133,12 +137,12 @@ const Studio = () => {
           </div>
           <div className="service-item__container__supplementary-images">
             <img
-              src={images[4]}
+              src={images[10]}
               alt=""
               className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--1"
             />
             <img
-              src={images[5]}
+              src={images[11]}
               alt=""
               className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--2"
             />

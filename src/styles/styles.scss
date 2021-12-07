@@ -726,10 +726,11 @@ $menu-transition-duration: 0.4s;
       opacity: 0.75;
     }
     &__img {
-      position: abolute;
+      position: absolute;
       top: 0;
       left: 0;
       object-fit: cover;
+      object-position: 50% 50%;
     }
   }
   &__image {
@@ -1377,8 +1378,11 @@ $menu-transition-duration: 0.4s;
       }
       &__body {
         p {
-          margin-bottom: 80px;
+          margin-bottom: 40px;
           font-size: 1.25rem;
+          &:last-of-type {
+            margin-bottom: 40px;
+          }
         }
       }
     }

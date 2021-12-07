@@ -12,17 +12,19 @@ import { footerText } from "../../utils/helper"
 import bgBlue from "../../svg/bg-blue.svg"
 import bgArrowOrange from "../../svg/bg-arrow-orange.svg"
 
-import HeroImage from "../../images/project3.jpeg"
-import Live1 from "../../images/news1.jpg"
-import Live2 from "../../images/live-2.jpeg"
+import HeroImage from "../../images/hybrid-new-1.jpg"
+import Live1 from "../../images/hybrid-new-2.jpg"
+import Live2 from "../../images/hybrid-new-3.jpg"
 import Live3 from "../../images/news2.jpg"
-import Live4 from "../../images/project1.jpeg"
-import Live5 from "../../images/project2.jpeg"
-import Live6 from "../../images/project4.jpeg"
-import Live7 from "../../images/hire.jpg"
+import Live4 from "../../images/hybrid-new-5.jpg"
+import Live5 from "../../images/hybrid-new-6.jpg"
+import Live6 from "../../images/hybrid-new-7.jpg"
+import Live7 from "../../images/hybrid-new-8.jpg"
 import Live8 from "../../images/expo.jpg"
 import Live9 from "../../images/hire.jpg"
 import Live10 from "../../images/expo.jpg"
+import Live11 from "../../images/hybrid-new-9.jpg"
+import Live12 from "../../images/hybrid-new-10.jpg"
 
 const Hybrid = () => {
   const images = [
@@ -36,6 +38,8 @@ const Hybrid = () => {
     Live8,
     Live9,
     Live10,
+    Live11,
+    Live12,
   ]
 
   return (
@@ -121,12 +125,12 @@ const Hybrid = () => {
           </div>
           <div className="service-item__container__supplementary-images">
             <img
-              src={images[4]}
+              src={images[10]}
               alt=""
               className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--1"
             />
             <img
-              src={images[5]}
+              src={images[11]}
               alt=""
               className="service-item__container__supplementary-images__img service-item__container__supplementary-images__img--2"
             />

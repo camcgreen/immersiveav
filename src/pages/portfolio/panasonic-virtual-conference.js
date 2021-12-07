@@ -120,7 +120,7 @@ const Panasonic = () => {
               >
                 Identity Group
               </a>{" "}
-              chose Immersive AV and the StudioX solution to take the 9th annual
+              chose Immersive AV and the StudioX solution to take the 9th annual{" "}
               <a
                 href="https://toughbookinnovationforum.com/"
                 target="_blank"

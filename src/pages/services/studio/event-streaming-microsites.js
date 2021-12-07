@@ -11,6 +11,8 @@ import { footerText } from "../../../utils/helper"
 
 import HeroImage from "../../../images/microsites-hero.jpeg"
 import SuppImage1 from "../../../images/microsites-1.jpeg"
+import SuppImage2 from "../../../images/microsites-new-3.jpg"
+import SuppImage3 from "../../../images/microsites-new-4.jpg"
 
 const EventMicrosites = () => {
   return (
@@ -55,12 +57,28 @@ const EventMicrosites = () => {
               log in via a specific url with personalised log in credentials.
             </p>
             <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
+            </p>
+            <p>
               All our streaming services encourage user engagement and
               interactivity. The streaming microsite can feature tools for live
               chat, user polls and other engagement tools. Why not customise the
               look and feel of your microsite to reflect your brand identity and
               maximise commercial opportunities with advertising space you can
               sell to sponsors or partners?
+            </p>
+            <p>
+              <img
+                src={SuppImage3}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
             </p>
             <h2>
               We’ll take care of all creative and development needs when

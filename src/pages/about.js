@@ -554,7 +554,7 @@ const About = () => {
         <div className="about-page__container">
           <StaticImage
             className="about-page__container__img about-page__container__img--0 about-page__container--left"
-            src="../images/news1.jpg"
+            src="../images/about-new-1.jpg"
             alt=""
           />
           <h2 className="about-page__container__h2 about-page__container__h2--0 about-page__container--right">
@@ -563,7 +563,7 @@ const About = () => {
           </h2>
           <StaticImage
             className="about-page__container__img about-page__container__img--1 about-page__container--left"
-            src="../images/news2.jpg"
+            src="../images/about-new-2.jpg"
             alt=""
           />
           <p className="about-page__container__p about-page__container__p--0 about-page__container--right">
@@ -574,7 +574,7 @@ const About = () => {
           </p>
           <StaticImage
             className="about-page__container__img about-page__container__img--2 about-page__container--left"
-            src="../images/news3.jpg"
+            src="../images/about-new-3.jpg"
             alt=""
           />
           <h2 className="about-page__container__h2 about-page__container__h2--1 about-page__container--left">

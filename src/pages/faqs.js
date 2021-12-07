@@ -26,10 +26,13 @@ const FAQs = () => {
         <ul className="faqs-page__list" style={{ paddingLeft: 0 }}>
           {faqsList.length > 0 ? (
             faqsList.map((faq, i) => {
+              const paragraphs = faq.a.split("|")
               return (
                 <li className="faqs-page__list__item" key={i}>
                   <button
-                    style={{ marginBottom: i === faqsList.length - 1 ? 0 : 80 }}
+                    style={{
+                      marginBottom: i === faqsList.length - 1 ? 80 : 80,
+                    }}
                     className="faqs-page__list__item__btn"
                     onClick={() => {
                       const body = document.querySelectorAll(
@@ -57,7 +60,10 @@ const FAQs = () => {
                     style={{ display: "none" }}
                   >
                     <div className="faqs-page__list__item__body__info">
-                      <p>{faq.a}</p>
+                      {/* <p>{faq.a}</p> */}
+                      {paragraphs.map(para => (
+                        <p>{para}</p>
+                      ))}
                     </div>
                   </div>
                 </li>

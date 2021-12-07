@@ -10,8 +10,9 @@ import NewFooter from "../../../components/footerNew"
 import { footerText } from "../../../utils/helper"
 
 import HeroImage from "../../../images/news1.jpg"
-import SuppImage1 from "../../../images/stream-supp-1.jpg"
-// import SuppImage2 from "../../../images/stream-2.jpeg"
+import SuppImage1 from "../../../images/stream-new-2.jpg"
+import SuppImage2 from "../../../images/stream-new-3.jpg"
+import SuppImage3 from "../../../images/stream-new-4.jpg"
 
 const StreamManagement = () => {
   return (
@@ -58,18 +59,27 @@ const StreamManagement = () => {
               Google Meet and Skype.
             </p>
             <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
+            </p>
+            <p>
               Our streaming engineers take the video input of all participants
               and make it into a professional streamed output. We integrate
               transition wipes, lower-third graphics and pre-recorded VT
               segments to create a high-quality, glitch-free broadcast.
             </p>
-            {/* <p>
+            <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               The edited stream can be hosted on a bespoke streaming microsite
               or streamed through YouTube, Facebook, Vimeo and all major virtual

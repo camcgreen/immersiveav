@@ -10,9 +10,10 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/walls-hero.jpg"
-import SuppImage1 from "../../../images/project7.jpeg"
-// import SuppImage2 from "../../../images/green-2.jpeg"
+import HeroImage from "../../../images/walls-new-1.jpg"
+import SuppImage1 from "../../../images/walls-new-2.jpg"
+import SuppImage2 from "../../../images/walls-new-3.jpg"
+import SuppImage3 from "../../../images/walls-new-4.jpg"
 
 const InteractiveLive = () => {
   return (
@@ -50,7 +51,7 @@ const InteractiveLive = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "50%" }}
+                style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -68,6 +69,14 @@ const InteractiveLive = () => {
               .
             </p>
             <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "35%" }}
+              />
+            </p>
+            <p>
               The content of an interactive wall wall is tailored to your brand
               and products or services. The storytelling approach is popular,
               using a narrative journey to explain your products and services to
@@ -79,13 +88,14 @@ const InteractiveLive = () => {
               </Link>
               .
             </p>
-            {/* <p>
+            <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "40%" }}
               />
-            </p> */}
+            </p>
             <p>
               All our interactive walls come with a data and insights package,
               opening up the interaction data for you to assess the ROI of your

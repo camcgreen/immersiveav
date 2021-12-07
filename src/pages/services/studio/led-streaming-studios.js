@@ -11,8 +11,9 @@ import NewFooter from "../../../components/footerNew"
 import { footerText } from "../../../utils/helper"
 
 import HeroImage from "../../../images/led-hero.jpg"
-import SuppImage1 from "../../../images/led-supp-1.jpg"
-import SuppImage2 from "../../../images/led-supp-2.jpg"
+import SuppImage1 from "../../../images/led-new-2.jpg"
+import SuppImage2 from "../../../images/led-new-3.jpg"
+import SuppImage3 from "../../../images/led-new-4.jpg"
 
 const LedStream = () => {
   return (
@@ -64,6 +65,14 @@ const LedStream = () => {
               specific needs.
             </p>
             <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
+            </p>
+            <p>
               Need more than just a studio? Why not utilise our stream
               management services, or present your streamed event production
               using a bespoke{" "}
@@ -74,7 +83,7 @@ const LedStream = () => {
             </p>
             <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
                 style={{ width: "50%" }}

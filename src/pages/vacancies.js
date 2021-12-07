@@ -36,7 +36,7 @@ const Vacancies = ({ data }) => {
                 <li className="vacancies-page__list__item" key={i}>
                   <button
                     className="vacancies-page__list__item__btn"
-                    style={{ marginBottom: i === posts.length - 1 ? 0 : 80 }}
+                    style={{ marginBottom: i === posts.length - 1 ? 80 : 80 }}
                     onClick={() => {
                       const body = document.querySelectorAll(
                         ".vacancies-page__list__item__body"

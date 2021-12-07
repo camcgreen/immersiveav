@@ -10,9 +10,10 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/projection-hero.jpeg"
-import SuppImage1 from "../../../images/projection-supp-1.png"
-// import SuppImage2 from "../../../images/green-2.jpeg"
+import HeroImage from "../../../images/projection-new-1.jpg"
+import SuppImage1 from "../../../images/projection-new-2.jpg"
+import SuppImage2 from "../../../images/projection-new-3.jpg"
+import SuppImage3 from "../../../images/projection-new-4.jpg"
 
 const ProjectionMapping = () => {
   return (
@@ -59,18 +60,27 @@ const ProjectionMapping = () => {
               installation which gets everyone talking.
             </p>
             <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
+            </p>
+            <p>
               We’ll take care of all your creative and technology needs for your
               projection mapped installation. We’ll present concepts on how best
               to achieve your objectives, create the animated content and manage
               all technical production requirements.
             </p>
-            {/* <p>
+            <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               We use industry standard media servers such as Disguise and
               Pandora’s Box to map the content, real time graphics engines such

@@ -9,9 +9,10 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/green-hero.jpeg"
-import SuppImage1 from "../../../images/green-supp-1.jpg"
+import HeroImage from "../../../images/green-new-1.jpg"
+import SuppImage1 from "../../../images/green-new-2.jpg"
 import SuppImage2 from "../../../images/green-supp-2.jpg"
+import SuppImage3 from "../../../images/green-new-4.jpg"
 
 const GreenScreen = () => {
   return (
@@ -55,6 +56,14 @@ const GreenScreen = () => {
               let you down.
             </p>
             <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
+            </p>
+            <p>
               The green screen studio is lit with studio lighting, balanced with
               a digital light meter to achieve equal luminosity of the colour
               green throughout the set. We use media servers such as Disguise to
@@ -62,7 +71,7 @@ const GreenScreen = () => {
             </p>
             <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
                 style={{ width: "50%" }}

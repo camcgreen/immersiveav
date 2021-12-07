@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
     const preload2 = new Image()
     preload2.src = "../images/services-2.jpeg"
     const preload3 = new Image()
-    preload3.src = "../images/services-3.jpeg"
+    preload3.src = "../images/services-3.jpg"
     const preload4 = new Image()
     preload4.src = "../images/hire.jpg"
     const preload5 = new Image()

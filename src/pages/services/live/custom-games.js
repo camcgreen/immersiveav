@@ -9,9 +9,10 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/green-screen.jpeg"
-// import SuppImage1 from "../../../images/green-1.jpeg"
-// import SuppImage2 from "../../../images/green-2.jpeg"
+import HeroImage from "../../../images/gamification-new-1.jpg"
+import SuppImage1 from "../../../images/gamification-new-2.jpg"
+import SuppImage2 from "../../../images/gamification-new-3.jpg"
+import SuppImage3 from "../../../images/gamification-new-4.jpg"
 
 const CustomGames = () => {
   return (
@@ -39,19 +40,28 @@ const CustomGames = () => {
               brand and services. The scope of gamification presents us with a
               completely blank canvas. We can create whatever you need.
             </p>
-            {/* <p>
+            <p>
               <img
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               A perfect fit for live and virtual events, some ideas include
               touchscreen games, VR games, gesture controlled games and
               gamification which combines physical actions with a digital
               experience. Such as the rope pull challenge we created for Land
               Rover.
+            </p>
+            <p>
+              <img
+                src={SuppImage2}
+                alt=""
+                className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
+              />
             </p>
             <p>
               One of the key features of all gamification experiences is the
@@ -61,13 +71,14 @@ const CustomGames = () => {
               keep people in your space for longer, and collect their details
               for future follow up.
             </p>
-            {/* <p>
+            <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
+                style={{ width: "50%" }}
               />
-            </p> */}
+            </p>
             <p>
               Our developers are proud to be gaming geeks, who are passionate
               about mind-blowing games which are as addictive as they are easy

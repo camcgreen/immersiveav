@@ -10,9 +10,10 @@ import NewFooter from "../../../components/footerNew"
 
 import { footerText } from "../../../utils/helper"
 
-import HeroImage from "../../../images/generative-hero.jpg"
-import SuppImage1 from "../../../images/generative-supp-1.jpg"
-import SuppImage2 from "../../../images/generative-supp-2.jpg"
+import HeroImage from "../../../images/generative-new-1.jpg"
+import SuppImage1 from "../../../images/generative-new-2.jpg"
+import SuppImage2 from "../../../images/generative-new-3.jpg"
+import SuppImage3 from "../../../images/generative-new-4.jpg"
 
 const GenerativeContent = () => {
   return (
@@ -56,6 +57,12 @@ const GenerativeContent = () => {
               game where every journey and outcome is different? All this is
               possible with generative content.
             </p>
+            <img
+              src={SuppImage2}
+              alt=""
+              className="cms-container__post__body__service-img"
+              style={{ width: "50%" }}
+            />
             <p>
               The scope of possibilities with generative media is vast. We’ve
               created mind blowing generative content installations for London’s
@@ -71,7 +78,7 @@ const GenerativeContent = () => {
             </p>
             <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
                 style={{ width: "50%" }}
