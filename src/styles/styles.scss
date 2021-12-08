@@ -1129,11 +1129,37 @@ $menu-transition-duration: 0.4s;
     align-items: center;
     &__text {
       color: $white;
-      font-size: 4rem;
-      font-weight: 500;
       text-align: center;
       border: solid 4px $white;
       padding: 40px 160px;
+      @media (max-width: $tablet-width) {
+        border: solid 2px $white;
+        padding: 20px;
+        width: 90%;
+      }
+      &__coming {
+        font-size: 4rem;
+        font-weight: 500;
+        @media (max-width: $tablet-width) {
+          font-size: 2rem;
+        }
+      }
+      &__email {
+        margin-top: 50px;
+        font-size: 2rem;
+        font-weight: 400;
+        @media (max-width: $tablet-width) {
+          font-size: 1.25rem;
+          margin-top: 30px;
+        }
+        a {
+          cursor: url("../svg/cursor-med-blue.svg"), auto !important;
+          color: $orange;
+          &:hover {
+            color: darken($orange, 20%);
+          }
+        }
+      }
     }
   }
 }

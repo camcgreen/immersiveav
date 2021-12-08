@@ -8,14 +8,14 @@ import News from "../../components/news"
 import NewFooter from "../../components/footerNew"
 
 import HeroImage from "../../images/project6.jpeg"
-import Image1 from "../../images/news3.jpg"
-import Image2 from "../../images/hire.jpg"
-import Image3 from "../../images/generative-hero.jpg"
-import Image4 from "../../images/expo.jpg"
-import Image5 from "../../images/services-top-3.jpg"
-import Image6 from "../../images/projection-hero.jpeg"
-import Image7 from "../../images/services-hero-1.jpeg"
-import Image8 from "../../images/led-supp-2.jpg"
+import Image1 from "../../images/candy-new-3.jpg"
+import Image2 from "../../images/candy-new-5.jpg"
+import Image3 from "../../images/candy-new-6.jpg"
+import Image4 from "../../images/candy-new-8.jpg"
+import Image5 from "../../images/candy-new-1.jpg"
+import Image6 from "../../images/candy-new-2.jpg"
+import Image7 from "../../images/candy-new-7.jpg"
+import Image8 from "../../images/candy-new-4.jpg"
 import Image9 from "../../images/stream-supp-1.jpg"
 
 import { footerText } from "../../utils/helper"
@@ -85,23 +85,23 @@ const Candy = () => {
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--4"
             />
             <img
-              src={images[5]}
+              src={images[4]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--5"
             />
             <img
-              src={images[4]}
+              src={images[5]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--6"
             />
           </div>
           <div className="portfolio-item__container__quote">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               {'" Lorem ipsum dolor sit amet, consecteur adipiscing'}
             </h1>
             <h3 className="portfolio-item__container__quote__h3">
               Candy Crush
-            </h3>
+            </h3> */}
           </div>
           <div className="portfolio-item__container__challenge">
             <h2 className="portfolio-item__container__challenge__h2">
@@ -166,7 +166,7 @@ const Candy = () => {
           </div>
           <div className="portfolio-item__container__supplementary-images">
             <img
-              src={images[1]}
+              src={images[6]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--1"
             />
@@ -182,9 +182,9 @@ const Candy = () => {
             />
           </div>
           <div className="portfolio-item__container__quote portfolio-item__container__quote--bottom">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               Lorem ipsum dolor sit amet
-            </h1>
+            </h1> */}
           </div>
           <div className="portfolio-item__container__result">
             <h2 className="portfolio-item__container__result__h2">Result</h2>

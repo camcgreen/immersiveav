@@ -8,15 +8,15 @@ import News from "../../components/news"
 import NewFooter from "../../components/footerNew"
 
 import HeroImage from "../../images/project9.jpeg"
-import Image1 from "../../images/services-top-5.jpeg"
-import Image2 from "../../images/services-top-4.jpeg"
-import Image3 from "../../images/news3.jpg"
-import Image4 from "../../images/stream-1.jpeg"
-import Image5 from "../../images/services-hero-3.jpeg"
-import Image6 from "../../images/gesture-hero.jpg"
-import Image7 from "../../images/services-hero-1.jpeg"
-import Image8 from "../../images/thales1.jpeg"
-import Image9 from "../../images/stream-2.jpeg"
+import Image1 from "../../images/wo-1.jpeg"
+import Image2 from "../../images/wo-2.jpeg"
+import Image3 from "../../images/wo-3.jpeg"
+import Image4 from "../../images/wo-4.jpeg"
+import Image5 from "../../images/wo-5.jpeg"
+import Image6 from "../../images/wo-6.jpeg"
+import Image7 from "../../images/wo-7.jpeg"
+import Image8 from "../../images/wo-8.jpeg"
+import Image9 from "../../images/wo-9.jpeg"
 
 import { footerText } from "../../utils/helper"
 
@@ -85,23 +85,23 @@ const Ceremony = () => {
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--4"
             />
             <img
-              src={images[5]}
+              src={images[4]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--5"
             />
             <img
-              src={images[4]}
+              src={images[5]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--6"
             />
           </div>
           <div className="portfolio-item__container__quote">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               {'" Lorem ipsum dolor sit amet, consecteur adipiscing'}
             </h1>
             <h3 className="portfolio-item__container__quote__h3">
               World Skills
-            </h3>
+            </h3> */}
           </div>
           <div className="portfolio-item__container__challenge">
             <h2 className="portfolio-item__container__challenge__h2">
@@ -141,7 +141,7 @@ const Ceremony = () => {
           </div>
           <div className="portfolio-item__container__supplementary-images">
             <img
-              src={images[1]}
+              src={images[6]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--1"
             />
@@ -157,9 +157,9 @@ const Ceremony = () => {
             />
           </div>
           <div className="portfolio-item__container__quote portfolio-item__container__quote--bottom">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               Lorem ipsum dolor sit amet
-            </h1>
+            </h1> */}
           </div>
           <div className="portfolio-item__container__result">
             <h2 className="portfolio-item__container__result__h2">Result</h2>

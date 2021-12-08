@@ -11,8 +11,8 @@ import HeroImage from "../../images/project1.jpeg"
 import Image1 from "../../images/adidas1.jpg"
 import Image2 from "../../images/adidas2.jpg"
 import Image3 from "../../images/adidas3.jpg"
-import Image4 from "../../images/adidas4.jpg"
-import Image5 from "../../images/adidas5.jpg"
+import Image4 from "../../images/adidas-new-2.jpg"
+import Image5 from "../../images/adidas-new-1.jpg"
 import Image6 from "../../images/adidas6.jpg"
 import Image7 from "../../images/adidas7.jpg"
 import Image8 from "../../images/adidas8.jpg"
@@ -98,10 +98,10 @@ const Adidas = () => {
             />
           </div>
           <div className="portfolio-item__container__quote">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               {'" Lorem ipsum dolor sit amet, consecteur adipiscing'}
             </h1>
-            <h3 className="portfolio-item__container__quote__h3">Adidas</h3>
+            <h3 className="portfolio-item__container__quote__h3">Adidas</h3> */}
           </div>
           <div className="portfolio-item__container__challenge">
             <h2 className="portfolio-item__container__challenge__h2">
@@ -180,9 +180,9 @@ const Adidas = () => {
             />
           </div>
           <div className="portfolio-item__container__quote portfolio-item__container__quote--bottom">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               Lorem ipsum dolor sit amet
-            </h1>
+            </h1> */}
           </div>
           <div className="portfolio-item__container__result">
             <h2 className="portfolio-item__container__result__h2">Result</h2>

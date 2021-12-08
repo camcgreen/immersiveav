@@ -8,15 +8,16 @@ import News from "../../components/news"
 import NewFooter from "../../components/footerNew"
 
 import HeroImage from "../../images/project2.jpeg"
-import Image1 from "../../images/generative-hero.jpg"
-import Image2 from "../../images/hire.jpg"
-import Image3 from "../../images/live-1.jpeg"
-import Image4 from "../../images/expo.jpg"
-import Image5 from "../../images/projection-supp-1.png"
-import Image6 from "../../images/led-hero.jpg"
+import Image1 from "../../images/mini-new-1.jpg"
+import Image2 from "../../images/mini-new-7.jpg"
+import Image3 from "../../images/mini-new-3.jpg"
+import Image4 from "../../images/mini-new-2.jpg"
+import Image5 from "../../images/mini-new-5.jpg"
+import Image6 from "../../images/mini-new-6.jpg"
 import Image7 from "../../images/projection-hero.jpeg"
-import Image8 from "../../images/led-supp-2.jpg"
-import Image9 from "../../images/generative-hero.jpg"
+import Image8 from "../../images/mini-new-8.jpg"
+import Image9 from "../../images/mini-new-9.jpg"
+import Image10 from "../../images/mini-new-4.jpg"
 
 import { footerText } from "../../utils/helper"
 
@@ -36,6 +37,7 @@ const Mini = () => {
     Image7,
     Image8,
     Image9,
+    Image10,
   ]
   return (
     <div className="wrapper">
@@ -96,10 +98,10 @@ const Mini = () => {
             />
           </div>
           <div className="portfolio-item__container__quote">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               {'" Lorem ipsum dolor sit amet, consecteur adipiscing'}
             </h1>
-            <h3 className="portfolio-item__container__quote__h3">Mini</h3>
+            <h3 className="portfolio-item__container__quote__h3">Mini</h3> */}
           </div>
           <div className="portfolio-item__container__challenge">
             <h2 className="portfolio-item__container__challenge__h2">
@@ -146,25 +148,25 @@ const Mini = () => {
           </div>
           <div className="portfolio-item__container__supplementary-images">
             <img
-              src={images[1]}
+              src={images[7]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--1"
             />
             <img
-              src={images[7]}
+              src={images[8]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--2"
             />
             <img
-              src={images[8]}
+              src={images[9]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--3"
             />
           </div>
           <div className="portfolio-item__container__quote portfolio-item__container__quote--bottom">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               Lorem ipsum dolor sit amet
-            </h1>
+            </h1> */}
           </div>
           <div className="portfolio-item__container__result">
             <h2 className="portfolio-item__container__result__h2">Result</h2>

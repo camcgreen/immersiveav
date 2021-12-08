@@ -112,7 +112,21 @@ const HireExpo = () => {
         <img src={IconDot} alt="" />
       </div>
       <div className="hire-expo__coming-soon">
-        <h1 className="hire-expo__coming-soon__text">Coming soon!</h1>
+        <h1 className="hire-expo__coming-soon__text">
+          <div className="hire-expo__coming-soon__text__coming">
+            Coming soon!
+          </div>
+          <div className="hire-expo__coming-soon__text__email">
+            Contact us on{" "}
+            <a
+              href="mailto:enquiries@immersiveav.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              enquiries@immersiveav.com
+            </a>
+          </div>
+        </h1>
       </div>
     </div>
   )

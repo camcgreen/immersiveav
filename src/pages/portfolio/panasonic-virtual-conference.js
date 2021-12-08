@@ -7,16 +7,18 @@ import LowHero from "../../components/lowHero"
 import News from "../../components/news"
 import NewFooter from "../../components/footerNew"
 
-import HeroImage from "../../images/project4.jpeg"
+import HeroImage from "../../images/pan-new-1.jpg"
 import Image1 from "../../images/microsites-1.jpeg"
-import Image2 from "../../images/panasonic-4.jpeg"
-import Image3 from "../../images/stream-supp-1.jpg"
-import Image4 from "../../images/microsites-hero.jpeg"
-import Image5 from "../../images/projection-supp-1.png"
+import Image2 from "../../images/pan-new-2.jpg"
+import Image3 from "../../images/pan-new-5.jpg"
+import Image4 from "../../images/pan-new-4.jpg"
+import Image5 from "../../images/pan-new-3.jpg"
 import Image6 from "../../images/panasonic-1.jpeg"
 import Image7 from "../../images/projection-hero.jpeg"
-import Image8 from "../../images/services-studio-1.jpg"
-import Image9 from "../../images/panasonic-3.png"
+import Image8 from "../../images/microsites-1.jpeg"
+import Image9 from "../../images/pan-new-6.jpg"
+import Image10 from "../../images/panasonic-3.png"
+import Image11 from "../../images/projection-supp-1.png"
 
 import { footerText } from "../../utils/helper"
 
@@ -36,6 +38,8 @@ const Panasonic = () => {
     Image7,
     Image8,
     Image9,
+    Image10,
+    Image11,
   ]
   return (
     <div className="wrapper">
@@ -85,21 +89,21 @@ const Panasonic = () => {
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--4"
             />
             <img
-              src={images[5]}
+              src={images[4]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--5"
             />
             <img
-              src={images[4]}
+              src={images[10]}
               alt=""
               className="portfolio-item__container__hero-array__img portfolio-item__container__hero-array__img--6"
             />
           </div>
           <div className="portfolio-item__container__quote">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               {'" Lorem ipsum dolor sit amet, consecteur adipiscing'}
             </h1>
-            <h3 className="portfolio-item__container__quote__h3">Panasonic</h3>
+            <h3 className="portfolio-item__container__quote__h3">Panasonic</h3> */}
           </div>
           <div className="portfolio-item__container__challenge">
             <h2 className="portfolio-item__container__challenge__h2">
@@ -165,25 +169,25 @@ const Panasonic = () => {
           </div>
           <div className="portfolio-item__container__supplementary-images">
             <img
-              src={images[1]}
+              src={images[7]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--1"
             />
             <img
-              src={images[7]}
+              src={images[8]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--2"
             />
             <img
-              src={images[8]}
+              src={images[9]}
               alt=""
               className="portfolio-item__container__supplementary-images__img portfolio-item__container__supplementary-images__img--3"
             />
           </div>
           <div className="portfolio-item__container__quote portfolio-item__container__quote--bottom">
-            <h1 className="portfolio-item__container__quote__h1">
+            {/* <h1 className="portfolio-item__container__quote__h1">
               Lorem ipsum dolor sit amet
-            </h1>
+            </h1> */}
           </div>
           <div className="portfolio-item__container__result">
             <h2 className="portfolio-item__container__result__h2">Result</h2>
