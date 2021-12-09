@@ -47,7 +47,7 @@ const GenerativeContent = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "50%" }}
+                style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -61,7 +61,7 @@ const GenerativeContent = () => {
               src={SuppImage2}
               alt=""
               className="cms-container__post__body__service-img"
-              style={{ width: "50%" }}
+              style={{ width: "35%" }}
             />
             <p>
               The scope of possibilities with generative media is vast. We’ve
@@ -81,7 +81,7 @@ const GenerativeContent = () => {
                 src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "50%" }}
+                style={{ width: "45%" }}
               />
             </p>
             <p>

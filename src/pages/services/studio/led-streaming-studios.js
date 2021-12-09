@@ -52,7 +52,7 @@ const LedStream = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "50%" }}
+                style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -69,7 +69,7 @@ const LedStream = () => {
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "50%" }}
+                style={{ width: "35%" }}
               />
             </p>
             <p>
@@ -86,7 +86,7 @@ const LedStream = () => {
                 src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "50%" }}
+                style={{ width: "40%" }}
               />
             </p>
             <h2>So much more than just a studio.</h2>
