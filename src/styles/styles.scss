@@ -225,8 +225,8 @@ body {
   flex-direction: row;
   align-items: center;
   z-index: 18;
-  margin-left: $margin;
-  margin-bottom: $margin;
+  margin-left: 25px;
+  margin-bottom: 40px;
   cursor: url("../svg/cursor-med-blue.svg"), auto !important;
   &__btn {
     border: none;

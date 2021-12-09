@@ -248,6 +248,27 @@ const About = () => {
             onClick={e => {
               e.persist()
               togglePopup(
+                Person5,
+                "Sharon Reynolds",
+                "Founder & CEO",
+                "Sharon is the driving force behind everything we do. She has incredible ideas and strategies which result in memorable experiences for our customers. Sharon’s management philosophy is for the business to have a family feel, where everyone feels included and important.| Her passion and energy run throughout Immersive AV. Sharon is the embodiment of the Immersive AV philosophy that anything’s possible.",
+                "sharon.reynolds@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person5}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
                 // "../images/person1.jpg",
                 Person1,
                 "Bob Walsh",
@@ -298,7 +319,7 @@ const About = () => {
                 Person3,
                 "Russell Young",
                 "Account Director",
-                "Probably the geekiest member of the Account management team, Russ is a wealth of knowledge on all things technical.| He will go above and beyond for his clients to make sure they have the best experience.",
+                "Probably the geekiest member of the account management team, Russ is a wealth of knowledge on all things technical. Russell is passionate about finding new ways of integrating physical and digital technologies to achieve better-than-before results.| The perfect link between sales and technical, Russell will blow your mind with incredible ideas—then shock you again as he brings them to life.",
                 "russell.young@immersiveav.com",
                 "+441952953500"
               )
@@ -319,9 +340,9 @@ const About = () => {
               e.persist()
               togglePopup(
                 Person4,
-                "Andy Rowley",
+                "Andrew Rowley",
                 "Warehouse Manager",
-                "Andy manages our warehouse keeping everything in check by accelerating the receiving and shipping process of stock.| He is organized and sufficient in his role here. ",
+                "Andrew’s organisation and logistical foresight keep the Immersive AV train on track. His depth of knowledge and extensive experience foresee complications before they happen and contribute to the seamless execution of Immersive AV projects.| Andrew leads the warehouse team, with a finger on the pulse of all operational activities.",
                 "andy.rowley@immersiveav.com",
                 "+441952953500"
               )
@@ -363,7 +384,7 @@ const About = () => {
                 Person6,
                 "Ben Degg",
                 "Senior Project Manager",
-                "Ben is a man of many talents of which he brings to the Immersive AV brand. He oversees the planning on projects and he will always go that extra mile for clients making them feel supported and validated.| He has an infectious personality and always leaves a lasting impression on everyone he encounters.",
+                "Ben’s a man of many talents, loved by everyone at Immersive AV. As Senior Project Manager, Ben oversees the planning and onsite management of our events. He’s an established Project Manager with many years experience of live and virtual events.| When not working on Immersive AV projects, Ben can be found touring with his band The UMA.",
                 "ben.degg@immersiveav.com",
                 "+441952953500"
               )
@@ -384,7 +405,7 @@ const About = () => {
                 Person7,
                 "Emily Ball",
                 "Account Director",
-                "Emily is conscientious and takes pride in her work.| She is very hard working and will go above and beyond for her clients to create the best solutions for them and leave them with the best experience. ",
+                "As the longest serving member of our team, with 16 years loyal service under her belt, Emily knows the capabilities of Immersive AV better than anyone.| Passionate about achieving outstanding customer service, Emily takes pride in going the extra mile for our clients.",
                 "emily.ball@immersiveav.com",
                 "+441952953500"
               )
@@ -428,7 +449,7 @@ const About = () => {
                 Person9,
                 "Leroy Murray",
                 "Projects Director",
-                "Leroy oversees our projects department with his strategic abilities and years of experience, ensuring that we are within timescales and budget at a high standard.| Leroy has an infectious spirit and when you talk to him you consume his energy and leave with great enthusiasm. ",
+                "One of the most organised and knowledgeable people you’ll ever meet, Leroy leads our project management team with a combination of command and capability. A veteran of the industry, Leroy’s worked on events of all scales during a career which spans over 30 years.| A wealth of information and advice, Leroy’s input is guaranteed to make any event run smoother and leave a lasting impression.",
                 "leroy.murray@immersiveav.com",
                 "+441952953500"
               )
@@ -473,7 +494,7 @@ const About = () => {
                 Person11,
                 "Paul Flaherty",
                 "Account Director",
-                "Paul is the life and soul of the party. He takes responsibility for delivering top quality innovative work that meets his clients needs and creates the perfect solutions for them.| He is very meticulous with the ability to make clients feel appreciated and validated.",
+                "Paul’s one of the most charming and charismatic members of the team.| Highly experienced at delivering engaging experiences for clients at events of all types—projects under Paul’s expert stewardship are in the safest hands.",
                 "paul.flaherty@immersiveav.com",
                 "+441952953500"
               )
@@ -495,7 +516,7 @@ const About = () => {
                 Person12,
                 "Rob Levy",
                 "Project Manager",
-                "Rob has an infectious personality and a positive attitude that he brings to his role here.| Taking responsibility for projects from start to finish, he oversees and executes them to make sure they are at the highest standard whilst being on hand for any assistance that may be required.",
+                "Rob’s positive attitude and inquisitive nature set him apart as one of our most popular Project Managers with clients and onsite crew.| Rob brings many years experience and a meticulous attention to detail—ensuring projects overseen by Rob Levy are destined for success.",
                 "rob.levy@immersiveav.com",
                 "+441952953500"
               )
@@ -536,9 +557,224 @@ const About = () => {
               togglePopup(
                 Person14,
                 "Stewart Morgan",
-                "Job Title",
-                "Supporting in the warehouse is Stewart.| Stewart is always around to make you laugh; he will brighten up your day. ",
+                "Assistant Warehouse Manager",
+                "As one of our senior warehouse team, Stewart is a key component in bringing Immersive AV projects to life. His product knowledge and logistics experience pays dividends when prepping for jobs.| Also an accomplished electronics engineer, Stewart helps keep our AV stock in perfect working order.",
                 "stewart.morgan@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div className="about-page__people__item about-page__people__item--empty"></div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Chloe Retter",
+                "Business Relationship Director",
+                "Chloe brings boundless energy and exceptional knowledge to her role as Business Relationship Director. With over 10 years of experience in the exhibitions sector, Chloe truly is an expo girl—one of the key weapons in our arsenal to elevate Immersive AV Expo as Europe’s leading supplier of interactive technology for exhibitions.| You’ll feel nothing but positivity and the assurance everything’s possible when talking to Chloe.",
+                "chloe.retter@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Steve Hallsworth",
+                "Founder and Financial Director",
+                "One of the founders of Immersive AV, Steve’s vast experience is an asset to the business. His industry knowledge and fiscal acumen make him the ideal Financial Director.| More than just a number cruncher, Steve’s approachability and dry humour make him popular with staff and clients alike.",
+                "steve.hallsworth@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Scott Holman",
+                "Sales Manager",
+                "Leading the Immersive AV Expo team, Scott’s one of the bigger personalities at Immersive AV, with a lovable, bombastic charm which always leaves a lasting impression.| Scott’s focus is on exhibitions and conferences, working with our clients to achieve their best ever event experience. ",
+                "scott.holman@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "David Mulcahy",
+                "Technical Director",
+                "The genius behind most of Immersive AV’s groundbreaking installations, David is a deep well of knowledge and experience gathered during a career spanning over 30 years.| Driven by challenges and achieving the seemingly impossible, David’s a true gentleman with an exceptional mind.",
+                "david.mulcahy@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div className="about-page__people__item about-page__people__item--empty"></div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Rob Adams",
+                "Operations Manager",
+                "Rob’s an established member of the Immersive AV team, with over a decade of experience fulfilling a variety of roles. As Operations Manager, Rob oversees the logistics of bringing our projects to life.| A friendly and personable character, Rob’s cheery approach brightens everyone’s day.",
+                "rob.adams@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div className="about-page__people__item about-page__people__item--empty"></div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Scott Jones",
+                "Account Director",
+                "Without doubt the most stylish member of our team, Scott’s charm will win over even the most hesitant minds. Scott has extensive experience creating wow factor experiences which maximise engagement for our clients.| A level-headed problem solver, Scott knows how to lever emerging and established technologies to achieve great results.",
+                "scott.jones@immersievav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Mike Kershaw",
+                "Non Executive Chairman",
+                "As one of the most experienced leaders in the events industry, Mike’s position on our board and at the head of our senior leadership team sets us apart from the competition.| Mike’s industry knowledge and business acumen keep Immersive AV on track and ensure all commercial ventures and new technologies make good business sense.",
+                "mike.kershaw@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div className="about-page__people__item about-page__people__item--empty"></div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Mike Coupland",
+                "Senior AV Technician",
+                "One of the most studious and intellectual members of our team, Mike is an instrumental cog in the machinery which brings our projects to life on site.| His technical knowledge and attention to detail mean all the jobs crewed by Mike are in safe hands.",
+                "micheal.coupland@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div className="about-page__people__item about-page__people__item--empty"></div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Sam Hayward",
+                "AV Technician",
+                "An efficient and proactive AV technician, Sam’s friendly and positive attitude makes him a big hit with both clients and colleagues.| Sam’s talents span the full spectrum of live and virtual events, having taken the initiative to elevate himself to the level of expert in both disciplines.",
+                "sam.hayward@immersiveav.com",
+                "+441952953500"
+              )
+            }}
+          >
+            <img
+              className="showcase__img"
+              src={Person14}
+              alt="Huawei Rubik's Cube"
+            />
+            <div className="about-page__people__item__overlay" />
+          </div>
+          <div
+            className="about-page__people__item"
+            onClick={e => {
+              e.persist()
+              togglePopup(
+                Person14,
+                "Tom Adlam",
+                "AV Technician",
+                "An accomplished and mild-mannered member of our onsite team, Tom is a meticulous and unflappable AV Technician of the highest order.| Tom’s knowledge and experience enable him to bring even the most complex installations to life and ensure our clients enjoy a hassle-free experience which delivers real results.",
+                "tom.adlam@immersiveav.com",
                 "+441952953500"
               )
             }}
