@@ -1,5 +1,5 @@
 ---
-path: /news/chloe_retter-joins_immersiveav
+path: news/chloe_retter-joins_immersiveav
 date: 2021-11-12T14:54:50.513Z
 title: Chloe Retter joins Immersive AV
 featuredImage: /assets/chloe-retter.jpeg
