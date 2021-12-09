@@ -1,10 +1,12 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 import IconMenuOpen from "../svg/menu-open.svg"
 import { gsap } from "gsap"
 
 import Menu from "./menu"
+
+import Logo from "../images/immersiveav-logo.png"
 
 const Header = () => {
   return (
@@ -14,11 +16,12 @@ const Header = () => {
         <div className="header__container">
           <div className="header__container__logo">
             <Link to="/" className="link">
-              <StaticImage
+              {/* <StaticImage
                 src="../images/immersiveav-logo.png"
                 alt="ImmersiveAV logo"
                 placeholder="none"
-              />
+              /> */}
+              <img src={Logo} alt="ImmersiveAV logo" />
             </Link>
           </div>
           <nav className="header__container__navigation">

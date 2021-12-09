@@ -31,6 +31,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-tidio-chat",
+      options: {
+        tidioKey: "vu8mlgsvi6exkmlfnvvhq5git346fbbw",
+        enableDuringDevelop: true, // Optional. Disables Tidio chat widget when running Gatsby dev server. Defaults to true.
+      },
+    },
+    {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `immersiveav.com`,

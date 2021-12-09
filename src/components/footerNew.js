@@ -1,8 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import "../styles/styles.scss"
+
+import Partners from "../images/partners-white.png"
 
 const FooterNew = () => (
   <footer className="new-footer">
@@ -23,11 +25,16 @@ const FooterNew = () => (
         </a>
       </li>
       <li className="new-footer__items__item">
-        <StaticImage
+        {/* <StaticImage
           // className="footer__items__partners__image"
           src="../images/partners-white.png"
           alt="Partners"
           placeholder="none"
+        /> */}
+        <img
+          className="footer__items__partners__image"
+          src={Partners}
+          alt="Partners"
         />
       </li>
       <li

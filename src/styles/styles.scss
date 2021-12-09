@@ -160,6 +160,7 @@ body {
       width: 200px;
       img {
         cursor: url("../svg/cursor-med-blue.svg"), auto !important;
+        width: 100%;
       }
       transition: transform 0.2s ease-in-out;
       &:hover {

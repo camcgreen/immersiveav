@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => (
   <footer className="footer">
@@ -39,11 +39,16 @@ const Footer = () => (
       </div>
       <div className="footer__items__partners">
         <h1 className="footer__items__partners__title">Our Partners</h1>
-        <StaticImage
+        {/* <StaticImage
           className="footer__items__partners__image"
           src="../images/partners.png"
           alt="Partners"
           placeholder="none"
+        /> */}
+        <img
+          className="footer__items__partners__image"
+          src="../images/partners.png"
+          alt="Partners"
         />
       </div>
     </div>
