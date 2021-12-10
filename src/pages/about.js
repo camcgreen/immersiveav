@@ -32,6 +32,11 @@ import Person11 from "../images/Paul.jpg"
 import Person12 from "../images/Rob.jpg"
 import Person13 from "../images/Steve.jpg"
 import Person14 from "../images/Stewart.jpg"
+import Person15 from "../images/tom.jpg"
+import Person16 from "../images/sam.jpg"
+import Person17 from "../images/scott-j.jpg"
+import Person18 from "../images/scott-h.jpg"
+import Person19 from "../images/chloe.jpg"
 import { footerText } from "../utils/helper"
 
 const About = () => {
@@ -534,27 +539,6 @@ const About = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                Person13,
-                "Steve Hallsworth",
-                "FD",
-                "Steve, having been with the company from the very beginning providing the strategic and financial guidance we need to make sure that Immersive AVs commitments are met.| He is one of the most approachable and genuine people we have the pleasure of working with.",
-                "steve.hallsworth@immersiveav.com",
-                "+441952953500"
-              )
-            }}
-          >
-            <img
-              className="showcase__img"
-              src={Person13}
-              alt="Huawei Rubik's Cube"
-            />
-            <div className="about-page__people__item__overlay" />
-          </div>
-          <div
-            className="about-page__people__item"
-            onClick={e => {
-              e.persist()
-              togglePopup(
                 Person14,
                 "Stewart Morgan",
                 "Assistant Warehouse Manager",
@@ -577,7 +561,7 @@ const About = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                Person14,
+                Person19,
                 "Chloe Retter",
                 "Business Relationship Director",
                 "Chloe brings boundless energy and exceptional knowledge to her role as Business Relationship Director. With over 10 years of experience in the exhibitions sector, Chloe truly is an expo girl—one of the key weapons in our arsenal to elevate Immersive AV Expo as Europe’s leading supplier of interactive technology for exhibitions.| You’ll feel nothing but positivity and the assurance everything’s possible when talking to Chloe.",
@@ -588,7 +572,7 @@ const About = () => {
           >
             <img
               className="showcase__img"
-              src={Person14}
+              src={Person19}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -598,7 +582,7 @@ const About = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                Person14,
+                Person13,
                 "Steve Hallsworth",
                 "Founder and Financial Director",
                 "One of the founders of Immersive AV, Steve’s vast experience is an asset to the business. His industry knowledge and fiscal acumen make him the ideal Financial Director.| More than just a number cruncher, Steve’s approachability and dry humour make him popular with staff and clients alike.",
@@ -609,7 +593,7 @@ const About = () => {
           >
             <img
               className="showcase__img"
-              src={Person14}
+              src={Person13}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -619,7 +603,7 @@ const About = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                Person14,
+                Person18,
                 "Scott Holman",
                 "Sales Manager",
                 "Leading the Immersive AV Expo team, Scott’s one of the bigger personalities at Immersive AV, with a lovable, bombastic charm which always leaves a lasting impression.| Scott’s focus is on exhibitions and conferences, working with our clients to achieve their best ever event experience. ",
@@ -630,12 +614,12 @@ const About = () => {
           >
             <img
               className="showcase__img"
-              src={Person14}
+              src={Person18}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
           </div>
-          <div
+          {/* <div
             className="about-page__people__item"
             onClick={e => {
               e.persist()
@@ -655,9 +639,9 @@ const About = () => {
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
-          </div>
+          </div> */}
           <div className="about-page__people__item about-page__people__item--empty"></div>
-          <div
+          {/* <div
             className="about-page__people__item"
             onClick={e => {
               e.persist()
@@ -677,14 +661,14 @@ const About = () => {
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
-          </div>
+          </div> */}
           <div className="about-page__people__item about-page__people__item--empty"></div>
           <div
             className="about-page__people__item"
             onClick={e => {
               e.persist()
               togglePopup(
-                Person14,
+                Person17,
                 "Scott Jones",
                 "Account Director",
                 "Without doubt the most stylish member of our team, Scott’s charm will win over even the most hesitant minds. Scott has extensive experience creating wow factor experiences which maximise engagement for our clients.| A level-headed problem solver, Scott knows how to lever emerging and established technologies to achieve great results.",
@@ -695,12 +679,12 @@ const About = () => {
           >
             <img
               className="showcase__img"
-              src={Person14}
+              src={Person17}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
           </div>
-          <div
+          {/* <div
             className="about-page__people__item"
             onClick={e => {
               e.persist()
@@ -720,9 +704,9 @@ const About = () => {
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
-          </div>
+          </div> */}
           <div className="about-page__people__item about-page__people__item--empty"></div>
-          <div
+          {/* <div
             className="about-page__people__item"
             onClick={e => {
               e.persist()
@@ -742,14 +726,14 @@ const About = () => {
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
-          </div>
-          <div className="about-page__people__item about-page__people__item--empty"></div>
+          </div> */}
+          {/* <div className="about-page__people__item about-page__people__item--empty"></div> */}
           <div
             className="about-page__people__item"
             onClick={e => {
               e.persist()
               togglePopup(
-                Person14,
+                Person16,
                 "Sam Hayward",
                 "AV Technician",
                 "An efficient and proactive AV technician, Sam’s friendly and positive attitude makes him a big hit with both clients and colleagues.| Sam’s talents span the full spectrum of live and virtual events, having taken the initiative to elevate himself to the level of expert in both disciplines.",
@@ -760,7 +744,7 @@ const About = () => {
           >
             <img
               className="showcase__img"
-              src={Person14}
+              src={Person16}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
@@ -770,7 +754,7 @@ const About = () => {
             onClick={e => {
               e.persist()
               togglePopup(
-                Person14,
+                Person15,
                 "Tom Adlam",
                 "AV Technician",
                 "An accomplished and mild-mannered member of our onsite team, Tom is a meticulous and unflappable AV Technician of the highest order.| Tom’s knowledge and experience enable him to bring even the most complex installations to life and ensure our clients enjoy a hassle-free experience which delivers real results.",
@@ -781,7 +765,7 @@ const About = () => {
           >
             <img
               className="showcase__img"
-              src={Person14}
+              src={Person15}
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
