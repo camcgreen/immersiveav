@@ -248,7 +248,7 @@ const About = () => {
             </div>
           </div>
           <div className="about-page__people__item about-page__people__item--empty"></div>
-          <div
+          {/* <div
             className="about-page__people__item"
             onClick={e => {
               e.persist()
@@ -268,7 +268,7 @@ const About = () => {
               alt="Huawei Rubik's Cube"
             />
             <div className="about-page__people__item__overlay" />
-          </div>
+          </div> */}
           <div
             className="about-page__people__item"
             onClick={e => {
