@@ -5,6 +5,7 @@ import IconDot from "../svg/expo-hire-dot.svg"
 import HireImg from "../images/hire.jpg"
 import ExpoImg from "../images/expo.jpg"
 import bgImg from "../images/project10.jpeg"
+import logoExpo from "../images/iav-expo.png"
 
 import { Link } from "gatsby"
 
@@ -112,11 +113,23 @@ const HireExpo = () => {
         <img src={IconDot} alt="" />
       </div>
       <div className="hire-expo__coming-soon">
-        <h1 className="hire-expo__coming-soon__text">
-          <div className="hire-expo__coming-soon__text__coming">
-            Coming soon!
+        <div className="hire-expo__coming-soon__inside">
+          <h1 className="hire-expo__coming-soon__inside__text">Coming Soon!</h1>
+          <div className="hire-expo__coming-soon__inside__logos">
+            <div className="hire-expo__coming-soon__inside__logos__expo">
+              <img src={logoExpo} alt="" />
+              <p className="hire-expo__coming-soon__inside__logos__expo__p">
+                Technical production and technology hire for exhibitions
+              </p>
+            </div>
+            <div className="hire-expo__coming-soon__inside__logos__hire">
+              <img src={logoExpo} alt="" />
+              <p className="hire-expo__coming-soon__inside__logos__hire__p">
+                Technical production and technology hire for exhibitions
+              </p>
+            </div>
           </div>
-          <div className="hire-expo__coming-soon__text__email">
+          <div className="hire-expo__coming-soon__inside__email">
             Contact us on{" "}
             <a
               href="mailto:enquiries@immersiveav.com"
@@ -124,9 +137,10 @@ const HireExpo = () => {
               rel="noopener noreferrer"
             >
               enquiries@immersiveav.com
-            </a>
+            </a>{" "}
+            for exhibition and day hire exhibitions
           </div>
-        </h1>
+        </div>
       </div>
     </div>
   )
