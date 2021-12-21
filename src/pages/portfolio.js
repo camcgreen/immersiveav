@@ -153,7 +153,217 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
+          <div className="portfolfio-page__container__projects">
+            <ul
+              className="portfolio-page__container__projects__grid"
+              role="list"
+            >
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project1,
+                    "Adidas Retail Installation",
+                    "Live",
+                    "How do you generate a buzz in store, when footfall is at an all time low because of a global pandemic? Adidas wanted to set the standard for what an experiential retail installation could achieve.| Working with The Marketing Store, Immersive AV helped Adidas attract more customers through the doors and keep them inside for longer with some clever tech experiences.",
+                    "/adidas-experiential-retail-installation"
+                  )
+                }}
+              >
+                <img alt="Adidas Retail Installation" src={Project1} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  Adidas Retail Installation
+                </h2>
+                <p>Live</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project2,
+                    "Mini All Electric Launch",
+                    "Hybrid",
+                    "Mini wanted to celebrate the global launch of the Mini Cooper SE, the first all-electric Mini on the market. So we partnered with Unit 9 to build the ElectriCity, an interactive mural powered by touch and the technology itself.",
+                    "/global-all-electric-mini-launch"
+                  )
+                }}
+              >
+                <img alt="Mini All Electric Launch" src={Project2} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  Mini All Electric Launch
+                </h2>
+                <p>Hybrid</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project3,
+                    "The UMA Music Video",
+                    "Studio",
+                    "Bands releasing a new single in the middle of a global lockdown needed to find a creative way to reach their fans. |Which is exactly what The UMA did when they used the LED studio at StudioX Telford to launch their single ‘Fire’ in summer 2020.",
+                    "/the-uma-music-video"
+                  )
+                }}
+              >
+                <img alt="The UMA Music Video" src={Project3} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  The UMA Music Video
+                </h2>
+                <p>Studio</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project4,
+                    "Panasonic Virtual Conference",
+                    "Virtual",
+                    "StudioX provided stream management services and remote studio facilities for a Panasonic virtual conference.| Connecting over 500 industry experts, product users and partners, experiential agency Identity Group chose Immersive AV and the StudioX solution to take the 9th annualToughbook Innovation Forum virtual.",
+                    "/panasonic-virtual-conference"
+                  )
+                }}
+              >
+                <img alt="Panasonic Virtual Conference" src={Project4} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  Panasonic Virtual Conference
+                </h2>
+                <p>Virtual</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project5,
+                    "The Smart Crossing",
+                    "Live",
+                    "To create the world’s first responsive road. Led by the team at Umbrellium in association with Saatchi & Saatchi on behalf of Direct Line. ",
+                    "/the-smart-crossing-by-direct-line-umbrellium"
+                  )
+                }}
+              >
+                <img alt="The Smart Crossing" src={Project5} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  The Smart Crossing
+                </h2>
+                <p>Live</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project6,
+                    "Candy Crush Live Stream",
+                    "Studio",
+                    "Immersive AV provided stream management services for the Candy Crush live stream. |Passionate about connecting with their loyal fans, Candy Crush had ambitious plans for the grand finale of their All Stars contest.",
+                    "/candy-crush-live-stream"
+                  )
+                }}
+              >
+                <img alt="Candy Crush Live Stream" src={Project6} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  Candy Crush Live Stream
+                </h2>
+                <p>Studio</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project7,
+                    "Pepsi Lays Experiential Installation",
+                    "Live",
+                    "Immersive AV partnered with brand experience specialists Giant Cookie and marketing agency Fuse, to produce an interactive experience for Pepsi Lays at the Champions League final 2019 in Madrid. |Our Pepsi Lays experiential installation was a centre-piece of the official UEFA fan zone, registering 11,371 interactions during the four day event.",
+                    "/pepsi-lays-experiential-installation"
+                  )
+                }}
+              >
+                <img
+                  alt="Pepsi Lays Experiential Installation"
+                  src={Project7}
+                />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  Pepsi Lays Experiential Installation
+                </h2>
+                <p>Live</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project8,
+                    "Thales Virtual Conference",
+                    "Virtual",
+                    "Immersive AV provided green screen studio facilities, virtual set integration and stream management services for the Thales virtual conference.| Aerospace manufacturer Thales and their experiential agency First Event enlisted Immersive AV and the StudioX team to produce the technical and creative elements of their senior leadership conference 2021.",
+                    "/thales-virtual-conference"
+                  )
+                }}
+              >
+                <img alt="Thales Virtual Conference" src={Project8} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  Thales Virtual Conference
+                </h2>
+                <p>Virtual</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project9,
+                    "World Skills Opening Ceremony",
+                    "Live",
+                    "To consult on the opening and closing Ceremonies for Abu Dhabi and to oversee systems design and delivery with the chosen AV contractor for the live experience agency People.| The venue being custom built within the Du Arena, Abu Dhabi and the opening Ceremony to consist of a central screen 21mx 12m, two side screens of 14m x 8m, a 4.5m globe for projection and floor projection to a section of the performance space.",
+                    "/world-skills-opening-ceremony"
+                  )
+                }}
+              >
+                <img alt="World Skills Opening Ceremony" src={Project9} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  World Skills Opening Ceremony
+                </h2>
+                <p>Live</p>
+              </a>
+              <a
+                class="portfolio-page__container__projects__grid__profile"
+                onClick={e => {
+                  e.persist()
+                  togglePopup(
+                    Project10,
+                    "Huawei Rubik’s Cube",
+                    "Live",
+                    "When Huawei launched their latest smartphone, they wanted to create a spectacle and get people talking. |Working with Kerve Creative, Immersive AV designed and built a 4.5M high interactive Rubik’s cube which used the device’s groundbreaking AI to help users complete the famously difficult puzzle.",
+                    "/interactive-rubiks-cube"
+                  )
+                }}
+              >
+                <img alt="Huawei Rubik's Cube" src={Project10} />
+                <div className="portfolio-page__container__projects__grid__profile__overlay"></div>
+                <h2 class="portfolio-page__container__projects__grid__profile__name">
+                  Huawei Rubik's Cube
+                </h2>
+                <p>Live</p>
+              </a>
+            </ul>
+          </div>
+          {/* <div className="portfolio-page__container__item portfolio-page__container__item--empty"></div>
           <div
             className="portfolio-page__container__item"
             onClick={e => {
@@ -296,7 +506,7 @@ const Portfolio = () => {
             <div className="portfolio-page__container__item__overlay" />
           </div>
           {/* <div className="portfolio-page__container__item"></div> */}
-          <div
+          {/* <div
             className="portfolio-page__container__item"
             onClick={e => {
               e.persist()
@@ -357,7 +567,7 @@ const Portfolio = () => {
               alt="Huawei Rubik’s Cube"
             />
             <div className="portfolio-page__container__item__overlay" />
-          </div>
+          </div>{" "} */}
         </div>
       </div>
       <News />

@@ -45,7 +45,7 @@ const CustomGames = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "25%" }}
+                // style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -60,7 +60,7 @@ const CustomGames = () => {
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "35%" }}
+                // style={{ width: "35%" }}
               />
             </p>
             <p>
@@ -76,10 +76,10 @@ const CustomGames = () => {
                 src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "40%" }}
+                // style={{ width: "40%" }}
               />
             </p>
-            <p>
+            <p style={{ gridColumn: "1 / 3" }}>
               Our developers are proud to be gaming geeks, who are passionate
               about mind-blowing games which are as addictive as they are easy
               to play. We use industry-standard gaming software such as Unity

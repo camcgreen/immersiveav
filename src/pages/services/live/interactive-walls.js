@@ -51,7 +51,7 @@ const InteractiveLive = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "25%" }}
+                // style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -73,7 +73,7 @@ const InteractiveLive = () => {
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "35%" }}
+                // style={{ width: "35%" }}
               />
             </p>
             <p>
@@ -93,10 +93,10 @@ const InteractiveLive = () => {
                 src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "40%" }}
+                // style={{ width: "40%" }}
               />
             </p>
-            <p>
+            <p style={{ gridColumn: "1 / 3" }}>
               All our interactive walls come with a data and insights package,
               opening up the interaction data for you to assess the ROI of your
               event and offering insights into which products or services are

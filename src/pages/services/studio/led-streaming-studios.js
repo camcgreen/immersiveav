@@ -42,6 +42,14 @@ const LedStream = () => {
               support needed to produce a broadcast-quality live stream.
             </p>
             <p>
+              <img
+                src={SuppImage1}
+                alt=""
+                className="cms-container__post__body__service-img"
+                // style={{ width: "25%" }}
+              />
+            </p>
+            <p>
               The centrepiece of an LED studio is a high definition LED
               background, used to display the content of your choice. We can use
               your own video content or create pixel-perfect artwork which looks
@@ -49,10 +57,10 @@ const LedStream = () => {
             </p>
             <p>
               <img
-                src={SuppImage1}
+                src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "25%" }}
+                // style={{ width: "35%" }}
               />
             </p>
             <p>
@@ -66,13 +74,13 @@ const LedStream = () => {
             </p>
             <p>
               <img
-                src={SuppImage2}
+                src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "35%" }}
+                // style={{ width: "40%" }}
               />
             </p>
-            <p>
+            <p style={{ gridColumn: "1 / 3" }}>
               Need more than just a studio? Why not utilise our stream
               management services, or present your streamed event production
               using a bespoke{" "}
@@ -80,14 +88,6 @@ const LedStream = () => {
                 streaming microsite
               </Link>
               ?
-            </p>
-            <p>
-              <img
-                src={SuppImage3}
-                alt=""
-                className="cms-container__post__body__service-img"
-                style={{ width: "40%" }}
-              />
             </p>
             <h2>So much more than just a studio.</h2>
           </div>

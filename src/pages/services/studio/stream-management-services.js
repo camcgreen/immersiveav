@@ -46,7 +46,7 @@ const StreamManagement = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "25%" }}
+                // style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -63,7 +63,7 @@ const StreamManagement = () => {
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "35%" }}
+                // style={{ width: "35%" }}
               />
             </p>
             <p>
@@ -77,10 +77,10 @@ const StreamManagement = () => {
                 src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "40%" }}
+                // style={{ width: "40%" }}
               />
             </p>
-            <p>
+            <p style={{ gridColumn: "1 / 3" }}>
               The edited stream can be hosted on a bespoke streaming microsite
               or streamed through YouTube, Facebook, Vimeo and all major virtual
               event platforms. Our streams encourage audience participation with

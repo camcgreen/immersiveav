@@ -16,6 +16,7 @@ const News = () => {
               date
               featuredImage
               title
+              path
             }
           }
         }
@@ -32,7 +33,7 @@ const News = () => {
   return (
     <div className="news">
       <div className="news__item news__item--1">
-        <Link to="/news/immersive-av-at-event-tech-live-2021">
+        <Link to={posts[0].node.frontmatter.path}>
           <img
             className="news__item__image"
             src={posts[0].node.frontmatter.featuredImage}
@@ -49,7 +50,7 @@ const News = () => {
         </Link>
       </div>
       <div className="news__item news__item--2">
-        <Link to="/news/christmas-event-av-hire">
+        <Link to={posts[1].node.frontmatter.path}>
           <img
             className="news__item__image"
             src={posts[1].node.frontmatter.featuredImage}
@@ -67,7 +68,7 @@ const News = () => {
         </Link>
       </div>
       <div className="news__item news__item--3">
-        <Link to="/news/rob-adams-returns-to-immersive-av">
+        <Link to={posts[2].node.frontmatter.path}>
           <img
             className="news__item__image"
             src={posts[2].node.frontmatter.featuredImage}

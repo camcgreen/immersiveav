@@ -46,7 +46,7 @@ const GestureControlled = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "25%" }}
+                // style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -62,7 +62,7 @@ const GestureControlled = () => {
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "35%" }}
+                // style={{ width: "35%" }}
               />
             </p>
             <p>
@@ -87,7 +87,7 @@ const GestureControlled = () => {
                 src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "40%" }}
+                // style={{ width: "40%" }}
               />
             </p>
             <h2>

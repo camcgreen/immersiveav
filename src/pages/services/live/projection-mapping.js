@@ -48,7 +48,7 @@ const ProjectionMapping = () => {
                 src={SuppImage1}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "25%" }}
+                // style={{ width: "25%" }}
               />
             </p>
             <p>
@@ -64,7 +64,7 @@ const ProjectionMapping = () => {
                 src={SuppImage2}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "35%" }}
+                // style={{ width: "35%" }}
               />
             </p>
             <p>
@@ -78,22 +78,20 @@ const ProjectionMapping = () => {
                 src={SuppImage3}
                 alt=""
                 className="cms-container__post__body__service-img"
-                style={{ width: "40%" }}
+                // style={{ width: "40%" }}
               />
             </p>
-            <p>
+            <p style={{ gridColumn: "1 / 3" }}>
               We use industry standard media servers such as Disguise and
               Pandora’s Box to map the content, real time graphics engines such
               as Notch and Unreal Engine to create the content and the latest
               high powered projectors from Barco or Panasonic to deliver a jaw
-              dropping visual spectacular.
-            </p>
-            <p>
-              Projection mapping is a versatile technique suitable to a wide
-              range of surfaces and environments. Why not use projection mapping
-              to highlight a product on an exhibition stand, or even projection
-              map the whole stand itself? Planning a brand activation? Why not
-              combine projection mapping with{" "}
+              dropping visual spectacular. Projection mapping is a versatile
+              technique suitable to a wide range of surfaces and environments.
+              Why not use projection mapping to highlight a product on an
+              exhibition stand, or even projection map the whole stand itself?
+              Planning a brand activation? Why not combine projection mapping
+              with{" "}
               <Link to="/services/live/gesture-controlled-content">
                 gesture control
               </Link>
@@ -107,7 +105,7 @@ const ProjectionMapping = () => {
               </Link>
               ?
             </p>
-            <p>
+            <p style={{ gridColumn: "1 / 3" }}>
               Whatever your projection mapping requirements, chat to our team
               and discover how we can help you create an extraordinary and
               shareable experience.

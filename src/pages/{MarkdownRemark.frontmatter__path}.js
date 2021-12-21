@@ -32,7 +32,7 @@ export default function Template({
             alt=""
           />
           <div
-            className="cms-container__post__body"
+            className="cms-container__post__body cms-container__post__body--news"
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <btn
