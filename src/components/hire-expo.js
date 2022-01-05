@@ -5,7 +5,8 @@ import IconDot from "../svg/expo-hire-dot.svg"
 import HireImg from "../images/hire.jpg"
 import ExpoImg from "../images/expo.jpg"
 import bgImg from "../images/project10.jpeg"
-import logoExpo from "../images/iav-expo.png"
+import logoExpo from "../images/logoExpo1.png"
+import logoHire from "../images/logoHire1.png"
 
 import { Link } from "gatsby"
 
@@ -123,7 +124,7 @@ const HireExpo = () => {
               </p>
             </div>
             <div className="hire-expo__coming-soon__inside__logos__hire">
-              <img src={logoExpo} alt="" />
+              <img src={logoHire} alt="" />
               <p className="hire-expo__coming-soon__inside__logos__hire__p">
                 Technical production and technology hire for exhibitions
               </p>
@@ -138,7 +139,7 @@ const HireExpo = () => {
             >
               enquiries@immersiveav.com
             </a>{" "}
-            for exhibition and day hire exhibitions
+            for exhibition and dry hire requirements.
           </div>
         </div>
       </div>
